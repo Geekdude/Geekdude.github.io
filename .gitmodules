@@ -1,0 +1,3 @@
+[submodule "cs456/finalproject"]
+	path = cs456/finalproject
+	url = git@bitbucket.org:Geekdude/cs456_finalproject.git
