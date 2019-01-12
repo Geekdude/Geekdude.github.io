@@ -33,7 +33,6 @@ plugins:
 header_pages:
   - about.md
   - resume.md
-  - research.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
