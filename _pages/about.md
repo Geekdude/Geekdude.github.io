@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: single
 title: About
 permalink: /about/
 ---
 
-![Aaron Young](/assets/Professional.jpg){:height="250"}
 ## Aaron Read Young
 
 * Ph.D Student (Computer Engineering; 1st year)
