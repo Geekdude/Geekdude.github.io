@@ -111,7 +111,7 @@ analytics:
 author:
   name             : "Aaron Young"
   avatar           : "/assets/images/aaron-young square.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Computer Engineering PhD at UTK"
+  bio              : "Computer Engineering PhD student at UTK"
   location         : "Knoxville, TN"
   email            : "ayoung48@vols.utk.edu"
   bitbucket        : "Geekdude"
