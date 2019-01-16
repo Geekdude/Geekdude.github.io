@@ -15,8 +15,7 @@ intro:
   - excerpt: '*"I would like a quote here."* -- Aaron'
 feature_row:
   - image_path: assets/images/typewriter.svg
-    image_caption: "&copy; MILKOVÍ, courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "Resume Image"
+    alt: "&copy; MILKOVÍ, courtesy of [Unsplash](https://unsplash.com/)"
     title: "Resume"
     btn_label: "Read Me"
     btn_class: "btn--primary"
