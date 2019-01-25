@@ -8,7 +8,7 @@ toc_sticky: true
 
 ## Aaron Read Young
 
-* Ph.D Student (Computer Engineering; 1st year)
+* Ph.D Student (Computer Engineering; 2nd year)
 * Graduate Teaching/Research Assistant
 * [Department of Electrical Engineering and Computer Science, University of Tennessee](http://www.eecs.utk.edu/)<br><br>
 * *Past Graduate TA*:
