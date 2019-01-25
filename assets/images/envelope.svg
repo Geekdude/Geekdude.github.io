@@ -18,7 +18,10 @@
    sodipodi:docname="envelope.svg"
    width="512"
    height="384"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="0.92.4 (unknown)"
+   inkscape:export-filename="/home/ayoung48/Data/UTK/website/assets/images/envelope.png"
+   inkscape:export-xdpi="112.5"
+   inkscape:export-ydpi="112.5">
   <metadata
      id="metadata10">
     <rdf:RDF>
@@ -27,7 +30,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -42,8 +45,8 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2525"
-     inkscape:window-height="1376"
+     inkscape:window-width="1647"
+     inkscape:window-height="1026"
      id="namedview6"
      showgrid="false"
      fit-margin-top="0"
@@ -51,10 +54,10 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="1.3037281"
-     inkscape:cx="187.82936"
+     inkscape:cx="50.147277"
      inkscape:cy="259.39453"
-     inkscape:window-x="1315"
-     inkscape:window-y="27"
+     inkscape:window-x="33"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg4"
      inkscape:snap-page="true" />
