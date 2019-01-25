@@ -12,8 +12,8 @@ Spoiler alert, I registered my website with [Google Search Console](https://sear
 ## The Old Website
 My old website was fine, but nothing special.
 A picture of the old site is shown below:
-![Old Website](/assets/images/old_website.png)
-The old website consisted of a single page and its content was the same as the new [About](/about/) page.
+![Old Website]({{ site.baseurl }}{% link /assets/images/old_website.png %})
+The old website consisted of a single page and its content was the same as the new [About]({{ site.baseurl }}{% link _pages/about.md %}) page.
 There were a few reasons I wanted to update my website.
 1. I am not very good with HTML and I would rather create content for the website using markdown.
 2. The previous website used no CSS and only had static HTML pages.

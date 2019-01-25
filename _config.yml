@@ -20,16 +20,16 @@ title_separator          : "-"
 name                     : "Aaron Young"
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website for Aaron Young.
-url                      : "http://web.eecs.utk.edu/~ayoung48/" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : "https://web.eecs.utk.edu" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl                  : "/~ayoung48" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo.svg"
+logo                     : "/assets/images/logo88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : facebook # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -180,6 +180,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - deploy.sh
 keep_files:
   - .git
   - .svn

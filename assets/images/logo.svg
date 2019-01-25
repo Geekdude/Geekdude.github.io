@@ -14,11 +14,11 @@
    viewBox="0 0 33.866666 33.866668"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.4 (unknown)"
    sodipodi:docname="logo.svg"
-   inkscape:export-filename="/home/ayoung48/Data/UTK/website/assets/images/logo32x32.png"
-   inkscape:export-xdpi="24.000002"
-   inkscape:export-ydpi="24.000002">
+   inkscape:export-filename="/home/ayoung48/Data/UTK/website/assets/images/logo88x88.png"
+   inkscape:export-xdpi="66.000008"
+   inkscape:export-ydpi="66.000008">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -29,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.6381572"
-     inkscape:cx="11.60646"
+     inkscape:cx="-27.094255"
      inkscape:cy="64.43875"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -47,10 +47,10 @@
      inkscape:snap-intersection-paths="true"
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-midpoints="true"
-     inkscape:window-width="2525"
-     inkscape:window-height="1376"
-     inkscape:window-x="1315"
-     inkscape:window-y="27"
+     inkscape:window-width="1333"
+     inkscape:window-height="744"
+     inkscape:window-x="33"
+     inkscape:window-y="24"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -60,7 +60,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
