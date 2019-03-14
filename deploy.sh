@@ -1,6 +1,6 @@
 #!/bin/bash
 #-------------------------------------------------------------------------------
-# Script use to deploy the website to hydra.
+# Script to deploy the website to hydra.
 #-------------------------------------------------------------------------------
 
 # Variables
@@ -13,5 +13,6 @@ chmod -R a+rX _site
 
 echo "rsync to SSH host $instancehost ..."
 
+# Long form of rsync options
 # rsync --verbose --recursive --compress --checksum --human-readable --perms --delete-after
 rsync -vrzchp --delete-after _site/ $instancehost:$remotewebroot
