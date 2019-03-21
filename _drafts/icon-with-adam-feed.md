@@ -3,6 +3,11 @@ title: How to add a favicon to jekyll-feed
 ---
 
 Script to add icon line to gem source.
+
+https://github.com/jekyll/jekyll-feed
+
+https://snook.ca/archives/rss/add_logo_to_feed/
+
 ```bash
 #!/bin/bash
 #-------------------------------------------------------------------------------
