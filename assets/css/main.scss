@@ -12,12 +12,5 @@ $monospace: Monaco, Consolas, "Lucida Console", monospace;
 $global-font-family: $serif;
 $header-font-family: $sans-serif;
 
-// Fix width issues of Facebook comments. Only happened on Adam's Computers????
-// https://stackoverflow.com/questions/22243233/how-to-make-facebook-comment-box-width-100-2014
-.fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
-            max-width: 100% !important;
-            width: 100% !important;
- }
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
