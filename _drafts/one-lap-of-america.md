@@ -566,7 +566,7 @@ We closed off the day by driving from Indiana to our hotel in Ohio.
 
 {% include gallery id="day2" caption="Day 2 Gallery." %}
 
-{% include video id="q3eRQbIq3IY" provider="youtube" %}
+{% include video id="x67rH15sAkI" provider="youtube" %}
 
 ## Day 3 Nelson Ledges
 The second day of driving, we were at Nelson Ledges Road course. We got their 
@@ -577,7 +577,7 @@ parade laps after lunch that I drove.
 
 {% include gallery id="day3" caption="Day 3 Gallery." %}
 
-{% include video id="q3eRQbIq3IY?start=349" provider="youtube" %}
+{% include video id="x67rH15sAkI?start=349" provider="youtube" %}
 
 ## Day 4 Road America
 The next track was Road America. In the morning there was rain and the track 
@@ -589,7 +589,7 @@ track and places to spectate.
 
 {% include gallery id="day4" caption="Day 4 Gallery." %}
 
-{% include video id="q3eRQbIq3IY?start=919" provider="youtube" %}
+{% include video id="x67rH15sAkI?start=919" provider="youtube" %}
 
 ## Day 5 Brainerd
 Day 5 was one of the nicest, sunniest, and longest days of the trip. In the 
@@ -622,7 +622,7 @@ had one of the longest transit drives of the trip 555.5 miles.
 
 {% include gallery id="day5" caption="Day 5 Gallery." %}
 
-{% include video id="q3eRQbIq3IY?start=2109" provider="youtube" %}
+{% include video id="x67rH15sAkI?start=2109" provider="youtube" %}
 
 ## Day 6 Hastings
 Hastings was a smaller course. We were able to walk the course in the morning. 
@@ -639,7 +639,7 @@ and it was a delicious brisket sandwich.
 
 {% include gallery id="day6" caption="Day 6 Gallery." %}
 
-{% include video id="q3eRQbIq3IY?start=3002" provider="youtube" %}
+{% include video id="x67rH15sAkI?start=3002" provider="youtube" %}
 
 ## Day 7 Blackhawk Farms
 Blackhawk farms was a nice course. By now we had the rhythm down. Wake up, get 
@@ -652,7 +652,7 @@ the U portion of the track.
 
 {% include gallery id="day7" caption="Day 7 Gallery." %}
 
-{% include video id="q3eRQbIq3IY?start=3833" provider="youtube" %}
+{% include video id="x67rH15sAkI?start=3833" provider="youtube" %}
 
 ## Day 8 NCM
 I drove the events at NCM and it was a blast. The weekend before I went to a 
@@ -683,7 +683,7 @@ destination to home) we heading back north for the last day.
 
 {% include gallery id="day8" caption="Day 8 Gallery." %}
 
-{% include video id="q3eRQbIq3IY?start=4462" provider="youtube" %}
+{% include video id="x67rH15sAkI?start=4462" provider="youtube" %}
 
 ## Day 9 Skid Pad
 
@@ -703,4 +703,4 @@ back home. At this point we were pros at long drives and we made it home safe.
 
 {% include gallery id="day9" caption="Day 9 Gallery." %}
 
-{% include video id="q3eRQbIq3IY?start=5042" provider="youtube" %}
+{% include video id="x67rH15sAkI?start=5042" provider="youtube" %}
