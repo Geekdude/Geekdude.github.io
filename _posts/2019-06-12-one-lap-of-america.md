@@ -14,506 +14,506 @@ schedule:
       title: "Complete schedule for the trip."
 day0:
     - url: /assets/images/one-lap-day-0-pack.jpg
-      image_path: /assets/images/one-lap-day-0-pack.jpg
+      image_path: /assets/images/one-lap-day-0-pack-th.jpg
       alt: "Packed Car"
       title: "Car packed and ready to travel."
     - url: /assets/images/one-lap-day-0-cars.jpg
-      image_path: /assets/images/one-lap-day-0-cars.jpg
+      image_path: /assets/images/one-lap-day-0-cars-th.jpg
       alt: "Cars"
       title: "We knew we were at the right hotel."
 day1:
     - url: /assets/images/one-lap-day-1-right.jpg
-      image_path: /assets/images/one-lap-day-1-right.jpg
+      image_path: /assets/images/one-lap-day-1-right-th.jpg
       alt: "Driver side stickers"
       title: "Stickers on the driver's side."
     - url: /assets/images/one-lap-day-1-left.jpg
-      image_path: /assets/images/one-lap-day-1-left.jpg
+      image_path: /assets/images/one-lap-day-1-left-th.jpg
       alt: "Passenger side stickers"
       title: "Stickers on the passenger's side."
     - url: /assets/images/one-lap-day-1-book.png
-      image_path: /assets/images/one-lap-day-1-book.png
+      image_path: /assets/images/one-lap-day-1-book-th.png
       alt: "Route Book"
       title: "38 page route book containing all the needed information."
 day2:
     - url: /assets/images/one-lap-day-2-driver-photo.jpg
-      image_path: /assets/images/one-lap-day-2-driver-photo.jpg
+      image_path: /assets/images/one-lap-day-2-driver-photo-th.jpg
       alt: "Driver Photo"
       title: "Picture of me with the car before going out on the skid pad."
     - url: /assets/images/one-lap-day-2-panorama.jpg
-      image_path: /assets/images/one-lap-day-2-panorama.jpg
+      image_path: /assets/images/one-lap-day-2-panorama-th.jpg
       alt: "Driver Photo"
       title: "Panorama of the autocross course."
 day3:
     - url: /assets/images/one-lap-day-3-course.png
-      image_path: /assets/images/one-lap-day-3-course.png
+      image_path: /assets/images/one-lap-day-3-course-th.png
       alt: "Course Map"
       title: "Nelson Ledges Track Map."
     - url: /assets/images/one-lap-day-3-entrance.jpg
-      image_path: /assets/images/one-lap-day-3-entrance.jpg
+      image_path: /assets/images/one-lap-day-3-entrance-th.jpg
       alt: "entrance"
       title: "Nelson Ledges Entrance"
     - url: /assets/images/one-lap-day-3-field.jpg
-      image_path: /assets/images/one-lap-day-3-field.jpg
+      image_path: /assets/images/one-lap-day-3-field-th.jpg
       alt: "field"
       title: "Inner parking lot field."
     - url: /assets/images/one-lap-day-3-bridge.jpg
-      image_path: /assets/images/one-lap-day-3-bridge.jpg
+      image_path: /assets/images/one-lap-day-3-bridge-th.jpg
       alt: "bridge"
       title: "View of pitlane and startline from bridge."
 day4:
     - url: /assets/images/one-lap-day-4-course.png
-      image_path: /assets/images/one-lap-day-4-course.png
+      image_path: /assets/images/one-lap-day-4-course-th.png
       alt: "Course Map"
       title: "Road America Track Map"
     - url: /assets/images/one-lap-day-4-pit1.jpg
-      image_path: /assets/images/one-lap-day-4-pit1.jpg
+      image_path: /assets/images/one-lap-day-4-pit1-th.jpg
       alt: "pit1"
       title: "View of the pit area."
     - url: /assets/images/one-lap-day-4-pit2.jpg
-      image_path: /assets/images/one-lap-day-4-pit2.jpg
+      image_path: /assets/images/one-lap-day-4-pit2-th.jpg
       alt: "pit2"
       title: "Another view of the pit area."
     - url: /assets/images/one-lap-day-4-torque.jpg
-      image_path: /assets/images/one-lap-day-4-torque.jpg
+      image_path: /assets/images/one-lap-day-4-torque-th.jpg
       alt: "torque tires"
       title: "My dad torquing the tires before driving."
     - url: /assets/images/one-lap-day-4-corvette.jpg
-      image_path: /assets/images/one-lap-day-4-corvette.jpg
+      image_path: /assets/images/one-lap-day-4-corvette-th.jpg
       alt: "corvette line"
       title: "Line of Corvettes in the pit."
     - url: /assets/images/one-lap-day-4-garage.jpg
-      image_path: /assets/images/one-lap-day-4-garage.jpg
+      image_path: /assets/images/one-lap-day-4-garage-th.jpg
       alt: "garage"
       title: "Garages at the track."
     - url: /assets/images/one-lap-day-4-mclaren.jpg
-      image_path: /assets/images/one-lap-day-4-mclaren.jpg
+      image_path: /assets/images/one-lap-day-4-mclaren-th.jpg
       alt: "mclaren"
       title: "Close up on the McLaren."
     - url: /assets/images/one-lap-day-4-garage-inside.jpg
-      image_path: /assets/images/one-lap-day-4-garage-inside.jpg
+      image_path: /assets/images/one-lap-day-4-garage-inside-th.jpg
       alt: "garage-inside"
       title: "Inside of the garage."
     - url: /assets/images/one-lap-day-4-car.jpg
-      image_path: /assets/images/one-lap-day-4-car.jpg
+      image_path: /assets/images/one-lap-day-4-car-th.jpg
       alt: "car"
       title: "Our car and base."
     - url: /assets/images/one-lap-day-4-line.jpg
-      image_path: /assets/images/one-lap-day-4-line.jpg
+      image_path: /assets/images/one-lap-day-4-line-th.jpg
       alt: "pit line"
       title: "First group lined up in pit."
     - url: /assets/images/one-lap-day-4-line2.jpg
-      image_path: /assets/images/one-lap-day-4-line2.jpg
+      image_path: /assets/images/one-lap-day-4-line2-th.jpg
       alt: "pit line2"
       title: "Second group lined up in pit."
     - url: /assets/images/one-lap-day-4-lot.jpg
-      image_path: /assets/images/one-lap-day-4-lot.jpg
+      image_path: /assets/images/one-lap-day-4-lot-th.jpg
       alt: "lot"
       title: "Picture of parking lot."
     - url: /assets/images/one-lap-day-4-lot2.jpg
-      image_path: /assets/images/one-lap-day-4-lot2.jpg
+      image_path: /assets/images/one-lap-day-4-lot2-th.jpg
       alt: "lot2"
       title: "Picture of parking lot and garage."
     - url: /assets/images/one-lap-day-4-wolf.jpg
-      image_path: /assets/images/one-lap-day-4-wolf.jpg
+      image_path: /assets/images/one-lap-day-4-wolf-th.jpg
       alt: "wolf"
       title: "Honda racing car."
     - url: /assets/images/one-lap-day-4-line3.jpg
-      image_path: /assets/images/one-lap-day-4-line3.jpg
+      image_path: /assets/images/one-lap-day-4-line3-th.jpg
       alt: "pit line3"
       title: "Durango group lined up in pit."
     - url: /assets/images/one-lap-day-4-start.jpg
-      image_path: /assets/images/one-lap-day-4-start.jpg
+      image_path: /assets/images/one-lap-day-4-start-th.jpg
       alt: "start"
       title: "Us lined up at the starting line."
 day5:
     - url: /assets/images/one-lap-day-5-course.jpg
-      image_path: /assets/images/one-lap-day-5-course.jpg
+      image_path: /assets/images/one-lap-day-5-course-th.jpg
       alt: "Course Map"
       title: "Brainerd Course Map."
     - url: /assets/images/one-lap-day-5-course2.jpg
-      image_path: /assets/images/one-lap-day-5-course2.jpg
+      image_path: /assets/images/one-lap-day-5-course2-th.jpg
       alt: "Course Map2"
       title: "Alternate Brainerd Course Map."
     - url: /assets/images/one-lap-day-5-parking.jpg
-      image_path: /assets/images/one-lap-day-5-parking.jpg
+      image_path: /assets/images/one-lap-day-5-parking-th.jpg
       alt: "parking"
       title: "Brainerd parking lot."
     - url: /assets/images/one-lap-day-5-car.jpg
-      image_path: /assets/images/one-lap-day-5-car.jpg
+      image_path: /assets/images/one-lap-day-5-car-th.jpg
       alt: "car"
       title: "Our pit at Brainerd."
     - url: /assets/images/one-lap-day-5-parking2.jpg
-      image_path: /assets/images/one-lap-day-5-parking2.jpg
+      image_path: /assets/images/one-lap-day-5-parking2-th.jpg
       alt: "parking"
       title: "More cars along the wall."
     - url: /assets/images/one-lap-day-5-parking3.jpg
-      image_path: /assets/images/one-lap-day-5-parking3.jpg
+      image_path: /assets/images/one-lap-day-5-parking3-th.jpg
       alt: "parking"
       title: "More parking."
     - url: /assets/images/one-lap-day-5-pastrana.jpg
-      image_path: /assets/images/one-lap-day-5-pastrana.jpg
+      image_path: /assets/images/one-lap-day-5-pastrana-th.jpg
       alt: "pastrana"
       title: "Travis Pastana's car."
     - url: /assets/images/one-lap-day-5-parking4.jpg
-      image_path: /assets/images/one-lap-day-5-parking4.jpg
+      image_path: /assets/images/one-lap-day-5-parking4-th.jpg
       alt: "parking"
       title: "More parking."
     - url: /assets/images/one-lap-day-5-parking5.jpg
-      image_path: /assets/images/one-lap-day-5-parking5.jpg
+      image_path: /assets/images/one-lap-day-5-parking5-th.jpg
       alt: "parking"
       title: "More parking."
     - url: /assets/images/one-lap-day-5-parking6.jpg
-      image_path: /assets/images/one-lap-day-5-parking6.jpg
+      image_path: /assets/images/one-lap-day-5-parking6-th.jpg
       alt: "parking"
       title: "More parking."
     - url: /assets/images/one-lap-day-5-parking7.jpg
-      image_path: /assets/images/one-lap-day-5-parking7.jpg
+      image_path: /assets/images/one-lap-day-5-parking7-th.jpg
       alt: "parking"
       title: "More parking."
     - url: /assets/images/one-lap-day-5-parking8.jpg
-      image_path: /assets/images/one-lap-day-5-parking8.jpg
+      image_path: /assets/images/one-lap-day-5-parking8-th.jpg
       alt: "parking"
       title: "More parking."
     - url: /assets/images/one-lap-day-5-parking9.jpg
-      image_path: /assets/images/one-lap-day-5-parking9.jpg
+      image_path: /assets/images/one-lap-day-5-parking9-th.jpg
       alt: "parking"
       title: "More parking."
     - url: /assets/images/one-lap-day-5-parking10.jpg
-      image_path: /assets/images/one-lap-day-5-parking10.jpg
+      image_path: /assets/images/one-lap-day-5-parking10-th.jpg
       alt: "parking"
       title: "More parking."
     - url: /assets/images/one-lap-day-5-drag.jpg
-      image_path: /assets/images/one-lap-day-5-drag.jpg
+      image_path: /assets/images/one-lap-day-5-drag-th.jpg
       alt: "drag"
       title: "Start of the drag strip and spectating tower."
     - url: /assets/images/one-lap-day-5-drag2.jpg
-      image_path: /assets/images/one-lap-day-5-drag2.jpg
+      image_path: /assets/images/one-lap-day-5-drag2-th.jpg
       alt: "drag"
       title: "Looking down the drag strip."
     - url: /assets/images/one-lap-day-5-pastrana2.jpg
-      image_path: /assets/images/one-lap-day-5-pastrana2.jpg
+      image_path: /assets/images/one-lap-day-5-pastrana2-th.jpg
       alt: "pastrana2"
       title: "Travis Pastana being interviewed and view from spectating tower."
     - url: /assets/images/one-lap-day-5-tunnel.jpg
-      image_path: /assets/images/one-lap-day-5-tunnel.jpg
+      image_path: /assets/images/one-lap-day-5-tunnel-th.jpg
       alt: "tunnel"
       title: "Entrance to the tunnel under the drag strip."
     - url: /assets/images/one-lap-day-5-tunnel2.jpg
-      image_path: /assets/images/one-lap-day-5-tunnel2.jpg
+      image_path: /assets/images/one-lap-day-5-tunnel2-th.jpg
       alt: "tunnel2"
       title: "Inside the tunnel under the drag strip."
     - url: /assets/images/one-lap-day-5-grid.jpg
-      image_path: /assets/images/one-lap-day-5-grid.jpg
+      image_path: /assets/images/one-lap-day-5-grid-th.jpg
       alt: "grid"
       title: "Cars in grid."
     - url: /assets/images/one-lap-day-5-grid2.jpg
-      image_path: /assets/images/one-lap-day-5-grid2.jpg
+      image_path: /assets/images/one-lap-day-5-grid2-th.jpg
       alt: "grid"
       title: "Our car in grid in pit lane."
     - url: /assets/images/one-lap-day-5-grid3.jpg
-      image_path: /assets/images/one-lap-day-5-grid3.jpg
+      image_path: /assets/images/one-lap-day-5-grid3-th.jpg
       alt: "grid"
       title: "Our car in grid on track."
 day6:
     - url: /assets/images/one-lap-day-6-course.png
-      image_path: /assets/images/one-lap-day-6-course.png
+      image_path: /assets/images/one-lap-day-6-course-th.png
       alt: "Course Map"
       title: "Motorsport Park Hastings Course Map."
     - url: /assets/images/one-lap-day-6-panorama.jpg
-      image_path: /assets/images/one-lap-day-6-panorama.jpg
+      image_path: /assets/images/one-lap-day-6-panorama-th.jpg
       alt: "panorama"
       title: "Panorama of Motorsport Park Hastings."
     - url: /assets/images/one-lap-day-6-start1.jpg
-      image_path: /assets/images/one-lap-day-6-start1.jpg
+      image_path: /assets/images/one-lap-day-6-start1-th.jpg
       alt: "start1"
       title: "Approaching the starting line."
     - url: /assets/images/one-lap-day-6-start2.jpg
-      image_path: /assets/images/one-lap-day-6-start2.jpg
+      image_path: /assets/images/one-lap-day-6-start2-th.jpg
       alt: "start2"
       title: "At the starting line."
     - url: /assets/images/one-lap-day-6-base.jpg
-      image_path: /assets/images/one-lap-day-6-base.jpg
+      image_path: /assets/images/one-lap-day-6-base-th.jpg
       alt: "base"
       title: "Our base at the track. The wind was very bad and caused the tarp 
       to collapse."
     - url: /assets/images/one-lap-day-6-cover.jpg
-      image_path: /assets/images/one-lap-day-6-cover.jpg
+      image_path: /assets/images/one-lap-day-6-cover-th.jpg
       alt: "cover"
       title: "Cover from the rain."
     - url: /assets/images/one-lap-day-6-cover2.jpg
-      image_path: /assets/images/one-lap-day-6-cover2.jpg
+      image_path: /assets/images/one-lap-day-6-cover2-th.jpg
       alt: "cover"
       title: "Cover from the rain."
     - url: /assets/images/one-lap-day-6-cover3.jpg
-      image_path: /assets/images/one-lap-day-6-cover3.jpg
+      image_path: /assets/images/one-lap-day-6-cover3-th.jpg
       alt: "cover"
       title: "Cover from the rain."
     - url: /assets/images/one-lap-day-6-line.jpg
-      image_path: /assets/images/one-lap-day-6-line.jpg
+      image_path: /assets/images/one-lap-day-6-line-th.jpg
       alt: "line"
       title: "Group one lined up."
     - url: /assets/images/one-lap-day-6-retro.jpg
-      image_path: /assets/images/one-lap-day-6-retro.jpg
+      image_path: /assets/images/one-lap-day-6-retro-th.jpg
       alt: "retro"
       title: "Retro car we saw from another event."
     - url: /assets/images/one-lap-day-6-turbines1.jpg
-      image_path: /assets/images/one-lap-day-6-turbines1.jpg
+      image_path: /assets/images/one-lap-day-6-turbines1-th.jpg
       alt: "turbines"
       title: "So many wind turbines."
     - url: /assets/images/one-lap-day-6-turbines3.jpg
-      image_path: /assets/images/one-lap-day-6-turbines3.jpg
+      image_path: /assets/images/one-lap-day-6-turbines3-th.jpg
       alt: "turbines"
       title: "So many wind turbines."
     - url: /assets/images/one-lap-day-6-turbines4.jpg
-      image_path: /assets/images/one-lap-day-6-turbines4.jpg
+      image_path: /assets/images/one-lap-day-6-turbines4-th.jpg
       alt: "turbines"
       title: "So many wind turbines."
 day7:
     - url: /assets/images/one-lap-day-7-course.jpg
-      image_path: /assets/images/one-lap-day-7-course.jpg
+      image_path: /assets/images/one-lap-day-7-course-th.jpg
       alt: "Course Map"
       title: "Blackhawk Farms Raceway Course Map."
     - url: /assets/images/one-lap-day-7-start.jpg
-      image_path: /assets/images/one-lap-day-7-start.jpg
+      image_path: /assets/images/one-lap-day-7-start-th.jpg
       alt: "start"
       title: "Group one lined up."
     - url: /assets/images/one-lap-day-7-entrance.jpg
-      image_path: /assets/images/one-lap-day-7-entrance.jpg
+      image_path: /assets/images/one-lap-day-7-entrance-th.jpg
       alt: "entrance"
       title: "The entrance to Blackhawk Farms."
     - url: /assets/images/one-lap-day-7-car.jpg
-      image_path: /assets/images/one-lap-day-7-car.jpg
+      image_path: /assets/images/one-lap-day-7-car-th.jpg
       alt: "car"
       title: "Our car parked where we unloaded."
     - url: /assets/images/one-lap-day-7-flag.jpg
-      image_path: /assets/images/one-lap-day-7-flag.jpg
+      image_path: /assets/images/one-lap-day-7-flag-th.jpg
       alt: "flag"
       title: "Flag station at the starting line."
     - url: /assets/images/one-lap-day-7-parking.jpg
-      image_path: /assets/images/one-lap-day-7-parking.jpg
+      image_path: /assets/images/one-lap-day-7-parking-th.jpg
       alt: "parking"
       title: "Parking area as seen from the lookout deck."
     - url: /assets/images/one-lap-day-7-parking2.jpg
-      image_path: /assets/images/one-lap-day-7-parking2.jpg
+      image_path: /assets/images/one-lap-day-7-parking2-th.jpg
       alt: "parking"
       title: "Our parking area as seen from the lookout deck."
     - url: /assets/images/one-lap-day-7-parking3.jpg
-      image_path: /assets/images/one-lap-day-7-parking3.jpg
+      image_path: /assets/images/one-lap-day-7-parking3-th.jpg
       alt: "parking"
       title: "Parking area towards the start line, from the lookout deck."
     - url: /assets/images/one-lap-day-7-line.jpg
-      image_path: /assets/images/one-lap-day-7-line.jpg
+      image_path: /assets/images/one-lap-day-7-line-th.jpg
       alt: "line"
       title: "Cars lined up to run."
     - url: /assets/images/one-lap-day-7-nap.jpg
-      image_path: /assets/images/one-lap-day-7-nap.jpg
+      image_path: /assets/images/one-lap-day-7-nap-th.jpg
       alt: "nap"
       title: "Nap time after many long days of driving."
     - url: /assets/images/one-lap-day-7-nap2.jpg
-      image_path: /assets/images/one-lap-day-7-nap2.jpg
+      image_path: /assets/images/one-lap-day-7-nap2-th.jpg
       alt: "nap"
       title: "Nap time after many long days of driving."
     - url: /assets/images/one-lap-day-7-nap3.jpg
-      image_path: /assets/images/one-lap-day-7-nap3.jpg
+      image_path: /assets/images/one-lap-day-7-nap3-th.jpg
       alt: "nap"
       title: "Done with nap and glad that I brought the hammock."
     - url: /assets/images/one-lap-day-7-chicken.jpg
-      image_path: /assets/images/one-lap-day-7-chicken.jpg
+      image_path: /assets/images/one-lap-day-7-chicken-th.jpg
       alt: "chicken"
       title: "Car with a chicken on the front."
     - url: /assets/images/one-lap-day-7-chicken2.jpg
-      image_path: /assets/images/one-lap-day-7-chicken2.jpg
+      image_path: /assets/images/one-lap-day-7-chicken2-th.jpg
       alt: "chicken"
       title: "Closeup of the chicken."
     - url: /assets/images/one-lap-day-7-car2.jpg
-      image_path: /assets/images/one-lap-day-7-car2.jpg
+      image_path: /assets/images/one-lap-day-7-car2-th.jpg
       alt: "car2"
       title: "Car the was being worked on. They borrowed a welding touch to fix 
       the exhast."
     - url: /assets/images/one-lap-day-7-transit.jpg
-      image_path: /assets/images/one-lap-day-7-transit.jpg
+      image_path: /assets/images/one-lap-day-7-transit-th.jpg
       alt: "transit"
       title: "On the road again."
 day8:
     - url: /assets/images/one-lap-day-8-course.jpg
-      image_path: /assets/images/one-lap-day-8-course.jpg
+      image_path: /assets/images/one-lap-day-8-course-th.jpg
       alt: "Course Map"
       title: "NCM Motorsports Park Course Map Grand Full."
     - url: /assets/images/one-lap-day-8-course2.jpg
-      image_path: /assets/images/one-lap-day-8-course2.jpg
+      image_path: /assets/images/one-lap-day-8-course2-th.jpg
       alt: "Course Map"
       title: "NCM Motorsports Park course map east and west tracks."
     - url: /assets/images/one-lap-day-8-garage.jpg
-      image_path: /assets/images/one-lap-day-8-garage.jpg
+      image_path: /assets/images/one-lap-day-8-garage-th.jpg
       alt: "garage"
       title: "Cars in garage area."
     - url: /assets/images/one-lap-day-8-parking.jpg
-      image_path: /assets/images/one-lap-day-8-parking.jpg
+      image_path: /assets/images/one-lap-day-8-parking-th.jpg
       alt: "parking"
       title: "Cars in parking area."
     - url: /assets/images/one-lap-day-8-parking2.jpg
-      image_path: /assets/images/one-lap-day-8-parking2.jpg
+      image_path: /assets/images/one-lap-day-8-parking2-th.jpg
       alt: "parking"
       title: "Cars in parking area."
     - url: /assets/images/one-lap-day-8-garage2.jpg
-      image_path: /assets/images/one-lap-day-8-garage2.jpg
+      image_path: /assets/images/one-lap-day-8-garage2-th.jpg
       alt: "garage"
       title: "Cars in garage area."
     - url: /assets/images/one-lap-day-8-garage3.jpg
-      image_path: /assets/images/one-lap-day-8-garage3.jpg
+      image_path: /assets/images/one-lap-day-8-garage3-th.jpg
       alt: "garage"
       title: "Cars in garage area."
     - url: /assets/images/one-lap-day-8-pitin.jpg
-      image_path: /assets/images/one-lap-day-8-pitin.jpg
+      image_path: /assets/images/one-lap-day-8-pitin-th.jpg
       alt: "pitin"
       title: "Pit-in on the east track."
     - url: /assets/images/one-lap-day-8-deception.jpg
-      image_path: /assets/images/one-lap-day-8-deception.jpg
+      image_path: /assets/images/one-lap-day-8-deception-th.jpg
       alt: "deception"
       title: "Turn 12 --- Deception. The hardest turn on the track."
     - url: /assets/images/one-lap-day-8-parking3.jpg
-      image_path: /assets/images/one-lap-day-8-parking3.jpg
+      image_path: /assets/images/one-lap-day-8-parking3-th.jpg
       alt: "parking"
       title: "Cars in parking area."
     - url: /assets/images/one-lap-day-8-car.jpg
-      image_path: /assets/images/one-lap-day-8-car.jpg
+      image_path: /assets/images/one-lap-day-8-car-th.jpg
       alt: "car"
       title: "Our car in queue."
     - url: /assets/images/one-lap-day-8-group.jpg
-      image_path: /assets/images/one-lap-day-8-group.jpg
+      image_path: /assets/images/one-lap-day-8-group-th.jpg
       alt: "group"
       title: "Other cars in our run group."
     - url: /assets/images/one-lap-day-8-car2.jpg
-      image_path: /assets/images/one-lap-day-8-car2.jpg
+      image_path: /assets/images/one-lap-day-8-car2-th.jpg
       alt: "car"
       title: "Our car in queue."
     - url: /assets/images/one-lap-day-8-group2.jpg
-      image_path: /assets/images/one-lap-day-8-group2.jpg
+      image_path: /assets/images/one-lap-day-8-group2-th.jpg
       alt: "group"
       title: "Our run group lined up."
     - url: /assets/images/one-lap-day-8-group3.jpg
-      image_path: /assets/images/one-lap-day-8-group3.jpg
+      image_path: /assets/images/one-lap-day-8-group3-th.jpg
       alt: "group"
       title: "Lined up at the starting line."
     - url: /assets/images/one-lap-day-8-race.jpg
-      image_path: /assets/images/one-lap-day-8-race.jpg
+      image_path: /assets/images/one-lap-day-8-race-th.jpg
       alt: "race"
       title: "Here I come down the straight away."
     - url: /assets/images/one-lap-day-8-me.jpg
-      image_path: /assets/images/one-lap-day-8-me.jpg
+      image_path: /assets/images/one-lap-day-8-me-th.jpg
       alt: "me"
       title: "Me posing with the car after the morning run."
     - url: /assets/images/one-lap-day-8-pit.jpg
-      image_path: /assets/images/one-lap-day-8-pit.jpg
+      image_path: /assets/images/one-lap-day-8-pit-th.jpg
       alt: "pit"
       title: "Lined up in the pit, ready to run."
     - url: /assets/images/one-lap-day-8-pit2.jpg
-      image_path: /assets/images/one-lap-day-8-pit2.jpg
+      image_path: /assets/images/one-lap-day-8-pit2-th.jpg
       alt: "pit"
       title: "Lined up in the pit, ready to run."
     - url: /assets/images/one-lap-day-8-me2.jpg
-      image_path: /assets/images/one-lap-day-8-me2.jpg
+      image_path: /assets/images/one-lap-day-8-me2-th.jpg
       alt: "me"
       title: "Me in the car."
     - url: /assets/images/one-lap-day-8-me3.jpg
-      image_path: /assets/images/one-lap-day-8-me3.jpg
+      image_path: /assets/images/one-lap-day-8-me3-th.jpg
       alt: "me"
       title: "Me in the car."
     - url: /assets/images/one-lap-day-8-race2.jpg
-      image_path: /assets/images/one-lap-day-8-race2.jpg
+      image_path: /assets/images/one-lap-day-8-race2-th.jpg
       alt: "race"
       title: "Lining up at the start."
     - url: /assets/images/one-lap-day-8-race3.jpg
-      image_path: /assets/images/one-lap-day-8-race3.jpg
+      image_path: /assets/images/one-lap-day-8-race3-th.jpg
       alt: "race"
       title: "Green means go."
     - url: /assets/images/one-lap-day-8-race4.jpg
-      image_path: /assets/images/one-lap-day-8-race4.jpg
+      image_path: /assets/images/one-lap-day-8-race4-th.jpg
       alt: "race"
       title: "Here I come down the straight away."
 day9:
     - url: /assets/images/one-lap-day-9-group.jpg
-      image_path: /assets/images/one-lap-day-9-group.jpg
+      image_path: /assets/images/one-lap-day-9-group-th.jpg
       alt: "group"
       title: "Group photo of all the teams."
     - url: /assets/images/one-lap-day-9-group2.jpg
-      image_path: /assets/images/one-lap-day-9-group2.jpg
+      image_path: /assets/images/one-lap-day-9-group2-th.jpg
       alt: "group"
       title: "Setting up for the group photo."
     - url: /assets/images/one-lap-day-9-group3.jpg
-      image_path: /assets/images/one-lap-day-9-group3.jpg
+      image_path: /assets/images/one-lap-day-9-group3-th.jpg
       alt: "group"
       title: "Setting up for the group photo."
     - url: /assets/images/one-lap-day-9-group4.jpg
-      image_path: /assets/images/one-lap-day-9-group4.jpg
+      image_path: /assets/images/one-lap-day-9-group4-th.jpg
       alt: "group"
       title: "The Bandit."
     - url: /assets/images/one-lap-day-9-bandit.jpg
-      image_path: /assets/images/one-lap-day-9-bandit.jpg
+      image_path: /assets/images/one-lap-day-9-bandit-th.jpg
       alt: "group"
       title: "The Bandit with a dress."
     - url: /assets/images/one-lap-day-9-group5.jpg
-      image_path: /assets/images/one-lap-day-9-group5.jpg
+      image_path: /assets/images/one-lap-day-9-group5-th.jpg
       alt: "group"
       title: "Setting up for the group photo."
     - url: /assets/images/one-lap-day-9-group6.jpg
-      image_path: /assets/images/one-lap-day-9-group6.jpg
+      image_path: /assets/images/one-lap-day-9-group6-th.jpg
       alt: "group"
       title: "Setting up for the group photo."
     - url: /assets/images/one-lap-day-9-group7.jpg
-      image_path: /assets/images/one-lap-day-9-group7.jpg
+      image_path: /assets/images/one-lap-day-9-group7-th.jpg
       alt: "group"
       title: "Setting up for the group photo."
     - url: /assets/images/one-lap-day-9-honda.jpg
-      image_path: /assets/images/one-lap-day-9-honda.jpg
+      image_path: /assets/images/one-lap-day-9-honda-th.jpg
       alt: "honda"
       title: "Honda Racing Car."
     - url: /assets/images/one-lap-day-9-group8.jpg
-      image_path: /assets/images/one-lap-day-9-group8.jpg
+      image_path: /assets/images/one-lap-day-9-group8-th.jpg
       alt: "group"
       title: "Cars in front of the Tire Rack building."
     - url: /assets/images/one-lap-day-9-lamborghini.jpg
-      image_path: /assets/images/one-lap-day-9-lamborghini.jpg
+      image_path: /assets/images/one-lap-day-9-lamborghini-th.jpg
       alt: "lamborghini"
       title: "The Lamborghini."
     - url: /assets/images/one-lap-day-9-lamborghini2.jpg
-      image_path: /assets/images/one-lap-day-9-lamborghini2.jpg
+      image_path: /assets/images/one-lap-day-9-lamborghini2-th.jpg
       alt: "lamborghini"
       title: "The back of the  Lamborghini."
     - url: /assets/images/one-lap-day-9-group9.jpg
-      image_path: /assets/images/one-lap-day-9-group9.jpg
+      image_path: /assets/images/one-lap-day-9-group9-th.jpg
       alt: "group"
       title: "Parking lot."
     - url: /assets/images/one-lap-day-9-car.jpg
-      image_path: /assets/images/one-lap-day-9-car.jpg
+      image_path: /assets/images/one-lap-day-9-car-th.jpg
       alt: "car"
       title: "Our car."
     - url: /assets/images/one-lap-day-9-69.jpg
-      image_path: /assets/images/one-lap-day-9-69.jpg
+      image_path: /assets/images/one-lap-day-9-69-th.jpg
       alt: "team 69"
       title: "The team 69 corvette."
     - url: /assets/images/one-lap-day-9-gasmonkey.jpg
-      image_path: /assets/images/one-lap-day-9-gasmonkey.jpg
+      image_path: /assets/images/one-lap-day-9-gasmonkey-th.jpg
       alt: "gasmonkey"
       title: "The Gas Monkey car."
     - url: /assets/images/one-lap-day-9-pastana.jpg
-      image_path: /assets/images/one-lap-day-9-pastana.jpg
+      image_path: /assets/images/one-lap-day-9-pastana-th.jpg
       alt: "pastana"
       title: "Travis Pastana with his car and Yokohama truck."
     - url: /assets/images/one-lap-day-9-pokemon.jpg
-      image_path: /assets/images/one-lap-day-9-pokemon.jpg
+      image_path: /assets/images/one-lap-day-9-pokemon-th.jpg
       alt: "pokemon"
       title: "Car with stuffed animals."
     - url: /assets/images/one-lap-day-9-pokemon2.jpg
-      image_path: /assets/images/one-lap-day-9-pokemon2.jpg
+      image_path: /assets/images/one-lap-day-9-pokemon2-th.jpg
       alt: "pokemon"
       title: "Close up on Pickachu."
     - url: /assets/images/one-lap-day-9-team.jpg
-      image_path: /assets/images/one-lap-day-9-team.jpg
+      image_path: /assets/images/one-lap-day-9-team-th.jpg
       alt: "team"
       title: "We successfully completed our first One Lap of America."
     - url: /assets/images/one-lap-day-9-banquet.jpg
-      image_path: /assets/images/one-lap-day-9-banquet.jpg
+      image_path: /assets/images/one-lap-day-9-banquet-th.jpg
       alt: "banquet"
       title: "Banquet held in the Tire Rack warehouse."
     
