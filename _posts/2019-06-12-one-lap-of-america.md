@@ -88,7 +88,7 @@ day4:
     - url: /assets/images/one-lap-day-4-mclaren.jpg
       image_path: /assets/images/one-lap-day-4-mclaren-th.jpg
       alt: "mclaren"
-      title: "Close up on the McLaren."
+      title: "Close up of the McLaren."
     - url: /assets/images/one-lap-day-4-garage-inside.jpg
       image_path: /assets/images/one-lap-day-4-garage-inside-th.jpg
       alt: "garage-inside"
@@ -530,7 +530,7 @@ in the SGT-1 BB and Stock - GT Classes, where we placed 17<sup>th</sup> and
 15<sup>th</sup> respectively. Our overall standing was 63<sup>rd</sup>. 
 
 Our goal, however, was not to place well, but to have fun, complete the event, 
-and bring the car back home and we completed all of these goals. The 
+and bring the car back home, and we completed all of these goals. The 
 competition was long, but fun. Each day had roughly the same layout. We would 
 wake up early, around 7, then head to the track, where we would drive in two 
 events. After which, we would then drive for around 500 miles to reach the next 
@@ -540,7 +540,7 @@ show below.
 {% include gallery id="schedule" %}
 
 ## Day 0 Travel
-The first day we packeted up the car and traveled to the first hotel.
+The first day we packed up the car and traveled to the first hotel.
 We knew we were at the right place when we saw a viper with one lap stickers 
 and a Lamborghini next to it.
 
@@ -553,12 +553,12 @@ information book, and attended a drivers meeting.
 
 {% include gallery id="day1" caption="Day 1 Gallery." %}
 
-## Day 2 Skid Pad and Autocross
+## Day 2 Skid Pad and Autocross, South Bend and Kokomo, Indiana
 The first day of driving, we started off at the Tire Rack Headquarters where we 
 drove on a wet skid pad. The goal was to see how much G-force you could put 
 into turning.
 
-After the skip pad, we then went to Grissom Air Force Base where my dad drove 
+After the skid pad, we then went to Grissom Air Force Base where my dad drove 
 the autocross event. Before the event we both walked the course many times and 
 discussed strategies on how to drive it.
 
@@ -568,7 +568,7 @@ We closed off the day by driving from Indiana to our hotel in Ohio.
 
 {% include video id="x67rH15sAkI" provider="youtube" %}
 
-## Day 3 Nelson Ledges
+## Day 3 Nelson Ledges, Garrettsville, Ohio
 The second day of driving, we were at Nelson Ledges Road course. We got their 
 early enough that we were able to walk around the course before the track went 
 live. There was an old bridge that went over the starting line. The bridge 
@@ -579,7 +579,7 @@ parade laps after lunch that I drove.
 
 {% include video id="x67rH15sAkI?start=349" provider="youtube" %}
 
-## Day 4 Road America
+## Day 4 Road America, Plymouth, Wisconsin
 The next track was Road America. In the morning there was rain and the track 
 was very slippery. There were some wreaks as cars slid off of the track, so our 
 run group at the end of the pack was delayed until after lunch. Going after 
@@ -591,7 +591,7 @@ track and places to spectate.
 
 {% include video id="x67rH15sAkI?start=919" provider="youtube" %}
 
-## Day 5 Brainerd
+## Day 5 Brainerd International Raceway, Brainerd, Minnesota
 Day 5 was one of the nicest, sunniest, and longest days of the trip. In the 
 morning I started to walk the course, but I only made it down the drag strip 
 portion of the front straight before I realized just how long the total course 
@@ -609,7 +609,7 @@ watch go around one of the turns in particular. He would power slide each time
 he went around. People spectating closer said that he was waving to the crowd 
 of people watching while doing the power slide. In the morning run, he was 
 talking on the phone with his teammates in the stands as he was driving around 
-the track. I was great fun to hear his conversations/interviews and watch him 
+the track. It was great fun to hear his conversations/interviews and watch him 
 drive.
 
 Next we did drag racing on the front straight. The first time on the drag 
@@ -618,18 +618,18 @@ where cars would try to get as close to their first time as possible without
 going over their previous time. In the bracket, they would start the cars at 
 different times so that they should arrive at the finish line at the same time 
 (assuming they ran the same time as before).  Finally to finish off the day, we 
-had one of the longest transit drives of the trip 555.5 miles.
+had one of the longest transit drives of the trip, 555.5 miles.
 
 {% include gallery id="day5" caption="Day 5 Gallery." %}
 
 {% include video id="x67rH15sAkI?start=2109" provider="youtube" %}
 
-## Day 6 Hastings
+## Day 6 Motorsports Park Hastings, Hastings, Nebraska
 Hastings was a smaller course. We were able to walk the course in the morning. 
 The weather was rainy and windy, but there were shelters from the rain. They 
 had multiple covers and also a party bus. The party bus was nice since in 
 addition to blocking the rain, it would block the wind. Even with a fire suit 
-and multiple layers, it was cold this far north. This is also were our EZ pop 
+and multiple layers, it was cold this far north. This is also where our EZ pop 
 up canopy finally collapsed. It was starting to look rough, and had already 
 blown over once. This time we strapped it down really well with bags and 
 hammock straps, and instead of blowing away, it folded in on itself. However, 
@@ -641,10 +641,10 @@ and it was a delicious brisket sandwich.
 
 {% include video id="x67rH15sAkI?start=3002" provider="youtube" %}
 
-## Day 7 Blackhawk Farms
-Blackhawk farms was a nice course. By now we had the rhythm down. Wake up, get 
+## Day 7 Blackhawk Farms, South Beloit, Illinois
+Blackhawk Farms was a nice course. By now we had the rhythm down. Wake up, get 
 coffee, drive to course, walk course, morning session, lunch, afternoon 
-session, transit drive, cliff bars and gas station pizza for supper, check-in 
+session, transit drive, Cliff Bars and gas station pizza for supper, check-in 
 and collapse in hotel bed. Repeat. By this point a nap was required, and I was 
 glad to have brought a hammock to nap in. This track has a second story 
 building to watch from, but the best place to watch was at some metal stands in 
@@ -654,15 +654,15 @@ the U portion of the track.
 
 {% include video id="x67rH15sAkI?start=3833" provider="youtube" %}
 
-## Day 8 NCM
+## Day 8 National Corvette Museum (NCM) Motorsports Park, Bowling Green, Kentucky
 I drove the events at NCM and it was a blast. The weekend before I went to a 
-chin track days here, so I already knew the course and had multiple sessions of 
+Chin Track Days here, so I already knew the course and had multiple sessions of 
 experience driving it. In the morning, we first drove the east course, then 
 afterwards we moved directly into line to drive the west course. Driving the 
-split up course was new but pit in and pit out was easy to find, and we looked 
+split up course was new, but pit-in and pit-out was easy to find, and we looked 
 for them when we walked on the course in the morning. I was able to run good 
 times and I felt more confident on the track than I did during the week before. 
-The previous experienced helped tremendously. The sink hole portion was the most 
+The previous experience helped tremendously. The sink hole portion was the most 
 fun, and I was able to squeak the tires for most of the entrance turn. My time 
 on the west course was comparably better, but the straights were to the 
 advantage of our car. For lunch they had hibachi from a food truck. I was happy 
@@ -685,21 +685,22 @@ destination to home) we heading back north for the last day.
 
 {% include video id="x67rH15sAkI?start=4462" provider="youtube" %}
 
-## Day 9 Skid Pad
+## Day 9 Skid Pad, South Bend, Indiana
 
 First we line up all the cars to take a group photo. Then I got a chance to 
 drive the skid pad again, but this time on a dry track. I did much better in 
 the dry and I had more confidence to go fast. I think I was much closer to the 
 limit of the tires this time around and the car was sliding around more. For 
-this event they ran the cars in reverse order in the standings, and even so it, 
+this event they ran the cars in reverse order in the standings, and even so, it 
 was great to hear that I took first place on the skid pad after completing my 
 run. Finally the event ended with an awards banquet where the food was good and 
 I learned what a [shoey](https://en.wikipedia.org/wiki/Drinking_from_shoes) 
 was.
 
-And so after the banquet or trip was complete. We had successfully made it 
-around one lap of America. Tired but happy, we then made our last transit drive 
-back home. At this point we were pros at long drives and we made it home safe.
+And so after the banquet our trip was complete. We had successfully made it 
+around One Lap of America. Tired but happy, we then made our last transit drive 
+back home. At this point we were pros at long drives and we made it home 
+safely.
 
 {% include gallery id="day9" caption="Day 9 Gallery." %}
 
