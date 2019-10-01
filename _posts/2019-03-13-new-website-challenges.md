@@ -1,5 +1,7 @@
 ---
 title: Challenges with New Website Deployment (Jekyll and Subdomains)
+categories: [Tech]
+tags: [Website]
 ---
 
 When I was deploying my website to the web server, I ran into a few challenges. 

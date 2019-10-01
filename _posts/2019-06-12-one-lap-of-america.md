@@ -1,5 +1,7 @@
 ---
 title: One Lap of America 2019
+categories: [Life]
+tags: [Driving]
 toc: true
 toc_sticky: true
 toc_icon: "fas fa-car"

@@ -1,5 +1,7 @@
 ---
 title:  New Website using Jekyll
+categories: [Tech]
+tags: [Website]
 header:
   teaser: /assets/images/old_website.png
 ---

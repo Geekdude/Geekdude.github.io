@@ -6,3 +6,4 @@ title: Future Project Ideas.
 - Vim plugins/config
 - tmux config
 - fish config
+- I could create a separate Research and Publications Pages

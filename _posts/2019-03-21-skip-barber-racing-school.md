@@ -1,5 +1,7 @@
 ---
 title: Skip Barber 3-Day Racing School
+categories: [Life]
+tags: [Driving]
 classes: wide
 header:
     image: /assets/images/skip-barber-header.png
