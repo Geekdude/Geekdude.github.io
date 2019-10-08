@@ -71,10 +71,10 @@ Beyond the primary target of delivering a functional system, efforts were focuse
 [ALICE Documentation]({{ site.baseurl }}{% link /assets/alice-documentation.pdf %})
 
 ## Project Presentations
-[BOB Presentation]({{ site.baseurl }}{% link /assets/bob-presentation.pdf %})
+[Slides: BOB Presentation]({{ site.baseurl }}{% link /assets/bob-presentation.pdf %})
 
-[Big Orange Bramble (BOB) HW SW Systems Presentations](https://www.youtube.com/watch?v=l71lbh8Lz0U)
+[Video: Big Orange Bramble (BOB) HW SW Systems Presentations](https://www.youtube.com/watch?v=l71lbh8Lz0U)
 
-[Big Orange Bramble (BOB) App Presentations](https://www.youtube.com/watch?v=gnGCjMEXjdo)
+[Video: Big Orange Bramble (BOB) App Presentations](https://www.youtube.com/watch?v=gnGCjMEXjdo)
 
-[ALICE Presentation]({{ site.baseurl }}{% link /assets/alice-presentation.pdf %})
+[Slides: ALICE Presentation]({{ site.baseurl }}{% link /assets/alice-presentation.pdf %})
