@@ -4,6 +4,14 @@ This repository contains the source for a Jekyll powered personal website for
 Aaron Young. If you have any questions about the source please contact me at 
 [ayoung3210@gmail.com](mailto:ayoung3210@gmail.com).
 
+## Prerequisites
+
+[Jekyll](https://jekyllrb.com/docs/installation/) must be install first before building the website.
+
+Next the gems used by the site must be installed with 
+
+    bundle install
+
 ## Serving the website locally for testing
 
 In order to serve the website locally on a test server, with draft posts 
