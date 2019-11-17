@@ -22,7 +22,7 @@ feature_row:
     btn_label: "Read Me"
     btn_class: "btn--primary"
     url: "/resume/"
-    excerpt: Good old fashion resume. Same content as the about page, but easy to print.
+    excerpt: Good old-fashioned resume. Same content as the about page, but easy to print.
   - image_path: /assets/images/tennlab.png
     alt: "TENNLab Logo"
     title: "TENNLab"
