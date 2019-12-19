@@ -38,7 +38,7 @@ graphics:
     title: "Computer Graphics Final Project"
     excerpt: |
         Click here to view my final project for COSC 594 -- Computer Graphics.
-        For my project, I created a 3D Dungeons and Dragons tabletop scene, similar to what can be found at my apartment on Saturday nights. I only wish I had minitures as cool as found in the demo.
+        For my project, I created a 3D Dungeons and Dragons tabletop scene, similar to what can be found at my apartment on Saturday nights. I only wish I had miniatures as cool as found in the demo.
     url: "/computer_graphics/finalproject"
     btn_label: "Launch"
     btn_class: "btn--info"

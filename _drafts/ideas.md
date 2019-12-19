@@ -6,6 +6,7 @@ title: Future Project Ideas.
 - Vim plugins/config
 - tmux config
 - fish config
+- DLP - Data Loss Prevention. 3-2-1 Backup Rule See https://www.nakivo.com/blog/3-2-1-backup-rule-efficient-data-protection-strategy/
 - I could create a separate Research and Publications Pages
 - See Mom's message
 
