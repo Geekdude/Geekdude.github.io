@@ -20,7 +20,7 @@ cars. They had a racing air intake, a racing transmission, racing brakes and
 suspension, and they had a roll cage with a five point harness. The car I used 
 was number 18.
 
-![Me practicing with racing simulator]({{ site.baseurl }}{% link /assets/images/racing-simulator.jpg %})
+![Me practicing with racing simulator]({% link /assets/images/racing-simulator.jpg %})
 
 At the racing school they taught us everything we would need to know to 
 understand car dynamics and to drive around a track safely and quickly. Each 
@@ -59,9 +59,9 @@ instructor and see the race line further. The last turn I took in the pace car,
 the instructor was really pushing the rental car. He was squealing the tires 
 and taking all the curbs. He knocked over some cones marking the turn apex.
 
-![Road Atlanta]({{ site.baseurl }}{% link /assets/images/Road-Atlanta-large.jpg %})
+![Road Atlanta]({% link /assets/images/Road-Atlanta-large.jpg %})
 
-![Road Atlanta Track Map]({{ site.baseurl }}{% link /assets/images/road-atlanta-track-map.jpg %})
+![Road Atlanta Track Map]({% link /assets/images/road-atlanta-track-map.jpg %})
 
 The second day, in the morning, the lecture covered more information on grip, 
 turns, and flags. On the track, we did more lead follow and also took a turn 
@@ -85,7 +85,7 @@ travel to one of the flag stations along the track and watch the other group
 drive. It was fun to see different views of the track and to critique the other 
 group to learn how we could better drive when it was our turn again.
 
-![Me at Road Atlanta with my car]({{ site.baseurl }}{% link /assets/images/road-atlanta-with-car.jpg %})
+![Me at Road Atlanta with my car]({% link /assets/images/road-atlanta-with-car.jpg %})
 
 The last day, in the morning, the lecture covered passing technique and driving 
 in the rain. On the track, we drove a passing exercise at turn 10, where we 
@@ -112,4 +112,4 @@ SCCA racing license. More importantly, I can now participate in driving on the
 track for the [One Lap of America](http://www.onelapofamerica.com/) driving 
 competition I am doing with my Dad later in the spring.
 
-![Racing Diploma]({{ site.baseurl }}{% link /assets/images/racing-diploma.png %})
+![Racing Diploma]({% link /assets/images/racing-diploma.png %})

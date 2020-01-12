@@ -16,7 +16,7 @@ September, 2019
 
 [https://ieeexplore.ieee.org/document/8843969](https://ieeexplore.ieee.org/document/8843969)
 
-[View Article]({{ site.baseurl }}{% link /assets/2019-Young-Review.pdf %}){: .btn .btn--info}
+[View Article]({% link /assets/2019-Young-Review.pdf %}){: .btn .btn--info}
 
 ## Abstract
 Multiple neuromorphic systems use spiking neural networks (SNNs) to perform computation in a way that is inspired by concepts learned about the human brain.
