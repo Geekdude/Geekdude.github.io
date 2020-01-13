@@ -75,7 +75,7 @@ intent on what you are trying to accomplish.
 
 The last way I found to generate the links is with the link tag.
 ```liquid
-![Old Website]({% link /assets/images/old_website.png %})
+![Old Website]({{ site.baseurl }}{% link /assets/images/old_website.png %})
 ```
 Although this syntax is the worst looking, it gives the added benefit of 
 correctly generating the permalink of the file you are trying to link to. This 
