@@ -2,6 +2,7 @@
 title: Challenges with New Website Deployment (Jekyll and Subdomains)
 categories: [Tech]
 tags: [Website]
+last_modified_at: 2020-01-14 10:10:00
 ---
 
 When I was deploying my website to the web server, I ran into a few challenges. 
@@ -129,3 +130,14 @@ echo "rsync to SSH host $instancehost ..."
 # rsync --verbose --recursive --compress --checksum --human-readable --perms --delete-after`
 rsync -vrzchp --delete-after _site/ $instancehost:$remotewebroot
 ```
+
+## Update on 1/14/2020 for Jekyll 4.0
+With the release of Jekyll 4.0, the `link` and `post_url` tags no longer need `site.baseurl` prepended every time they are used. These tags now use their `relative_url` filter to correctly take care of prepending the `site.baseurl`. This does mean that existing uses of the prepend pattern will break and the `site.baseurl` part should be removed. I like this change since it makes linking shorter, but a site wide find and replace was needed to fix the links.
+
+{% raw %}
+So in summary, the recommended was to generate links is with the link tag. For example:
+```liquid
+![Old Website]({% link /assets/images/old_website.png %})
+```
+This method is now the most concise, readable, and will correctly generate the permalink URL following the site rules. It will also perform link validation to make sure the linked file exists.
+{% endraw %}
