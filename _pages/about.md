@@ -8,30 +8,19 @@ toc_sticky: true
 
 ## Aaron Read Young
 
-* Ph.D Student (Computer Engineering; 2nd year)
-* Graduate Teaching/Research Assistant
+* Doctoral Candidate, Late Stage (Computer Engineering; 3nd year)
+* Ph.D Advisor: [Dr. Dean](http://web.eecs.utk.edu/~markdean/)
+* Graduate Research Assistant
 * [Department of Electrical Engineering and Computer Science, University of Tennessee](http://www.eecs.utk.edu/)<br><br>
 * *Past Graduate TA*:
-    - (Fall 2017) - CS 494 --- Advanced Programming and Algorithms ([Dr. James S. Plank](https://web.eecs.utk.edu/~plank/))
-    - (Spring 2017) - CS 360 --- Systems Programming ([Dr. James S. Plank](https://web.eecs.utk.edu/~plank/))
-    - (Fall 2016) - CS 302 &mdash; Data Structures and Algorithms II ([Dr. James S. Plank](https://web.eecs.utk.edu/~plank/))<br><br>
+    - (Fall 2017) --- [CS 494: Advanced Programming and Algorithms](http://web.eecs.utk.edu/~jplank/plank/classes/cs494/494) ([Dr. James S. Plank](https://web.eecs.utk.edu/~plank/))
+    - (Spring 2017) --- [CS 360: Systems Programming](http://web.eecs.utk.edu/~jplank/plank/classes/cs360/) ([Dr. James S. Plank](https://web.eecs.utk.edu/~plank/))
+    - (Fall 2016) --- [CS 302: Data Structures and Algorithms II](http://web.eecs.utk.edu/~jplank/plank/classes/cs302/) ([Dr. James S. Plank](https://web.eecs.utk.edu/~plank/))<br><br>
 * Email: [ayoung48@vols.utk.edu](mailto:ayoung48@vols.utk.edu)
 * Office: Min Kao 336
 
-### Publications
-* [A Review of Spiking Neuromorphic Hardware Communication Systems](http://neuromorphic.eecs.utk.edu/publications/2019-09-29-a-review-of-spiking-neuromorphic-hardware-communication-systems/), A. R. Young, M. E. Dean, J. S. Plank and G. S. Rose, in IEEE Access, vol. 7, pp. 135606-135620, 2019.
-* [Poster: Neuromorphic Array Communications Controller]({% link /assets/JDRD-2019-Poster.pdf %}), Aaron R. Young and Mark E. Dean, *JDRD Symposium*, 2019.
-* [Understanding Selection and Diversity for Evolution of Spiking Recurrent Neural Networks](http://neuromorphic.eecs.utk.edu/publications/2018-07-13-understanding-selecting-and-diversity-for-evolution-of-spiking-recurrent-neural-networks/), Catherine D. Shuman, Grant Bruer, Aaron R. Young, Mark Dean and James S. Plank, *IJCNN: The International Joint Conference on Neural Networks*, 2018.
-* [Neuromorphic Array Communications Controller to Support Large-Scale Neural Networks](http://neuromorphic.eecs.utk.edu/publications/2018-07-08-neuromorphic-array-communications-controller-to-support-large-scale-neural-networks/), Aaron R. Young, Mark E. Dean, James S. Plank, Garrett S. Rose and Catherine D. Schuman, *IJCNN: The International Joint Conference on Neural Networks*, 2018.
-* [Scalable High-Speed Communications for Neuromorphic Systems](http://trace.tennessee.edu/utk_gradthes/4916/), Young, A. *Masters Thesis, University of Tennessee,* 2017.
-* [Poster: DANNA Neuromorphic Application Development Kit Demo](http://neuromorphic.eecs.utk.edu/posters/2017-03-07-danna-neuromorphic-development-kit-demo/), Mark Dean, Aaron Young, Parker Mitchell, Patricia Eckhart, John Reynolds, Grant Bruer, Adam Disney, James Plank, and Catherine Schuman. *5th Neuro Inspired Computational Elements Workshop (NICE 2017)*, 2017.
-* [DANNA: A Neuromorphic Software Ecosystem](http://neuromorphic.eecs.utk.edu/publications/2016-07-16-danna-a-neuromorphic-software-ecosystem/), Adam Disney, John Reynolds, Catherine D. Schuman, Aleksander Klibisz, Aaron Young, and James S. Plank, *Biologically Inspired Cognitive Architectures, Volume 9*, 2016.
-
-### Research
-* I am part of the [TENNLab - Neuromorphic Architectures, Learning, Applications](http://neuromorphic.eecs.utk.edu/) research group at the University of Tennessee.
-
 ### Education
-* University of Tennessee, Knoxville, PhD in Computer Engineering Fall 2017--Present, GPA: 4.0. Will complete PhD Degree 2021.
+* University of Tennessee, Knoxville, PhD in Computer Engineering Fall 2017--Present, GPA: 4.0. Will complete PhD Degree May 2020.
 * University of Tennessee, Knoxville, Master's Degree in Computer Engineering, Fall 2016--Summer 2017, GPA: 4.0.
 * University of Tennessee, Knoxville, Bachelor's Degree in Computer Engineering, Chancellor's Honors Program, EECS Honors. Fall 2012--Spring 2016, GPA: 4.0.
 * [Engineering in London Study Abroad Program](http://www.engr.utk.edu/2013-study-abroad-students/): Spent five weeks in London earning six University of Tennessee engineering credit hours, June 2013.
@@ -39,7 +28,8 @@ toc_sticky: true
 
 ### Work Experience
 **University of Tennessee, Knoxville**
-* January 2016--Present: Research with the Neuromorphic Computing Group. Developing applications to test the effectiveness of neuromorphic computers and assisting with the path from the hardware to the processor.
+* January 2016--Present: Research with the TENNLab Neuromorphic Computing Research Group. See [Research]({% link _pages/research.md %}) for more information.
+* August 2016--August 2017: Graduate teaching assistant for Dr. Plank. Led lab sections, graded labs, and helped students for Data Structures and Algorithms II, Systems Programming, and Advanced Programming and Algorithms.
 
 **Garmin International, Inc., Olathe, KS**
 * Summer 2015: On the Aviation Software-Navigation Library Team. Improved the Navigation Library by revising requirements, making changes to the code base, and creating new test cases.
@@ -65,4 +55,47 @@ toc_sticky: true
 * Tau Beta Pi, The Engineering Honor Society, 2013.
 
 ### Skills
-* C, C#, C++, Chisel, CSS, Django, Git, Html, Java, Javascript, Jenkins, Linux, MPI, OpenGL, OpenMP, Perl, PHP, Python, SQL, Unix, Verilog, VHDL
+#### Programming Languages
+Bash,
+C,
+C\#,
+C++,
+Chisel,
+CSS,
+HTML,
+Java,
+Javascript,
+MPI,
+OpenGL,
+OpenMP,
+Perl,
+PHP,
+Python,
+SQL,
+SystemVerilog,
+VHDL
+
+#### Frameworks
+Django,
+Jekyll
+
+#### Libraries
+GTK,
+Keras,
+NumPy,
+OpenGL,
+pandas,
+SciPy,
+TensorFlow
+
+#### Tools
+Beamer,
+Blender,
+FreeCAD,
+GIMP,
+Git,
+Inkscape,
+Jenkins,
+<img src="http://latex.codecogs.com/gif.latex?\LaTeX" border="0"/>
+Linux,
+Vivado

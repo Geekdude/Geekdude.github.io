@@ -4,5 +4,9 @@ main:
     url: /about/
   - title: "Blog"
     url: /blog/
-  - title: "Resume"
-    url: /resume/
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "CV"
+    url: /cv/
