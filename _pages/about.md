@@ -9,7 +9,8 @@ toc_sticky: true
 ## Aaron Read Young
 
 * Doctoral Candidate, Late Stage (Computer Engineering; 3nd year)
-* Ph.D Advisor: [Dr. Dean](http://web.eecs.utk.edu/~markdean/)
+* Plan to Graduate May 2020
+* Ph.D Advisor: [Dr. Mark E. Dean](http://web.eecs.utk.edu/~markdean/)
 * Graduate Research Assistant
 * [Department of Electrical Engineering and Computer Science, University of Tennessee](http://www.eecs.utk.edu/)<br><br>
 * *Past Graduate TA*:
@@ -29,7 +30,7 @@ toc_sticky: true
 ### Work Experience
 **University of Tennessee, Knoxville**
 * January 2016--Present: Research with the TENNLab Neuromorphic Computing Research Group. See [Research]({% link _pages/research.md %}) for more information.
-* August 2016--August 2017: Graduate teaching assistant for Dr. Plank. Led lab sections, graded labs, and helped students for Data Structures and Algorithms II, Systems Programming, and Advanced Programming and Algorithms.
+* August 2016--August 2017: Graduate teaching assistant for Dr. James S. Plank. Assisted with the following classes by leading lab sections, grading labs and helping students: COSC 302 Data Structures and Algorithms II, COSC 360 Systems Programming, and COSC 494 Advanced Programming and Algorithms.
 
 **Garmin International, Inc., Olathe, KS**
 * Summer 2015: On the Aviation Software-Navigation Library Team. Improved the Navigation Library by revising requirements, making changes to the code base, and creating new test cases.
