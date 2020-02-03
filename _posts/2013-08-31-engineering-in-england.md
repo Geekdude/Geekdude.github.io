@@ -14,7 +14,7 @@ gallery:
       alt: Josh
       title: Josh Penney visits the Doctor Who Experience
 ---
-## A Weekend in Cardiff, Wales---June 15--17
+## A Weekend in Cardiff, Wales---June 15--17 (2013)
 by Josh Penney and Aaron Young
 
 Originally Posted on [tickle.utk.edu](https://tickle.utk.edu/student-reports-engineering-england-summer-2013-part-one/).

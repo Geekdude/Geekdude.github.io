@@ -19,11 +19,10 @@ intro:
   - excerpt: '*"Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that."* --- Martin Luther King Jr.'
 feature_row:
   - image_path: assets/images/typewriter.png
-    title: "Resume"
+    title: "Curriculum Vitae (CV)"
     btn_label: "Read Me"
     btn_class: "btn--primary"
-    url: "/resume/"
-    excerpt: Good old-fashioned resume. Same content as the about page, but easy to print.
+    url: "/cv/"
   - image_path: /assets/images/tennlab.png
     alt: "TENNLab Logo"
     title: "TENNLab"

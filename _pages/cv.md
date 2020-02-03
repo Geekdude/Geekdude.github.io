@@ -1,6 +1,6 @@
 ---
 layout: single
-title: CV
+title: Curriculum Vitae
 permalink: /cv/
 redirect_from: /resume/
 classes: wide
