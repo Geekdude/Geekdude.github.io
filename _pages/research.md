@@ -10,6 +10,7 @@ I am part of the [TENNLab---Neuromorphic Architectures, Learning, Applications](
 We are researching a new paradigm of computing, inspired by the human brain.
 Our research encompasses nearly every facet of the neuromorphic area, including current and emergent hardware implementations, theoretical models, programming techniques and applications.
 Specifically, I have worked on framework development, the DANNA and DANNA2 digital neuromorphic processors, and neuromorphic application development.
+I have also helped with the development of multiple neuromorphic robots including NeoN (Neuromorphic Control System for Autonomous Robotic Navigation), GRANT (Ground-Roaming Autonomous Neuromorphic Targeter), and SABR (Self-Adjusting Balancing Robot).
 My focus has been on communication between traditional computers and neuromorphic processors.
 I have developed the NACC (Neuromorphic Array Communications Controller) to support high-speed, low-latency communication between the host PC and the neuromorphic system.
 I have also designed and built SNACC (Scaled-up Neuromorphic Array Communications Controller), which uses a NACC to connect multiple neuromorphic processors together for the purpose of building a large unified neuromorphic system.
