@@ -63,6 +63,7 @@ C\#,
 C++,
 Chisel,
 CSS,
+G-code
 HTML,
 Java,
 Javascript,
@@ -72,11 +73,14 @@ OpenMP,
 Perl,
 PHP,
 Python,
+SKILL,
 SQL,
 SystemVerilog,
+Tcl,
 VHDL
 
 #### Frameworks
+ASP.NET,
 Django,
 Jekyll
 
@@ -90,8 +94,10 @@ SciPy,
 TensorFlow
 
 #### Tools
+Ansible,
 Beamer,
 Blender,
+Firewall,
 FreeCAD,
 GIMP,
 Git,
@@ -99,4 +105,15 @@ Inkscape,
 Jenkins,
 <img src="http://latex.codecogs.com/gif.latex?\LaTeX" border="0"/>
 Linux,
+MAAS,
+Slurm,
 Vivado
+
+#### Protocols
+CANopen,
+I$^2$C,
+Infiniband,
+LDAP,
+RS-323,
+SPI,
+TCP/IP
