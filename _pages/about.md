@@ -21,9 +21,9 @@ toc_sticky: true
 * Office: Min Kao 336
 
 ### Education
-* University of Tennessee, Knoxville, PhD in Computer Engineering Fall 2017--Present, GPA: 4.0. Will complete PhD Degree May 2020.
+* University of Tennessee, Knoxville, PhD in Computer Engineering, Fall 2017--Present, GPA: 4.0. Will complete PhD Degree May 2020.
 * University of Tennessee, Knoxville, Master's Degree in Computer Engineering, Fall 2016--Summer 2017, GPA: 4.0.
-* University of Tennessee, Knoxville, Bachelor's Degree in Computer Engineering, Chancellor's Honors Program, EECS Honors. Fall 2012--Spring 2016, GPA: 4.0.
+* University of Tennessee, Knoxville, Bachelor's Degree in Computer Engineering, Summa Cum Laude, Chancellor's Honors Program, EECS Honors. Fall 2012--Spring 2016, GPA: 4.0.
 * [Engineering in London Study Abroad Program](http://www.engr.utk.edu/2013-study-abroad-students/): Spent five weeks in London earning six University of Tennessee engineering credit hours, June 2013.
 * Hardin Valley Academy, Knoxville, Tennessee, High School Diploma, May 2012. GPA: 4.38 / 4.0.  Received college credit for AP classes. 
 
