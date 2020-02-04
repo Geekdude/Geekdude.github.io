@@ -111,7 +111,7 @@ Vivado
 
 #### Protocols
 CANopen,
-I$^2$C,
+I$$^2$$C,
 Infiniband,
 LDAP,
 RS-323,
