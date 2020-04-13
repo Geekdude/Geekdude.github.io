@@ -24,7 +24,7 @@ After a first bland attempt and subsequent difficulty to get a starter to grow w
 with only flour and water).
 I decided to buy [starter from King Arthur Flour](https://shop.kingarthurflour.com/items/classic-fresh-sourdough-starter-1-oz).
 This starter worked much better.
-I bought it in 2012 and I have kept it going ever since.
+I bought it in 2013 and I have kept it going ever since.
 I keep the sourdough starter in a [King Arthur Sourdough Crock](https://shop.kingarthurflour.com/items/classic-king-arthur-sourdough-crock).
 They also sale the [starter in a set with the crock](https://shop.kingarthurflour.com/items/sourdough-starter-and-crock-set).
 
