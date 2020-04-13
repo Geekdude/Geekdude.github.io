@@ -9,23 +9,23 @@ header:
     teaser: /assets/images/bread-header.jpg
 ---
 
-My favorite type of bread is a fresh, warm, loaf of sourdough.
+My favorite type of bread is a fresh, warm loaf of sourdough.
 I can almost go through a whole loaf by myself when it is fresh from the oven.
 Sourdough bread also makes the best french toast and great bread crumbs for wiener schnitzel.
 This post will go over the basics to getting started making sourdough bread.
 It includes links to the resources I used to get started, my favorite recipes, and some tips and tricks I have learned over my years of baking and experimenting for fun.
 
 ## Starter
-At first I tired to make my own starter.
+At first I tried to make my own starter.
 This didn't really work out all that well.
 I learned that you should not try to make a sourdough starter by initially adding in baking yeast.
-If you do this, you will not get the good sourdough flavor and it will be harder to form the symbiotic relationship between bacteria and wild yeast which give sourdough its unique acetic flavor.
+If you do this, you will not get the good sourdough flavor and it will be harder to form the symbiotic relationship between bacteria and wild yeast which gives sourdough its unique acidic flavor.
 After a first bland attempt and subsequent difficulty to get a starter to grow with wild yeast (i.e.
 with only flour and water).
 I decided to buy [starter from King Arthur Flour](https://shop.kingarthurflour.com/items/classic-fresh-sourdough-starter-1-oz).
 This starter worked much better.
 I bought it in 2012 and I have kept it going ever since.
-I keep the sourdough started in a [King Arthur Sourdough Crock](https://shop.kingarthurflour.com/items/classic-king-arthur-sourdough-crock).
+I keep the sourdough starter in a [King Arthur Sourdough Crock](https://shop.kingarthurflour.com/items/classic-king-arthur-sourdough-crock).
 They also sale the [starter in a set with the crock](https://shop.kingarthurflour.com/items/sourdough-starter-and-crock-set).
 
 ### Starter Care
@@ -40,7 +40,7 @@ If I'm not planing on using my starer within the next few days, I will keep it i
 The cold slows down the activity of the organisms which also slows down the rate they consume the flour.
 After a while, brown liquid will form on the top of the starter.
 This is expected and can be mixed back into the starter before feeding.
-If the starter ever shows signs of mold, has an orange or pink tint/streak or smell putrid then it went bad with harmful microorganism and you will want to throw it out.
+If the starter ever shows signs of mold, has an orange or pink tint/streak or smells putrid then it went bad with harmful microorganism and you will want to throw it out.
 I don't know how common this is as mine has never spoiled.
 The smell of sourdough is quite sharp but it should smell like beer or bread and not like spoiled food.
 
@@ -69,14 +69,14 @@ The bag of flour with dried starter in the top was much easier to transfer then 
 Bread making is as much an art as a science.
 There are many factors at work to determine how the final loaf will turn out.
 These variables include the activity of the starter, the water-to-flour ratio, and the time and temperatures for the various fermenting, proofing, and rising stages.
-Although I started out following the [Extra-Tangy Sourdough Bread recipe](https://www.kingarthurflour.com/recipes/extra-tangy-sourdough-bread-recipe), I also started experimenting with the basic sourdough recipe to learn how different ingredients and techniques affected the final loaf.
+Although I started out following the [Extra-Tangy Sourdough Bread recipe](https://www.kingarthurflour.com/recipes/extra-tangy-sourdough-bread-recipe), I also started experimenting with this recipe to learn how different ingredients and techniques affected the final loaf.
 Now I still loosely follow the recipe, but I do it more from experience and practice then from precisely measuring everything.
 My goal was actually to simplify the process as much as possible, down to the key ingredients, understand the role these ingredients play and then understand the phases of the proofing process.
 I found that the bread mostly came out well every time and the variation was fun.
 My current bread relies on simple ingredients and gets the great sourdough flavor from only the starter and the proofing steps.
 
 My approach to making bread has been shaped by reading a variety of books, reading internet posts, and from watching YouTube videos.
-Of particular note is [In Celebration of Simplicity: The Joy of Living Lightly](https://smile.amazon.com/dp/0825463149/ref=cm_sw_em_r_mt_dp_U_gAoKEbRRY3PKE) which is about living a life based on gospel simplicity through an extended metaphor with the simple ingredients to bread.
+Of particular note is [In Celebration of Simplicity: The Joy of Living Lightly](https://smile.amazon.com/dp/0825463149/ref=cm_sw_em_r_mt_dp_U_gAoKEbRRY3PKE) which is about living a life based on gospel simplicity through an extended metaphor with the simple ingredients in bread.
 This book inspired me to keep the ingredients simple and to understand the role of each.
 The bread chapter in [Cooked: A Natural History of Transformation](https://smile.amazon.com/dp/0143125338/ref=cm_sw_em_r_mt_dp_U_ZHoKEb3MET40D) was very interesting and led me to experimenting with whole wheat sourdough bread and also to use wetter dough.
 The whole wheat was very challenging, but I could eventually make a good sandwich bread loaf.
@@ -92,12 +92,18 @@ You want it to be liquidy so that it won't overflow the bowl overnight.
 Then let the bowl sit out on the counter until you go to bed, then move it into the fridge (I will leave it out all night if I used an unfed starter).
 
 The next day I just add some salt, honey, and herbs.
+With these ingreadients, I stopped measuring the amounts percisely.
+Start with the amounts listed in the recipe, but after awhile you get a feel for the rough amounts and no longer have to measure precisely.
 I like using thyme or a mix of Italian herbs.
-I no longer add sour salt to my bread since I am able to get a strong natural sourdough flavor without it.
+For this part I take inspiration from Penelope Wilcock who says in [In Celebration of Simplicity: The Joy of Living Lightly](https://smile.amazon.com/dp/0825463149/ref=cm_sw_em_r_mt_dp_U_gAoKEbRRY3PKE) "When I add salt, yeast, honey and herbs into my bread, I just put in 'some'. Approximate amounts will do, creating acceptable variants in the taste."
+I no longer add sour salt to my bread, since I am able to get a strong natural sourdough flavor without it.
 At this point I also usually add in some olive oil.
 If you want artesian bread, then leave the olive oil out.
 But if you want sandwich bread with a softer crust include it.
 The oil will reduce the size of the air pockets and make the crust softer and better for sandwich bread.
+Again with the oil, I don't measure precisely but pour in 'some' from my tin olive oil container.
+I probably add around a tablespoon or two.
+On the amount of oil to add, Penelope says "I put lots in."
 I mix everything together, so that it is uniformly combined.
 Then I either dump it out onto a bed of flour or start adding flour while I am stirring.
 I mix the added flour in with the dough.
@@ -109,6 +115,13 @@ This main kneading needs to be long and I do it for at least 10 minutes.
 As you continue kneading the dough will start to get firmer and harder to knead.
 This means you are closer to finishing.
 I try to keep it sticky and will occasionally add flour to the outside to make it less sticky.
+While I am kneading it, I add more flour based on the constency of the dough.
+From [Cooked: A Natural History of Transformation](https://smile.amazon.com/dp/0143125338/ref=cm_sw_em_r_mt_dp_U_ZHoKEb3MET40D), the wetter the dough, the better for artisan breads.
+However, I like to find my happy middle ground with a sticky dough, but one that is dry enough to no lose its structure during the proofing process.
+With really wet dough, you should fold the dough as it rises. With dryer dough, this is not required.
+I would begin with the recipe and then start expirementing.
+If you want to track expirements with the amount of ingredients in the recipe, you can use the [baker's percentage](https://en.wikipedia.org/wiki/Baker_percentage), which measures the ratio of other ingreadetants by weight to that of the flour.
+Of great inportance is the dough hydration, which is the baker's percentage of water.
 Once I am done kneading, I clean the large mixing bowl the dough was in, coat it with olive oil, then add the dough back to the bowl.
 
 ![before proof]({% link /assets/images/bread-proof-initial.jpg %})
@@ -124,6 +137,7 @@ Often I will do both to make a round artesian loaf and a sandwich loaf.
 
 Then I let it rise in the proofing box for another 2 to 4 hours until it has risen.
 Then I preheat the oven and bake the bread.
+I spray the top of the bread with water (olive oil could also be used) and cut slits in the dough to let the air escape as it rises.
 I usually start the oven off at 500°F for the first ten minutes to help the bread rise quickly.
 Then I reduce the temperature to 425°F and add aluminum foil to prevent the crust from hardening as much as it finishes cooking for 15 to 20 more minutes.
 
@@ -132,7 +146,7 @@ Then I reduce the temperature to 425°F and add aluminum foil to prevent the cru
 The finished bread is great while it is still hot.
 The second loaf can be frozen if you don't plan on eating it for a few days.
 The bread will last for about a week before it becomes stale.
-Slightly stale bread works great for french toast (even better than fresh bread in fact since it keeps together better as it soaks up the egg/milk mix), also any leftover bread which is stale can be blended into bread crumbs and stored in the freezer.
+Slightly stale bread works great for french toast (even better than fresh bread in fact since it keeps together better as it soaks up the egg/milk mix); also any leftover bread which is stale can be blended into bread crumbs and stored in the freezer.
 For bread crumbs the bread either has to be stale or toasted in order to blend into good bread crumbs.
 
 ![bread cooked]({% link /assets/images/bread-cooked.jpg %})
