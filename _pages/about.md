@@ -6,30 +6,24 @@ toc: true
 toc_sticky: true
 ---
 
-## Aaron Read Young
+## Aaron Read Young, PhD
 
-* Doctoral Candidate, Late Stage (Computer Engineering; 3nd year)
-* Plan to Graduate May 2020
-* Ph.D Advisor: [Dr. Mark E. Dean](http://web.eecs.utk.edu/~markdean/)
-* Graduate Research Assistant
-* [Department of Electrical Engineering and Computer Science, University of Tennessee](http://www.eecs.utk.edu/)<br><br>
-* *Past Graduate TA*:
-    - (Fall 2017) --- [CS 494: Advanced Programming and Algorithms](http://web.eecs.utk.edu/~jplank/plank/classes/cs494/494) ([Dr. James S. Plank](https://web.eecs.utk.edu/~plank/))
-    - (Spring 2017) --- [CS 360: Systems Programming](http://web.eecs.utk.edu/~jplank/plank/classes/cs360/) ([Dr. James S. Plank](https://web.eecs.utk.edu/~plank/))
-    - (Fall 2016) --- [CS 302: Data Structures and Algorithms II](http://web.eecs.utk.edu/~jplank/plank/classes/cs302/) ([Dr. James S. Plank](https://web.eecs.utk.edu/~plank/))<br><br>
-* Email: [ayoung48@vols.utk.edu](mailto:ayoung48@vols.utk.edu)
-* Office: Min Kao 336
+* Software Engineer, Future Technologies Group, ORNL
+* Email: [ayoung3210@gmail.com](mailto:ayoung3210@gmail.com)
 
 ### Education
-* University of Tennessee, Knoxville, PhD in Computer Engineering, Fall 2017--Present, GPA: 4.0. Will complete PhD Degree May 2020.
-* University of Tennessee, Knoxville, Master's Degree in Computer Engineering, Fall 2016--Summer 2017, GPA: 4.0.
+* University of Tennessee, Knoxville, PhD in Computer Engineering, Fall 2017--Fall 2020, GPA: 4.0. Advisor: [Dr. Mark E. Dean](http://web.eecs.utk.edu/~markdean/).
+* University of Tennessee, Knoxville, Master's Degree in Computer Engineering, Fall 2016--Summer 2017, GPA: 4.0. Advisor: [Dr. Mark E. Dean](http://web.eecs.utk.edu/~markdean/).
 * University of Tennessee, Knoxville, Bachelor's Degree in Computer Engineering, Summa Cum Laude, Chancellor's Honors Program, EECS Honors. Fall 2012--Spring 2016, GPA: 4.0.
 * [Engineering in London Study Abroad Program](http://www.engr.utk.edu/2013-study-abroad-students/): Spent five weeks in London earning six University of Tennessee engineering credit hours, June 2013.
 * Hardin Valley Academy, Knoxville, Tennessee, High School Diploma, May 2012. GPA: 4.38 / 4.0.  Received college credit for AP classes. 
 
 ### Work Experience
+**Oak Ridge National Laboratory, Knoxville, TN**
+* July 2020--Present: Software Engineer with the [Future Technologies Group](http://ft.ornl.gov/) at [Oak Ridge National Laboratory](https://www.ornl.gov/).
+
 **University of Tennessee, Knoxville**
-* January 2016--Present: Research with the TENNLab Neuromorphic Computing Research Group. See [Research]({% link _pages/research.md %}) for more information.
+* January 2016--May 2020: Research with the TENNLab Neuromorphic Computing Research Group. See [Research]({% link _pages/research.md %}) for more information.
 * August 2016--August 2017: Graduate teaching assistant for Dr. James S. Plank. Assisted with the following classes by leading lab sections, grading labs and helping students: COSC 302 Data Structures and Algorithms II, COSC 360 Systems Programming, and COSC 494 Advanced Programming and Algorithms.
 
 **Garmin International, Inc., Olathe, KS**

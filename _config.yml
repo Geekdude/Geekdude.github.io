@@ -113,16 +113,16 @@ analytics:
 author:
   name             : "Aaron Young"
   avatar           : "/assets/images/aaron-young square.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Computer Engineering PhD student at UTK"
+  bio              : "Software Engineer at ORNL"
   location         : "Knoxville, TN"
-  email            : "ayoung48@vols.utk.edu"
+  email            : "ayoung3210@gmail.com"
   bitbucket        : "Geekdude"
   github           : "Geekdude"
   linkedin         : "aaron-young-0791a53b"
   # links:
   #   - label: "Email"
   #     icon: "fas fa-fw fa-envelope-square"
-  #     url: "mailto:ayoung48@vols.utk.edu"
+  #     url: "mailto:ayoung3210@gmail.com"
   #   - label: "Bitbucket"
   #     icon: "fab fa-fw fa-bitbucket"
   #     url: "https://bitbucket.org/Geekdude/"
@@ -138,7 +138,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:ayoung48@vols.utk.edu"
+      url: "mailto:ayoung3210@gmail.com"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       url: "https://bitbucket.org/Geekdude/"
