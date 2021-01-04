@@ -6,6 +6,8 @@ permalink: /publications/
 ---
 
 ### Publications
+* [SNACC: The Scaled-up Neuromorphic Array Communications Controller](https://trace.tennessee.edu/utk_graddiss/5843/), Aaron R. Young, *PhD Dissertation, University of Tennessee,* 2020.
+* [Scaled-up Neuromorphic Array Communications Controller (SNACC) for Large-scale Neural Networks](https://ieeexplore.ieee.org/abstract/document/9206920?casa_token=ZP6B9B6WKtUAAAAA:v_evlTUrGLfeT3N0M1GPCj9PkFLj_dYpLjdYM3SgdW9Sm4PqFfI-w41SSuzI5_fJH3LP2jgAVg), A. R. Young, A. Z. Foshie, M. E. Dean, J. S. Plank, G. S. Rose, J. P. Mitchell, and C. D. Schuman, *IJCNN: The International Joint Conference on Neural Networks*, 2020.
 * [A Review of Spiking Neuromorphic Hardware Communication Systems](http://neuromorphic.eecs.utk.edu/publications/2019-09-29-a-review-of-spiking-neuromorphic-hardware-communication-systems/), A. R. Young, M. E. Dean, J. S. Plank and G. S. Rose, in IEEE Access, vol. 7, pp. 135606-135620, 2019.
 * [Poster: Neuromorphic Array Communications Controller]({% link /assets/JDRD-2019-Poster.pdf %}), Aaron R. Young and Mark E. Dean, *JDRD Symposium*, 2019.
 * [Understanding Selection and Diversity for Evolution of Spiking Recurrent Neural Networks](http://neuromorphic.eecs.utk.edu/publications/2018-07-13-understanding-selecting-and-diversity-for-evolution-of-spiking-recurrent-neural-networks/), Catherine D. Shuman, Grant Bruer, Aaron R. Young, Mark Dean and James S. Plank, *IJCNN: The International Joint Conference on Neural Networks*, 2018.
