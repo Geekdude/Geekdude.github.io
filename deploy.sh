@@ -4,7 +4,7 @@
 #-------------------------------------------------------------------------------
 
 # Variables
-instancehost="hydra"
+instancehost="hydra10.eecs.utk.edu"
 remotewebroot="www-home"
 
 # Build Jekyll Site

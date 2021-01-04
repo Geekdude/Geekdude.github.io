@@ -97,7 +97,7 @@ GIMP,
 Git,
 Inkscape,
 Jenkins,
-<img src="http://latex.codecogs.com/gif.latex?\LaTeX" border="0"/>
+<img src="http://latex.codecogs.com/gif.latex?\LaTeX" border="0"/>,
 Linux,
 MAAS,
 Slurm,
