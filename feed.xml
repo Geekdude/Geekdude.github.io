@@ -1,0 +1,1779 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2021-02-21T22:48:55-05:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><entry><title type="html">PhD Dissertation and Artifacts Available</title><link href="https://geekdude.github.io/tech/dissertation/" rel="alternate" type="text/html" title="PhD Dissertation and Artifacts Available" /><published>2021-01-30T00:00:00-05:00</published><updated>2021-01-30T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/dissertation</id><content type="html" xml:base="https://geekdude.github.io/tech/dissertation/">&lt;p&gt;My dissertation titled &lt;em&gt;SNACC: The Scaled-up Neuromorphic Array Communications Controller&lt;/em&gt; is now available at &lt;a href=&quot;https://trace.tennessee.edu/utk_graddiss/5843/&quot;&gt;https://trace.tennessee.edu/utk_graddiss/5843/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I have also made available two general-purpose IP blocks written in VHDL that I created as part of my dissertation work. They are a custom Aurora acknowledgment automatic repeat request design available at &lt;a href=&quot;https://github.com/Geekdude/aurora-ack&quot;&gt;https://github.com/Geekdude/aurora-ack&lt;/a&gt; and a AXI4-Stream clock converter design available at &lt;a href=&quot;https://github.com/Geekdude/axi4-stream-clock-converter&quot;&gt;https://github.com/Geekdude/axi4-stream-clock-converter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;recommended-citation&quot;&gt;Recommended Citation&lt;/h2&gt;
+
+&lt;p&gt;Plain Text:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Young, Aaron Reed, &quot;SNACC: The Scaled-up Neuromorphic Array Communications Controller. &quot; PhD diss., University of Tennessee, 2020.
+https://trace.tennessee.edu/utk_graddiss/5843
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Bibtex:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@PhdThesis{young_snacc,
+    author      = {Aaron Reed Young},
+    title       = {SNACC: The Scaled-up Neuromorphic Array Communications Controller},
+    date        = {2020},
+    institution = {University of Tennessee},
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Neuromorphic Computing" /><category term="Research" /><summary type="html">My dissertation titled SNACC: The Scaled-up Neuromorphic Array Communications Controller is now available at https://trace.tennessee.edu/utk_graddiss/5843/.</summary></entry><entry><title type="html">Sourdough Bread</title><link href="https://geekdude.github.io/life/sourdough-bread/" rel="alternate" type="text/html" title="Sourdough Bread" /><published>2020-04-12T00:00:00-04:00</published><updated>2020-04-12T00:00:00-04:00</updated><id>https://geekdude.github.io/life/sourdough-bread</id><content type="html" xml:base="https://geekdude.github.io/life/sourdough-bread/">&lt;p&gt;My favorite type of bread is a fresh, warm loaf of sourdough.
+I can almost go through a whole loaf by myself when it is fresh from the oven.
+Sourdough bread also makes the best french toast and great bread crumbs for wiener schnitzel.
+This post will go over the basics to getting started making sourdough bread.
+It includes links to the resources I used to get started, my favorite recipes, and some tips and tricks I have learned over my years of baking and experimenting for fun.&lt;/p&gt;
+
+&lt;h2 id=&quot;starter&quot;&gt;Starter&lt;/h2&gt;
+&lt;p&gt;At first I tried to make my own starter.
+This didn’t really work out all that well.
+I learned that you should not try to make a sourdough starter by initially adding in baking yeast.
+If you do this, you will not get the good sourdough flavor and it will be harder to form the symbiotic relationship between bacteria and wild yeast which gives sourdough its unique acidic flavor.
+After a first bland attempt and subsequent difficulty to get a starter to grow with wild yeast (i.e.
+with only flour and water).
+I decided to buy &lt;a href=&quot;https://shop.kingarthurflour.com/items/classic-fresh-sourdough-starter-1-oz&quot;&gt;starter from King Arthur Flour&lt;/a&gt;.
+This starter worked much better.
+I bought it in 2013 and I have kept it going ever since.
+I keep the sourdough starter in a &lt;a href=&quot;https://shop.kingarthurflour.com/items/classic-king-arthur-sourdough-crock&quot;&gt;King Arthur Sourdough Crock&lt;/a&gt;.
+They also sale the &lt;a href=&quot;https://shop.kingarthurflour.com/items/sourdough-starter-and-crock-set&quot;&gt;starter in a set with the crock&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;starter-care&quot;&gt;Starter Care&lt;/h3&gt;
+&lt;p&gt;King Arthur Flour provides a great &lt;a href=&quot;https://www.kingarthurflour.com/learn/guides/sourdough&quot;&gt;sourdough guide&lt;/a&gt; to learn how to get started with sourdough bread.
+It includes information on how to maintain a starter as well as how to bake bread.
+This is where I first started and I still use much of what I learned here.&lt;/p&gt;
+
+&lt;p&gt;I generally end up neglecting my starter for a few months at a time when I get busy and didn’t have time to bake.
+The starter will do well for this long in the fridge.
+Do not freeze the starter since doing so could harm the microbes.
+If I’m not planing on using my starer within the next few days, I will keep it in the fridge.
+The cold slows down the activity of the organisms which also slows down the rate they consume the flour.
+After a while, brown liquid will form on the top of the starter.
+This is expected and can be mixed back into the starter before feeding.
+If the starter ever shows signs of mold, has an orange or pink tint/streak or smells putrid then it went bad with harmful microorganism and you will want to throw it out.
+I don’t know how common this is as mine has never spoiled.
+The smell of sourdough is quite sharp but it should smell like beer or bread and not like spoiled food.&lt;/p&gt;
+
+&lt;p&gt;When I feed my starter I mix together a cup of starter, a cup of water, and a cup of flour.
+I usually use a scale which means I mix together 172 grams of starter, water, and flour.
+You can vary the ratios, but I found that the same amount of each works well.
+I aim for a pancake batter like consistency.
+Too much water and there isn’t as much food.
+Too much flour and the starter can expand outside the container and makes a mess.
+A nice balance will bubble, but not trap the air so that it expands.&lt;/p&gt;
+
+&lt;p&gt;There is a difference between a fed and unfed starter.
+A fed starer is active and bubbling.
+Typically, you can feed the starter and wait a few hours and it will be active.
+An unfed starter is straight from the fridge before feeding.
+If it has been a long time since I fed the starter, I will feed it, let it sit at room temperature for a day, feed it again, and wait for it to appear active before I consider it fed.
+I have made bread with both fed and unfed starter.
+The fed starter makes it easier to get fluffier bread but unfed still works.&lt;/p&gt;
+
+&lt;p&gt;Another great trick I learned is that you can easily transfer starter by taking some of it and adding lots of flour so that it forms a dry ball.
+The dry ball can then be stored in the top of a bag of flour you are taking on a trip.
+I have used this to transfer my starter when I traveled to visit relatives and I wanted to make sourdough bread for them.
+The bag of flour with dried starter in the top was much easier to transfer then the ceramic crock.&lt;/p&gt;
+
+&lt;h2 id=&quot;sourdough-bread&quot;&gt;Sourdough Bread&lt;/h2&gt;
+&lt;p&gt;Bread making is as much an art as a science.
+There are many factors at work to determine how the final loaf will turn out.
+These variables include the activity of the starter, the water-to-flour ratio, and the time and temperatures for the various fermenting, proofing, and rising stages.
+Although I started out following the &lt;a href=&quot;https://www.kingarthurflour.com/recipes/extra-tangy-sourdough-bread-recipe&quot;&gt;Extra-Tangy Sourdough Bread recipe&lt;/a&gt;, I also started experimenting with this recipe to learn how different ingredients and techniques affected the final loaf.
+Now I still loosely follow the recipe, but I do it more from experience and practice then from precisely measuring everything.
+My goal was actually to simplify the process as much as possible, down to the key ingredients, understand the role these ingredients play and then understand the phases of the proofing process.
+I found that the bread mostly came out well every time and the variation was fun.
+My current bread relies on simple ingredients and gets the great sourdough flavor from only the starter and the proofing steps.&lt;/p&gt;
+
+&lt;p&gt;My approach to making bread has been shaped by reading a variety of books, reading internet posts, and from watching YouTube videos.
+Of particular note is &lt;a href=&quot;https://smile.amazon.com/dp/0825463149/ref=cm_sw_em_r_mt_dp_U_gAoKEbRRY3PKE&quot;&gt;In Celebration of Simplicity: The Joy of Living Lightly&lt;/a&gt; which is about living a life based on gospel simplicity through an extended metaphor with the simple ingredients in bread.
+This book inspired me to keep the ingredients simple and to understand the role of each.
+The bread chapter in &lt;a href=&quot;https://smile.amazon.com/dp/0143125338/ref=cm_sw_em_r_mt_dp_U_ZHoKEb3MET40D&quot;&gt;Cooked: A Natural History of Transformation&lt;/a&gt; was very interesting and led me to experimenting with whole wheat sourdough bread and also to use wetter dough.
+The whole wheat was very challenging, but I could eventually make a good sandwich bread loaf.
+However, I could never get as yummy of an artesian loaf as I could with white flour.
+The introduction to &lt;a href=&quot;https://smile.amazon.com/Classic-Sourdoughs-Revised-Bakers-Handbook-ebook/dp/B004EWFUQ4/ref=sr_1_36?dchild=1&amp;amp;keywords=sourdough+bread&amp;amp;qid=1586731950&amp;amp;sr=8-36&quot;&gt;Classic Sourdoughs&lt;/a&gt; has a great, concise, introduction to the art of sourdough bread making with information on the various factors and how they affect the final loaf.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-method-of-baking-bread&quot;&gt;My Method of Baking Bread&lt;/h3&gt;
+&lt;p&gt;So I will now walk you through my process making bread, but for a recipe and more details instructions follow the &lt;a href=&quot;https://www.kingarthurflour.com/recipes/extra-tangy-sourdough-bread-recipe&quot;&gt;Extra-Tangy Sourdough Bread recipe&lt;/a&gt; and start experimenting.
+I start off the day before by mixing together a small mason jar of water (2-ish cups), the leftover starter after feeding it, and a sifter full of flour (3-ish cups) in a large glass mixing bowl.
+I spend a while mixing this together until it is quite smooth 1-3 minutes.
+At this stage it should be uniform and still liquidy like pancake batter.
+You want it to be liquidy so that it won’t overflow the bowl overnight.
+Then let the bowl sit out on the counter until you go to bed, then move it into the fridge (I will leave it out all night if I used an unfed starter).&lt;/p&gt;
+
+&lt;p&gt;The next day I just add some salt, honey, and herbs.
+With these ingreadients, I stopped measuring the amounts percisely.
+Start with the amounts listed in the recipe, but after awhile you get a feel for the rough amounts and no longer have to measure precisely.
+I like using thyme or a mix of Italian herbs.
+For this part I take inspiration from Penelope Wilcock who says in &lt;a href=&quot;https://smile.amazon.com/dp/0825463149/ref=cm_sw_em_r_mt_dp_U_gAoKEbRRY3PKE&quot;&gt;In Celebration of Simplicity: The Joy of Living Lightly&lt;/a&gt; “When I add salt, yeast, honey and herbs into my bread, I just put in ‘some’. Approximate amounts will do, creating acceptable variants in the taste.”
+I no longer add sour salt to my bread, since I am able to get a strong natural sourdough flavor without it.
+At this point I also usually add in some olive oil.
+If you want artesian bread, then leave the olive oil out.
+But if you want sandwich bread with a softer crust include it.
+The oil will reduce the size of the air pockets and make the crust softer and better for sandwich bread.
+Again with the oil, I don’t measure precisely but pour in ‘some’ from my tin olive oil container.
+I probably add around a tablespoon or two.
+On the amount of oil to add, Penelope says “I put lots in.”
+I mix everything together, so that it is uniformly combined.
+Then I either dump it out onto a bed of flour or start adding flour while I am stirring.
+I mix the added flour in with the dough.&lt;/p&gt;
+
+&lt;p&gt;At this point I should probably let the dough rest for a bit to autolyse but normally I forget and just start with the kneading.
+While I knead I try to keep the dough as wet as I want to deal with, as I start to knead it using the “slap” kneading method.
+This method is shown in the &lt;a href=&quot;https://www.kingarthurflour.com/learn/guides/sourdough/bake&quot;&gt;King Arthur Kneading video&lt;/a&gt; and requires less effort than other methods and allows stickier dough to be handled.
+This main kneading needs to be long and I do it for at least 10 minutes.
+As you continue kneading the dough will start to get firmer and harder to knead.
+This means you are closer to finishing.
+I try to keep it sticky and will occasionally add flour to the outside to make it less sticky.
+While I am kneading it, I add more flour based on the constency of the dough.
+From &lt;a href=&quot;https://smile.amazon.com/dp/0143125338/ref=cm_sw_em_r_mt_dp_U_ZHoKEb3MET40D&quot;&gt;Cooked: A Natural History of Transformation&lt;/a&gt;, the wetter the dough, the better for artisan breads.
+However, I like to find my happy middle ground with a sticky dough, but one that is dry enough to no lose its structure during the proofing process.
+With really wet dough, you should fold the dough as it rises. With dryer dough, this is not required.
+I would begin with the recipe and then start expirementing.
+If you want to track expirements with the amount of ingredients in the recipe, you can use the &lt;a href=&quot;https://en.wikipedia.org/wiki/Baker_percentage&quot;&gt;baker’s percentage&lt;/a&gt;, which measures the ratio of other ingreadetants by weight to that of the flour.
+Of great inportance is the dough hydration, which is the baker’s percentage of water.
+Once I am done kneading, I clean the large mixing bowl the dough was in, coat it with olive oil, then add the dough back to the bowl.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/bread-proof-initial.jpg&quot; alt=&quot;before proof&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I move the dough to my bread proofing box and wait a while.
+You can easily make bread without a proofing box, but see more information about them &lt;a href=&quot;#bread-proofing-box&quot;&gt;here&lt;/a&gt;.
+I either try to fold the bread every 30 min to 1 hour, if I am doing a particular wet dough as this helps the gluten form better, or I just let it sit without attention.
+Like the recipe says, I wait anywhere between 2 and 5 hours as I watch it occasionally to see how it is rising.
+Once I am convinced it has risen well, I do the short knock back kneading for around 2 minutes, then I divide the dough into two halves, shape it, and either add it to a &lt;a href=&quot;https://shop.kingarthurflour.com/items/king-arthur-standard-bread-loaf-pan-8-x-4&quot;&gt;bread loaf pan&lt;/a&gt; or a &lt;a href=&quot;https://shop.kingarthurflour.com/items/round-brotform&quot;&gt;brotform&lt;/a&gt;.
+Often I will do both to make a round artesian loaf and a sandwich loaf.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/bread-proof-final.jpg&quot; alt=&quot;after proof&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then I let it rise in the proofing box for another 2 to 4 hours until it has risen.
+Then I preheat the oven and bake the bread.
+I spray the top of the bread with water (olive oil could also be used) and cut slits in the dough to let the air escape as it rises.
+I usually start the oven off at 500°F for the first ten minutes to help the bread rise quickly.
+Then I reduce the temperature to 425°F and add aluminum foil to prevent the crust from hardening as much as it finishes cooking for 15 to 20 more minutes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/bread-final-rise.jpg&quot; alt=&quot;final rise&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The finished bread is great while it is still hot.
+The second loaf can be frozen if you don’t plan on eating it for a few days.
+The bread will last for about a week before it becomes stale.
+Slightly stale bread works great for french toast (even better than fresh bread in fact since it keeps together better as it soaks up the egg/milk mix); also any leftover bread which is stale can be blended into bread crumbs and stored in the freezer.
+For bread crumbs the bread either has to be stale or toasted in order to blend into good bread crumbs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/bread-cooked.jpg&quot; alt=&quot;bread cooked&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;waffles&quot;&gt;Waffles&lt;/h2&gt;
+&lt;p&gt;My favorite waffle recipe is by far the &lt;a href=&quot;https://www.kingarthurflour.com/recipes/classic-sourdough-waffles-or-pancakes-recipe&quot;&gt;Classic Sourdough Waffles or Pancakes&lt;/a&gt; from King Arthur Flour.
+These Waffles have a great sourdough taste to them.
+I have found that you can leave excess batter in the fridge and cook it subsequent days without issues.
+I would try to eat it up within three days though.
+I also found that the sourdough flavor is slightly stronger each day.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/bread-waffle-1.jpg&quot; alt=&quot;waffle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/bread-waffle-2.jpg&quot; alt=&quot;waffle&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bread-proofing-box&quot;&gt;Bread Proofing Box&lt;/h2&gt;
+&lt;p&gt;I wanted to try using a proofing box to see if it would improve the quality of my sourdough bread.
+However, I didn’t want to by a proofing box if it would not make a big impact.
+So when I was thinking of a final group project idea for ECE551—Digital System Design, I decided to make my own “Smart” bread proofing box with temperature and humidity control, built-in automatic schedule, and a web interface.
+The project was great fun and the final report can be found &lt;a href=&quot;/assets/bread-proofing-report.pdf&quot;&gt;here&lt;/a&gt;.
+As part of the project, I also experimented with making bread with the bread box.
+I found that the flavors of the bread were better when the bread box was used.
+At this time I also decided to stop using sour salt in my bread, since I could get great natural sour flavors in my bread and I didn’t want to cover them up with the sour salt.
+The bread proofer we made for the class worked great, but I ended up getting a &lt;a href=&quot;https://shop.kingarthurflour.com/items/folding-bread-proofer-and-slow-cooker&quot;&gt;commercial bread proofer&lt;/a&gt; mostly since it can fold down easily and was made out of sturdier materials.
+The commercial bread proofer does lack a few of the features from the one I made.
+It doesn’t have the proofing scheduling/timing, humidity control, or a web interface.
+On the flip side the commercial one works well and folds down nicely.
+However, its heating element works much better than the heat lamp I used.
+The heat lamp would dry out the top of the dough.&lt;/p&gt;
+
+&lt;p&gt;This video shows the bread proofer I made in action.&lt;/p&gt;
+
+&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/CaS0XT1j_Mc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Food" /><summary type="html">My favorite type of bread is a fresh, warm loaf of sourdough. I can almost go through a whole loaf by myself when it is fresh from the oven. Sourdough bread also makes the best french toast and great bread crumbs for wiener schnitzel. This post will go over the basics to getting started making sourdough bread. It includes links to the resources I used to get started, my favorite recipes, and some tips and tricks I have learned over my years of baking and experimenting for fun.</summary></entry><entry><title type="html">Reorder</title><link href="https://geekdude.github.io/tech/reorder/" rel="alternate" type="text/html" title="Reorder" /><published>2020-01-30T00:00:00-05:00</published><updated>2020-01-30T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/reorder</id><content type="html" xml:base="https://geekdude.github.io/tech/reorder/">&lt;p&gt;I recently created a &lt;a href=&quot;https://github.com/Geekdude/reorder&quot;&gt;reorder&lt;/a&gt; python script to rename, reorder, add, and remove files/directories in a directory with a numerical naming scheme.&lt;/p&gt;
+
+&lt;p&gt;A common file naming practice is to prepend a number to the filename so that the files appear in the order specified by the number. However, say you want to add, delete, or reorder these files, you would have to go through and update all the filenames which have numbers changed from the operation. Although renaming the files like this is not hard, it’s annoying to do when there are multiple files which need to be renamed. I ran into this issue recently while writing my dissertation; each chapter is broken into its own &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; file stored in the &lt;code class=&quot;highlighter-rouge&quot;&gt;chapters/&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;chapters
+├── 01-introduction.tex
+├── 02-related-work.tex
+├── 03-previous-work.tex
+├── 04-goals.tex
+├── 05-tools.tex
+├── 06-danna2-work.tex
+├── 07-snacc.tex
+├── 08-challenges.tex
+├── 09-applications-performance.tex
+├── 10-accomplishments.tex
+├── 11-future.tex
+└── 12-conclusion.tex
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In order to insert a new chapter or delete a chapter, all the files which come after that chapter will have to be renamed. Further, more in the main &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; file I include each of the chapters with an include statement.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\include{chapters/01-introduction}
+\include{chapters/02-related-work}
+\include{chapters/03-previous-work}
+\include{chapters/04-goals}
+\include{chapters/05-tools}
+\include{chapters/06-danna2-work}
+\include{chapters/07-snacc}
+\include{chapters/08-challenges}
+\include{chapters/09-applications-performance}
+\include{chapters/10-accomplishments}
+\include{chapters/11-future}
+\include{chapters/12-conclusion}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This means I have to renumber the files in the directory and the files in the include statements.
+In order to make this operation easier, I created a &lt;a href=&quot;https://github.com/Geekdude/reorder&quot;&gt;reorder&lt;/a&gt; python script to easily rename, add, delete, and reorder the &lt;code class=&quot;highlighter-rouge&quot;&gt;*.tex&lt;/code&gt; files in the chapters directory. This script opens up a text buffer, and you make the desired changes to the buffer; then the script will make the changes to the directory and update the file numbers.&lt;/p&gt;
+
+&lt;p&gt;Additionally, I modified my makefile for the &lt;script type=&quot;math/tex&quot;&gt;\LaTeX&lt;/script&gt; project to include a target to build a &lt;code class=&quot;highlighter-rouge&quot;&gt;chapters.tex&lt;/code&gt; file with the proper include statements for the chapters found in the chapters folder. Now in &lt;code class=&quot;highlighter-rouge&quot;&gt;main.tex&lt;/code&gt; I only need to &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;k&quot;&gt;\input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;chapters.tex&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now if I want to add a new chapter between previous-work and goals, as well as rename “previous work” to “prior work”, all I need to do is run &lt;code class=&quot;highlighter-rouge&quot;&gt;reorder chapters&lt;/code&gt;. I am then presented with the buffer&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;01-introduction.tex
+02-related-work.tex
+03-previous-work.tex
+04-goals.tex
+05-tools.tex
+06-danna2-work.tex
+07-snacc.tex
+08-challenges.tex
+09-applications-performance.tex
+10-accomplishments.tex
+11-future.tex
+12-conclusion.tex
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I then change the buffer to&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;01-introduction.tex
+02-related-work.tex
+03-prior-work.tex
+new-chapter
+04-goals.tex
+05-tools.tex
+06-danna2-work.tex
+07-snacc.tex
+08-challenges.tex
+09-applications-performance.tex
+10-accomplishments.tex
+11-future.tex
+12-conclusion.tex
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then I can rebuild the &lt;script type=&quot;math/tex&quot;&gt;\LaTeX&lt;/script&gt; document and the changes to the chapters will be included with a newly generated &lt;code class=&quot;highlighter-rouge&quot;&gt;chapters.tex&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Much appreciation to Jonathan Ambrose who helped come up with the idea for the script, motivated me to write it, and added several additional features to the script.&lt;/p&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="File-Organization" /><summary type="html">I recently created a reorder python script to rename, reorder, add, and remove files/directories in a directory with a numerical naming scheme.</summary></entry><entry><title type="html">The Big Orange Bramble</title><link href="https://geekdude.github.io/tech/bob/" rel="alternate" type="text/html" title="The Big Orange Bramble" /><published>2019-10-09T05:00:00-04:00</published><updated>2019-10-09T05:00:00-04:00</updated><id>https://geekdude.github.io/tech/bob</id><content type="html" xml:base="https://geekdude.github.io/tech/bob/">&lt;p&gt;This year marks the three-year anniversary of the 64 node Raspberry Pi cluster known as the Big Orange Bramble or BOB.
+I am happy to report that BOB is still running strong and there have been no major downtimes or issues with the system.
+BOB is still occasionally used to train neuromorphic networks using EONS, which you can read more about &lt;a href=&quot;http://neuromorphic.eecs.utk.edu/raw/files/publications/2018-Plank-Framework.pdf&quot;&gt;here&lt;/a&gt;.
+BOB was build as part of the special topics class &lt;a href=&quot;/assets/ECE599-Supercomputer-Design-and-Analysis-Syllabus-v6.pdf&quot;&gt;ECE599 Supercomputer Design and Analysis, Summer 2016&lt;/a&gt; of which I was part.
+This post includes images of the system and copies of the reports and presentations in case you want to read more about the system.
+The reports are also posted on &lt;a href=&quot;http://web.eecs.utk.edu/~markdean/&quot;&gt;Dr. Mark Dean’s website&lt;/a&gt;.
+Dr. Dean taught the course.
+Also included are the reports for the follow-up project named A Linux Integrated Computing Environment or ALICE, which used Pine64 boards and Nvidia TX1 GPUs.&lt;/p&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;This project involved the design and construction of a high performance cluster composed of 68 quad-core ARMv8 64-bit Raspberry Pi 3s.
+The primary intent of the project was to establish the operating environment, communication structure, application frameworks, application development tools, and libraries necessary to support the effective operation of a high performance computer model for the students and faculty in the Electrical Engineering and Computer Science Department of the University of Tennessee to utilize.
+As a foundation, the system borrowed heavily from the Tiny Titan system constructed by the Oak Ridge National Laboratory, which was a similar but smaller-scale project consisting of 9 first generation Raspberry Pis.
+Beyond the primary target of delivering a functional system, efforts were focused on application development, performance benchmarking, and delivery of a comprehensive build/usage guide to aid those who wish to build upon the efforts of this project.&lt;/p&gt;
+
+&lt;h2 id=&quot;picture-gallery&quot;&gt;Picture Gallery&lt;/h2&gt;
+
+&lt;figure class=&quot;third &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/bob-system.jpeg&quot; title=&quot;BOB system running a distributed fluid simulation application.&quot;&gt;
+        &lt;img src=&quot;/assets/images/bob-system-th.jpeg&quot; alt=&quot;bob-system&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/bob-front-view.jpg&quot; title=&quot;BOB and ALICE systems side by side. BOB is on the left. ALICE is on the right.&quot;&gt;
+        &lt;img src=&quot;/assets/images/bob-front-view-th.jpg&quot; alt=&quot;bob-front-view&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/bob-rack-zoom.jpg&quot; title=&quot;Close-up on one tower of 8 Raspberry Pis.&quot;&gt;
+        &lt;img src=&quot;/assets/images/bob-rack-zoom-th.jpg&quot; alt=&quot;bob-rack-zoom&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/bob-development-team.jpeg&quot; title=&quot;The team that built BOB.&quot;&gt;
+        &lt;img src=&quot;/assets/images/bob-development-team-th.jpeg&quot; alt=&quot;bob-development-team&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/bob-router-zoom.jpg&quot; title=&quot;Close-up on BOB's router.&quot;&gt;
+        &lt;img src=&quot;/assets/images/bob-router-zoom-th.jpg&quot; alt=&quot;bob-router-zoom&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/bob-back-view-zoom.jpg&quot; title=&quot;Close-up on the headnode and storage nodes.&quot;&gt;
+        &lt;img src=&quot;/assets/images/bob-back-view-zoom-th.jpg&quot; alt=&quot;bob-back-view-zoom&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/bob-zoom.jpg&quot; title=&quot;BOB Rack—Front View.&quot;&gt;
+        &lt;img src=&quot;/assets/images/bob-zoom-th.jpg&quot; alt=&quot;bob-zoom&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/bob-back-view.jpg&quot; title=&quot;BOB Rack—Back View.&quot;&gt;
+        &lt;img src=&quot;/assets/images/bob-back-view-th.jpg&quot; alt=&quot;bob-back-view&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;BOB Gallery.
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;project-reports&quot;&gt;Project Reports&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/bob-documentation.pdf&quot;&gt;BOB Documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/applications-for-68-node-raspberry-pi-3-education-cluster.pdf&quot;&gt;Applications for 68 Node Raspberry Pi 3 Education Cluster&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/bob-performance.pdf&quot;&gt;Performance, Management, and Monitoring of 68 Node Raspberry Pi 3 Education Cluster: Big Orange Bramble (BOB)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/alice-documentation.pdf&quot;&gt;ALICE Documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;project-presentations&quot;&gt;Project Presentations&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/bob-presentation.pdf&quot;&gt;Slides: BOB Presentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=l71lbh8Lz0U&quot;&gt;Video: Big Orange Bramble (BOB) HW SW Systems Presentations&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gnGCjMEXjdo&quot;&gt;Video: Big Orange Bramble (BOB) App Presentations&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/alice-presentation.pdf&quot;&gt;Slides: ALICE Presentation&lt;/a&gt;&lt;/p&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="High Performance Computing" /><summary type="html">This year marks the three-year anniversary of the 64 node Raspberry Pi cluster known as the Big Orange Bramble or BOB. I am happy to report that BOB is still running strong and there have been no major downtimes or issues with the system. BOB is still occasionally used to train neuromorphic networks using EONS, which you can read more about here. BOB was build as part of the special topics class ECE599 Supercomputer Design and Analysis, Summer 2016 of which I was part. This post includes images of the system and copies of the reports and presentations in case you want to read more about the system. The reports are also posted on Dr. Mark Dean’s website. Dr. Dean taught the course. Also included are the reports for the follow-up project named A Linux Integrated Computing Environment or ALICE, which used Pine64 boards and Nvidia TX1 GPUs.</summary></entry><entry><title type="html">A Review of Spiking Neuromorphic Hardware Communication Systems</title><link href="https://geekdude.github.io/tech/ieee-access-2019-review-paper/" rel="alternate" type="text/html" title="A Review of Spiking Neuromorphic Hardware Communication Systems" /><published>2019-10-09T04:00:00-04:00</published><updated>2019-10-09T04:00:00-04:00</updated><id>https://geekdude.github.io/tech/ieee-access-2019-review-paper</id><content type="html" xml:base="https://geekdude.github.io/tech/ieee-access-2019-review-paper/">&lt;p&gt;Aaron R. Young, Mark E. Dean, James S. Plank, and Garrett S. Rose&lt;/p&gt;
+
+&lt;p&gt;September, 2019&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;IEEE Access&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/8843969&quot;&gt;https://ieeexplore.ieee.org/document/8843969&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/2019-Young-Review.pdf&quot; class=&quot;btn btn--info&quot;&gt;View Article&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Multiple neuromorphic systems use spiking neural networks (SNNs) to perform computation in a way that is inspired by concepts learned about the human brain.
+SNNs are artificial networks made up of neurons that fire a pulse, or spike, once the accumulated value of the inputs to the neuron exceeds a threshold.
+One of the most challenging parts of designing neuromorphic hardware is handling the vast degree of connectivity that neurons have with each other in the form of synaptic connections.
+This paper analyzes the neuromorphic systems Neurogrid, Braindrop, SpiNNaker, BrainScaleS, TrueNorth, Loihi, Darwin, and Dynap-SEL; and discusses the design of large scale spiking communication networks used in such systems.
+In particular, this paper looks at how each of these systems solved the challenges of forming packets with spiking information and how these packets are routed within the system.
+The routing of packets is analyzed at two scales: How the packets should be routed when traveling a short distance, and how the packets should be routed over longer global connections.
+Additional topics, such as the use of asynchronous circuits, robustness in communication, connection with a host machine, and network synchronization are also covered.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/assets/images/ieee-access-2019-graphical-abstract.png&quot; alt=&quot;Graphical Abstract&quot; /&gt;
+  
+    &lt;figcaption&gt;
+      Graphical summary of neuromorphic hardware communication systems. The top half of this figure summarizes the routing schemes used by the neuromorphic systems, and the bottom half summarizes the routing methods.
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;citation-information&quot;&gt;Citation Information&lt;/h2&gt;
+&lt;h3 id=&quot;text&quot;&gt;Text&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;author    A. R. Young and M. E. Dean and J. S. Plank and G. S. Rose
+title     A Review of Spiking Neuromorphic Hardware Communication Systems
+journal   IEEE Access
+volume    7
+pages     135606-135620
+year      2019
+doi       10.1109/ACCESS.2019.2941772
+url       http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;amp;arnumber=8843969&amp;amp;isnumber=8600701
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;bibtex&quot;&gt;BibTex&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@ARTICLE{ydp:19:ars,
+    author = &quot;A. R. Young and M. E. Dean and J. S. Plank and G. S. Rose&quot;,
+    title = &quot;A Review of Spiking Neuromorphic Hardware Communication Systems&quot;,
+    journal = &quot;IEEE Access&quot;,
+    volume = &quot;7&quot;,
+    pages = &quot;135606-135620&quot;,
+    year = &quot;2019&quot;,
+    doi = &quot;10.1109/ACCESS.2019.2941772&quot;,
+    url = &quot;http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;amp;arnumber=8843969&amp;amp;isnumber=8600701&quot;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Neuromorphic Computing" /><category term="Research" /><summary type="html">Aaron R. Young, Mark E. Dean, James S. Plank, and Garrett S. Rose</summary></entry><entry><title type="html">One Lap of America 2019</title><link href="https://geekdude.github.io/life/one-lap-of-america/" rel="alternate" type="text/html" title="One Lap of America 2019" /><published>2019-06-12T00:00:00-04:00</published><updated>2019-06-12T00:00:00-04:00</updated><id>https://geekdude.github.io/life/one-lap-of-america</id><content type="html" xml:base="https://geekdude.github.io/life/one-lap-of-america/">&lt;p&gt;Recently my dad and I competed in Brock Yates’ One Lap of America driving 
+competition. The official website for the event is found at 
+&lt;a href=&quot;https://www.onelapofamerica.com&quot;&gt;onelapofamerica.com&lt;/a&gt;. Since the event was 
+technically a competition, the events were time trials. Each team was scored 
+and ranked based on how fast they completed each event. The results and 
+rankings from the event can be found on the &lt;a href=&quot;http://www.onelapofamerica.com/history/ShowEventDashboard.do?eventId=39&quot;&gt;results 
+page&lt;/a&gt;.
+The car we used for the event is my dad’s 2017 Chevrolet Stingray. This put us 
+in the SGT-1 BB and Stock - GT Classes, where we placed 17&lt;sup&gt;th&lt;/sup&gt; and 
+15&lt;sup&gt;th&lt;/sup&gt; respectively. Our overall standing was 63&lt;sup&gt;rd&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our goal, however, was not to place well, but to have fun, complete the event, 
+and bring the car back home, and we completed all of these goals. The 
+competition was long, but fun. Each day had roughly the same layout. We would 
+wake up early, around 7, then head to the track, where we would drive in two 
+events. After which, we would then drive for around 500 miles to reach the next 
+hotel, so that we could do it all again. The complete schedule for the event is 
+show below.&lt;/p&gt;
+
+&lt;figure class=&quot; &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-schedule.png&quot; title=&quot;Complete schedule for the trip.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-schedule.png&quot; alt=&quot;One Lap Schedule&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;day-0-travel&quot;&gt;Day 0 Travel&lt;/h2&gt;
+&lt;p&gt;The first day we packed up the car and traveled to the first hotel.
+We knew we were at the right place when we saw a viper with one lap stickers 
+and a Lamborghini next to it.&lt;/p&gt;
+
+&lt;figure class=&quot;half &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-0-pack.jpg&quot; title=&quot;Car packed and ready to travel.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-0-pack-th.jpg&quot; alt=&quot;Packed Car&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-0-cars.jpg&quot; title=&quot;We knew we were at the right hotel.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-0-cars-th.jpg&quot; alt=&quot;Cars&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Day 0 Gallery.
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;day-1-registration&quot;&gt;Day 1 Registration&lt;/h2&gt;
+&lt;p&gt;The first day of the event we added stickers to our car, went through tech 
+inspection, walked around and looked at all the other cars, received our 
+information book, and attended a drivers meeting.&lt;/p&gt;
+
+&lt;figure class=&quot;third &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-1-right.jpg&quot; title=&quot;Stickers on the driver's side.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-1-right-th.jpg&quot; alt=&quot;Driver side stickers&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-1-left.jpg&quot; title=&quot;Stickers on the passenger's side.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-1-left-th.jpg&quot; alt=&quot;Passenger side stickers&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-1-book.png&quot; title=&quot;38 page route book containing all the needed information.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-1-book-th.png&quot; alt=&quot;Route Book&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Day 1 Gallery.
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;day-2-skid-pad-and-autocross-south-bend-and-kokomo-indiana&quot;&gt;Day 2 Skid Pad and Autocross, South Bend and Kokomo, Indiana&lt;/h2&gt;
+&lt;p&gt;The first day of driving, we started off at the Tire Rack Headquarters where we 
+drove on a wet skid pad. The goal was to see how much G-force you could put 
+into turning.&lt;/p&gt;
+
+&lt;p&gt;After the skid pad, we then went to Grissom Air Force Base where my dad drove 
+the autocross event. Before the event we both walked the course many times and 
+discussed strategies on how to drive it.&lt;/p&gt;
+
+&lt;p&gt;We closed off the day by driving from Indiana to our hotel in Ohio.&lt;/p&gt;
+
+&lt;figure class=&quot;half &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-2-driver-photo.jpg&quot; title=&quot;Picture of me with the car before going out on the skid pad.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-2-driver-photo-th.jpg&quot; alt=&quot;Driver Photo&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-2-panorama.jpg&quot; title=&quot;Panorama of the autocross course.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-2-panorama-th.jpg&quot; alt=&quot;Driver Photo&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Day 2 Gallery.
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/x67rH15sAkI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;day-3-nelson-ledges-garrettsville-ohio&quot;&gt;Day 3 Nelson Ledges, Garrettsville, Ohio&lt;/h2&gt;
+&lt;p&gt;The second day of driving, we were at Nelson Ledges Road course. We got their 
+early enough that we were able to walk around the course before the track went 
+live. There was an old bridge that went over the starting line. The bridge 
+would shake when cars passed under it. My dad drove the course, but there were 
+parade laps after lunch that I drove.&lt;/p&gt;
+
+&lt;figure class=&quot;third &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-3-course.png&quot; title=&quot;Nelson Ledges Track Map.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-3-course-th.png&quot; alt=&quot;Course Map&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-3-entrance.jpg&quot; title=&quot;Nelson Ledges Entrance&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-3-entrance-th.jpg&quot; alt=&quot;entrance&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-3-field.jpg&quot; title=&quot;Inner parking lot field.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-3-field-th.jpg&quot; alt=&quot;field&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-3-bridge.jpg&quot; title=&quot;View of pitlane and startline from bridge.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-3-bridge-th.jpg&quot; alt=&quot;bridge&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Day 3 Gallery.
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=349&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;day-4-road-america-plymouth-wisconsin&quot;&gt;Day 4 Road America, Plymouth, Wisconsin&lt;/h2&gt;
+&lt;p&gt;The next track was Road America. In the morning there was rain and the track 
+was very slippery. There were some wreaks as cars slid off of the track, so our 
+run group at the end of the pack was delayed until after lunch. Going after 
+lunch had the great benefit of allowing the track to dry and the sun to come 
+up. This track was very large and there were many walking paths around the 
+track and places to spectate.&lt;/p&gt;
+
+&lt;figure class=&quot;third &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-4-course.png&quot; title=&quot;Road America Track Map&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-4-course-th.png&quot; alt=&quot;Course Map&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-4-pit1.jpg&quot; title=&quot;View of the pit area.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-4-pit1-th.jpg&quot; alt=&quot;pit1&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-4-pit2.jpg&quot; title=&quot;Another view of the pit area.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-4-pit2-th.jpg&quot; alt=&quot;pit2&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-4-torque.jpg&quot; title=&quot;My dad torquing the tires before driving.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-4-torque-th.jpg&quot; alt=&quot;torque tires&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-4-corvette.jpg&quot; title=&quot;Line of Corvettes in the pit.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-4-corvette-th.jpg&quot; alt=&quot;corvette line&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-4-garage.jpg&quot; title=&quot;Garages at the track.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-4-garage-th.jpg&quot; alt=&quot;garage&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-4-mclaren.jpg&quot; title=&quot;Close up of the McLaren.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-4-mclaren-th.jpg&quot; alt=&quot;mclaren&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-4-garage-inside.jpg&quot; title=&quot;Inside of the garage.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-4-garage-inside-th.jpg&quot; alt=&quot;garage-inside&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-4-car.jpg&quot; title=&quot;Our car and base.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-4-car-th.jpg&quot; alt=&quot;car&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-4-line.jpg&quot; title=&quot;First group lined up in pit.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-4-line-th.jpg&quot; alt=&quot;pit line&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-4-line2.jpg&quot; title=&quot;Second group lined up in pit.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-4-line2-th.jpg&quot; alt=&quot;pit line2&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-4-lot.jpg&quot; title=&quot;Picture of parking lot.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-4-lot-th.jpg&quot; alt=&quot;lot&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-4-lot2.jpg&quot; title=&quot;Picture of parking lot and garage.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-4-lot2-th.jpg&quot; alt=&quot;lot2&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-4-wolf.jpg&quot; title=&quot;Honda racing car.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-4-wolf-th.jpg&quot; alt=&quot;wolf&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-4-line3.jpg&quot; title=&quot;Durango group lined up in pit.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-4-line3-th.jpg&quot; alt=&quot;pit line3&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-4-start.jpg&quot; title=&quot;Us lined up at the starting line.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-4-start-th.jpg&quot; alt=&quot;start&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Day 4 Gallery.
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=919&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;day-5-brainerd-international-raceway-brainerd-minnesota&quot;&gt;Day 5 Brainerd International Raceway, Brainerd, Minnesota&lt;/h2&gt;
+&lt;p&gt;Day 5 was one of the nicest, sunniest, and longest days of the trip. In the 
+morning I started to walk the course, but I only made it down the drag strip 
+portion of the front straight before I realized just how long the total course 
+would be. This track also had great places to spectate. The morning event was 
+the large full course and I spectated the driving from the top of the sky box 
+building. The track had a tunnel under the straight to cross from one side of 
+the track to the other.&lt;/p&gt;
+
+&lt;p&gt;In the afternoon, we drove on the shorter SCCA road course portion of the 
+track. This section of the track also had a rooftop to spectate from. The 
+shorter course was fun to watch, since you could see for a greater percentage 
+of the track and close to the start/finish line were fun turns to watch. 
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Travis_Pastrana&quot;&gt;Travis Pastrana&lt;/a&gt; was fun to 
+watch go around one of the turns in particular. He would power slide each time 
+he went around. People spectating closer said that he was waving to the crowd 
+of people watching while doing the power slide. In the morning run, he was 
+talking on the phone with his teammates in the stands as he was driving around 
+the track. It was great fun to hear his conversations/interviews and watch him 
+drive.&lt;/p&gt;
+
+&lt;p&gt;Next we did drag racing on the front straight. The first time on the drag 
+strip, you tried to see how fast you could go. Then they did a bracket race, 
+where cars would try to get as close to their first time as possible without 
+going over their previous time. In the bracket, they would start the cars at 
+different times so that they should arrive at the finish line at the same time 
+(assuming they ran the same time as before).  Finally to finish off the day, we 
+had one of the longest transit drives of the trip, 555.5 miles.&lt;/p&gt;
+
+&lt;figure class=&quot;third &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-course.jpg&quot; title=&quot;Brainerd Course Map.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-course-th.jpg&quot; alt=&quot;Course Map&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-course2.jpg&quot; title=&quot;Alternate Brainerd Course Map.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-course2-th.jpg&quot; alt=&quot;Course Map2&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-parking.jpg&quot; title=&quot;Brainerd parking lot.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-parking-th.jpg&quot; alt=&quot;parking&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-car.jpg&quot; title=&quot;Our pit at Brainerd.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-car-th.jpg&quot; alt=&quot;car&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-parking2.jpg&quot; title=&quot;More cars along the wall.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-parking2-th.jpg&quot; alt=&quot;parking&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-parking3.jpg&quot; title=&quot;More parking.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-parking3-th.jpg&quot; alt=&quot;parking&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-pastrana.jpg&quot; title=&quot;Travis Pastana's car.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-pastrana-th.jpg&quot; alt=&quot;pastrana&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-parking4.jpg&quot; title=&quot;More parking.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-parking4-th.jpg&quot; alt=&quot;parking&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-parking5.jpg&quot; title=&quot;More parking.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-parking5-th.jpg&quot; alt=&quot;parking&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-parking6.jpg&quot; title=&quot;More parking.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-parking6-th.jpg&quot; alt=&quot;parking&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-parking7.jpg&quot; title=&quot;More parking.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-parking7-th.jpg&quot; alt=&quot;parking&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-parking8.jpg&quot; title=&quot;More parking.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-parking8-th.jpg&quot; alt=&quot;parking&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-parking9.jpg&quot; title=&quot;More parking.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-parking9-th.jpg&quot; alt=&quot;parking&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-parking10.jpg&quot; title=&quot;More parking.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-parking10-th.jpg&quot; alt=&quot;parking&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-drag.jpg&quot; title=&quot;Start of the drag strip and spectating tower.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-drag-th.jpg&quot; alt=&quot;drag&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-drag2.jpg&quot; title=&quot;Looking down the drag strip.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-drag2-th.jpg&quot; alt=&quot;drag&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-pastrana2.jpg&quot; title=&quot;Travis Pastana being interviewed and view from spectating tower.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-pastrana2-th.jpg&quot; alt=&quot;pastrana2&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-tunnel.jpg&quot; title=&quot;Entrance to the tunnel under the drag strip.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-tunnel-th.jpg&quot; alt=&quot;tunnel&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-tunnel2.jpg&quot; title=&quot;Inside the tunnel under the drag strip.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-tunnel2-th.jpg&quot; alt=&quot;tunnel2&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-grid.jpg&quot; title=&quot;Cars in grid.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-grid-th.jpg&quot; alt=&quot;grid&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-grid2.jpg&quot; title=&quot;Our car in grid in pit lane.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-grid2-th.jpg&quot; alt=&quot;grid&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-5-grid3.jpg&quot; title=&quot;Our car in grid on track.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-5-grid3-th.jpg&quot; alt=&quot;grid&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Day 5 Gallery.
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=2109&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;day-6-motorsports-park-hastings-hastings-nebraska&quot;&gt;Day 6 Motorsports Park Hastings, Hastings, Nebraska&lt;/h2&gt;
+&lt;p&gt;Hastings was a smaller course. We were able to walk the course in the morning. 
+The weather was rainy and windy, but there were shelters from the rain. They 
+had multiple covers and also a party bus. The party bus was nice since in 
+addition to blocking the rain, it would block the wind. Even with a fire suit 
+and multiple layers, it was cold this far north. This is also where our EZ pop 
+up canopy finally collapsed. It was starting to look rough, and had already 
+blown over once. This time we strapped it down really well with bags and 
+hammock straps, and instead of blowing away, it folded in on itself. However, 
+our stuff still stayed dry and we ended up not needing it for the rest of the 
+trip. This place also had the best food. They had only one thing on the menu 
+and it was a delicious brisket sandwich.&lt;/p&gt;
+
+&lt;figure class=&quot;third &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-6-course.png&quot; title=&quot;Motorsport Park Hastings Course Map.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-6-course-th.png&quot; alt=&quot;Course Map&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-6-panorama.jpg&quot; title=&quot;Panorama of Motorsport Park Hastings.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-6-panorama-th.jpg&quot; alt=&quot;panorama&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-6-start1.jpg&quot; title=&quot;Approaching the starting line.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-6-start1-th.jpg&quot; alt=&quot;start1&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-6-start2.jpg&quot; title=&quot;At the starting line.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-6-start2-th.jpg&quot; alt=&quot;start2&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-6-base.jpg&quot; title=&quot;Our base at the track. The wind was very bad and caused the tarp to collapse.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-6-base-th.jpg&quot; alt=&quot;base&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-6-cover.jpg&quot; title=&quot;Cover from the rain.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-6-cover-th.jpg&quot; alt=&quot;cover&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-6-cover2.jpg&quot; title=&quot;Cover from the rain.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-6-cover2-th.jpg&quot; alt=&quot;cover&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-6-cover3.jpg&quot; title=&quot;Cover from the rain.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-6-cover3-th.jpg&quot; alt=&quot;cover&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-6-line.jpg&quot; title=&quot;Group one lined up.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-6-line-th.jpg&quot; alt=&quot;line&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-6-retro.jpg&quot; title=&quot;Retro car we saw from another event.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-6-retro-th.jpg&quot; alt=&quot;retro&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-6-turbines1.jpg&quot; title=&quot;So many wind turbines.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-6-turbines1-th.jpg&quot; alt=&quot;turbines&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-6-turbines3.jpg&quot; title=&quot;So many wind turbines.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-6-turbines3-th.jpg&quot; alt=&quot;turbines&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-6-turbines4.jpg&quot; title=&quot;So many wind turbines.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-6-turbines4-th.jpg&quot; alt=&quot;turbines&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Day 6 Gallery.
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=3002&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;day-7-blackhawk-farms-south-beloit-illinois&quot;&gt;Day 7 Blackhawk Farms, South Beloit, Illinois&lt;/h2&gt;
+&lt;p&gt;Blackhawk Farms was a nice course. By now we had the rhythm down. Wake up, get 
+coffee, drive to course, walk course, morning session, lunch, afternoon 
+session, transit drive, Cliff Bars and gas station pizza for supper, check-in 
+and collapse in hotel bed. Repeat. By this point a nap was required, and I was 
+glad to have brought a hammock to nap in. This track has a second story 
+building to watch from, but the best place to watch was at some metal stands in 
+the U portion of the track.&lt;/p&gt;
+
+&lt;figure class=&quot;third &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-7-course.jpg&quot; title=&quot;Blackhawk Farms Raceway Course Map.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-7-course-th.jpg&quot; alt=&quot;Course Map&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-7-start.jpg&quot; title=&quot;Group one lined up.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-7-start-th.jpg&quot; alt=&quot;start&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-7-entrance.jpg&quot; title=&quot;The entrance to Blackhawk Farms.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-7-entrance-th.jpg&quot; alt=&quot;entrance&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-7-car.jpg&quot; title=&quot;Our car parked where we unloaded.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-7-car-th.jpg&quot; alt=&quot;car&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-7-flag.jpg&quot; title=&quot;Flag station at the starting line.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-7-flag-th.jpg&quot; alt=&quot;flag&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-7-parking.jpg&quot; title=&quot;Parking area as seen from the lookout deck.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-7-parking-th.jpg&quot; alt=&quot;parking&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-7-parking2.jpg&quot; title=&quot;Our parking area as seen from the lookout deck.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-7-parking2-th.jpg&quot; alt=&quot;parking&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-7-parking3.jpg&quot; title=&quot;Parking area towards the start line, from the lookout deck.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-7-parking3-th.jpg&quot; alt=&quot;parking&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-7-line.jpg&quot; title=&quot;Cars lined up to run.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-7-line-th.jpg&quot; alt=&quot;line&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-7-nap.jpg&quot; title=&quot;Nap time after many long days of driving.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-7-nap-th.jpg&quot; alt=&quot;nap&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-7-nap2.jpg&quot; title=&quot;Nap time after many long days of driving.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-7-nap2-th.jpg&quot; alt=&quot;nap&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-7-nap3.jpg&quot; title=&quot;Done with nap and glad that I brought the hammock.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-7-nap3-th.jpg&quot; alt=&quot;nap&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-7-chicken.jpg&quot; title=&quot;Car with a chicken on the front.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-7-chicken-th.jpg&quot; alt=&quot;chicken&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-7-chicken2.jpg&quot; title=&quot;Closeup of the chicken.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-7-chicken2-th.jpg&quot; alt=&quot;chicken&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-7-car2.jpg&quot; title=&quot;Car the was being worked on. They borrowed a welding touch to fix the exhast.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-7-car2-th.jpg&quot; alt=&quot;car2&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-7-transit.jpg&quot; title=&quot;On the road again.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-7-transit-th.jpg&quot; alt=&quot;transit&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Day 7 Gallery.
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=3833&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;day-8-national-corvette-museum-ncm-motorsports-park-bowling-green-kentucky&quot;&gt;Day 8 National Corvette Museum (NCM) Motorsports Park, Bowling Green, Kentucky&lt;/h2&gt;
+&lt;p&gt;I drove the events at NCM and it was a blast. The weekend before I went to a 
+Chin Track Days here, so I already knew the course and had multiple sessions of 
+experience driving it. In the morning, we first drove the east course, then 
+afterwards we moved directly into line to drive the west course. Driving the 
+split up course was new, but pit-in and pit-out was easy to find, and we looked 
+for them when we walked on the course in the morning. I was able to run good 
+times and I felt more confident on the track than I did during the week before. 
+The previous experience helped tremendously. The sink hole portion was the most 
+fun, and I was able to squeak the tires for most of the entrance turn. My time 
+on the west course was comparably better, but the straights were to the 
+advantage of our car. For lunch they had hibachi from a food truck. I was happy 
+to have Asian after all of the BBQ I had been eating earlier in the week.&lt;/p&gt;
+
+&lt;p&gt;After lunch we drove on the full course. I enjoyed the full course and I was 
+back in my comfort zone driving the same configuration I had during Chin. The 
+laps were good and the only sad part was I forgot to hit record on the car’s 
+race cam, so I don’t have any footage from that run. And without any proof to 
+the contrary, those were my best laps on the track ☺.&lt;/p&gt;
+
+&lt;p&gt;After the event, there was still time left for the track rental, so they opened 
+up the track for open lapping. My dad was finally able to drive on the track at 
+speed. Previously he had only done a parade lap on the course. This was the 
+last track day, but we still had to drive back up to Indiana for the skid pad 
+part 2, banquet, and group photo. So after being in Kentucky (closest 
+destination to home) we heading back north for the last day.&lt;/p&gt;
+
+&lt;figure class=&quot;third &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-course.jpg&quot; title=&quot;NCM Motorsports Park Course Map Grand Full.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-course-th.jpg&quot; alt=&quot;Course Map&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-course2.jpg&quot; title=&quot;NCM Motorsports Park course map east and west tracks.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-course2-th.jpg&quot; alt=&quot;Course Map&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-garage.jpg&quot; title=&quot;Cars in garage area.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-garage-th.jpg&quot; alt=&quot;garage&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-parking.jpg&quot; title=&quot;Cars in parking area.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-parking-th.jpg&quot; alt=&quot;parking&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-parking2.jpg&quot; title=&quot;Cars in parking area.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-parking2-th.jpg&quot; alt=&quot;parking&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-garage2.jpg&quot; title=&quot;Cars in garage area.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-garage2-th.jpg&quot; alt=&quot;garage&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-garage3.jpg&quot; title=&quot;Cars in garage area.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-garage3-th.jpg&quot; alt=&quot;garage&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-pitin.jpg&quot; title=&quot;Pit-in on the east track.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-pitin-th.jpg&quot; alt=&quot;pitin&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-deception.jpg&quot; title=&quot;Turn 12 --- Deception. The hardest turn on the track.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-deception-th.jpg&quot; alt=&quot;deception&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-parking3.jpg&quot; title=&quot;Cars in parking area.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-parking3-th.jpg&quot; alt=&quot;parking&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-car.jpg&quot; title=&quot;Our car in queue.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-car-th.jpg&quot; alt=&quot;car&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-group.jpg&quot; title=&quot;Other cars in our run group.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-group-th.jpg&quot; alt=&quot;group&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-car2.jpg&quot; title=&quot;Our car in queue.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-car2-th.jpg&quot; alt=&quot;car&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-group2.jpg&quot; title=&quot;Our run group lined up.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-group2-th.jpg&quot; alt=&quot;group&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-group3.jpg&quot; title=&quot;Lined up at the starting line.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-group3-th.jpg&quot; alt=&quot;group&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-race.jpg&quot; title=&quot;Here I come down the straight away.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-race-th.jpg&quot; alt=&quot;race&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-me.jpg&quot; title=&quot;Me posing with the car after the morning run.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-me-th.jpg&quot; alt=&quot;me&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-pit.jpg&quot; title=&quot;Lined up in the pit, ready to run.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-pit-th.jpg&quot; alt=&quot;pit&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-pit2.jpg&quot; title=&quot;Lined up in the pit, ready to run.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-pit2-th.jpg&quot; alt=&quot;pit&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-me2.jpg&quot; title=&quot;Me in the car.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-me2-th.jpg&quot; alt=&quot;me&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-me3.jpg&quot; title=&quot;Me in the car.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-me3-th.jpg&quot; alt=&quot;me&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-race2.jpg&quot; title=&quot;Lining up at the start.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-race2-th.jpg&quot; alt=&quot;race&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-race3.jpg&quot; title=&quot;Green means go.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-race3-th.jpg&quot; alt=&quot;race&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-8-race4.jpg&quot; title=&quot;Here I come down the straight away.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-8-race4-th.jpg&quot; alt=&quot;race&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Day 8 Gallery.
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=4462&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;h2 id=&quot;day-9-skid-pad-south-bend-indiana&quot;&gt;Day 9 Skid Pad, South Bend, Indiana&lt;/h2&gt;
+
+&lt;p&gt;First we line up all the cars to take a group photo. Then I got a chance to 
+drive the skid pad again, but this time on a dry track. I did much better in 
+the dry and I had more confidence to go fast. I think I was much closer to the 
+limit of the tires this time around and the car was sliding around more. For 
+this event they ran the cars in reverse order in the standings, and even so, it 
+was great to hear that I took first place on the skid pad after completing my 
+run. Finally the event ended with an awards banquet where the food was good and 
+I learned what a &lt;a href=&quot;https://en.wikipedia.org/wiki/Drinking_from_shoes&quot;&gt;shoey&lt;/a&gt; 
+was.&lt;/p&gt;
+
+&lt;p&gt;And so after the banquet our trip was complete. We had successfully made it 
+around One Lap of America. Tired but happy, we then made our last transit drive 
+back home. At this point we were pros at long drives and we made it home 
+safely.&lt;/p&gt;
+
+&lt;figure class=&quot;third &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-group.jpg&quot; title=&quot;Group photo of all the teams.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-group-th.jpg&quot; alt=&quot;group&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-group2.jpg&quot; title=&quot;Setting up for the group photo.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-group2-th.jpg&quot; alt=&quot;group&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-group3.jpg&quot; title=&quot;Setting up for the group photo.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-group3-th.jpg&quot; alt=&quot;group&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-group4.jpg&quot; title=&quot;The Bandit.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-group4-th.jpg&quot; alt=&quot;group&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-bandit.jpg&quot; title=&quot;The Bandit with a dress.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-bandit-th.jpg&quot; alt=&quot;group&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-group5.jpg&quot; title=&quot;Setting up for the group photo.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-group5-th.jpg&quot; alt=&quot;group&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-group6.jpg&quot; title=&quot;Setting up for the group photo.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-group6-th.jpg&quot; alt=&quot;group&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-group7.jpg&quot; title=&quot;Setting up for the group photo.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-group7-th.jpg&quot; alt=&quot;group&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-honda.jpg&quot; title=&quot;Honda Racing Car.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-honda-th.jpg&quot; alt=&quot;honda&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-group8.jpg&quot; title=&quot;Cars in front of the Tire Rack building.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-group8-th.jpg&quot; alt=&quot;group&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-lamborghini.jpg&quot; title=&quot;The Lamborghini.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-lamborghini-th.jpg&quot; alt=&quot;lamborghini&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-lamborghini2.jpg&quot; title=&quot;The back of the  Lamborghini.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-lamborghini2-th.jpg&quot; alt=&quot;lamborghini&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-group9.jpg&quot; title=&quot;Parking lot.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-group9-th.jpg&quot; alt=&quot;group&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-car.jpg&quot; title=&quot;Our car.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-car-th.jpg&quot; alt=&quot;car&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-69.jpg&quot; title=&quot;The team 69 corvette.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-69-th.jpg&quot; alt=&quot;team 69&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-gasmonkey.jpg&quot; title=&quot;The Gas Monkey car.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-gasmonkey-th.jpg&quot; alt=&quot;gasmonkey&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-pastana.jpg&quot; title=&quot;Travis Pastana with his car and Yokohama truck.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-pastana-th.jpg&quot; alt=&quot;pastana&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-pokemon.jpg&quot; title=&quot;Car with stuffed animals.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-pokemon-th.jpg&quot; alt=&quot;pokemon&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-pokemon2.jpg&quot; title=&quot;Close up on Pickachu.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-pokemon2-th.jpg&quot; alt=&quot;pokemon&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-team.jpg&quot; title=&quot;We successfully completed our first One Lap of America.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-team-th.jpg&quot; alt=&quot;team&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/one-lap-day-9-banquet.jpg&quot; title=&quot;Banquet held in the Tire Rack warehouse.&quot;&gt;
+        &lt;img src=&quot;/assets/images/one-lap-day-9-banquet-th.jpg&quot; alt=&quot;banquet&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Day 9 Gallery.
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=5042&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Driving" /><summary type="html">Recently my dad and I competed in Brock Yates’ One Lap of America driving competition. The official website for the event is found at onelapofamerica.com. Since the event was technically a competition, the events were time trials. Each team was scored and ranked based on how fast they completed each event. The results and rankings from the event can be found on the results page. The car we used for the event is my dad’s 2017 Chevrolet Stingray. This put us in the SGT-1 BB and Stock - GT Classes, where we placed 17th and 15th respectively. Our overall standing was 63rd.</summary></entry><entry><title type="html">Skip Barber 3-Day Racing School</title><link href="https://geekdude.github.io/life/skip-barber-racing-school/" rel="alternate" type="text/html" title="Skip Barber 3-Day Racing School" /><published>2019-03-21T00:00:00-04:00</published><updated>2019-03-21T00:00:00-04:00</updated><id>https://geekdude.github.io/life/skip-barber-racing-school</id><content type="html" xml:base="https://geekdude.github.io/life/skip-barber-racing-school/">&lt;p&gt;Recently my Dad and I attended a &lt;a href=&quot;https://www.skipbarber.com/courses/3-day-racing-school/&quot;&gt;Skip Barber 3-Day Racing 
+School&lt;/a&gt; at Road 
+Atlanta in Georgia. The trip was a blast and driving on the track in a &lt;a href=&quot;https://www.skipbarber.com/cars_post/mustang-gt/&quot;&gt;Mustang 
+GT&lt;/a&gt; was exciting. Before we 
+left to go on the trip, I practiced in my Dad’s simulator to get a good feel 
+for the racing line around the track. I had previously done a lead follow at 
+Road Atlanta in street cars, but this was my first time driving a race car, and 
+my first time to drive around a track on my own. The cars were setup as race 
+cars. They had a racing air intake, a racing transmission, racing brakes and 
+suspension, and they had a roll cage with a five point harness. The car I used 
+was number 18.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/racing-simulator.jpg&quot; alt=&quot;Me practicing with racing simulator&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At the racing school they taught us everything we would need to know to 
+understand car dynamics and to drive around a track safely and quickly. Each 
+day was broken up into two halves, before and after lunch. Each half then 
+consisted of in-classroom learning followed by a change to put what we learned 
+to test-driving the car. During the morning session of the first day we learned 
+about car mass, tire load, and various types of oversteer and understeer, and 
+the various causes of each. We also learned how to use our eyes to look where 
+we want to go and look further down the track to plan the next move while the 
+current one is being executed. The classroom lecture was quite entertaining and 
+the instructor intermingled the lesson with various stories. After the 
+classroom lecture, we were split up into two groups, red and blue. Each group 
+had 5 people in it. They red group first went to the autocross track and 
+practiced using our eyes to drive the car smoothly around the track. Cones 
+where setup for the turn-in, apex, and turn-out for each of the turns. The 
+instructors rode along with us and gave us advice as we navigated the autocross 
+course. After that, we went to the skid pad and learned what oversteer and 
+understeer feel like. We also practiced CPR (Correct, Pause, Recover) to 
+prevent the car from spinning out of control when oversteer happens. I was 
+actually fairly good at recovering the car, and sliding the car around was a 
+blast. One of the instructors had me try to drift the car under power once I 
+had succeeded in recovering the slides without throttle. Balancing the throttle 
+to continue the slide made recovery much harder.&lt;/p&gt;
+
+&lt;p&gt;During the afternoon session day 1, we learned how to downshift with the 
+toe-heel technique. We also discussed the racing line more and covered how to 
+take various turns. Then we left the classroom and practiced downshifting with 
+an exercise they had set up in the pit area. We also rode around the track in a 
+van to learn the racing line. We had to buckle up in the van since they took it 
+around the track at a good pace. After being show the track in the van, the two 
+groups took turns driving in lead follow sessions with a pace car and riding in 
+the pace car. After the first session the instructors stopped riding in the 
+race cars and all the driving was done solo. The lead follows were fun and 
+riding in the pace cars gave you a chance to hear commentary from the 
+instructor and see the race line further. The last turn I took in the pace car, 
+the instructor was really pushing the rental car. He was squealing the tires 
+and taking all the curbs. He knocked over some cones marking the turn apex.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Road-Atlanta-large.jpg&quot; alt=&quot;Road Atlanta&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/road-atlanta-track-map.jpg&quot; alt=&quot;Road Atlanta Track Map&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The second day, in the morning, the lecture covered more information on grip, 
+turns, and flags. On the track, we did more lead follow and also took a turn 
+driving the race line in the rental car with the instructor and other students 
+riding along. After this, we started driving around the track solo with a stop 
+box setup. We would drive around the track and then stop on the back straight 
+to get feedback over the radio on how we did on the turns and if there is 
+anything to focus on improving the next lap. Initially there was a low speed 
+limit and rpm limit, but as we continued driving the speed limit and rpm limit 
+were slowly relaxed.&lt;/p&gt;
+
+&lt;p&gt;In the afternoon of the second day, we discussed braking and the friction 
+circle. After which, we went to the track and did braking exercises at turn 10. 
+With braking you put strong initial force on the brake and then slowly release 
+the force. ABS should engage or be just before engaging as your are braking. 
+Then during the turn you have a slight amount of brake still applied which is 
+known as trailing brake. If done correctly, your keep the tires at maximum 
+traction throughout the entire turn. After the exercise, we continued to do 
+stop box lapping sessions. When it was the other groups turn to drive, we would 
+travel to one of the flag stations along the track and watch the other group 
+drive. It was fun to see different views of the track and to critique the other 
+group to learn how we could better drive when it was our turn again.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/road-atlanta-with-car.jpg&quot; alt=&quot;Me at Road Atlanta with my car&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The last day, in the morning, the lecture covered passing technique and driving 
+in the rain. On the track, we drove a passing exercise at turn 10, where we 
+drove off of the normal line to complete a pass. We then proceeded to do more 
+stop box lapping sessions with the speed increased.&lt;/p&gt;
+
+&lt;p&gt;In the afternoon, we learned how to conduct race starts. On the track, we 
+practiced a real race start. We did three starts, two double file starts and 
+one single file start, then transitioned into an open lapping session. The race 
+starts where intimidating since you where surrounded by other cars, but the 
+exercise itself wasn’t that bad. You raced from when the green flag was thrown 
+on the front straight away and stopped racing at the first turn. The open lap 
+sessions are when the stop box is taken down, and you drive around the track 
+until the checkered flag is shown. Passing is done by point by. If you see a 
+car behind you, your point them by on one of the straightaways. All that means 
+is your point which side of the car you want them to pass your on and then you 
+slow up a little, so they can complete the pass. After we finished driving our 
+last open lapping session, we were taken on a hot lap by one of the 
+instructors. And let me tell you that the instructors went much faster than I 
+was able to. I enjoyed going a comfortable pace around the track. After the hot 
+lapping sessions, we went back to the classroom and had a graduation ceremony. 
+I now have a diploma from the racing school, and I am eligible to apply for a 
+SCCA racing license. More importantly, I can now participate in driving on the 
+track for the &lt;a href=&quot;http://www.onelapofamerica.com/&quot;&gt;One Lap of America&lt;/a&gt; driving 
+competition I am doing with my Dad later in the spring.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/racing-diploma.png&quot; alt=&quot;Racing Diploma&quot; /&gt;&lt;/p&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Driving" /><summary type="html">Recently my Dad and I attended a Skip Barber 3-Day Racing School at Road Atlanta in Georgia. The trip was a blast and driving on the track in a Mustang GT was exciting. Before we left to go on the trip, I practiced in my Dad’s simulator to get a good feel for the racing line around the track. I had previously done a lead follow at Road Atlanta in street cars, but this was my first time driving a race car, and my first time to drive around a track on my own. The cars were setup as race cars. They had a racing air intake, a racing transmission, racing brakes and suspension, and they had a roll cage with a five point harness. The car I used was number 18.</summary></entry><entry><title type="html">Challenges with New Website Deployment (Jekyll and Subdomains)</title><link href="https://geekdude.github.io/tech/new-website-challenges/" rel="alternate" type="text/html" title="Challenges with New Website Deployment (Jekyll and Subdomains)" /><published>2019-03-13T00:00:00-04:00</published><updated>2020-01-14T05:10:00-05:00</updated><id>https://geekdude.github.io/tech/new-website-challenges</id><content type="html" xml:base="https://geekdude.github.io/tech/new-website-challenges/">&lt;p&gt;When I was deploying my website to the web server, I ran into a few challenges. 
+I will talk about them here in case anyone happens to run into similar 
+challenges.&lt;/p&gt;
+
+&lt;h2 id=&quot;svg-graphical-issues&quot;&gt;SVG Graphical Issues&lt;/h2&gt;
+&lt;p&gt;One issue that stood out was how chrome was rendering my SVG graphics. I 
+created the graphics with Inkscape and when they were displayed through Chrome, 
+some of the graphics had noticeable issues. The main problem was unsupported 
+fonts and Inkscape specific SVG features. I assumed the problems would only be 
+worse if I tested with multiple browsers, so to fix the issue, I converted all 
+of my SVG graphics to PNG images. I figured that the PNG images would be able 
+to be rendered properly regardless of the browser. Although this means that the 
+quality of the vector graphics is reduced, I think it is still a better 
+solution than having graphics that look incorrect. I could take the effort make 
+sure I only use standard SVG elements, that any viewer should recognize, but 
+that seemed like too much work to get right when PNG images already work well 
+enough.&lt;/p&gt;
+
+&lt;h2 id=&quot;deploying-to-a-subdomain-of-a-site&quot;&gt;Deploying to a Subdomain of a Site&lt;/h2&gt;
+&lt;p&gt;The biggest issue came from the fact that I deployed the website to a subdomain 
+of the site (i.e. my site lives at &lt;code class=&quot;highlighter-rouge&quot;&gt;http://web.eecs.utk.edu/~ayoung48/&lt;/code&gt; and not 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;http://web.eecs.utk.edu/&lt;/code&gt;). This resulted in all of my assets referenced from 
+markdown pages resulting in broken links, as the browser would try to find the 
+asset at the root of the site and not at the root of the subdomain 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;/~ayoung48/&lt;/code&gt;. However, I couldn’t just append the subdomain to each of the 
+hyperlinks, as doing so would break the ability to test the site locally. 
+Luckily Jekyll already has a solution for this problem. Since the situation of 
+deploying to a subdomain is less common, it was harder to find good information 
+explaining the solution.&lt;/p&gt;
+
+&lt;p&gt;The first website I used to fix the issue was the &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-base-url&quot;&gt;Minimal Mistakes 
+Configuration Documentation&lt;/a&gt;.
+The configuration setting I needed to set was the site-base-url. This setting 
+specifies the subdomain of the site the website is deployed to. In my case, the 
+site-base-url is &lt;code class=&quot;highlighter-rouge&quot;&gt;/~ayoung48&lt;/code&gt;. With this configuration change, the correct 
+subdomain is used when I serve the website locally for testing. 
+&lt;a href=&quot;https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/&quot;&gt;Parker&lt;/a&gt; 
+provides a brief explanation into base url, if you would like further 
+clarification. This change still didn’t fix the links, but resolved the local 
+deployment testing.&lt;/p&gt;
+
+&lt;p&gt;To fix the links, I had help from the &lt;a href=&quot;https://jekyllrb.com/docs/liquid/filters/&quot;&gt;liquid 
+filters&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com/docs/liquid/tags/&quot;&gt;liquid 
+tags&lt;/a&gt; documentation pages. To 
+summarize, there are multiple was to have liquid fill in the correct url (with 
+the baseurl) for you. I’m going to explain each method using the old website 
+image found in the previous post. One method is to use the prepend filter:&lt;/p&gt;
+
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Old Website](&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/assets/images/old_website.png'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;prepend&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;baseurl&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;This method is OK, it just prepends the string found in site.baseurl to the 
+url, but there are better ways. Another way is to use the relative_url or 
+absolute_url filters.&lt;/p&gt;
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Old Website](&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/assets/images/old_website.png'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;)
+![Old Website](&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/assets/images/old_website.png'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;absolute_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;With these filters relative_url will generate&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-txt&quot;&gt;/~ayoung48/assets/images/old_website.png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and absolute_url will generate&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-txt&quot;&gt;https://web.eecs.utk.edu/~ayoung48/assets/images/old_website.png
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I like these filters better than the prepend filter, since they give a clearer 
+intent on what you are trying to accomplish.&lt;/p&gt;
+
+&lt;p&gt;The last way I found to generate the links is with the link tag.&lt;/p&gt;
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Old Website](&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;baseurl&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;/assets/images/old_website.png&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Although this syntax is the worst looking, it gives the added benefit of 
+correctly generating the permalink of the file you are trying to link to. This 
+means that it is the preferred method for linking to other generated pages, 
+such as posts, since the permalink generation style could change. With this 
+method the link will still work correctly if the permalink style is changed. 
+This method also has the added benefit of performing link validation when 
+Jekyll builds the site. If you use the &lt;code class=&quot;highlighter-rouge&quot;&gt;link&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;post_url&lt;/code&gt; tags, Jekyll will 
+check to make sure the link or post exists during the build process and throw 
+an error if the link is bad. Since tags provide correct generation of 
+permalinks and perform link validation, they are my preferred method for 
+specifying local links in my website.&lt;/p&gt;
+
+&lt;h2 id=&quot;width-issue-of-facebook-comments&quot;&gt;Width Issue of Facebook Comments&lt;/h2&gt;
+&lt;p&gt;Another issue I ran into was that on one computer, for whatever reason, the 
+Facebook comments would not take up the correct width. The fix for this problem 
+was to copy some css code I found on the internet to &lt;code class=&quot;highlighter-rouge&quot;&gt;/assets/css/main.scss&lt;/code&gt;. 
+This solution was found on 
+&lt;a href=&quot;https://stackoverflow.com/questions/22243233/how-to-make-facebook-comment-box-width-100-2014&quot;&gt;stackoverflow&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;Fix&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;width&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;issues&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;Facebook&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;comments&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;stackoverflow&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;questions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;22243233&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;how-to-make-facebook-comment-box-width-100-2014&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.fb_iframe_widget_fluid_desktop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.fb_iframe_widget_fluid_desktop&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;span&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.fb_iframe_widget_fluid_desktop&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;iframe&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;nl&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;!important&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;!important&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;deploy-script&quot;&gt;Deploy Script&lt;/h2&gt;
+&lt;p&gt;This last section isn’t really a deployment issue, but a way to make deploying 
+the website easier. I created a simple script to build the Jekyll site and copy 
+the files to the server.&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Script to deploy the website to the server.&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# Variables -- Change to the correct values before use.&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;instancehost&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;machine_address&quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;remotewebroot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;webroot_folder&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# Build Jekyll Site&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;JEKYLL_ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;production bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll build
+&lt;span class=&quot;nb&quot;&gt;chmod&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-R&lt;/span&gt; a+rX _site
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;rsync to SSH host &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$instancehost&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; ...&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# Long form of rsync options&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# rsync --verbose --recursive --compress --checksum --human-readable --perms --delete-after`&lt;/span&gt;
+rsync &lt;span class=&quot;nt&quot;&gt;-vrzchp&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--delete-after&lt;/span&gt; _site/ &lt;span class=&quot;nv&quot;&gt;$instancehost&lt;/span&gt;:&lt;span class=&quot;nv&quot;&gt;$remotewebroot&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;update-on-1142020-for-jekyll-40&quot;&gt;Update on 1/14/2020 for Jekyll 4.0&lt;/h2&gt;
+&lt;p&gt;With the release of Jekyll 4.0, the &lt;code class=&quot;highlighter-rouge&quot;&gt;link&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;post_url&lt;/code&gt; tags no longer need &lt;code class=&quot;highlighter-rouge&quot;&gt;site.baseurl&lt;/code&gt; prepended every time they are used. These tags now use their &lt;code class=&quot;highlighter-rouge&quot;&gt;relative_url&lt;/code&gt; filter to correctly take care of prepending the &lt;code class=&quot;highlighter-rouge&quot;&gt;site.baseurl&lt;/code&gt;. This does mean that existing uses of the prepend pattern will break and the &lt;code class=&quot;highlighter-rouge&quot;&gt;site.baseurl&lt;/code&gt; part should be removed. I like this change since it makes linking shorter, but a site wide find and replace was needed to fix the links.&lt;/p&gt;
+
+&lt;p&gt;So in summary, the recommended was to generate links is with the link tag. For example:&lt;/p&gt;
+&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Old Website](&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;/assets/images/old_website.png&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;This method is now the most concise, readable, and will correctly generate the permalink URL following the site rules. It will also perform link validation to make sure the linked file exists.&lt;/p&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Website" /><summary type="html">When I was deploying my website to the web server, I ran into a few challenges. I will talk about them here in case anyone happens to run into similar challenges.</summary></entry><entry><title type="html">New Website using Jekyll</title><link href="https://geekdude.github.io/tech/new-website/" rel="alternate" type="text/html" title="New Website using Jekyll" /><published>2019-01-24T00:00:00-05:00</published><updated>2019-01-24T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/new-website</id><content type="html" xml:base="https://geekdude.github.io/tech/new-website/">&lt;p&gt;I decided that my project over Christmas break would be to create a new website.
+Although setting up the website overflowed past Christmas break, it is finally live.
+What motivated my decision was finally figuring out how to get my website to show up in a Google search.
+Spoiler alert, I registered my website with &lt;a href=&quot;https://search.google.com/search-console/about&quot;&gt;Google Search Console&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-old-website&quot;&gt;The Old Website&lt;/h2&gt;
+&lt;p&gt;My old website was fine, but nothing special.
+A picture of the old site is shown below:
+&lt;img src=&quot;/assets/images/old_website.png&quot; alt=&quot;Old Website&quot; /&gt;
+The old website consisted of a single page and its content was the same as the new &lt;a href=&quot;/about/&quot;&gt;About&lt;/a&gt; page.
+There were a few reasons I wanted to update my website.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;I am not very good with HTML and I would rather create content for the website using markdown.&lt;/li&gt;
+  &lt;li&gt;The previous website used no CSS and only had static HTML pages.
+It would be difficult to maintain navigation and constant style if I added additional webpages.&lt;/li&gt;
+  &lt;li&gt;I thought it would be cool to try writing a technical blog, since my workflow has greatly improved from reading other people’s technical blogs.&lt;/li&gt;
+  &lt;li&gt;I heard about GitHub pages and wanted to try creating a Jekyll website.
+Yes I know I’m not hosting this site on GitHub pages, but I will likely transfer my website there once I can no longer host my website on the University of Tennessee’s servers.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;why-jekyll&quot;&gt;Why Jekyll?&lt;/h2&gt;
+&lt;p&gt;So why did I go with Jekyll? For a few reasons.
+First, I wanted my website to be static, and I wanted a tool to help generate the static pages.
+Second, I learned about GitHub pages, which made me want to try out Jekyll so that I could possibly use GitHub pages for future project pages.
+And finally, Jekyll seems to have all the features I could want with great community support, which means that I would be able to find resources to help me to get started.&lt;/p&gt;
+
+&lt;h2 id=&quot;learning-jekyll&quot;&gt;Learning Jekyll&lt;/h2&gt;
+&lt;p&gt;I started learning Jekyll by reading the documentation provided on the &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll Website&lt;/a&gt;.
+I got the default template website running with the &lt;a href=&quot;https://jekyllrb.com/docs/&quot;&gt;quick start guide&lt;/a&gt; and then worked my way through the &lt;a href=&quot;https://jekyllrb.com/docs/step-by-step/01-setup/&quot;&gt;step by step tutorial&lt;/a&gt;.
+The tutorial was well put together, but a little overwhelming since it is written for someone with web developing experience.
+It did help me figure out roughly how Jekyll generates the web pages, and made me realize that I wanted to use an existing theme instead of trying to build my own.
+The other main documentation for Jekyll is well put together and easy to navigate once the terminology is understood.&lt;/p&gt;
+
+&lt;p&gt;Because it was hard for me to see how to use Jekyll for my project based on the documentation, I also read other people’s blog posts which detailed how they went about creating their Jekyll websites.
+The two that I found most helpful are &lt;a href=&quot;http://svmiller.com/blog/2015/08/create-your-website-in-jekyll/&quot;&gt;Create your Academic Website in Jekyll and Host it on GitHub&lt;/a&gt; by Steven Miller and &lt;a href=&quot;https://zenglix.github.io/personal_website/&quot;&gt;Build your own website (with Jekyll and Minimal-mistakes theme)&lt;/a&gt; by Li Zeng.
+You might notice that my website looks very similar to Li Zeng’s and that is because I also decided to go with the &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/&quot;&gt;Minimal Mistakes&lt;/a&gt; theme.&lt;/p&gt;
+
+&lt;h2 id=&quot;finding-a-templatetheme&quot;&gt;Finding a Template/Theme&lt;/h2&gt;
+&lt;p&gt;When I was deciding how I wanted my website to look and be structured, I searched the web to try to find examples of personal websites that I could use for inspiration.
+Many of the sites I found were primarily used as portfolios and therefore showcased the work or the writings of the person.
+I knew that my website only needed a landing page, about page, blog (If I thought I would create posts), and a link to my resume.
+The key to the content I wanted is that it would consist of multiple pages and would be set up as a personal academic website.
+This ruled out all the themes which focused on a single landing page or didn’t fit the personal website aesthetic.&lt;/p&gt;
+
+&lt;p&gt;When searching for a theme, I looked through &lt;a href=&quot;http://jekyllthemes.org&quot;&gt;jekyllthemes.org&lt;/a&gt; and &lt;a href=&quot;http://jekyllthemes.io&quot;&gt;jekyllthemes.io&lt;/a&gt;.
+I preferred jekyllthemes.org since all the themes are free, however, some of the themes have bad links.
+Jekyllthemes.io was also good to look through and you can filter the results by free websites and all the themes had good links.
+Many of the better looking themes can be found on both sites.
+I found 7 themes that caught my attention as potential candidates.
+Then I narrowed the search down to two favorites.
+The final two were &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/&quot;&gt;Minimal Mistakes&lt;/a&gt; and &lt;a href=&quot;https://github.com/sergiokopplin/indigo&quot;&gt;indigo&lt;/a&gt;.
+I ended up choosing Minimal Mistakes, since I liked the more content heavy splash page layout for a homepage, and the theme seemed feature rich and well-designed.
+It got bonus points for the well laid out documentation that was written using the theme.
+Indigo was close second since it is also well-designed and a beautiful minimal design with a very clean landing page.&lt;/p&gt;
+
+&lt;p&gt;Although there are differences in the parameters used between themes, the content for the site is all in markdown.
+So with some time invested in configuring a new theme, I could migrate my site to a different theme.
+The downside is that, since the themes have different configurations and layouts, different themes are not interchangeable without some work.&lt;/p&gt;
+
+&lt;h2 id=&quot;making-content&quot;&gt;Making Content&lt;/h2&gt;
+&lt;p&gt;The first step I took was to read the &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/&quot;&gt;documentation&lt;/a&gt; for Minimal Mistakes.
+The documentation is structured well and custom configuring the site was easy and fun.
+I then ported over my old website’s content to make the about page.
+I then spent some time learning how to embed the resume document into the webpage.
+Next, I structured the home page and selected graphics to use.
+I found two useful resources for images. &lt;a href=&quot;https://fontawesome.com/icons&quot;&gt;Font Awesome&lt;/a&gt; has a wide range of free SVG icons.
+I used their envelope icon for my contact me graphic.
+The second resource is &lt;a href=&quot;https://unsplash.com/&quot;&gt;Unsplash&lt;/a&gt; which has free high resolution photos.
+Unsplash is where I got the typewriter image I used for the resume graphic.
+That’s about it, the rest of the website setup was done following the Minimal Mistakes documentation.&lt;/p&gt;
+
+&lt;h2 id=&quot;tada-done&quot;&gt;Tada Done&lt;/h2&gt;
+&lt;p&gt;So now I have a new website.
+Thank you for visiting and reading about it.
+If you have any questions or comments about the new website, please don’t hesitate to leave a comment below.&lt;/p&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Website" /><summary type="html">I decided that my project over Christmas break would be to create a new website. Although setting up the website overflowed past Christmas break, it is finally live. What motivated my decision was finally figuring out how to get my website to show up in a Google search. Spoiler alert, I registered my website with Google Search Console.</summary></entry><entry><title type="html">Engineering in England</title><link href="https://geekdude.github.io/life/engineering-in-england/" rel="alternate" type="text/html" title="Engineering in England" /><published>2013-08-31T00:00:00-04:00</published><updated>2013-08-31T00:00:00-04:00</updated><id>https://geekdude.github.io/life/engineering-in-england</id><content type="html" xml:base="https://geekdude.github.io/life/engineering-in-england/">&lt;h2 id=&quot;a-weekend-in-cardiff-walesjune-1517-2013&quot;&gt;A Weekend in Cardiff, Wales—June 15–17 (2013)&lt;/h2&gt;
+&lt;p&gt;by Josh Penney and Aaron Young&lt;/p&gt;
+
+&lt;p&gt;Originally Posted on &lt;a href=&quot;https://tickle.utk.edu/student-reports-engineering-england-summer-2013-part-one/&quot;&gt;tickle.utk.edu&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;During the long weekend, we took a train out to Cardiff, which is the capital of Wales. We picked Cardiff for several reasons, but mostly for the Doctor Who Experience, which is a museum about the BBC show “Doctor Who” which happens to be one of our all-time favorite shows.&lt;/p&gt;
+
+&lt;p&gt;As we continued to explore Cardiff and the surrounding area throughout the weekend, we discovered some amazing castles dotted throughout the Welsh countryside. We visited three castles, Cardiff Castle, Caerphilly Castle, and Castel Coch.&lt;/p&gt;
+
+&lt;p&gt;Each castle had its own special feel ranging from the very nicely refurbished Castel Coch (shown below), to the much more impenetrable fortress of Caerphilly Castle.
+&lt;img src=&quot;/assets/images/engineering-in-england-castel-coch.jpg&quot; alt=&quot;Castel Coch&quot; class=&quot;align-right&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Wales provided a very different cultural feel than we had experienced in the city and the countryside definitely operated at a much slower pace than downtown London.&lt;/p&gt;
+
+&lt;p&gt;It was a great trip to get away from the hustle and bustle of the city and explore the rich, and extremely green, Welsh countryside.&lt;/p&gt;
+
+&lt;figure class=&quot;half &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/engineering-in-england-aaron-caerphilly-castle.jpg&quot; title=&quot;Aaron Young at Caerphilly Castle&quot;&gt;
+        &lt;img src=&quot;/assets/images/engineering-in-england-aaron-caerphilly-castle-th.jpg&quot; alt=&quot;Aaron&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/engineering-in-england-josh-penney-doctor-who.jpg&quot; title=&quot;Josh Penney visits the Doctor Who Experience&quot;&gt;
+        &lt;img src=&quot;/assets/images/engineering-in-england-josh-penney-doctor-who-th.jpg&quot; alt=&quot;Josh&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+&lt;/figure&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Travel" /><summary type="html">A Weekend in Cardiff, Wales—June 15–17 (2013) by Josh Penney and Aaron Young</summary></entry></feed>

@@ -1,0 +1,786 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.18.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>New Website using Jekyll - Aaron Young</title>
+<meta name="description" content="I decided that my project over Christmas break would be to create a new website. Although setting up the website overflowed past Christmas break, it is finally live. What motivated my decision was finally figuring out how to get my website to show up in a Google search. Spoiler alert, I registered my website with Google Search Console. ">
+
+
+  <meta name="author" content="Aaron Young">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Aaron Young">
+<meta property="og:title" content="New Website using Jekyll">
+<meta property="og:url" content="https://geekdude.github.io/tech/new-website/">
+
+
+  <meta property="og:description" content="I decided that my project over Christmas break would be to create a new website. Although setting up the website overflowed past Christmas break, it is finally live. What motivated my decision was finally figuring out how to get my website to show up in a Google search. Spoiler alert, I registered my website with Google Search Console. ">
+
+
+
+  <meta property="og:image" content="https://geekdude.github.io/assets/images/old_website.png">
+
+
+
+  <meta name="twitter:site" content="@Geekdude_360">
+  <meta name="twitter:title" content="New Website using Jekyll">
+  <meta name="twitter:description" content="I decided that my project over Christmas break would be to create a new website. Although setting up the website overflowed past Christmas break, it is finally live. What motivated my decision was finally figuring out how to get my website to show up in a Google search. Spoiler alert, I registered my website with Google Search Console. ">
+  <meta name="twitter:url" content="https://geekdude.github.io/tech/new-website/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="https://geekdude.github.io/assets/images/old_website.png">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2019-01-24T00:00:00-05:00">
+
+
+
+
+
+  
+
+  
+    <meta property="fb:app_id" content="406715286767549">
+  
+
+
+<link rel="canonical" href="https://geekdude.github.io/tech/new-website/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Aaron Young",
+      "url": "https://geekdude.github.io/",
+      "sameAs": ["https://twitter.com/Geekdude_360","https://www.facebook.com/Geekdude","https://www.linkedin.com/in/aaron-young-0791a53b/","https://bitbucket.org/Geekdude/","https://github.com/Geekdude"]
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Aaron Young Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href='/assets/favicons/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='/assets/favicons/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes="16x16" href='/assets/favicons/favicon-16x16.png'>
+<link rel="manifest" href='/assets/favicons/site.webmanifest'>
+<link rel="mask-icon" href='/assets/favicons/safari-pinned-tab.svg' color="#5bbad5">
+<link rel="shortcut icon" href='/assets/favicons/favicon.ico'>
+<meta name="msapplication-TileColor" content="#00a300">
+<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo88x88.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Aaron Young
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/" >About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/" >Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/research/" >Research</a>
+            </li><li class="masthead__menu-item">
+              <a href="/publications/" >Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/cv/" >CV</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/assets/images/aaron-young%20square.jpg" alt="Aaron Young" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Aaron Young</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Software Engineer at ORNL</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Knoxville, TN</span>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:ayoung3210@gmail.com">
+            <meta itemprop="email" content="ayoung3210@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.linkedin.com/in/aaron-young-0791a53b" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://bitbucket.org/Geekdude" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="https://github.com/Geekdude" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="New Website using Jekyll">
+    <meta itemprop="description" content="I decided that my project over Christmas break would be to create a new website.Although setting up the website overflowed past Christmas break, it is finally live.What motivated my decision was finally figuring out how to get my website to show up in a Google search.Spoiler alert, I registered my website with Google Search Console.">
+    <meta itemprop="datePublished" content="2019-01-24T00:00:00-05:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">New Website using Jekyll
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  5 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>I decided that my project over Christmas break would be to create a new website.
+Although setting up the website overflowed past Christmas break, it is finally live.
+What motivated my decision was finally figuring out how to get my website to show up in a Google search.
+Spoiler alert, I registered my website with <a href="https://search.google.com/search-console/about">Google Search Console</a>.</p>
+
+<h2 id="the-old-website">The Old Website</h2>
+<p>My old website was fine, but nothing special.
+A picture of the old site is shown below:
+<img src="/assets/images/old_website.png" alt="Old Website" />
+The old website consisted of a single page and its content was the same as the new <a href="/about/">About</a> page.
+There were a few reasons I wanted to update my website.</p>
+<ol>
+  <li>I am not very good with HTML and I would rather create content for the website using markdown.</li>
+  <li>The previous website used no CSS and only had static HTML pages.
+It would be difficult to maintain navigation and constant style if I added additional webpages.</li>
+  <li>I thought it would be cool to try writing a technical blog, since my workflow has greatly improved from reading other people’s technical blogs.</li>
+  <li>I heard about GitHub pages and wanted to try creating a Jekyll website.
+Yes I know I’m not hosting this site on GitHub pages, but I will likely transfer my website there once I can no longer host my website on the University of Tennessee’s servers.</li>
+</ol>
+
+<h2 id="why-jekyll">Why Jekyll?</h2>
+<p>So why did I go with Jekyll? For a few reasons.
+First, I wanted my website to be static, and I wanted a tool to help generate the static pages.
+Second, I learned about GitHub pages, which made me want to try out Jekyll so that I could possibly use GitHub pages for future project pages.
+And finally, Jekyll seems to have all the features I could want with great community support, which means that I would be able to find resources to help me to get started.</p>
+
+<h2 id="learning-jekyll">Learning Jekyll</h2>
+<p>I started learning Jekyll by reading the documentation provided on the <a href="https://jekyllrb.com/">Jekyll Website</a>.
+I got the default template website running with the <a href="https://jekyllrb.com/docs/">quick start guide</a> and then worked my way through the <a href="https://jekyllrb.com/docs/step-by-step/01-setup/">step by step tutorial</a>.
+The tutorial was well put together, but a little overwhelming since it is written for someone with web developing experience.
+It did help me figure out roughly how Jekyll generates the web pages, and made me realize that I wanted to use an existing theme instead of trying to build my own.
+The other main documentation for Jekyll is well put together and easy to navigate once the terminology is understood.</p>
+
+<p>Because it was hard for me to see how to use Jekyll for my project based on the documentation, I also read other people’s blog posts which detailed how they went about creating their Jekyll websites.
+The two that I found most helpful are <a href="http://svmiller.com/blog/2015/08/create-your-website-in-jekyll/">Create your Academic Website in Jekyll and Host it on GitHub</a> by Steven Miller and <a href="https://zenglix.github.io/personal_website/">Build your own website (with Jekyll and Minimal-mistakes theme)</a> by Li Zeng.
+You might notice that my website looks very similar to Li Zeng’s and that is because I also decided to go with the <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes</a> theme.</p>
+
+<h2 id="finding-a-templatetheme">Finding a Template/Theme</h2>
+<p>When I was deciding how I wanted my website to look and be structured, I searched the web to try to find examples of personal websites that I could use for inspiration.
+Many of the sites I found were primarily used as portfolios and therefore showcased the work or the writings of the person.
+I knew that my website only needed a landing page, about page, blog (If I thought I would create posts), and a link to my resume.
+The key to the content I wanted is that it would consist of multiple pages and would be set up as a personal academic website.
+This ruled out all the themes which focused on a single landing page or didn’t fit the personal website aesthetic.</p>
+
+<p>When searching for a theme, I looked through <a href="http://jekyllthemes.org">jekyllthemes.org</a> and <a href="http://jekyllthemes.io">jekyllthemes.io</a>.
+I preferred jekyllthemes.org since all the themes are free, however, some of the themes have bad links.
+Jekyllthemes.io was also good to look through and you can filter the results by free websites and all the themes had good links.
+Many of the better looking themes can be found on both sites.
+I found 7 themes that caught my attention as potential candidates.
+Then I narrowed the search down to two favorites.
+The final two were <a href="https://mmistakes.github.io/minimal-mistakes/">Minimal Mistakes</a> and <a href="https://github.com/sergiokopplin/indigo">indigo</a>.
+I ended up choosing Minimal Mistakes, since I liked the more content heavy splash page layout for a homepage, and the theme seemed feature rich and well-designed.
+It got bonus points for the well laid out documentation that was written using the theme.
+Indigo was close second since it is also well-designed and a beautiful minimal design with a very clean landing page.</p>
+
+<p>Although there are differences in the parameters used between themes, the content for the site is all in markdown.
+So with some time invested in configuring a new theme, I could migrate my site to a different theme.
+The downside is that, since the themes have different configurations and layouts, different themes are not interchangeable without some work.</p>
+
+<h2 id="making-content">Making Content</h2>
+<p>The first step I took was to read the <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/">documentation</a> for Minimal Mistakes.
+The documentation is structured well and custom configuring the site was easy and fun.
+I then ported over my old website’s content to make the about page.
+I then spent some time learning how to embed the resume document into the webpage.
+Next, I structured the home page and selected graphics to use.
+I found two useful resources for images. <a href="https://fontawesome.com/icons">Font Awesome</a> has a wide range of free SVG icons.
+I used their envelope icon for my contact me graphic.
+The second resource is <a href="https://unsplash.com/">Unsplash</a> which has free high resolution photos.
+Unsplash is where I got the typewriter image I used for the resume graphic.
+That’s about it, the rest of the website setup was done following the Minimal Mistakes documentation.</p>
+
+<h2 id="tada-done">Tada Done</h2>
+<p>So now I have a new website.
+Thank you for visiting and reading about it.
+If you have any questions or comments about the new website, please don’t hesitate to leave a comment below.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#website" class="page__taxonomy-item" rel="tag">Website</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#tech" class="page__taxonomy-item" rel="tag">Tech</a>
+    
+    </span>
+  </p>
+
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Posted:</strong> <time datetime="2019-01-24T00:00:00-05:00">January 24, 2019</time></p>
+        
+
+        
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?via=Geekdude_360&text=New+Website+using+Jekyll%20https%3A%2F%2Fgeekdude.github.io%2Ftech%2Fnew-website%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgeekdude.github.io%2Ftech%2Fnew-website%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgeekdude.github.io%2Ftech%2Fnew-website%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/life/engineering-in-england/" class="pagination--pager" title="Engineering in England
+">Previous</a>
+    
+    
+      <a href="/tech/new-website-challenges/" class="pagination--pager" title="Challenges with New Website Deployment (Jekyll and Subdomains)
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Comments</h4>
+      <section id="disqus_thread"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/phd-teaser.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/tech/dissertation/" rel="permalink">PhD Dissertation and Artifacts Available
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">My dissertation titled SNACC: The Scaled-up Neuromorphic Array Communications Controller is now available at https://trace.tennessee.edu/utk_graddiss/5843/.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/bread-header.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/life/sourdough-bread/" rel="permalink">Sourdough Bread
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  12 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">My favorite type of bread is a fresh, warm loaf of sourdough.
+I can almost go through a whole loaf by myself when it is fresh from the oven.
+Sourdough bread ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/reorder-teaser.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/tech/reorder/" rel="permalink">Reorder
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">I recently created a reorder python script to rename, reorder, add, and remove files/directories in a directory with a numerical naming scheme.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/bob-hardware-diagram.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/tech/bob/" rel="permalink">The Big Orange Bramble
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This year marks the three-year anniversary of the 64 node Raspberry Pi cluster known as the Big Orange Bramble or BOB.
+I am happy to report that BOB is still...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="mailto:ayoung3210@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://bitbucket.org/Geekdude/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+        
+      
+        
+          <li><a href="https://github.com/Geekdude" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/aaron-young-0791a53b" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Aaron Young. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147196137-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147196137-1', { 'anonymize_ip': false});
+</script>
+
+
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "https://geekdude.github.io/tech/new-website/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/tech/new-website"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://ayoung48.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>
