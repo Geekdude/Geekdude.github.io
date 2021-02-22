@@ -1,7 +1,7 @@
 # Aaron's Personal Website
 
 This repository contains the source for a Jekyll powered personal website for 
-Aaron Young. If you have any questions about the source please contact me at 
+Aaron Young hosted at [Geekdude.github.io](Geekdude.github.io). If you have any questions about the source please contact me at 
 [ayoung3210@gmail.com](mailto:ayoung3210@gmail.com).
 
 ## Prerequisites
