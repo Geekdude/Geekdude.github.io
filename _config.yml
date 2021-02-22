@@ -180,6 +180,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - /tools # ignore /tools
   - deploy.sh
   - update_feed_gem.sh
 keep_files:
