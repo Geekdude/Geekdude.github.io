@@ -5,8 +5,8 @@ toc_sticky: false
 categories: [Tech]
 tags: [Website]
 header:
-    image: /assets/images/template-header.png
-    teaser: /assets/images/template-teaser.png
+    image: /assets/images/website-move-header.png
+    teaser: /assets/images/website-move-teaser.png
 ---
 
 After graduating last May, I decided to migrate my website from hosting on the EECS servers at UTK to [GitHub Pages](https://pages.github.com/).
