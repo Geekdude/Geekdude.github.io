@@ -9,7 +9,7 @@ header:
     teaser: /assets/images/website-move-teaser.png
 ---
 
-After graduating last May, I decided to migrate my website from hosting on the EECS servers at UTK to [GitHub Pages](https://pages.github.com/).
+After graduating last May, I decided to migrate [my website]({% post_url 2019-01-24-new-website %}) from hosting on the EECS servers at UTK to [GitHub Pages](https://pages.github.com/).
 I always planned on migrating to GitHub pages post-graduation; that was one reason I chose to build my website using [Jekyll](https://jekyllrb.com/).
 GitHub pages can host any static website, but it is designed to build and work with Jekyll sites automatically.
 I wanted to migrate my website properly with correct redirection and Search Engine Optimization (SEO).
