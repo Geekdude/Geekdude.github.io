@@ -23,8 +23,9 @@ At first, I tried just to move my repository over directly and use GitHub's buil
 However, this auto-building feature only supports a [subset of Jekyll plugins](https://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins).
 The plugin I use for pagination, [Jekyll Paginate V2](https://github.com/sverrirs/jekyll-paginate-v2), is not one of the supported plugins.
 This limitation means that the built-in building would not work for my site without changing the plugins I use.
+Therefore, I turned off the automatic Jekyll building by adding a `.nojekyll` file to the root of the repository.
 
-I then tried to build the site automatically with GitHub Actions, but I had trouble getting the site to build using a docker image with the build action.
+I then tried to build the site automatically with GitHub Actions, but I had trouble getting the site to build using a docker image with the Jekyll build action.
 While looking into the build issues, I realized my website would not build with the newest versions of Jekyll and [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/).
 By finding a copy of the Gemfile.lock file I used to build the website with last, I was able to roll back to the old versions and build my website correctly again.
 Again, the issue was related to the custom template files I created to use Paginate V2 for my home pages and article pages.
@@ -68,7 +69,7 @@ I will leave up this redirection until I lose access to the UTK servers.
 Since the redirection was setup in the previous section, updating the search optimization is easier.
 I added the new site to [Google Search Console](https://search.google.com/search-console/about) and [Microsoft Webmaster Tools](https://www.bing.com/webmasters).
 There did not seem to be an explicit place to let them know about the move[^1], but with redirection and having both sites listed under my account, I hope their web crawler will figure it out.
-I do not even need to redo the website verification method since it was already done for the old address.
+I do not even need to redo the website verification method since it was already done for the old address and the verification files are still in place.
 
 [^1]: There was one for google but it required Domain level property types, not URL Prefix like I am using.
 

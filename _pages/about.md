@@ -23,7 +23,7 @@ toc_sticky: true
 * July 2020--Present: Software Engineer with the [Future Technologies Group](http://ft.ornl.gov/) at [Oak Ridge National Laboratory](https://www.ornl.gov/).
 
 **University of Tennessee, Knoxville**
-* January 2016--May 2020: Research with the TENNLab Neuromorphic Computing Research Group. See [Research]({% link _pages/research.md %}) for more information.
+* January 2016--May 2020: Research with the TENNLab Neuromorphic Computing Research Group. See [Research](/research) for more information.
 * August 2016--August 2017: Graduate teaching assistant for Dr. James S. Plank. Assisted with the following classes by leading lab sections, grading labs and helping students: COSC 302 Data Structures and Algorithms II, COSC 360 Systems Programming, and COSC 494 Advanced Programming and Algorithms.
 
 **Garmin International, Inc., Olathe, KS**

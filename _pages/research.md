@@ -1,6 +1,11 @@
 ---
-layout: single
+layout: research
 title: Research
+pagination:
+  enabled: true
+  title: " "
+  tag: Research
+  per_page: 5
 classes: wide
 permalink: /research/
 ---
