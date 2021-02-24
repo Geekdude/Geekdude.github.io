@@ -67,14 +67,14 @@ I will leave up this redirection until I lose access to the UTK servers.
 ## Search Engine Optimization
 Since the redirection was setup in the previous section, updating the search optimization is easier.
 I added the new site to [Google Search Console](https://search.google.com/search-console/about) and [Microsoft Webmaster Tools](https://www.bing.com/webmasters).
-There did hot seem to be an explicit place to let them know about the move[^1], but with the redirect and having both sites listed under my account, I hope their web crawler will figure it out.
+There did not seem to be an explicit place to let them know about the move[^1], but with redirection and having both sites listed under my account, I hope their web crawler will figure it out.
 I do not even need to redo the website verification method since it was already done for the old address.
 
 [^1]: There was one for google but it required Domain level property types, not URL Prefix like I am using.
 
 ## Moving Comments
 Moving comments with Discus was easy as well.
-Since I have 301 redirection setup, I could just go into Admin -> Moderate Comments -> Tools -> Migration Tools and use the Redirect Crawler.
+Since I have 301 redirection set up, I could just go into Admin -> Moderate Comments -> Tools -> Migration Tools and use the Redirect Crawler.
 Then Discus ported the two comments I had on my old site to the new site.
 I also discovered that I am not getting email notifications when people comment.
 I will need to look into why.
