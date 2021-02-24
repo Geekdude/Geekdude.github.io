@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2021-02-22T10:00:06-05:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><entry><title type="html">PhD Dissertation and Artifacts Available</title><link href="https://geekdude.github.io/tech/dissertation/" rel="alternate" type="text/html" title="PhD Dissertation and Artifacts Available" /><published>2021-01-30T00:00:00-05:00</published><updated>2021-01-30T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/dissertation</id><content type="html" xml:base="https://geekdude.github.io/tech/dissertation/">&lt;p&gt;My dissertation titled &lt;em&gt;SNACC: The Scaled-up Neuromorphic Array Communications Controller&lt;/em&gt; is now available at &lt;a href=&quot;https://trace.tennessee.edu/utk_graddiss/5843/&quot;&gt;https://trace.tennessee.edu/utk_graddiss/5843/&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2021-02-24T11:05:07-05:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><entry><title type="html">Moving Website from web.eecs.utk.edu to Github.io</title><link href="https://geekdude.github.io/tech/moving-website/" rel="alternate" type="text/html" title="Moving Website from web.eecs.utk.edu to Github.io" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/moving-website</id><content type="html" xml:base="https://geekdude.github.io/tech/moving-website/">&lt;p&gt;After graduating last May, I decided to migrate &lt;a href=&quot;/tech/new-website/&quot;&gt;my website&lt;/a&gt; from hosting on the EECS servers at UTK to &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.
+I always planned on migrating to GitHub pages post-graduation; that was one reason I chose to build my website using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.
+GitHub pages can host any static website, but it is designed to build and work with Jekyll sites automatically.
+I wanted to migrate my website properly with correct redirection and Search Engine Optimization (SEO).
+Overall the process was relatively easy, but I did run into some issues, primarily with the customizations I have done to the website.
+This post will cover the overall steps I took and also the issues and workarounds I encountered.&lt;/p&gt;
+
+&lt;h2 id=&quot;moving-the-site-to-github&quot;&gt;Moving the site to GitHub&lt;/h2&gt;
+&lt;p&gt;Previously I have been hosting my repository as a private repo in &lt;a href=&quot;https://bitbucket.org/&quot;&gt;bitbucket&lt;/a&gt;.
+I decided to move the repository to a public &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; repo since I used GitHub pages for hosting.
+At first, I tried just to move my repository over directly and use GitHub’s built-in building of Jekyll.
+However, this auto-building feature only supports a &lt;a href=&quot;https://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins&quot;&gt;subset of Jekyll plugins&lt;/a&gt;.
+The plugin I use for pagination, &lt;a href=&quot;https://github.com/sverrirs/jekyll-paginate-v2&quot;&gt;Jekyll Paginate V2&lt;/a&gt;, is not one of the supported plugins.
+This limitation means that the built-in building would not work for my site without changing the plugins I use.
+Therefore, I turned off the automatic Jekyll building by adding a &lt;code class=&quot;highlighter-rouge&quot;&gt;.nojekyll&lt;/code&gt; file to the root of the repository.&lt;/p&gt;
+
+&lt;p&gt;I then tried to build the site automatically with GitHub Actions, but I had trouble getting the site to build using a docker image with the Jekyll build action.
+While looking into the build issues, I realized my website would not build with the newest versions of Jekyll and &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/&quot;&gt;Minimal Mistakes&lt;/a&gt;.
+By finding a copy of the Gemfile.lock file I used to build the website with last, I was able to roll back to the old versions and build my website correctly again.
+Again, the issue was related to the custom template files I created to use Paginate V2 for my home pages and article pages.
+The trouble with Jekyll and extension versions leads me to an important lessons learned:
+&lt;strong&gt;Store the Gemfile.lock in version control so that you can diagnose issues caused by building with newer versions of the tools and extensions.&lt;/strong&gt;
+I was lucky and could just pull the lock file from my backups which saved me extra debugging time.&lt;/p&gt;
+
+&lt;p&gt;Since I like the way my website looks and I didn’t want to spend extra time porting my template to the newer version, I decided to keep building the website locally and uploading the static site for hosting.
+Luckily GitHub Pages supports this flow.
+The static website can be uploaded to the main branch or a branch called gh-pages.
+Actually, the branch and path can be chosen under Settings -&amp;gt; Options -&amp;gt; GitHub Pages, so any location can be used for the source.
+At first, I tested uploading the built website to the main branch, and the website was hosted as expected.
+But I then decided to host the website’s source in the main branch and a gh-pages branch to host the built website.
+To make the whole process simpler, I wanted to update my deploy script to build and deploy the website to a branch in the repository.
+At first, I was hesitant to store the built files in the repo, but since the files are in an orphaned branch, they are separate from the main branch.
+The orphan branch (as opposed to a folder in the main branch) will make cleaning the files up easier, if they get too large.&lt;/p&gt;
+
+&lt;p&gt;Luckily updating the build script was easy since I found a &lt;a href=&quot;https://github.com/X1011/git-directory-deploy&quot;&gt;Git Directory Deploy&lt;/a&gt; script that I could leverage to copy the built site directory to a separate orphaned git branch.
+Now &lt;a href=&quot;https://github.com/Geekdude/Geekdude.github.io/blob/master/deploy.sh&quot;&gt;my deploy script&lt;/a&gt; just calls a &lt;a href=&quot;https://github.com/Geekdude/Geekdude.github.io/blob/master/deploy_github.sh&quot;&gt;customized version of the git deploy script&lt;/a&gt; with the variables filled in for my site.
+Previously it would use rsync to copy the build files to the EECS servers website folder.&lt;/p&gt;
+
+&lt;p&gt;Since I decided to use the same local build then deploy setup, minimal changes were needed to the site itself.
+I updated the site URL in &lt;a href=&quot;https://github.com/Geekdude/Geekdude.github.io/blob/master/_config.yml&quot;&gt;_config.yml&lt;/a&gt; as well as updated the previously mentioned deploy scripts.
+That was all that was required to migrate the site and start hosting on GitHub Pages. The source code for the site can be found at &lt;a href=&quot;https://github.com/Geekdude/Geekdude.github.io&quot;&gt;https://github.com/Geekdude/Geekdude.github.io&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-up-redirection&quot;&gt;Setting up redirection&lt;/h2&gt;
+&lt;p&gt;The next step was to set up redirection from the old URL to the new URL.
+After looking into redirection, I discovered that I wanted to use redirection with the permanent redirection status (301) which indicates that the resource has moved permanently.
+From various posts, I learned that a &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file is used on linux servers to specify server-level redirects.
+I had trouble finding the correct redirect commands until I read the &lt;a href=&quot;https://httpd.apache.org/docs/2.4/mod/mod_alias.html#redirect&quot;&gt;Apache Documentation for Redirect&lt;/a&gt; and &lt;a href=&quot;https://httpd.apache.org/docs/2.4/mod/mod_alias.html#redirectmatch&quot;&gt;RedirectMatch&lt;/a&gt;.
+The trouble I ran into was how to correctly map from a folder on a domain to a domain (i.e. /~ayoung48 to /).&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file that ended up working properly is&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RedirectMatch 301 &quot;/~ayoung48/(.*)&quot; &quot;https://Geekdude.github.io/$1&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This redirect match command would correctly redirect pages from the old site to the new site.
+I will leave up this redirection until I lose access to the UTK servers.&lt;/p&gt;
+
+&lt;h2 id=&quot;search-engine-optimization&quot;&gt;Search Engine Optimization&lt;/h2&gt;
+&lt;p&gt;Since the redirection was setup in the previous section, updating the search optimization is easier.
+I added the new site to &lt;a href=&quot;https://search.google.com/search-console/about&quot;&gt;Google Search Console&lt;/a&gt; and &lt;a href=&quot;https://www.bing.com/webmasters&quot;&gt;Microsoft Webmaster Tools&lt;/a&gt;.
+There did not seem to be an explicit place to let them know about the move&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, but with redirection and having both sites listed under my account, I hope their web crawler will figure it out.
+I do not even need to redo the website verification method since it was already done for the old address and the verification files are still in place.&lt;/p&gt;
+
+&lt;h2 id=&quot;moving-comments&quot;&gt;Moving Comments&lt;/h2&gt;
+&lt;p&gt;Moving comments with Discus was easy as well.
+Since I have 301 redirection set up, I could just go into Admin -&amp;gt; Moderate Comments -&amp;gt; Tools -&amp;gt; Migration Tools and use the Redirect Crawler.
+Then Discus ported the two comments I had on my old site to the new site.
+I also discovered that I am not getting email notifications when people comment.
+I will need to look into why.
+The settings are correctly set.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;There was one for google but it required Domain level property types, not URL Prefix like I am using. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Website" /><summary type="html">After graduating last May, I decided to migrate my website from hosting on the EECS servers at UTK to GitHub Pages. I always planned on migrating to GitHub pages post-graduation; that was one reason I chose to build my website using Jekyll. GitHub pages can host any static website, but it is designed to build and work with Jekyll sites automatically. I wanted to migrate my website properly with correct redirection and Search Engine Optimization (SEO). Overall the process was relatively easy, but I did run into some issues, primarily with the customizations I have done to the website. This post will cover the overall steps I took and also the issues and workarounds I encountered.</summary></entry><entry><title type="html">PhD Dissertation and Artifacts Available</title><link href="https://geekdude.github.io/tech/dissertation/" rel="alternate" type="text/html" title="PhD Dissertation and Artifacts Available" /><published>2021-01-30T00:00:00-05:00</published><updated>2021-01-30T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/dissertation</id><content type="html" xml:base="https://geekdude.github.io/tech/dissertation/">&lt;p&gt;My dissertation titled &lt;em&gt;SNACC: The Scaled-up Neuromorphic Array Communications Controller&lt;/em&gt; is now available at &lt;a href=&quot;https://trace.tennessee.edu/utk_graddiss/5843/&quot;&gt;https://trace.tennessee.edu/utk_graddiss/5843/&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I have also made available two general-purpose IP blocks written in VHDL that I created as part of my dissertation work. They are a custom Aurora acknowledgment automatic repeat request design available at &lt;a href=&quot;https://github.com/Geekdude/aurora-ack&quot;&gt;https://github.com/Geekdude/aurora-ack&lt;/a&gt; and a AXI4-Stream clock converter design available at &lt;a href=&quot;https://github.com/Geekdude/axi4-stream-clock-converter&quot;&gt;https://github.com/Geekdude/axi4-stream-clock-converter&lt;/a&gt;.&lt;/p&gt;
 
@@ -1745,35 +1822,4 @@ That’s about it, the rest of the website setup was done following the Minimal 
 &lt;h2 id=&quot;tada-done&quot;&gt;Tada Done&lt;/h2&gt;
 &lt;p&gt;So now I have a new website.
 Thank you for visiting and reading about it.
-If you have any questions or comments about the new website, please don’t hesitate to leave a comment below.&lt;/p&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Website" /><summary type="html">I decided that my project over Christmas break would be to create a new website. Although setting up the website overflowed past Christmas break, it is finally live. What motivated my decision was finally figuring out how to get my website to show up in a Google search. Spoiler alert, I registered my website with Google Search Console.</summary></entry><entry><title type="html">Engineering in England</title><link href="https://geekdude.github.io/life/engineering-in-england/" rel="alternate" type="text/html" title="Engineering in England" /><published>2013-08-31T00:00:00-04:00</published><updated>2013-08-31T00:00:00-04:00</updated><id>https://geekdude.github.io/life/engineering-in-england</id><content type="html" xml:base="https://geekdude.github.io/life/engineering-in-england/">&lt;h2 id=&quot;a-weekend-in-cardiff-walesjune-1517-2013&quot;&gt;A Weekend in Cardiff, Wales—June 15–17 (2013)&lt;/h2&gt;
-&lt;p&gt;by Josh Penney and Aaron Young&lt;/p&gt;
-
-&lt;p&gt;Originally Posted on &lt;a href=&quot;https://tickle.utk.edu/student-reports-engineering-england-summer-2013-part-one/&quot;&gt;tickle.utk.edu&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;During the long weekend, we took a train out to Cardiff, which is the capital of Wales. We picked Cardiff for several reasons, but mostly for the Doctor Who Experience, which is a museum about the BBC show “Doctor Who” which happens to be one of our all-time favorite shows.&lt;/p&gt;
-
-&lt;p&gt;As we continued to explore Cardiff and the surrounding area throughout the weekend, we discovered some amazing castles dotted throughout the Welsh countryside. We visited three castles, Cardiff Castle, Caerphilly Castle, and Castel Coch.&lt;/p&gt;
-
-&lt;p&gt;Each castle had its own special feel ranging from the very nicely refurbished Castel Coch (shown below), to the much more impenetrable fortress of Caerphilly Castle.
-&lt;img src=&quot;/assets/images/engineering-in-england-castel-coch.jpg&quot; alt=&quot;Castel Coch&quot; class=&quot;align-right&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Wales provided a very different cultural feel than we had experienced in the city and the countryside definitely operated at a much slower pace than downtown London.&lt;/p&gt;
-
-&lt;p&gt;It was a great trip to get away from the hustle and bustle of the city and explore the rich, and extremely green, Welsh countryside.&lt;/p&gt;
-
-&lt;figure class=&quot;half &quot;&gt;
-  
-    
-      &lt;a href=&quot;/assets/images/engineering-in-england-aaron-caerphilly-castle.jpg&quot; title=&quot;Aaron Young at Caerphilly Castle&quot;&gt;
-        &lt;img src=&quot;/assets/images/engineering-in-england-aaron-caerphilly-castle-th.jpg&quot; alt=&quot;Aaron&quot; /&gt;
-      &lt;/a&gt;
-    
-  
-    
-      &lt;a href=&quot;/assets/images/engineering-in-england-josh-penney-doctor-who.jpg&quot; title=&quot;Josh Penney visits the Doctor Who Experience&quot;&gt;
-        &lt;img src=&quot;/assets/images/engineering-in-england-josh-penney-doctor-who-th.jpg&quot; alt=&quot;Josh&quot; /&gt;
-      &lt;/a&gt;
-    
-  
-  
-&lt;/figure&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Travel" /><summary type="html">A Weekend in Cardiff, Wales—June 15–17 (2013) by Josh Penney and Aaron Young</summary></entry></feed>
+If you have any questions or comments about the new website, please don’t hesitate to leave a comment below.&lt;/p&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Website" /><summary type="html">I decided that my project over Christmas break would be to create a new website. Although setting up the website overflowed past Christmas break, it is finally live. What motivated my decision was finally figuring out how to get my website to show up in a Google search. Spoiler alert, I registered my website with Google Search Console.</summary></entry></feed>
