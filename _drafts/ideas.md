@@ -10,3 +10,8 @@ title: Future Project Ideas.
 - Zettelkasten
 - Datastore python
 - Data collection method
+- ctags
+- Visual Studio Getting Started
+- Bullet Journal
+- Co-Design White Paper
+- Minimal Dotfiles
