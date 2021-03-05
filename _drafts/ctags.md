@@ -5,8 +5,8 @@ toc_sticky: false
 categories: [Tech]
 tags: [Git, Vim, Ctags]
 header:
-    image: /assets/images/template-header.png
-    teaser: /assets/images/template-teaser.png
+    image: /assets/images/ctags-header.png
+    teaser: /assets/images/ctags-teaser.png
 ---
 
 [Ctags](http://ctags.sourceforge.net/) with vim are incredibly useful for quickly navigating around code.
