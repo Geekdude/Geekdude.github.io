@@ -1,0 +1,884 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.18.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Getting started with Ctags with Vim and Git. - Aaron Young</title>
+<meta name="description" content="Ctags with Vim are incredibly useful for quickly navigating around code. With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document. Ctags + Vim end up working very similar to how Visual Studio Code or other IDEs “go to definition” and “find all symbols works.” ">
+
+
+  <meta name="author" content="Aaron Young">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Aaron Young">
+<meta property="og:title" content="Getting started with Ctags with Vim and Git.">
+<meta property="og:url" content="https://geekdude.github.io/tech/ctags/">
+
+
+  <meta property="og:description" content="Ctags with Vim are incredibly useful for quickly navigating around code. With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document. Ctags + Vim end up working very similar to how Visual Studio Code or other IDEs “go to definition” and “find all symbols works.” ">
+
+
+
+  <meta property="og:image" content="https://geekdude.github.io/assets/images/ctags-header.png">
+
+
+
+  <meta name="twitter:site" content="@Geekdude_360">
+  <meta name="twitter:title" content="Getting started with Ctags with Vim and Git.">
+  <meta name="twitter:description" content="Ctags with Vim are incredibly useful for quickly navigating around code. With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document. Ctags + Vim end up working very similar to how Visual Studio Code or other IDEs “go to definition” and “find all symbols works.” ">
+  <meta name="twitter:url" content="https://geekdude.github.io/tech/ctags/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://geekdude.github.io/assets/images/ctags-header.png">
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2021-03-05T00:00:00-05:00">
+
+
+
+
+
+  
+
+  
+    <meta property="fb:app_id" content="406715286767549">
+  
+
+
+<link rel="canonical" href="https://geekdude.github.io/tech/ctags/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Aaron Young",
+      "url": "https://geekdude.github.io/",
+      "sameAs": ["https://twitter.com/Geekdude_360","https://www.facebook.com/Geekdude","https://www.linkedin.com/in/aaron-young-0791a53b/","https://bitbucket.org/Geekdude/","https://github.com/Geekdude"]
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Aaron Young Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href='/assets/favicons/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='/assets/favicons/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes="16x16" href='/assets/favicons/favicon-16x16.png'>
+<link rel="manifest" href='/assets/favicons/site.webmanifest'>
+<link rel="mask-icon" href='/assets/favicons/safari-pinned-tab.svg' color="#5bbad5">
+<link rel="shortcut icon" href='/assets/favicons/favicon.ico'>
+<meta name="msapplication-TileColor" content="#00a300">
+<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo88x88.png" alt=""></a>
+        
+        <a class="site-title" href="/">
+          Aaron Young
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/" >About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/" >Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/research/" >Research</a>
+            </li><li class="masthead__menu-item">
+              <a href="/publications/" >Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/cv/" >CV</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="page__hero"
+  style=" "
+>
+  
+    <img src="/assets/images/ctags-header.png" alt="Getting started with Ctags with Vim and Git." class="page__hero-image">
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="/assets/images/aaron-young%20square.jpg" alt="Aaron Young" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Aaron Young</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Software Engineer at ORNL</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Knoxville, TN</span>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:ayoung3210@gmail.com">
+            <meta itemprop="email" content="ayoung3210@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.linkedin.com/in/aaron-young-0791a53b" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://bitbucket.org/Geekdude" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="https://github.com/Geekdude" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Getting started with Ctags with Vim and Git.">
+    <meta itemprop="description" content="Ctags with Vim are incredibly useful for quickly navigating around code.With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document.Ctags + Vim end up working very similar to how Visual Studio Code or other IDEs “go to definition” and “find all symbols works.”">
+    <meta itemprop="datePublished" content="2021-03-05T00:00:00-05:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Getting started with Ctags with Vim and Git.
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#ctags-with-vim">Ctags with Vim</a></li>
+  <li><a href="#ctags-with-vim-and-git">Ctags with Vim and Git</a></li>
+  <li><a href="#references">References</a></li>
+</ul>
+
+            </nav>
+          </aside>
+        
+        <p><a href="http://ctags.sourceforge.net/">Ctags</a> with Vim are incredibly useful for quickly navigating around code.
+With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document.
+Ctags + Vim end up working very similar to how <a href="https://code.visualstudio.com/">Visual Studio Code</a> or other IDEs “go to definition” and “find all symbols works.”</p>
+
+<p>From the <a href="http://ctags.sourceforge.net/whatis.html">ctags website</a>:</p>
+<blockquote>
+  <p>Ctags generates an index (or tag) file of language objects found in source files that allows these items to be quickly and easily located by a text editor or other utility. A tag signifies a language object for which an index entry is available (or, alternatively, the index entry created for that object).</p>
+</blockquote>
+
+<h2 id="ctags-with-vim">Ctags with Vim</h2>
+
+<p>Ctags can be annoying to use because you have to run the <code class="highlighter-rouge">ctags</code> program to generate a tag file, which then needs to be found by Vim to be used.
+If the code changes, then the tag file will need to be re-updated.
+One way to set up ctags is to map a Vim keypress to generate the ctags.
+In my <code class="highlighter-rouge">vimrc</code>, I set it up to regenerate ctags when I press &lt;F5&gt; while not in a <img src="http://latex.codecogs.com/gif.latex?\LaTeX" border="0" /> file.
+More on the ctags command later.</p>
+
+<div class="language-viml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">" Set f5 to generate tags for non-latex files</span>
+augroup TexTags
+autocmd<span class="p">!</span> TexTags
+autocmd <span class="nb">FileType</span> tex <span class="k">let</span> <span class="nv">b:latex</span><span class="p">=</span><span class="m">1</span>
+augroup <span class="k">end</span>
+<span class="k">if</span> <span class="p">!</span>exists<span class="p">(</span><span class="s2">"b:latex"</span><span class="p">)</span>
+    nnoremap <span class="p">&lt;</span>f5<span class="p">&gt;</span> <span class="p">:!</span>ctags <span class="p">-</span>R<span class="p">&lt;</span>CR<span class="p">&gt;</span>
+<span class="k">endif</span>
+</code></pre></div></div>
+
+<p>In addition to generating the ctags, you also need to tell Vim where to find the generated tag files.</p>
+
+<div class="language-viml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">" Ctags search</span>
+<span class="k">set</span> <span class="k">tags</span><span class="p">=.</span>/<span class="p">.</span><span class="k">tags</span>;$HOME
+</code></pre></div></div>
+
+<p>This tags string says to search for the file <code class="highlighter-rouge">.tags</code> in the current file’s directory and recursively search upward until the user’s home directory is reached.</p>
+
+<h2 id="ctags-with-vim-and-git">Ctags with Vim and Git</h2>
+
+<p>However, I do not manually generate the ctags file with &lt;F5&gt;.
+I store all my source code in <a href="https://git-scm.com/">Git</a>, so instead of manually generating the ctags file, I use <a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks">githooks</a> to automatically generate the ctags files whenever I checkout, commit, merge, or rewrite.
+To setup githooks to be added automatically to newly cloned or created git repos, you make a git template with the correct files.
+The git template will be copied into the new repositories <code class="highlighter-rouge">.git</code> folder on creation.</p>
+
+<p>First, setup the <code class="highlighter-rouge">git_template</code> structure.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/.git_template/
+└── hooks
+    ├── ctags
+    ├── post-checkout
+    ├── post-commit
+    ├── post-merge
+    └── post-rewrite
+
+1 directory, 5 files
+</code></pre></div></div>
+
+<p>ctags:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/sh</span>
+<span class="nb">set</span> <span class="nt">-e</span>
+<span class="nb">dir</span><span class="o">=</span><span class="s2">"</span><span class="sb">`</span>git rev-parse <span class="nt">--show-toplevel</span><span class="sb">`</span><span class="s2">"</span>
+<span class="nb">trap</span> <span class="s1">'rm -f "$dir/.$$.tags"'</span> EXIT
+ctags <span class="nt">-R</span> <span class="nt">--tag-relative</span> <span class="nt">--extra</span><span class="o">=</span>+f <span class="nt">-f</span><span class="s2">"</span><span class="nv">$dir</span><span class="s2">/.</span><span class="nv">$$</span><span class="s2">.tags"</span> <span class="nt">--languages</span><span class="o">=</span><span class="nt">-javascript</span>,sql
+<span class="nb">mv</span> <span class="s2">"</span><span class="nv">$dir</span><span class="s2">/.</span><span class="nv">$$</span><span class="s2">.tags"</span> <span class="s2">"</span><span class="nv">$dir</span><span class="s2">/.tags"</span>
+</code></pre></div></div>
+
+<p>post-checkout:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/sh</span>
+<span class="nb">dir</span><span class="o">=</span><span class="si">$(</span>git rev-parse <span class="nt">--git-dir</span><span class="si">)</span>
+<span class="nv">$dir</span>/hooks/ctags <span class="o">&gt;</span>/dev/null 2&gt;&amp;1 &amp;
+</code></pre></div></div>
+
+<p>post-commit:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/sh</span>
+<span class="nb">dir</span><span class="o">=</span><span class="si">$(</span>git rev-parse <span class="nt">--git-dir</span><span class="si">)</span>
+<span class="nv">$dir</span>/hooks/ctags <span class="o">&gt;</span>/dev/null 2&gt;&amp;1 &amp;
+</code></pre></div></div>
+
+<p>post-merge:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/sh</span>
+<span class="nb">dir</span><span class="o">=</span><span class="si">$(</span>git rev-parse <span class="nt">--git-dir</span><span class="si">)</span>
+<span class="nv">$dir</span>/hooks/ctags <span class="o">&gt;</span>/dev/null 2&gt;&amp;1 &amp;
+</code></pre></div></div>
+
+<p>post-rewrite:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/sh</span>
+<span class="nb">dir</span><span class="o">=</span><span class="si">$(</span>git rev-parse <span class="nt">--git-dir</span><span class="si">)</span>
+<span class="k">case</span> <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> <span class="k">in
+  </span>rebase<span class="p">)</span> <span class="nb">exec</span> <span class="nv">$dir</span>/hooks/post-merge <span class="p">;;</span>
+<span class="k">esac</span>
+</code></pre></div></div>
+
+<p>You also have to add the template to your <code class="highlighter-rouge">.gitconfig</code>.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[init]
+    templatedir = ~/.git_template
+</code></pre></div></div>
+
+<p>Now more about the ctags command.
+To use the command, you first have to install ctags.
+I use <a href="http://ctags.sourceforge.net/">exuberant-ctags</a> which can be installed with <code class="highlighter-rouge">sudo apt install exuberant-ctags</code> on Ubuntu or Debian based Linux.
+The ctags command I use is</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ctags -R --tag-relative --extra=+f -f"$dir/.$$.tags" --languages=-javascript,sql
+</code></pre></div></div>
+
+<p>The <code class="highlighter-rouge">-R</code> recurses into directories.
+The <code class="highlighter-rouge">--tag-relative</code> sets file paths relative to the tag file.
+The <code class="highlighter-rouge">--extra=+f</code> includes the entry for the base file name of every source file.
+The <code class="highlighter-rouge">-f</code> specifies that the tag file should be saved at the root of the git repository as <code class="highlighter-rouge">.tags</code>.
+Finally, the <code class="highlighter-rouge">--languages</code> removes javascript and SQL from the languages which get tagged.</p>
+
+<p>As mentioned before, this template will only apply to new git repositories; therefore, I also created two <a href="https://fishshell.com/">fish</a> functions to reload git hooks based on the git template.
+One file reloads hooks in a git repo without submodules, and the other one recursively updates the hooks of all submodules.</p>
+
+<p><code class="highlighter-rouge">git-reload-hooks.fish</code>:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function git-reload-hooks --description 'Reload git hooks'
+rm -f (git rev-parse --git-dir)/hooks/*
+git init
+end
+</code></pre></div></div>
+
+<p><code class="highlighter-rouge">git-reload-hooks-all.fish</code>:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function git-reload-hooks-all --description 'Reload all git hooks'
+    git submodule foreach --recursive 'rm -f $(git rev-parse --git-dir)/hooks/*;git init'
+end
+</code></pre></div></div>
+
+<p>If all of this seems like a lot to setup, I recommend storing all your linux dotfiles in a git repository with a script to symlink the files to the right location.
+I plan to create a future post with more detail on how this is done.</p>
+
+<h2 id="references">References</h2>
+<p>I followed <a href="https://tbaggery.com/2011/08/08/effortless-ctags-with-git.html">https://tbaggery.com/2011/08/08/effortless-ctags-with-git.html</a> when I was setting up ctags for the first time.
+I have since modified my setup to work better with git submodules and other edge cases.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#ctags" class="page__taxonomy-item" rel="tag">Ctags</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#git" class="page__taxonomy-item" rel="tag">Git</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#vim" class="page__taxonomy-item" rel="tag">Vim</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#tech" class="page__taxonomy-item" rel="tag">Tech</a>
+    
+    </span>
+  </p>
+
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Posted:</strong> <time datetime="2021-03-05T00:00:00-05:00">March 5, 2021</time></p>
+        
+
+        
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?via=Geekdude_360&text=Getting+started+with+Ctags+with+Vim+and+Git.%20https%3A%2F%2Fgeekdude.github.io%2Ftech%2Fctags%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgeekdude.github.io%2Ftech%2Fctags%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgeekdude.github.io%2Ftech%2Fctags%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/tech/moving-website/" class="pagination--pager" title="Moving Website from web.eecs.utk.edu to Github.io
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Comments</h4>
+      <section id="disqus_thread"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/website-move-teaser.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/tech/moving-website/" rel="permalink">Moving Website from web.eecs.utk.edu to Github.io
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  5 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">After graduating last May, I decided to migrate my website from hosting on the EECS servers at UTK to GitHub Pages.
+I always planned on migrating to GitHub p...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/phd-teaser.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/tech/dissertation/" rel="permalink">PhD Dissertation and Artifacts Available
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">My dissertation titled SNACC: The Scaled-up Neuromorphic Array Communications Controller is now available at https://trace.tennessee.edu/utk_graddiss/5843/.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/bread-header.jpg"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/life/sourdough-bread/" rel="permalink">Sourdough Bread
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  12 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">My favorite type of bread is a fresh, warm loaf of sourdough.
+I can almost go through a whole loaf by myself when it is fresh from the oven.
+Sourdough bread ...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src=
+          
+            "/assets/images/reorder-teaser.png"
+          
+          alt="">
+      </div>
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/tech/reorder/" rel="permalink">Reorder
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">I recently created a reorder python script to rename, reorder, add, and remove files/directories in a directory with a numerical naming scheme.
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="mailto:ayoung3210@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://bitbucket.org/Geekdude/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+        
+      
+        
+          <li><a href="https://github.com/Geekdude" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/aaron-young-0791a53b" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Aaron Young. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147196137-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147196137-1', { 'anonymize_ip': false});
+</script>
+
+
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "https://geekdude.github.io/tech/ctags/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/tech/ctags"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://ayoung48.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>

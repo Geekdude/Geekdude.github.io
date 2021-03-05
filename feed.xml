@@ -1,4 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2021-02-24T11:28:47-05:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><entry><title type="html">Moving Website from web.eecs.utk.edu to Github.io</title><link href="https://geekdude.github.io/tech/moving-website/" rel="alternate" type="text/html" title="Moving Website from web.eecs.utk.edu to Github.io" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/moving-website</id><content type="html" xml:base="https://geekdude.github.io/tech/moving-website/">&lt;p&gt;After graduating last May, I decided to migrate &lt;a href=&quot;/tech/new-website/&quot;&gt;my website&lt;/a&gt; from hosting on the EECS servers at UTK to &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2021-03-05T12:42:26-05:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><entry><title type="html">Getting started with Ctags with Vim and Git.</title><link href="https://geekdude.github.io/tech/ctags/" rel="alternate" type="text/html" title="Getting started with Ctags with Vim and Git." /><published>2021-03-05T00:00:00-05:00</published><updated>2021-03-05T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/ctags</id><content type="html" xml:base="https://geekdude.github.io/tech/ctags/">&lt;p&gt;&lt;a href=&quot;http://ctags.sourceforge.net/&quot;&gt;Ctags&lt;/a&gt; with Vim are incredibly useful for quickly navigating around code.
+With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document.
+Ctags + Vim end up working very similar to how &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt; or other IDEs “go to definition” and “find all symbols works.”&lt;/p&gt;
+
+&lt;p&gt;From the &lt;a href=&quot;http://ctags.sourceforge.net/whatis.html&quot;&gt;ctags website&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Ctags generates an index (or tag) file of language objects found in source files that allows these items to be quickly and easily located by a text editor or other utility. A tag signifies a language object for which an index entry is available (or, alternatively, the index entry created for that object).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;ctags-with-vim&quot;&gt;Ctags with Vim&lt;/h2&gt;
+
+&lt;p&gt;Ctags can be annoying to use because you have to run the &lt;code class=&quot;highlighter-rouge&quot;&gt;ctags&lt;/code&gt; program to generate a tag file, which then needs to be found by Vim to be used.
+If the code changes, then the tag file will need to be re-updated.
+One way to set up ctags is to map a Vim keypress to generate the ctags.
+In my &lt;code class=&quot;highlighter-rouge&quot;&gt;vimrc&lt;/code&gt;, I set it up to regenerate ctags when I press &amp;lt;F5&amp;gt; while not in a &lt;img src=&quot;http://latex.codecogs.com/gif.latex?\LaTeX&quot; border=&quot;0&quot; /&gt; file.
+More on the ctags command later.&lt;/p&gt;
+
+&lt;div class=&quot;language-viml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&quot; Set f5 to generate tags for non-latex files&lt;/span&gt;
+augroup TexTags
+autocmd&lt;span class=&quot;p&quot;&gt;!&lt;/span&gt; TexTags
+autocmd &lt;span class=&quot;nb&quot;&gt;FileType&lt;/span&gt; tex &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;b:latex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;
+augroup &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;!&lt;/span&gt;exists&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;b:latex&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    nnoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;f5&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:!&lt;/span&gt;ctags &lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;R&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;CR&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;endif&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In addition to generating the ctags, you also need to tell Vim where to find the generated tag files.&lt;/p&gt;
+
+&lt;div class=&quot;language-viml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&quot; Ctags search&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=.&lt;/span&gt;/&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;tags&lt;/span&gt;;$HOME
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This tags string says to search for the file &lt;code class=&quot;highlighter-rouge&quot;&gt;.tags&lt;/code&gt; in the current file’s directory and recursively search upward until the user’s home directory is reached.&lt;/p&gt;
+
+&lt;h2 id=&quot;ctags-with-vim-and-git&quot;&gt;Ctags with Vim and Git&lt;/h2&gt;
+
+&lt;p&gt;However, I do not manually generate the ctags file with &amp;lt;F5&amp;gt;.
+I store all my source code in &lt;a href=&quot;https://git-scm.com/&quot;&gt;Git&lt;/a&gt;, so instead of manually generating the ctags file, I use &lt;a href=&quot;https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks&quot;&gt;githooks&lt;/a&gt; to automatically generate the ctags files whenever I checkout, commit, merge, or rewrite.
+To setup githooks to be added automatically to newly cloned or created git repos, you make a git template with the correct files.
+The git template will be copied into the new repositories &lt;code class=&quot;highlighter-rouge&quot;&gt;.git&lt;/code&gt; folder on creation.&lt;/p&gt;
+
+&lt;p&gt;First, setup the &lt;code class=&quot;highlighter-rouge&quot;&gt;git_template&lt;/code&gt; structure.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~/.git_template/
+└── hooks
+    ├── ctags
+    ├── post-checkout
+    ├── post-commit
+    ├── post-merge
+    └── post-rewrite
+
+1 directory, 5 files
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;ctags:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;git rev-parse &lt;span class=&quot;nt&quot;&gt;--show-toplevel&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;trap&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'rm -f &quot;$dir/.$$.tags&quot;'&lt;/span&gt; EXIT
+ctags &lt;span class=&quot;nt&quot;&gt;-R&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--tag-relative&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--extra&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;+f &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.tags&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--languages&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-javascript&lt;/span&gt;,sql
+&lt;span class=&quot;nb&quot;&gt;mv&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.tags&quot;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/.tags&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;post-checkout:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;git rev-parse &lt;span class=&quot;nt&quot;&gt;--git-dir&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;/hooks/ctags &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;/dev/null 2&amp;gt;&amp;amp;1 &amp;amp;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;post-commit:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;git rev-parse &lt;span class=&quot;nt&quot;&gt;--git-dir&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;/hooks/ctags &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;/dev/null 2&amp;gt;&amp;amp;1 &amp;amp;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;post-merge:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;git rev-parse &lt;span class=&quot;nt&quot;&gt;--git-dir&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;/hooks/ctags &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;/dev/null 2&amp;gt;&amp;amp;1 &amp;amp;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;post-rewrite:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;git rev-parse &lt;span class=&quot;nt&quot;&gt;--git-dir&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in
+  &lt;/span&gt;rebase&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$dir&lt;/span&gt;/hooks/post-merge &lt;span class=&quot;p&quot;&gt;;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;esac&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You also have to add the template to your &lt;code class=&quot;highlighter-rouge&quot;&gt;.gitconfig&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[init]
+    templatedir = ~/.git_template
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now more about the ctags command.
+To use the command, you first have to install ctags.
+I use &lt;a href=&quot;http://ctags.sourceforge.net/&quot;&gt;exuberant-ctags&lt;/a&gt; which can be installed with &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install exuberant-ctags&lt;/code&gt; on Ubuntu or Debian based Linux.
+The ctags command I use is&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ctags -R --tag-relative --extra=+f -f&quot;$dir/.$$.tags&quot; --languages=-javascript,sql
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;-R&lt;/code&gt; recurses into directories.
+The &lt;code class=&quot;highlighter-rouge&quot;&gt;--tag-relative&lt;/code&gt; sets file paths relative to the tag file.
+The &lt;code class=&quot;highlighter-rouge&quot;&gt;--extra=+f&lt;/code&gt; includes the entry for the base file name of every source file.
+The &lt;code class=&quot;highlighter-rouge&quot;&gt;-f&lt;/code&gt; specifies that the tag file should be saved at the root of the git repository as &lt;code class=&quot;highlighter-rouge&quot;&gt;.tags&lt;/code&gt;.
+Finally, the &lt;code class=&quot;highlighter-rouge&quot;&gt;--languages&lt;/code&gt; removes javascript and SQL from the languages which get tagged.&lt;/p&gt;
+
+&lt;p&gt;As mentioned before, this template will only apply to new git repositories; therefore, I also created two &lt;a href=&quot;https://fishshell.com/&quot;&gt;fish&lt;/a&gt; functions to reload git hooks based on the git template.
+One file reloads hooks in a git repo without submodules, and the other one recursively updates the hooks of all submodules.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git-reload-hooks.fish&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function git-reload-hooks --description 'Reload git hooks'
+rm -f (git rev-parse --git-dir)/hooks/*
+git init
+end
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git-reload-hooks-all.fish&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function git-reload-hooks-all --description 'Reload all git hooks'
+    git submodule foreach --recursive 'rm -f $(git rev-parse --git-dir)/hooks/*;git init'
+end
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If all of this seems like a lot to setup, I recommend storing all your linux dotfiles in a git repository with a script to symlink the files to the right location.
+I plan to create a future post with more detail on how this is done.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;p&gt;I followed &lt;a href=&quot;https://tbaggery.com/2011/08/08/effortless-ctags-with-git.html&quot;&gt;https://tbaggery.com/2011/08/08/effortless-ctags-with-git.html&lt;/a&gt; when I was setting up ctags for the first time.
+I have since modified my setup to work better with git submodules and other edge cases.&lt;/p&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Git" /><category term="Vim" /><category term="Ctags" /><summary type="html">Ctags with Vim are incredibly useful for quickly navigating around code. With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document. Ctags + Vim end up working very similar to how Visual Studio Code or other IDEs “go to definition” and “find all symbols works.”</summary></entry><entry><title type="html">Moving Website from web.eecs.utk.edu to Github.io</title><link href="https://geekdude.github.io/tech/moving-website/" rel="alternate" type="text/html" title="Moving Website from web.eecs.utk.edu to Github.io" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/moving-website</id><content type="html" xml:base="https://geekdude.github.io/tech/moving-website/">&lt;p&gt;After graduating last May, I decided to migrate &lt;a href=&quot;/tech/new-website/&quot;&gt;my website&lt;/a&gt; from hosting on the EECS servers at UTK to &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.
 I always planned on migrating to GitHub pages post-graduation; that was one reason I chose to build my website using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.
 GitHub pages can host any static website, but it is designed to build and work with Jekyll sites automatically.
 I wanted to migrate my website properly with correct redirection and Search Engine Optimization (SEO).
@@ -1748,78 +1880,4 @@ rsync &lt;span class=&quot;nt&quot;&gt;-vrzchp&lt;/span&gt; &lt;span class=&quot
 &lt;p&gt;So in summary, the recommended was to generate links is with the link tag. For example:&lt;/p&gt;
 &lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Old Website](&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;/assets/images/old_website.png&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;This method is now the most concise, readable, and will correctly generate the permalink URL following the site rules. It will also perform link validation to make sure the linked file exists.&lt;/p&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Website" /><summary type="html">When I was deploying my website to the web server, I ran into a few challenges. I will talk about them here in case anyone happens to run into similar challenges.</summary></entry><entry><title type="html">New Website using Jekyll</title><link href="https://geekdude.github.io/tech/new-website/" rel="alternate" type="text/html" title="New Website using Jekyll" /><published>2019-01-24T00:00:00-05:00</published><updated>2019-01-24T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/new-website</id><content type="html" xml:base="https://geekdude.github.io/tech/new-website/">&lt;p&gt;I decided that my project over Christmas break would be to create a new website.
-Although setting up the website overflowed past Christmas break, it is finally live.
-What motivated my decision was finally figuring out how to get my website to show up in a Google search.
-Spoiler alert, I registered my website with &lt;a href=&quot;https://search.google.com/search-console/about&quot;&gt;Google Search Console&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-old-website&quot;&gt;The Old Website&lt;/h2&gt;
-&lt;p&gt;My old website was fine, but nothing special.
-A picture of the old site is shown below:
-&lt;img src=&quot;/assets/images/old_website.png&quot; alt=&quot;Old Website&quot; /&gt;
-The old website consisted of a single page and its content was the same as the new &lt;a href=&quot;/about/&quot;&gt;About&lt;/a&gt; page.
-There were a few reasons I wanted to update my website.&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;I am not very good with HTML and I would rather create content for the website using markdown.&lt;/li&gt;
-  &lt;li&gt;The previous website used no CSS and only had static HTML pages.
-It would be difficult to maintain navigation and constant style if I added additional webpages.&lt;/li&gt;
-  &lt;li&gt;I thought it would be cool to try writing a technical blog, since my workflow has greatly improved from reading other people’s technical blogs.&lt;/li&gt;
-  &lt;li&gt;I heard about GitHub pages and wanted to try creating a Jekyll website.
-Yes I know I’m not hosting this site on GitHub pages, but I will likely transfer my website there once I can no longer host my website on the University of Tennessee’s servers.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;why-jekyll&quot;&gt;Why Jekyll?&lt;/h2&gt;
-&lt;p&gt;So why did I go with Jekyll? For a few reasons.
-First, I wanted my website to be static, and I wanted a tool to help generate the static pages.
-Second, I learned about GitHub pages, which made me want to try out Jekyll so that I could possibly use GitHub pages for future project pages.
-And finally, Jekyll seems to have all the features I could want with great community support, which means that I would be able to find resources to help me to get started.&lt;/p&gt;
-
-&lt;h2 id=&quot;learning-jekyll&quot;&gt;Learning Jekyll&lt;/h2&gt;
-&lt;p&gt;I started learning Jekyll by reading the documentation provided on the &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll Website&lt;/a&gt;.
-I got the default template website running with the &lt;a href=&quot;https://jekyllrb.com/docs/&quot;&gt;quick start guide&lt;/a&gt; and then worked my way through the &lt;a href=&quot;https://jekyllrb.com/docs/step-by-step/01-setup/&quot;&gt;step by step tutorial&lt;/a&gt;.
-The tutorial was well put together, but a little overwhelming since it is written for someone with web developing experience.
-It did help me figure out roughly how Jekyll generates the web pages, and made me realize that I wanted to use an existing theme instead of trying to build my own.
-The other main documentation for Jekyll is well put together and easy to navigate once the terminology is understood.&lt;/p&gt;
-
-&lt;p&gt;Because it was hard for me to see how to use Jekyll for my project based on the documentation, I also read other people’s blog posts which detailed how they went about creating their Jekyll websites.
-The two that I found most helpful are &lt;a href=&quot;http://svmiller.com/blog/2015/08/create-your-website-in-jekyll/&quot;&gt;Create your Academic Website in Jekyll and Host it on GitHub&lt;/a&gt; by Steven Miller and &lt;a href=&quot;https://zenglix.github.io/personal_website/&quot;&gt;Build your own website (with Jekyll and Minimal-mistakes theme)&lt;/a&gt; by Li Zeng.
-You might notice that my website looks very similar to Li Zeng’s and that is because I also decided to go with the &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/&quot;&gt;Minimal Mistakes&lt;/a&gt; theme.&lt;/p&gt;
-
-&lt;h2 id=&quot;finding-a-templatetheme&quot;&gt;Finding a Template/Theme&lt;/h2&gt;
-&lt;p&gt;When I was deciding how I wanted my website to look and be structured, I searched the web to try to find examples of personal websites that I could use for inspiration.
-Many of the sites I found were primarily used as portfolios and therefore showcased the work or the writings of the person.
-I knew that my website only needed a landing page, about page, blog (If I thought I would create posts), and a link to my resume.
-The key to the content I wanted is that it would consist of multiple pages and would be set up as a personal academic website.
-This ruled out all the themes which focused on a single landing page or didn’t fit the personal website aesthetic.&lt;/p&gt;
-
-&lt;p&gt;When searching for a theme, I looked through &lt;a href=&quot;http://jekyllthemes.org&quot;&gt;jekyllthemes.org&lt;/a&gt; and &lt;a href=&quot;http://jekyllthemes.io&quot;&gt;jekyllthemes.io&lt;/a&gt;.
-I preferred jekyllthemes.org since all the themes are free, however, some of the themes have bad links.
-Jekyllthemes.io was also good to look through and you can filter the results by free websites and all the themes had good links.
-Many of the better looking themes can be found on both sites.
-I found 7 themes that caught my attention as potential candidates.
-Then I narrowed the search down to two favorites.
-The final two were &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/&quot;&gt;Minimal Mistakes&lt;/a&gt; and &lt;a href=&quot;https://github.com/sergiokopplin/indigo&quot;&gt;indigo&lt;/a&gt;.
-I ended up choosing Minimal Mistakes, since I liked the more content heavy splash page layout for a homepage, and the theme seemed feature rich and well-designed.
-It got bonus points for the well laid out documentation that was written using the theme.
-Indigo was close second since it is also well-designed and a beautiful minimal design with a very clean landing page.&lt;/p&gt;
-
-&lt;p&gt;Although there are differences in the parameters used between themes, the content for the site is all in markdown.
-So with some time invested in configuring a new theme, I could migrate my site to a different theme.
-The downside is that, since the themes have different configurations and layouts, different themes are not interchangeable without some work.&lt;/p&gt;
-
-&lt;h2 id=&quot;making-content&quot;&gt;Making Content&lt;/h2&gt;
-&lt;p&gt;The first step I took was to read the &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/&quot;&gt;documentation&lt;/a&gt; for Minimal Mistakes.
-The documentation is structured well and custom configuring the site was easy and fun.
-I then ported over my old website’s content to make the about page.
-I then spent some time learning how to embed the resume document into the webpage.
-Next, I structured the home page and selected graphics to use.
-I found two useful resources for images. &lt;a href=&quot;https://fontawesome.com/icons&quot;&gt;Font Awesome&lt;/a&gt; has a wide range of free SVG icons.
-I used their envelope icon for my contact me graphic.
-The second resource is &lt;a href=&quot;https://unsplash.com/&quot;&gt;Unsplash&lt;/a&gt; which has free high resolution photos.
-Unsplash is where I got the typewriter image I used for the resume graphic.
-That’s about it, the rest of the website setup was done following the Minimal Mistakes documentation.&lt;/p&gt;
-
-&lt;h2 id=&quot;tada-done&quot;&gt;Tada Done&lt;/h2&gt;
-&lt;p&gt;So now I have a new website.
-Thank you for visiting and reading about it.
-If you have any questions or comments about the new website, please don’t hesitate to leave a comment below.&lt;/p&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Website" /><summary type="html">I decided that my project over Christmas break would be to create a new website. Although setting up the website overflowed past Christmas break, it is finally live. What motivated my decision was finally figuring out how to get my website to show up in a Google search. Spoiler alert, I registered my website with Google Search Console.</summary></entry></feed>
+&lt;p&gt;This method is now the most concise, readable, and will correctly generate the permalink URL following the site rules. It will also perform link validation to make sure the linked file exists.&lt;/p&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Website" /><summary type="html">When I was deploying my website to the web server, I ran into a few challenges. I will talk about them here in case anyone happens to run into similar challenges.</summary></entry></feed>
