@@ -22,9 +22,11 @@ Plain Text:
 
 Bibtex:
 
-    @PhdThesis{young_snacc,
-        author      = {Aaron Reed Young},
+    @PhdThesis{y:20:snacc,
         title       = {SNACC: The Scaled-up Neuromorphic Array Communications Controller},
-        date        = {2020},
+        author      = {Aaron Reed Young},
         institution = {University of Tennessee},
+        month       = {May},
+        year        = {2020},
+        url         = {https://trace.tennessee.edu/utk_graddiss/5843/}
     }
