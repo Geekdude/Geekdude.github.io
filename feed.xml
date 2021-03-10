@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2021-03-05T12:42:26-05:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><entry><title type="html">Getting started with Ctags with Vim and Git.</title><link href="https://geekdude.github.io/tech/ctags/" rel="alternate" type="text/html" title="Getting started with Ctags with Vim and Git." /><published>2021-03-05T00:00:00-05:00</published><updated>2021-03-05T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/ctags</id><content type="html" xml:base="https://geekdude.github.io/tech/ctags/">&lt;p&gt;&lt;a href=&quot;http://ctags.sourceforge.net/&quot;&gt;Ctags&lt;/a&gt; with Vim are incredibly useful for quickly navigating around code.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2021-03-10T08:23:35-05:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><entry><title type="html">Getting started with Ctags with Vim and Git.</title><link href="https://geekdude.github.io/tech/ctags/" rel="alternate" type="text/html" title="Getting started with Ctags with Vim and Git." /><published>2021-03-05T00:00:00-05:00</published><updated>2021-03-05T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/ctags</id><content type="html" xml:base="https://geekdude.github.io/tech/ctags/">&lt;p&gt;&lt;a href=&quot;http://ctags.sourceforge.net/&quot;&gt;Ctags&lt;/a&gt; with Vim are incredibly useful for quickly navigating around code.
 With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document.
 Ctags + Vim end up working very similar to how &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt; or other IDEs “go to definition” and “find all symbols works.”&lt;/p&gt;
 
@@ -221,11 +221,13 @@ https://trace.tennessee.edu/utk_graddiss/5843
 
 &lt;p&gt;Bibtex:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@PhdThesis{young_snacc,
-    author      = {Aaron Reed Young},
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@PhdThesis{y:20:snacc,
     title       = {SNACC: The Scaled-up Neuromorphic Array Communications Controller},
-    date        = {2020},
+    author      = {Aaron Reed Young},
     institution = {University of Tennessee},
+    month       = {May},
+    year        = {2020},
+    url         = {https://trace.tennessee.edu/utk_graddiss/5843/}
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Neuromorphic Computing" /><category term="Research" /><summary type="html">My dissertation titled SNACC: The Scaled-up Neuromorphic Array Communications Controller is now available at https://trace.tennessee.edu/utk_graddiss/5843/.</summary></entry><entry><title type="html">Sourdough Bread</title><link href="https://geekdude.github.io/life/sourdough-bread/" rel="alternate" type="text/html" title="Sourdough Bread" /><published>2020-04-12T00:00:00-04:00</published><updated>2020-04-12T00:00:00-04:00</updated><id>https://geekdude.github.io/life/sourdough-bread</id><content type="html" xml:base="https://geekdude.github.io/life/sourdough-bread/">&lt;p&gt;My favorite type of bread is a fresh, warm loaf of sourdough.
 I can almost go through a whole loaf by myself when it is fresh from the oven.
