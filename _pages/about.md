@@ -101,7 +101,8 @@ Jenkins,
 Linux,
 MAAS,
 Slurm,
-Vivado
+Vivado,
+Vitis
 
 #### Protocols
 CANopen,
