@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2021-03-10T08:23:35-05:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><entry><title type="html">Getting started with Ctags with Vim and Git.</title><link href="https://geekdude.github.io/tech/ctags/" rel="alternate" type="text/html" title="Getting started with Ctags with Vim and Git." /><published>2021-03-05T00:00:00-05:00</published><updated>2021-03-05T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/ctags</id><content type="html" xml:base="https://geekdude.github.io/tech/ctags/">&lt;p&gt;&lt;a href=&quot;http://ctags.sourceforge.net/&quot;&gt;Ctags&lt;/a&gt; with Vim are incredibly useful for quickly navigating around code.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2021-03-10T22:48:59-05:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><entry><title type="html">ASCR Workshop on Reimagining Codesign Whitepaper</title><link href="https://geekdude.github.io/research/ascr-reimagining-codesign/" rel="alternate" type="text/html" title="ASCR Workshop on Reimagining Codesign Whitepaper" /><published>2021-03-10T00:00:00-05:00</published><updated>2021-03-10T00:00:00-05:00</updated><id>https://geekdude.github.io/research/ascr-reimagining-codesign</id><content type="html" xml:base="https://geekdude.github.io/research/ascr-reimagining-codesign/">&lt;p&gt;My whitepaper titled &lt;a href=&quot;https://custom.cvent.com/DCBD4ADAAD004096B1E4AD96F3C8049E/files/event/f64a4f28b4734808924cc8c3d9a2af63/32fd0b3c80c04326a2adf6827290512f.pdf&quot;&gt;Emerging Heterogeneous Systems Provide Great Opportunities for Codesign&lt;/a&gt; for the &lt;a href=&quot;https://web.cvent.com/event/f64a4f28-b473-4808-924c-c8c3d9a2af63/summary&quot;&gt;ASCR Workshop on Reimagining Codesign&lt;/a&gt; was accepted.&lt;/p&gt;
+
+&lt;p&gt;All the accepted whitepapers can be found &lt;a href=&quot;https://web.cvent.com/event/f64a4f28-b473-4808-924c-c8c3d9a2af63/websitePage:38a39b7a-d1af-4643-82ac-8fcf1069773b&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Heterogeneous Systems" /><summary type="html">My whitepaper titled Emerging Heterogeneous Systems Provide Great Opportunities for Codesign for the ASCR Workshop on Reimagining Codesign was accepted.</summary></entry><entry><title type="html">Getting started with Ctags with Vim and Git.</title><link href="https://geekdude.github.io/tech/ctags/" rel="alternate" type="text/html" title="Getting started with Ctags with Vim and Git." /><published>2021-03-05T00:00:00-05:00</published><updated>2021-03-05T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/ctags</id><content type="html" xml:base="https://geekdude.github.io/tech/ctags/">&lt;p&gt;&lt;a href=&quot;http://ctags.sourceforge.net/&quot;&gt;Ctags&lt;/a&gt; with Vim are incredibly useful for quickly navigating around code.
 With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document.
 Ctags + Vim end up working very similar to how &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt; or other IDEs “go to definition” and “find all symbols works.”&lt;/p&gt;
 
@@ -207,7 +209,7 @@ The settings are correctly set.&lt;/p&gt;
       &lt;p&gt;There was one for google but it required Domain level property types, not URL Prefix like I am using. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Website" /><summary type="html">After graduating last May, I decided to migrate my website from hosting on the EECS servers at UTK to GitHub Pages. I always planned on migrating to GitHub pages post-graduation; that was one reason I chose to build my website using Jekyll. GitHub pages can host any static website, but it is designed to build and work with Jekyll sites automatically. I wanted to migrate my website properly with correct redirection and Search Engine Optimization (SEO). Overall the process was relatively easy, but I did run into some issues, primarily with the customizations I have done to the website. This post will cover the overall steps I took and also the issues and workarounds I encountered.</summary></entry><entry><title type="html">PhD Dissertation and Artifacts Available</title><link href="https://geekdude.github.io/tech/dissertation/" rel="alternate" type="text/html" title="PhD Dissertation and Artifacts Available" /><published>2021-01-30T00:00:00-05:00</published><updated>2021-01-30T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/dissertation</id><content type="html" xml:base="https://geekdude.github.io/tech/dissertation/">&lt;p&gt;My dissertation titled &lt;em&gt;SNACC: The Scaled-up Neuromorphic Array Communications Controller&lt;/em&gt; is now available at &lt;a href=&quot;https://trace.tennessee.edu/utk_graddiss/5843/&quot;&gt;https://trace.tennessee.edu/utk_graddiss/5843/&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Website" /><summary type="html">After graduating last May, I decided to migrate my website from hosting on the EECS servers at UTK to GitHub Pages. I always planned on migrating to GitHub pages post-graduation; that was one reason I chose to build my website using Jekyll. GitHub pages can host any static website, but it is designed to build and work with Jekyll sites automatically. I wanted to migrate my website properly with correct redirection and Search Engine Optimization (SEO). Overall the process was relatively easy, but I did run into some issues, primarily with the customizations I have done to the website. This post will cover the overall steps I took and also the issues and workarounds I encountered.</summary></entry><entry><title type="html">PhD Dissertation and Artifacts Available</title><link href="https://geekdude.github.io/research/dissertation/" rel="alternate" type="text/html" title="PhD Dissertation and Artifacts Available" /><published>2021-01-30T00:00:00-05:00</published><updated>2021-01-30T00:00:00-05:00</updated><id>https://geekdude.github.io/research/dissertation</id><content type="html" xml:base="https://geekdude.github.io/research/dissertation/">&lt;p&gt;My dissertation titled &lt;em&gt;SNACC: The Scaled-up Neuromorphic Array Communications Controller&lt;/em&gt; is now available at &lt;a href=&quot;https://trace.tennessee.edu/utk_graddiss/5843/&quot;&gt;https://trace.tennessee.edu/utk_graddiss/5843/&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I have also made available two general-purpose IP blocks written in VHDL that I created as part of my dissertation work. They are a custom Aurora acknowledgment automatic repeat request design available at &lt;a href=&quot;https://github.com/Geekdude/aurora-ack&quot;&gt;https://github.com/Geekdude/aurora-ack&lt;/a&gt; and a AXI4-Stream clock converter design available at &lt;a href=&quot;https://github.com/Geekdude/axi4-stream-clock-converter&quot;&gt;https://github.com/Geekdude/axi4-stream-clock-converter&lt;/a&gt;.&lt;/p&gt;
 
@@ -229,7 +231,7 @@ https://trace.tennessee.edu/utk_graddiss/5843
     year        = {2020},
     url         = {https://trace.tennessee.edu/utk_graddiss/5843/}
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Neuromorphic Computing" /><category term="Research" /><summary type="html">My dissertation titled SNACC: The Scaled-up Neuromorphic Array Communications Controller is now available at https://trace.tennessee.edu/utk_graddiss/5843/.</summary></entry><entry><title type="html">Sourdough Bread</title><link href="https://geekdude.github.io/life/sourdough-bread/" rel="alternate" type="text/html" title="Sourdough Bread" /><published>2020-04-12T00:00:00-04:00</published><updated>2020-04-12T00:00:00-04:00</updated><id>https://geekdude.github.io/life/sourdough-bread</id><content type="html" xml:base="https://geekdude.github.io/life/sourdough-bread/">&lt;p&gt;My favorite type of bread is a fresh, warm loaf of sourdough.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Neuromorphic Computing" /><summary type="html">My dissertation titled SNACC: The Scaled-up Neuromorphic Array Communications Controller is now available at https://trace.tennessee.edu/utk_graddiss/5843/.</summary></entry><entry><title type="html">Sourdough Bread</title><link href="https://geekdude.github.io/life/sourdough-bread/" rel="alternate" type="text/html" title="Sourdough Bread" /><published>2020-04-12T00:00:00-04:00</published><updated>2020-04-12T00:00:00-04:00</updated><id>https://geekdude.github.io/life/sourdough-bread</id><content type="html" xml:base="https://geekdude.github.io/life/sourdough-bread/">&lt;p&gt;My favorite type of bread is a fresh, warm loaf of sourdough.
 I can almost go through a whole loaf by myself when it is fresh from the oven.
 Sourdough bread also makes the best french toast and great bread crumbs for wiener schnitzel.
 This post will go over the basics to getting started making sourdough bread.
@@ -569,7 +571,7 @@ Beyond the primary target of delivering a functional system, efforts were focuse
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gnGCjMEXjdo&quot;&gt;Video: Big Orange Bramble (BOB) App Presentations&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/assets/alice-presentation.pdf&quot;&gt;Slides: ALICE Presentation&lt;/a&gt;&lt;/p&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="High Performance Computing" /><summary type="html">This year marks the three-year anniversary of the 64 node Raspberry Pi cluster known as the Big Orange Bramble or BOB. I am happy to report that BOB is still running strong and there have been no major downtimes or issues with the system. BOB is still occasionally used to train neuromorphic networks using EONS, which you can read more about here. BOB was build as part of the special topics class ECE599 Supercomputer Design and Analysis, Summer 2016 of which I was part. This post includes images of the system and copies of the reports and presentations in case you want to read more about the system. The reports are also posted on Dr. Mark Dean’s website. Dr. Dean taught the course. Also included are the reports for the follow-up project named A Linux Integrated Computing Environment or ALICE, which used Pine64 boards and Nvidia TX1 GPUs.</summary></entry><entry><title type="html">A Review of Spiking Neuromorphic Hardware Communication Systems</title><link href="https://geekdude.github.io/tech/ieee-access-2019-review-paper/" rel="alternate" type="text/html" title="A Review of Spiking Neuromorphic Hardware Communication Systems" /><published>2019-10-09T04:00:00-04:00</published><updated>2019-10-09T04:00:00-04:00</updated><id>https://geekdude.github.io/tech/ieee-access-2019-review-paper</id><content type="html" xml:base="https://geekdude.github.io/tech/ieee-access-2019-review-paper/">&lt;p&gt;Aaron R. Young, Mark E. Dean, James S. Plank, and Garrett S. Rose&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/alice-presentation.pdf&quot;&gt;Slides: ALICE Presentation&lt;/a&gt;&lt;/p&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="High Performance Computing" /><summary type="html">This year marks the three-year anniversary of the 64 node Raspberry Pi cluster known as the Big Orange Bramble or BOB. I am happy to report that BOB is still running strong and there have been no major downtimes or issues with the system. BOB is still occasionally used to train neuromorphic networks using EONS, which you can read more about here. BOB was build as part of the special topics class ECE599 Supercomputer Design and Analysis, Summer 2016 of which I was part. This post includes images of the system and copies of the reports and presentations in case you want to read more about the system. The reports are also posted on Dr. Mark Dean’s website. Dr. Dean taught the course. Also included are the reports for the follow-up project named A Linux Integrated Computing Environment or ALICE, which used Pine64 boards and Nvidia TX1 GPUs.</summary></entry><entry><title type="html">A Review of Spiking Neuromorphic Hardware Communication Systems</title><link href="https://geekdude.github.io/research/ieee-access-2019-review-paper/" rel="alternate" type="text/html" title="A Review of Spiking Neuromorphic Hardware Communication Systems" /><published>2019-10-09T04:00:00-04:00</published><updated>2019-10-09T04:00:00-04:00</updated><id>https://geekdude.github.io/research/ieee-access-2019-review-paper</id><content type="html" xml:base="https://geekdude.github.io/research/ieee-access-2019-review-paper/">&lt;p&gt;Aaron R. Young, Mark E. Dean, James S. Plank, and Garrett S. Rose&lt;/p&gt;
 
 &lt;p&gt;September, 2019&lt;/p&gt;
 
@@ -621,7 +623,24 @@ url       http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;amp;arnumber=884396
     doi = &quot;10.1109/ACCESS.2019.2941772&quot;,
     url = &quot;http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;amp;arnumber=8843969&amp;amp;isnumber=8600701&quot;
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Neuromorphic Computing" /><category term="Research" /><summary type="html">Aaron R. Young, Mark E. Dean, James S. Plank, and Garrett S. Rose</summary></entry><entry><title type="html">One Lap of America 2019</title><link href="https://geekdude.github.io/life/one-lap-of-america/" rel="alternate" type="text/html" title="One Lap of America 2019" /><published>2019-06-12T00:00:00-04:00</published><updated>2019-06-12T00:00:00-04:00</updated><id>https://geekdude.github.io/life/one-lap-of-america</id><content type="html" xml:base="https://geekdude.github.io/life/one-lap-of-america/">&lt;p&gt;Recently my dad and I competed in Brock Yates’ One Lap of America driving 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Neuromorphic Computing" /><summary type="html">Aaron R. Young, Mark E. Dean, James S. Plank, and Garrett S. Rose</summary></entry><entry><title type="html">TENNLab—Neuromorphic Architectures, Learning, Applications</title><link href="https://geekdude.github.io/research/tennlab/" rel="alternate" type="text/html" title="TENNLab---Neuromorphic Architectures, Learning, Applications" /><published>2019-10-09T03:00:00-04:00</published><updated>2019-10-09T03:00:00-04:00</updated><id>https://geekdude.github.io/research/tennlab</id><content type="html" xml:base="https://geekdude.github.io/research/tennlab/">&lt;p&gt;I am part of the &lt;a href=&quot;http://neuromorphic.eecs.utk.edu/&quot;&gt;TENNLab—Neuromorphic Architectures, Learning, Applications&lt;/a&gt; research group at the University of Tennessee.
+We are researching a new paradigm of computing, inspired by the human brain.
+Our research encompasses nearly every facet of the neuromorphic area, including current and emergent hardware implementations, theoretical models, programming techniques and applications.
+Specifically, I have worked on framework development, the DANNA and DANNA2 digital neuromorphic processors, and neuromorphic application development.
+I have also helped with the development of multiple neuromorphic robots, including NeoN (Neuromorphic Control System for Autonomous Robotic Navigation), GRANT (Ground-Roaming Autonomous Neuromorphic Targeter), and SABR (Self-Adjusting Balancing Robot).
+My focus has been on communication between traditional computers and neuromorphic processors.
+I have developed the NACC (Neuromorphic Array Communications Controller) to support high-speed, low-latency communication between the host PC and the neuromorphic system.
+I have also designed and built SNACC (Scaled-up Neuromorphic Array Communications Controller), which uses a NACC to connect multiple neuromorphic processors together for the purpose of building a large unified neuromorphic system.
+This system is designed to run large neural networks and also supports real-time communication with the Host PC.&lt;/p&gt;
+
+&lt;h2 id=&quot;snacc&quot;&gt;SNACC&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/snacc.png&quot; alt=&quot;tennlab&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;nacc&quot;&gt;NACC&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/nacc.png&quot; alt=&quot;tennlab&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;danna2-viz&quot;&gt;DANNA2 Viz&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/danna2-viz-selected.png&quot; alt=&quot;tennlab&quot; /&gt;&lt;/p&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Neuromorphic Computing" /><summary type="html">I am part of the TENNLab—Neuromorphic Architectures, Learning, Applications research group at the University of Tennessee. We are researching a new paradigm of computing, inspired by the human brain. Our research encompasses nearly every facet of the neuromorphic area, including current and emergent hardware implementations, theoretical models, programming techniques and applications. Specifically, I have worked on framework development, the DANNA and DANNA2 digital neuromorphic processors, and neuromorphic application development. I have also helped with the development of multiple neuromorphic robots, including NeoN (Neuromorphic Control System for Autonomous Robotic Navigation), GRANT (Ground-Roaming Autonomous Neuromorphic Targeter), and SABR (Self-Adjusting Balancing Robot). My focus has been on communication between traditional computers and neuromorphic processors. I have developed the NACC (Neuromorphic Array Communications Controller) to support high-speed, low-latency communication between the host PC and the neuromorphic system. I have also designed and built SNACC (Scaled-up Neuromorphic Array Communications Controller), which uses a NACC to connect multiple neuromorphic processors together for the purpose of building a large unified neuromorphic system. This system is designed to run large neural networks and also supports real-time communication with the Host PC.</summary></entry><entry><title type="html">One Lap of America 2019</title><link href="https://geekdude.github.io/life/one-lap-of-america/" rel="alternate" type="text/html" title="One Lap of America 2019" /><published>2019-06-12T00:00:00-04:00</published><updated>2019-06-12T00:00:00-04:00</updated><id>https://geekdude.github.io/life/one-lap-of-america</id><content type="html" xml:base="https://geekdude.github.io/life/one-lap-of-america/">&lt;p&gt;Recently my dad and I competed in Brock Yates’ One Lap of America driving 
 competition. The official website for the event is found at 
 &lt;a href=&quot;https://www.onelapofamerica.com&quot;&gt;onelapofamerica.com&lt;/a&gt;. Since the event was 
 technically a competition, the events were time trials. Each team was scored 
@@ -1654,232 +1673,4 @@ safely.&lt;/p&gt;
 
   &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=5042&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;/div&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Driving" /><summary type="html">Recently my dad and I competed in Brock Yates’ One Lap of America driving competition. The official website for the event is found at onelapofamerica.com. Since the event was technically a competition, the events were time trials. Each team was scored and ranked based on how fast they completed each event. The results and rankings from the event can be found on the results page. The car we used for the event is my dad’s 2017 Chevrolet Stingray. This put us in the SGT-1 BB and Stock - GT Classes, where we placed 17th and 15th respectively. Our overall standing was 63rd.</summary></entry><entry><title type="html">Skip Barber 3-Day Racing School</title><link href="https://geekdude.github.io/life/skip-barber-racing-school/" rel="alternate" type="text/html" title="Skip Barber 3-Day Racing School" /><published>2019-03-21T00:00:00-04:00</published><updated>2019-03-21T00:00:00-04:00</updated><id>https://geekdude.github.io/life/skip-barber-racing-school</id><content type="html" xml:base="https://geekdude.github.io/life/skip-barber-racing-school/">&lt;p&gt;Recently my Dad and I attended a &lt;a href=&quot;https://www.skipbarber.com/courses/3-day-racing-school/&quot;&gt;Skip Barber 3-Day Racing 
-School&lt;/a&gt; at Road 
-Atlanta in Georgia. The trip was a blast and driving on the track in a &lt;a href=&quot;https://www.skipbarber.com/cars_post/mustang-gt/&quot;&gt;Mustang 
-GT&lt;/a&gt; was exciting. Before we 
-left to go on the trip, I practiced in my Dad’s simulator to get a good feel 
-for the racing line around the track. I had previously done a lead follow at 
-Road Atlanta in street cars, but this was my first time driving a race car, and 
-my first time to drive around a track on my own. The cars were setup as race 
-cars. They had a racing air intake, a racing transmission, racing brakes and 
-suspension, and they had a roll cage with a five point harness. The car I used 
-was number 18.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/racing-simulator.jpg&quot; alt=&quot;Me practicing with racing simulator&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;At the racing school they taught us everything we would need to know to 
-understand car dynamics and to drive around a track safely and quickly. Each 
-day was broken up into two halves, before and after lunch. Each half then 
-consisted of in-classroom learning followed by a change to put what we learned 
-to test-driving the car. During the morning session of the first day we learned 
-about car mass, tire load, and various types of oversteer and understeer, and 
-the various causes of each. We also learned how to use our eyes to look where 
-we want to go and look further down the track to plan the next move while the 
-current one is being executed. The classroom lecture was quite entertaining and 
-the instructor intermingled the lesson with various stories. After the 
-classroom lecture, we were split up into two groups, red and blue. Each group 
-had 5 people in it. They red group first went to the autocross track and 
-practiced using our eyes to drive the car smoothly around the track. Cones 
-where setup for the turn-in, apex, and turn-out for each of the turns. The 
-instructors rode along with us and gave us advice as we navigated the autocross 
-course. After that, we went to the skid pad and learned what oversteer and 
-understeer feel like. We also practiced CPR (Correct, Pause, Recover) to 
-prevent the car from spinning out of control when oversteer happens. I was 
-actually fairly good at recovering the car, and sliding the car around was a 
-blast. One of the instructors had me try to drift the car under power once I 
-had succeeded in recovering the slides without throttle. Balancing the throttle 
-to continue the slide made recovery much harder.&lt;/p&gt;
-
-&lt;p&gt;During the afternoon session day 1, we learned how to downshift with the 
-toe-heel technique. We also discussed the racing line more and covered how to 
-take various turns. Then we left the classroom and practiced downshifting with 
-an exercise they had set up in the pit area. We also rode around the track in a 
-van to learn the racing line. We had to buckle up in the van since they took it 
-around the track at a good pace. After being show the track in the van, the two 
-groups took turns driving in lead follow sessions with a pace car and riding in 
-the pace car. After the first session the instructors stopped riding in the 
-race cars and all the driving was done solo. The lead follows were fun and 
-riding in the pace cars gave you a chance to hear commentary from the 
-instructor and see the race line further. The last turn I took in the pace car, 
-the instructor was really pushing the rental car. He was squealing the tires 
-and taking all the curbs. He knocked over some cones marking the turn apex.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/Road-Atlanta-large.jpg&quot; alt=&quot;Road Atlanta&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/road-atlanta-track-map.jpg&quot; alt=&quot;Road Atlanta Track Map&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The second day, in the morning, the lecture covered more information on grip, 
-turns, and flags. On the track, we did more lead follow and also took a turn 
-driving the race line in the rental car with the instructor and other students 
-riding along. After this, we started driving around the track solo with a stop 
-box setup. We would drive around the track and then stop on the back straight 
-to get feedback over the radio on how we did on the turns and if there is 
-anything to focus on improving the next lap. Initially there was a low speed 
-limit and rpm limit, but as we continued driving the speed limit and rpm limit 
-were slowly relaxed.&lt;/p&gt;
-
-&lt;p&gt;In the afternoon of the second day, we discussed braking and the friction 
-circle. After which, we went to the track and did braking exercises at turn 10. 
-With braking you put strong initial force on the brake and then slowly release 
-the force. ABS should engage or be just before engaging as your are braking. 
-Then during the turn you have a slight amount of brake still applied which is 
-known as trailing brake. If done correctly, your keep the tires at maximum 
-traction throughout the entire turn. After the exercise, we continued to do 
-stop box lapping sessions. When it was the other groups turn to drive, we would 
-travel to one of the flag stations along the track and watch the other group 
-drive. It was fun to see different views of the track and to critique the other 
-group to learn how we could better drive when it was our turn again.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/road-atlanta-with-car.jpg&quot; alt=&quot;Me at Road Atlanta with my car&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The last day, in the morning, the lecture covered passing technique and driving 
-in the rain. On the track, we drove a passing exercise at turn 10, where we 
-drove off of the normal line to complete a pass. We then proceeded to do more 
-stop box lapping sessions with the speed increased.&lt;/p&gt;
-
-&lt;p&gt;In the afternoon, we learned how to conduct race starts. On the track, we 
-practiced a real race start. We did three starts, two double file starts and 
-one single file start, then transitioned into an open lapping session. The race 
-starts where intimidating since you where surrounded by other cars, but the 
-exercise itself wasn’t that bad. You raced from when the green flag was thrown 
-on the front straight away and stopped racing at the first turn. The open lap 
-sessions are when the stop box is taken down, and you drive around the track 
-until the checkered flag is shown. Passing is done by point by. If you see a 
-car behind you, your point them by on one of the straightaways. All that means 
-is your point which side of the car you want them to pass your on and then you 
-slow up a little, so they can complete the pass. After we finished driving our 
-last open lapping session, we were taken on a hot lap by one of the 
-instructors. And let me tell you that the instructors went much faster than I 
-was able to. I enjoyed going a comfortable pace around the track. After the hot 
-lapping sessions, we went back to the classroom and had a graduation ceremony. 
-I now have a diploma from the racing school, and I am eligible to apply for a 
-SCCA racing license. More importantly, I can now participate in driving on the 
-track for the &lt;a href=&quot;http://www.onelapofamerica.com/&quot;&gt;One Lap of America&lt;/a&gt; driving 
-competition I am doing with my Dad later in the spring.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/racing-diploma.png&quot; alt=&quot;Racing Diploma&quot; /&gt;&lt;/p&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Driving" /><summary type="html">Recently my Dad and I attended a Skip Barber 3-Day Racing School at Road Atlanta in Georgia. The trip was a blast and driving on the track in a Mustang GT was exciting. Before we left to go on the trip, I practiced in my Dad’s simulator to get a good feel for the racing line around the track. I had previously done a lead follow at Road Atlanta in street cars, but this was my first time driving a race car, and my first time to drive around a track on my own. The cars were setup as race cars. They had a racing air intake, a racing transmission, racing brakes and suspension, and they had a roll cage with a five point harness. The car I used was number 18.</summary></entry><entry><title type="html">Challenges with New Website Deployment (Jekyll and Subdomains)</title><link href="https://geekdude.github.io/tech/new-website-challenges/" rel="alternate" type="text/html" title="Challenges with New Website Deployment (Jekyll and Subdomains)" /><published>2019-03-13T00:00:00-04:00</published><updated>2020-01-14T05:10:00-05:00</updated><id>https://geekdude.github.io/tech/new-website-challenges</id><content type="html" xml:base="https://geekdude.github.io/tech/new-website-challenges/">&lt;p&gt;When I was deploying my website to the web server, I ran into a few challenges. 
-I will talk about them here in case anyone happens to run into similar 
-challenges.&lt;/p&gt;
-
-&lt;h2 id=&quot;svg-graphical-issues&quot;&gt;SVG Graphical Issues&lt;/h2&gt;
-&lt;p&gt;One issue that stood out was how chrome was rendering my SVG graphics. I 
-created the graphics with Inkscape and when they were displayed through Chrome, 
-some of the graphics had noticeable issues. The main problem was unsupported 
-fonts and Inkscape specific SVG features. I assumed the problems would only be 
-worse if I tested with multiple browsers, so to fix the issue, I converted all 
-of my SVG graphics to PNG images. I figured that the PNG images would be able 
-to be rendered properly regardless of the browser. Although this means that the 
-quality of the vector graphics is reduced, I think it is still a better 
-solution than having graphics that look incorrect. I could take the effort make 
-sure I only use standard SVG elements, that any viewer should recognize, but 
-that seemed like too much work to get right when PNG images already work well 
-enough.&lt;/p&gt;
-
-&lt;h2 id=&quot;deploying-to-a-subdomain-of-a-site&quot;&gt;Deploying to a Subdomain of a Site&lt;/h2&gt;
-&lt;p&gt;The biggest issue came from the fact that I deployed the website to a subdomain 
-of the site (i.e. my site lives at &lt;code class=&quot;highlighter-rouge&quot;&gt;http://web.eecs.utk.edu/~ayoung48/&lt;/code&gt; and not 
-&lt;code class=&quot;highlighter-rouge&quot;&gt;http://web.eecs.utk.edu/&lt;/code&gt;). This resulted in all of my assets referenced from 
-markdown pages resulting in broken links, as the browser would try to find the 
-asset at the root of the site and not at the root of the subdomain 
-&lt;code class=&quot;highlighter-rouge&quot;&gt;/~ayoung48/&lt;/code&gt;. However, I couldn’t just append the subdomain to each of the 
-hyperlinks, as doing so would break the ability to test the site locally. 
-Luckily Jekyll already has a solution for this problem. Since the situation of 
-deploying to a subdomain is less common, it was harder to find good information 
-explaining the solution.&lt;/p&gt;
-
-&lt;p&gt;The first website I used to fix the issue was the &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-base-url&quot;&gt;Minimal Mistakes 
-Configuration Documentation&lt;/a&gt;.
-The configuration setting I needed to set was the site-base-url. This setting 
-specifies the subdomain of the site the website is deployed to. In my case, the 
-site-base-url is &lt;code class=&quot;highlighter-rouge&quot;&gt;/~ayoung48&lt;/code&gt;. With this configuration change, the correct 
-subdomain is used when I serve the website locally for testing. 
-&lt;a href=&quot;https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/&quot;&gt;Parker&lt;/a&gt; 
-provides a brief explanation into base url, if you would like further 
-clarification. This change still didn’t fix the links, but resolved the local 
-deployment testing.&lt;/p&gt;
-
-&lt;p&gt;To fix the links, I had help from the &lt;a href=&quot;https://jekyllrb.com/docs/liquid/filters/&quot;&gt;liquid 
-filters&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com/docs/liquid/tags/&quot;&gt;liquid 
-tags&lt;/a&gt; documentation pages. To 
-summarize, there are multiple was to have liquid fill in the correct url (with 
-the baseurl) for you. I’m going to explain each method using the old website 
-image found in the previous post. One method is to use the prepend filter:&lt;/p&gt;
-
-&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Old Website](&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/assets/images/old_website.png'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;prepend&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;baseurl&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;This method is OK, it just prepends the string found in site.baseurl to the 
-url, but there are better ways. Another way is to use the relative_url or 
-absolute_url filters.&lt;/p&gt;
-&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Old Website](&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/assets/images/old_website.png'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;relative_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;)
-![Old Website](&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/assets/images/old_website.png'&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;absolute_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;With these filters relative_url will generate&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-txt&quot;&gt;/~ayoung48/assets/images/old_website.png
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;and absolute_url will generate&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-txt&quot;&gt;https://web.eecs.utk.edu/~ayoung48/assets/images/old_website.png
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;I like these filters better than the prepend filter, since they give a clearer 
-intent on what you are trying to accomplish.&lt;/p&gt;
-
-&lt;p&gt;The last way I found to generate the links is with the link tag.&lt;/p&gt;
-&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Old Website](&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;baseurl&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;/assets/images/old_website.png&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Although this syntax is the worst looking, it gives the added benefit of 
-correctly generating the permalink of the file you are trying to link to. This 
-means that it is the preferred method for linking to other generated pages, 
-such as posts, since the permalink generation style could change. With this 
-method the link will still work correctly if the permalink style is changed. 
-This method also has the added benefit of performing link validation when 
-Jekyll builds the site. If you use the &lt;code class=&quot;highlighter-rouge&quot;&gt;link&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;post_url&lt;/code&gt; tags, Jekyll will 
-check to make sure the link or post exists during the build process and throw 
-an error if the link is bad. Since tags provide correct generation of 
-permalinks and perform link validation, they are my preferred method for 
-specifying local links in my website.&lt;/p&gt;
-
-&lt;h2 id=&quot;width-issue-of-facebook-comments&quot;&gt;Width Issue of Facebook Comments&lt;/h2&gt;
-&lt;p&gt;Another issue I ran into was that on one computer, for whatever reason, the 
-Facebook comments would not take up the correct width. The fix for this problem 
-was to copy some css code I found on the internet to &lt;code class=&quot;highlighter-rouge&quot;&gt;/assets/css/main.scss&lt;/code&gt;. 
-This solution was found on 
-&lt;a href=&quot;https://stackoverflow.com/questions/22243233/how-to-make-facebook-comment-box-width-100-2014&quot;&gt;stackoverflow&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;Fix&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;width&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;issues&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;Facebook&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;comments&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;stackoverflow&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;questions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;22243233&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;how-to-make-facebook-comment-box-width-100-2014&lt;/span&gt;
-&lt;span class=&quot;nc&quot;&gt;.fb_iframe_widget_fluid_desktop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.fb_iframe_widget_fluid_desktop&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;span&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.fb_iframe_widget_fluid_desktop&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;iframe&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;nl&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;!important&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;!important&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
- &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;deploy-script&quot;&gt;Deploy Script&lt;/h2&gt;
-&lt;p&gt;This last section isn’t really a deployment issue, but a way to make deploying 
-the website easier. I created a simple script to build the Jekyll site and copy 
-the files to the server.&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Script to deploy the website to the server.&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#-------------------------------------------------------------------------------&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# Variables -- Change to the correct values before use.&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;instancehost&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;machine_address&quot;&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;remotewebroot&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;webroot_folder&quot;&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# Build Jekyll Site&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;JEKYLL_ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;production bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll build
-&lt;span class=&quot;nb&quot;&gt;chmod&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-R&lt;/span&gt; a+rX _site
-
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;rsync to SSH host &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$instancehost&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; ...&quot;&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# Long form of rsync options&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# rsync --verbose --recursive --compress --checksum --human-readable --perms --delete-after`&lt;/span&gt;
-rsync &lt;span class=&quot;nt&quot;&gt;-vrzchp&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--delete-after&lt;/span&gt; _site/ &lt;span class=&quot;nv&quot;&gt;$instancehost&lt;/span&gt;:&lt;span class=&quot;nv&quot;&gt;$remotewebroot&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;update-on-1142020-for-jekyll-40&quot;&gt;Update on 1/14/2020 for Jekyll 4.0&lt;/h2&gt;
-&lt;p&gt;With the release of Jekyll 4.0, the &lt;code class=&quot;highlighter-rouge&quot;&gt;link&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;post_url&lt;/code&gt; tags no longer need &lt;code class=&quot;highlighter-rouge&quot;&gt;site.baseurl&lt;/code&gt; prepended every time they are used. These tags now use their &lt;code class=&quot;highlighter-rouge&quot;&gt;relative_url&lt;/code&gt; filter to correctly take care of prepending the &lt;code class=&quot;highlighter-rouge&quot;&gt;site.baseurl&lt;/code&gt;. This does mean that existing uses of the prepend pattern will break and the &lt;code class=&quot;highlighter-rouge&quot;&gt;site.baseurl&lt;/code&gt; part should be removed. I like this change since it makes linking shorter, but a site wide find and replace was needed to fix the links.&lt;/p&gt;
-
-&lt;p&gt;So in summary, the recommended was to generate links is with the link tag. For example:&lt;/p&gt;
-&lt;div class=&quot;language-liquid highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![Old Website](&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;/assets/images/old_website.png&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;This method is now the most concise, readable, and will correctly generate the permalink URL following the site rules. It will also perform link validation to make sure the linked file exists.&lt;/p&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Website" /><summary type="html">When I was deploying my website to the web server, I ran into a few challenges. I will talk about them here in case anyone happens to run into similar challenges.</summary></entry></feed>
+&lt;/div&gt;</content><author><name>Aaron Young</name><email>ayoung3210@gmail.com</email></author><category term="Driving" /><summary type="html">Recently my dad and I competed in Brock Yates’ One Lap of America driving competition. The official website for the event is found at onelapofamerica.com. Since the event was technically a competition, the events were time trials. Each team was scored and ranked based on how fast they completed each event. The results and rankings from the event can be found on the results page. The car we used for the event is my dad’s 2017 Chevrolet Stingray. This put us in the SGT-1 BB and Stock - GT Classes, where we placed 17th and 15th respectively. Our overall standing was 63rd.</summary></entry></feed>
