@@ -6,10 +6,10 @@ toc: true
 toc_sticky: true
 ---
 
-## Aaron Read Young, PhD
+## Aaron Reed Young, PhD
 
 * Software Engineer, Future Technologies Group, ORNL
-* Email: [ayoung3210@gmail.com](mailto:ayoung3210@gmail.com)
+* Email: [youngar@ornl.gov](mailto:youngar@ornl.gov)
 
 ### Education
 * University of Tennessee, Knoxville, PhD in Computer Engineering, Fall 2017--Fall 2020, GPA: 4.0. Advisor: [Dr. Mark E. Dean](http://web.eecs.utk.edu/~markdean/).

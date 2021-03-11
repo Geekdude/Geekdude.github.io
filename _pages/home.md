@@ -32,7 +32,7 @@ feature_row:
     btn_class: "btn--info"
   - image_path: /assets/images/envelope.png
     title: "Contact Me"
-    excerpt: "Feel free to send me an email at [ayoung48@vols.utk.edu](mailto:ayoung48@vols.utk.edu)"
+    excerpt: "Feel free to send me an email at [youngar@ornl.gov](mailto:youngar@ornl.gov)"
 graphics:
   - image_path: /assets/images/graphics_final.png
     title: "Computer Graphics Final Project"

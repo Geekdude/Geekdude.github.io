@@ -2,7 +2,7 @@
 
 This repository contains the source for a Jekyll powered personal website for 
 Aaron Young hosted at [https://Geekdude.github.io](https://Geekdude.github.io). If you have any questions about the source please contact me at 
-[ayoung3210@gmail.com](mailto:ayoung3210@gmail.com).
+[youngar@ornl.gov](mailto:youngar@ornl.gov).
 
 ## Prerequisites
 
