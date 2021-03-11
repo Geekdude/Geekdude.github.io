@@ -2,11 +2,13 @@
 title: PhD Dissertation and Artifacts Available
 toc: false
 toc_sticky: false
-categories: [Tech]
-tags: [Neuromorphic Computing, Research]
+categories: [Research]
+tags: [Neuromorphic Computing]
 header:
     image: /assets/images/phd-header.png
     teaser: /assets/images/phd-teaser.png
+redirect_from:
+    - /tech/dissertation/
 ---
 
 My dissertation titled *SNACC: The Scaled-up Neuromorphic Array Communications Controller* is now available at [https://trace.tennessee.edu/utk_graddiss/5843/](https://trace.tennessee.edu/utk_graddiss/5843/). 

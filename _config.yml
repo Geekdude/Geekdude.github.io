@@ -112,8 +112,8 @@ analytics:
 # Site Author
 author:
   name             : "Aaron Young"
-  avatar           : "/assets/images/aaron-young square.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software Engineer at ORNL"
+  avatar           : "/assets/images/Aaron_square.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Software Engineer in the Architectures and Performance Group at Oak Ridge National Laboratory"
   location         : "Knoxville, TN"
   email            : "ayoung3210@gmail.com"
   bitbucket        : "Geekdude"

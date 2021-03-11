@@ -23,11 +23,11 @@ feature_row:
     btn_label: "Read Me"
     btn_class: "btn--primary"
     url: "/cv/"
-  - image_path: /assets/images/tennlab.png
-    alt: "TENNLab Logo"
-    title: "TENNLab"
-    excerpt: "We are a group of faculty, post-docs, graduate students and undergraduates researching a new paradigm of computing, inspired by the human brain. Our research encompasses nearly every facet of the area, including current and emergent hardware implementations, theoretical models, programming techniques and applications."
-    url: "http://neuromorphic.eecs.utk.edu/"
+  - image_path: /assets/images/apg.png
+    alt: "APG Logo"
+    title: "APG"
+    excerpt: "Evaluating emerging computing architectures for scientific discoveries"
+    url: "https://csmd.ornl.gov/group/architectures-and-performance"
     btn_label: ""
     btn_class: "btn--info"
   - image_path: /assets/images/envelope.png

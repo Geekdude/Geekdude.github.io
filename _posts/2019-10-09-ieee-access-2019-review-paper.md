@@ -1,12 +1,14 @@
 ---
 title: A Review of Spiking Neuromorphic Hardware Communication Systems
-categories: [Tech]
-tags: [Neuromorphic Computing, Research]
+categories: [Research]
+tags: [Neuromorphic Computing]
 date: 2019-10-09 8:00:00
 toc: true
 toc_sticky: true
 header:
     teaser: /assets/images/ieee-access-2019-graphical-abstract.png
+redirect_from:
+    - /tech/ieee-access-2019-review-paper/
 ---
 Aaron R. Young, Mark E. Dean, James S. Plank, and Garrett S. Rose
 
