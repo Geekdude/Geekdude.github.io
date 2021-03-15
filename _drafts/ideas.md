@@ -15,3 +15,4 @@ title: Future Project Ideas.
 - Bullet Journal
 - Co-Design White Paper
 - Minimal Dotfiles
+- Church Garden
