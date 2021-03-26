@@ -7,6 +7,8 @@ permalink: /publications/
 
 [Google Scholar](https://scholar.google.com/citations?user=7_WjfTQAAAAJ&hl=en)
 
+[ORCID ID](https://orcid.org/0000-0002-5448-4667)
+
 ### Publications
 * [Emerging Heterogeneous Systems Provide Great Opportunities for Codesign]({% link /assets/YoungA_EmergingHeterogeneousSystemsProvideGreatOpportunitiesforCodesign.pdf %}), Aaron R. Young, Jeffrey S. Vetter, Frank Liu, Narasinga Rao Miniskar, Sarat Sreepathi, and Anthony M. Cabrera, *ASCR Workshop on Reimagining Codesign*, 2021.
 * [SNACC: The Scaled-up Neuromorphic Array Communications Controller](https://trace.tennessee.edu/utk_graddiss/5843/), Aaron R. Young, *PhD Dissertation, University of Tennessee,* 2020.
