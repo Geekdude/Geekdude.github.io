@@ -10,6 +10,7 @@ permalink: /publications/
 [ORCID ID](https://orcid.org/0000-0002-5448-4667)
 
 ### Publications
+* [Toward Evaluating High-Level Synthesis Portability and Performance between Intel and Xilinx FPGAs](https://dl.acm.org/doi/10.1145/3456669.3456699), Anthony Cabrera, Aaron Young, Jacob Lambert, Zhili Xiao, Amy An, Seyong Lee, Zheming Jin, Jungwon Kim,  Jeremy Buhler, Roger Chamberlain, and Jeffrey Vetter, *IWOCL'21: International Workshop on OpenCL*, 2021.
 * [Emerging Heterogeneous Systems Provide Great Opportunities for Codesign]({% link /assets/YoungA_EmergingHeterogeneousSystemsProvideGreatOpportunitiesforCodesign.pdf %}), Aaron R. Young, Jeffrey S. Vetter, Frank Liu, Narasinga Rao Miniskar, Sarat Sreepathi, and Anthony M. Cabrera, *ASCR Workshop on Reimagining Codesign*, 2021.
 * [SNACC: The Scaled-up Neuromorphic Array Communications Controller](https://trace.tennessee.edu/utk_graddiss/5843/), Aaron R. Young, *PhD Dissertation, University of Tennessee,* 2020.
 * [Scaled-up Neuromorphic Array Communications Controller (SNACC) for Large-scale Neural Networks](https://ieeexplore.ieee.org/abstract/document/9206920?casa_token=ZP6B9B6WKtUAAAAA:v_evlTUrGLfeT3N0M1GPCj9PkFLj_dYpLjdYM3SgdW9Sm4PqFfI-w41SSuzI5_fJH3LP2jgAVg), A. R. Young, A. Z. Foshie, M. E. Dean, J. S. Plank, G. S. Rose, J. P. Mitchell, and C. D. Schuman, *IJCNN: The International Joint Conference on Neural Networks*, 2020.
