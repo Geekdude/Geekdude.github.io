@@ -68,4 +68,9 @@ var store = [{
         "excerpt":"My whitepaper titled Emerging Heterogeneous Systems Provide Great Opportunities for Codesign for the ASCR Workshop on Reimagining Codesign was accepted.   All the accepted whitepapers can be found here.  ","categories": ["Research"],
         "tags": ["Heterogeneous Systems"],
         "url": "https://geekdude.github.io/research/ascr-reimagining-codesign/",
-        "teaser":"https://geekdude.github.io/assets/images/ascr-reimagine-teaser.png"}]
+        "teaser":"https://geekdude.github.io/assets/images/ascr-reimagine-teaser.png"},{
+        "title": "Happy Mother's Day",
+        "excerpt":"Happy Mother’s Day! Below is a blender animation I made a few years ago after following the Blender Guru’s Donut Tutorial.            ","categories": ["Life"],
+        "tags": ["Blender"],
+        "url": "https://geekdude.github.io/life/happy-mothers-day/",
+        "teaser":"https://geekdude.github.io/assets/images/blender-donut-teaser.png"}]
