@@ -73,4 +73,9 @@ var store = [{
         "excerpt":"Happy Mother’s Day! Below is a blender animation I made a few years ago after following the Blender Guru’s Donut Tutorial.            ","categories": ["Life"],
         "tags": ["Blender"],
         "url": "https://geekdude.github.io/life/happy-mothers-day/",
-        "teaser":"https://geekdude.github.io/assets/images/blender-donut-teaser.png"}]
+        "teaser":"https://geekdude.github.io/assets/images/blender-donut-teaser.png"},{
+        "title": "Brother's Acting Demo Reel",
+        "excerpt":"I helped my brother Preston edit together an acting demo reel using DaVinci Resolve. Check it out on his website at https://volweb.utk.edu/~pyoung15/acting/ or watch it below on Youtube.            ","categories": ["Life"],
+        "tags": ["DaVinci Resolve"],
+        "url": "https://geekdude.github.io/life/prestons-demo-reel/",
+        "teaser":"https://geekdude.github.io/assets/images/demo-reel-teaser.png"}]
