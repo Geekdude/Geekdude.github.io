@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2021-06-08T09:56:48-04:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><entry><title type="html">Brother’s Acting Demo Reel</title><link href="https://geekdude.github.io/life/prestons-demo-reel/" rel="alternate" type="text/html" title="Brother's Acting Demo Reel" /><published>2021-06-08T00:00:00-04:00</published><updated>2021-06-08T00:00:00-04:00</updated><id>https://geekdude.github.io/life/prestons-demo-reel</id><content type="html" xml:base="https://geekdude.github.io/life/prestons-demo-reel/">&lt;p&gt;I helped my brother Preston edit together an acting demo reel using DaVinci Resolve. Check it out on his website at &lt;a href=&quot;https://volweb.utk.edu/~pyoung15/acting/&quot;&gt;https://volweb.utk.edu/~pyoung15/acting/&lt;/a&gt; or watch it below on Youtube.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2021-07-11T23:04:38-04:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><entry><title type="html">Dr. Dean to Serve on National Artificial Intelligence Research Resource Task Force</title><link href="https://geekdude.github.io/tech/dean-nairr/" rel="alternate" type="text/html" title="Dr. Dean to Serve on National Artificial Intelligence Research Resource Task Force" /><published>2021-07-11T00:00:00-04:00</published><updated>2021-07-11T00:00:00-04:00</updated><id>https://geekdude.github.io/tech/dean-nairr</id><content type="html" xml:base="https://geekdude.github.io/tech/dean-nairr/">&lt;p&gt;My PhD advisor, Mark Dean, was recentally selected to server on the National Artificial Intelligence Research Resource (NAIRR) Task Force. 
+Read more about it at &lt;a href=&quot;https://www.eecs.utk.edu/parker-dean-to-serve-on-national-artificial-intelligence-research-resource-task-force/&quot;&gt;https://www.eecs.utk.edu/parker-dean-to-serve-on-national-artificial-intelligence-research-resource-task-force/&lt;/a&gt;.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="News" /><summary type="html">My PhD advisor, Mark Dean, was recentally selected to server on the National Artificial Intelligence Research Resource (NAIRR) Task Force. Read more about it at https://www.eecs.utk.edu/parker-dean-to-serve-on-national-artificial-intelligence-research-resource-task-force/.</summary></entry><entry><title type="html">Brother’s Acting Demo Reel</title><link href="https://geekdude.github.io/life/prestons-demo-reel/" rel="alternate" type="text/html" title="Brother's Acting Demo Reel" /><published>2021-06-08T00:00:00-04:00</published><updated>2021-06-08T00:00:00-04:00</updated><id>https://geekdude.github.io/life/prestons-demo-reel</id><content type="html" xml:base="https://geekdude.github.io/life/prestons-demo-reel/">&lt;p&gt;I helped my brother Preston edit together an acting demo reel using DaVinci Resolve. Check it out on his website at &lt;a href=&quot;https://volweb.utk.edu/~pyoung15/acting/&quot;&gt;https://volweb.utk.edu/~pyoung15/acting/&lt;/a&gt; or watch it below on Youtube.&lt;/p&gt;
 
 &lt;!-- Courtesy of embedresponsively.com //--&gt;
 &lt;div class=&quot;responsive-video-container&quot;&gt;
@@ -146,7 +147,7 @@ I plan to create a future post with more detail on how this is done.&lt;/p&gt;
 
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 &lt;p&gt;I followed &lt;a href=&quot;https://tbaggery.com/2011/08/08/effortless-ctags-with-git.html&quot;&gt;https://tbaggery.com/2011/08/08/effortless-ctags-with-git.html&lt;/a&gt; when I was setting up ctags for the first time.
-I have since modified my setup to work better with git submodules and other edge cases.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Git" /><category term="Vim" /><category term="Ctags" /><summary type="html">Ctags with Vim are incredibly useful for quickly navigating around code. With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document. Ctags + Vim end up working very similar to how Visual Studio Code or other IDEs “go to definition” and “find all symbols works.”</summary></entry><entry><title type="html">Moving Website from web.eecs.utk.edu to Github.io</title><link href="https://geekdude.github.io/tech/moving-website/" rel="alternate" type="text/html" title="Moving Website from web.eecs.utk.edu to Github.io" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/moving-website</id><content type="html" xml:base="https://geekdude.github.io/tech/moving-website/">&lt;p&gt;After graduating last May, I decided to migrate &lt;a href=&quot;/tech/new-website/&quot;&gt;my website&lt;/a&gt; from hosting on the EECS servers at UTK to &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.
+I have since modified my setup to work better with git submodules and other edge cases.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Git" /><category term="Vim" /><category term="Ctags" /><summary type="html">Ctags with Vim are incredibly useful for quickly navigating around code. With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document. Ctags + Vim end up working very similar to how Visual Studio Code or other IDEs “go to definition” and “find all symbols works.”</summary></entry><entry><title type="html">Dr. Dean featured in PC Gamer</title><link href="https://geekdude.github.io/tech/dean-pc-gamer/" rel="alternate" type="text/html" title="Dr. Dean featured in PC Gamer" /><published>2021-02-26T00:00:00-05:00</published><updated>2021-02-26T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/dean-pc-gamer</id><content type="html" xml:base="https://geekdude.github.io/tech/dean-pc-gamer/">&lt;p&gt;My PhD advisor, Mark Dean, was recentally featured in PC Gamer for his work on the first IBM PC. Read the article at &lt;a href=&quot;https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/&quot;&gt;https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/&lt;/a&gt;.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="News" /><summary type="html">My PhD advisor, Mark Dean, was recentally featured in PC Gamer for his work on the first IBM PC. Read the article at https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/.</summary></entry><entry><title type="html">Moving Website from web.eecs.utk.edu to Github.io</title><link href="https://geekdude.github.io/tech/moving-website/" rel="alternate" type="text/html" title="Moving Website from web.eecs.utk.edu to Github.io" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/moving-website</id><content type="html" xml:base="https://geekdude.github.io/tech/moving-website/">&lt;p&gt;After graduating last May, I decided to migrate &lt;a href=&quot;/tech/new-website/&quot;&gt;my website&lt;/a&gt; from hosting on the EECS servers at UTK to &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.
 I always planned on migrating to GitHub pages post-graduation; that was one reason I chose to build my website using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.
 GitHub pages can host any static website, but it is designed to build and work with Jekyll sites automatically.
 I wanted to migrate my website properly with correct redirection and Search Engine Optimization (SEO).
@@ -495,146 +496,4 @@ new-chapter
 
 &lt;p&gt;Then I can rebuild the &lt;script type=&quot;math/tex&quot;&gt;\LaTeX&lt;/script&gt; document and the changes to the chapters will be included with a newly generated &lt;code class=&quot;highlighter-rouge&quot;&gt;chapters.tex&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Much appreciation to Jonathan Ambrose who helped come up with the idea for the script, motivated me to write it, and added several additional features to the script.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="File-Organization" /><summary type="html">I recently created a reorder python script to rename, reorder, add, and remove files/directories in a directory with a numerical naming scheme.</summary></entry><entry><title type="html">The Big Orange Bramble</title><link href="https://geekdude.github.io/tech/bob/" rel="alternate" type="text/html" title="The Big Orange Bramble" /><published>2019-10-09T05:00:00-04:00</published><updated>2019-10-09T05:00:00-04:00</updated><id>https://geekdude.github.io/tech/bob</id><content type="html" xml:base="https://geekdude.github.io/tech/bob/">&lt;p&gt;This year marks the three-year anniversary of the 64 node Raspberry Pi cluster known as the Big Orange Bramble or BOB.
-I am happy to report that BOB is still running strong and there have been no major downtimes or issues with the system.
-BOB is still occasionally used to train neuromorphic networks using EONS, which you can read more about &lt;a href=&quot;http://neuromorphic.eecs.utk.edu/raw/files/publications/2018-Plank-Framework.pdf&quot;&gt;here&lt;/a&gt;.
-BOB was build as part of the special topics class &lt;a href=&quot;/assets/ECE599-Supercomputer-Design-and-Analysis-Syllabus-v6.pdf&quot;&gt;ECE599 Supercomputer Design and Analysis, Summer 2016&lt;/a&gt; of which I was part.
-This post includes images of the system and copies of the reports and presentations in case you want to read more about the system.
-The reports are also posted on &lt;a href=&quot;http://web.eecs.utk.edu/~markdean/&quot;&gt;Dr. Mark Dean’s website&lt;/a&gt;.
-Dr. Dean taught the course.
-Also included are the reports for the follow-up project named A Linux Integrated Computing Environment or ALICE, which used Pine64 boards and Nvidia TX1 GPUs.&lt;/p&gt;
-
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-
-&lt;p&gt;This project involved the design and construction of a high performance cluster composed of 68 quad-core ARMv8 64-bit Raspberry Pi 3s.
-The primary intent of the project was to establish the operating environment, communication structure, application frameworks, application development tools, and libraries necessary to support the effective operation of a high performance computer model for the students and faculty in the Electrical Engineering and Computer Science Department of the University of Tennessee to utilize.
-As a foundation, the system borrowed heavily from the Tiny Titan system constructed by the Oak Ridge National Laboratory, which was a similar but smaller-scale project consisting of 9 first generation Raspberry Pis.
-Beyond the primary target of delivering a functional system, efforts were focused on application development, performance benchmarking, and delivery of a comprehensive build/usage guide to aid those who wish to build upon the efforts of this project.&lt;/p&gt;
-
-&lt;h2 id=&quot;picture-gallery&quot;&gt;Picture Gallery&lt;/h2&gt;
-
-&lt;figure class=&quot;third &quot;&gt;
-  
-    
-      &lt;a href=&quot;/assets/images/bob-system.jpeg&quot; title=&quot;BOB system running a distributed fluid simulation application.&quot;&gt;
-        &lt;img src=&quot;/assets/images/bob-system-th.jpeg&quot; alt=&quot;bob-system&quot; /&gt;
-      &lt;/a&gt;
-    
-  
-    
-      &lt;a href=&quot;/assets/images/bob-front-view.jpg&quot; title=&quot;BOB and ALICE systems side by side. BOB is on the left. ALICE is on the right.&quot;&gt;
-        &lt;img src=&quot;/assets/images/bob-front-view-th.jpg&quot; alt=&quot;bob-front-view&quot; /&gt;
-      &lt;/a&gt;
-    
-  
-    
-      &lt;a href=&quot;/assets/images/bob-rack-zoom.jpg&quot; title=&quot;Close-up on one tower of 8 Raspberry Pis.&quot;&gt;
-        &lt;img src=&quot;/assets/images/bob-rack-zoom-th.jpg&quot; alt=&quot;bob-rack-zoom&quot; /&gt;
-      &lt;/a&gt;
-    
-  
-    
-      &lt;a href=&quot;/assets/images/bob-development-team.jpeg&quot; title=&quot;The team that built BOB.&quot;&gt;
-        &lt;img src=&quot;/assets/images/bob-development-team-th.jpeg&quot; alt=&quot;bob-development-team&quot; /&gt;
-      &lt;/a&gt;
-    
-  
-    
-      &lt;a href=&quot;/assets/images/bob-router-zoom.jpg&quot; title=&quot;Close-up on BOB's router.&quot;&gt;
-        &lt;img src=&quot;/assets/images/bob-router-zoom-th.jpg&quot; alt=&quot;bob-router-zoom&quot; /&gt;
-      &lt;/a&gt;
-    
-  
-    
-      &lt;a href=&quot;/assets/images/bob-back-view-zoom.jpg&quot; title=&quot;Close-up on the headnode and storage nodes.&quot;&gt;
-        &lt;img src=&quot;/assets/images/bob-back-view-zoom-th.jpg&quot; alt=&quot;bob-back-view-zoom&quot; /&gt;
-      &lt;/a&gt;
-    
-  
-    
-      &lt;a href=&quot;/assets/images/bob-zoom.jpg&quot; title=&quot;BOB Rack—Front View.&quot;&gt;
-        &lt;img src=&quot;/assets/images/bob-zoom-th.jpg&quot; alt=&quot;bob-zoom&quot; /&gt;
-      &lt;/a&gt;
-    
-  
-    
-      &lt;a href=&quot;/assets/images/bob-back-view.jpg&quot; title=&quot;BOB Rack—Back View.&quot;&gt;
-        &lt;img src=&quot;/assets/images/bob-back-view-th.jpg&quot; alt=&quot;bob-back-view&quot; /&gt;
-      &lt;/a&gt;
-    
-  
-  
-    &lt;figcaption&gt;BOB Gallery.
-&lt;/figcaption&gt;
-  
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;project-reports&quot;&gt;Project Reports&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/assets/bob-documentation.pdf&quot;&gt;BOB Documentation&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/applications-for-68-node-raspberry-pi-3-education-cluster.pdf&quot;&gt;Applications for 68 Node Raspberry Pi 3 Education Cluster&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/bob-performance.pdf&quot;&gt;Performance, Management, and Monitoring of 68 Node Raspberry Pi 3 Education Cluster: Big Orange Bramble (BOB)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/alice-documentation.pdf&quot;&gt;ALICE Documentation&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;project-presentations&quot;&gt;Project Presentations&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/assets/bob-presentation.pdf&quot;&gt;Slides: BOB Presentation&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=l71lbh8Lz0U&quot;&gt;Video: Big Orange Bramble (BOB) HW SW Systems Presentations&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gnGCjMEXjdo&quot;&gt;Video: Big Orange Bramble (BOB) App Presentations&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/alice-presentation.pdf&quot;&gt;Slides: ALICE Presentation&lt;/a&gt;&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="High Performance Computing" /><summary type="html">This year marks the three-year anniversary of the 64 node Raspberry Pi cluster known as the Big Orange Bramble or BOB. I am happy to report that BOB is still running strong and there have been no major downtimes or issues with the system. BOB is still occasionally used to train neuromorphic networks using EONS, which you can read more about here. BOB was build as part of the special topics class ECE599 Supercomputer Design and Analysis, Summer 2016 of which I was part. This post includes images of the system and copies of the reports and presentations in case you want to read more about the system. The reports are also posted on Dr. Mark Dean’s website. Dr. Dean taught the course. Also included are the reports for the follow-up project named A Linux Integrated Computing Environment or ALICE, which used Pine64 boards and Nvidia TX1 GPUs.</summary></entry><entry><title type="html">A Review of Spiking Neuromorphic Hardware Communication Systems</title><link href="https://geekdude.github.io/research/ieee-access-2019-review-paper/" rel="alternate" type="text/html" title="A Review of Spiking Neuromorphic Hardware Communication Systems" /><published>2019-10-09T04:00:00-04:00</published><updated>2019-10-09T04:00:00-04:00</updated><id>https://geekdude.github.io/research/ieee-access-2019-review-paper</id><content type="html" xml:base="https://geekdude.github.io/research/ieee-access-2019-review-paper/">&lt;p&gt;Aaron R. Young, Mark E. Dean, James S. Plank, and Garrett S. Rose&lt;/p&gt;
-
-&lt;p&gt;September, 2019&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;IEEE Access&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/8843969&quot;&gt;https://ieeexplore.ieee.org/document/8843969&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/2019-Young-Review.pdf&quot; class=&quot;btn btn--info&quot;&gt;View Article&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Multiple neuromorphic systems use spiking neural networks (SNNs) to perform computation in a way that is inspired by concepts learned about the human brain.
-SNNs are artificial networks made up of neurons that fire a pulse, or spike, once the accumulated value of the inputs to the neuron exceeds a threshold.
-One of the most challenging parts of designing neuromorphic hardware is handling the vast degree of connectivity that neurons have with each other in the form of synaptic connections.
-This paper analyzes the neuromorphic systems Neurogrid, Braindrop, SpiNNaker, BrainScaleS, TrueNorth, Loihi, Darwin, and Dynap-SEL; and discusses the design of large scale spiking communication networks used in such systems.
-In particular, this paper looks at how each of these systems solved the challenges of forming packets with spiking information and how these packets are routed within the system.
-The routing of packets is analyzed at two scales: How the packets should be routed when traveling a short distance, and how the packets should be routed over longer global connections.
-Additional topics, such as the use of asynchronous circuits, robustness in communication, connection with a host machine, and network synchronization are also covered.&lt;/p&gt;
-
-&lt;figure class=&quot;&quot;&gt;
-  &lt;img src=&quot;/assets/images/ieee-access-2019-graphical-abstract.png&quot; alt=&quot;Graphical Abstract&quot; /&gt;
-  
-    &lt;figcaption&gt;
-      Graphical summary of neuromorphic hardware communication systems. The top half of this figure summarizes the routing schemes used by the neuromorphic systems, and the bottom half summarizes the routing methods.
-
-    &lt;/figcaption&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;citation-information&quot;&gt;Citation Information&lt;/h2&gt;
-&lt;h3 id=&quot;text&quot;&gt;Text&lt;/h3&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;author    A. R. Young and M. E. Dean and J. S. Plank and G. S. Rose
-title     A Review of Spiking Neuromorphic Hardware Communication Systems
-journal   IEEE Access
-volume    7
-pages     135606-135620
-year      2019
-doi       10.1109/ACCESS.2019.2941772
-url       http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;amp;arnumber=8843969&amp;amp;isnumber=8600701
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;bibtex&quot;&gt;BibTex&lt;/h3&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@ARTICLE{ydp:19:ars,
-    author = &quot;A. R. Young and M. E. Dean and J. S. Plank and G. S. Rose&quot;,
-    title = &quot;A Review of Spiking Neuromorphic Hardware Communication Systems&quot;,
-    journal = &quot;IEEE Access&quot;,
-    volume = &quot;7&quot;,
-    pages = &quot;135606-135620&quot;,
-    year = &quot;2019&quot;,
-    doi = &quot;10.1109/ACCESS.2019.2941772&quot;,
-    url = &quot;http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;amp;arnumber=8843969&amp;amp;isnumber=8600701&quot;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Neuromorphic Computing" /><summary type="html">Aaron R. Young, Mark E. Dean, James S. Plank, and Garrett S. Rose</summary></entry></feed>
+&lt;p&gt;Much appreciation to Jonathan Ambrose who helped come up with the idea for the script, motivated me to write it, and added several additional features to the script.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="File-Organization" /><summary type="html">I recently created a reorder python script to rename, reorder, add, and remove files/directories in a directory with a numerical naming scheme.</summary></entry></feed>
