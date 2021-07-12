@@ -1,6 +1,15 @@
 ---
 title: Future Project Ideas.
 ---
+
+# High Priority
+- Church Garden
+- Minimal Dotfiles
+- Table Demo
+- Automation Script
+- Note Taking Method
+
+# Other
 - LaTeX templates.
 - Vim plugins/config
 - tmux config
@@ -10,9 +19,5 @@ title: Future Project Ideas.
 - Zettelkasten
 - Datastore python
 - Data collection method
-- ctags
 - Visual Studio Getting Started
 - Bullet Journal
-- Co-Design White Paper
-- Minimal Dotfiles
-- Church Garden
