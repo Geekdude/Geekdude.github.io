@@ -5,9 +5,9 @@ classes: wide
 permalink: /publications/
 ---
 
-[Google Scholar](https://scholar.google.com/citations?user=7_WjfTQAAAAJ&hl=en)
+<i class="fas fa-fw fa-graduation-cap"></i> [Google Scholar](https://scholar.google.com/citations?user=7_WjfTQAAAAJ&hl=en)
 
-[ORCID ID](https://orcid.org/0000-0002-5448-4667)
+<i class="fab fa-orcid"></i> [ORCID ID](https://orcid.org/0000-0002-5448-4667)
 
 ### Publications
 * [Toward Evaluating High-Level Synthesis Portability and Performance between Intel and Xilinx FPGAs](https://dl.acm.org/doi/10.1145/3456669.3456699), Anthony Cabrera, Aaron Young, Jacob Lambert, Zhili Xiao, Amy An, Seyong Lee, Zheming Jin, Jungwon Kim,  Jeremy Buhler, Roger Chamberlain, and Jeffrey Vetter, *IWOCL'21: International Workshop on OpenCL*, 2021.
