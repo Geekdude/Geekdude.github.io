@@ -44,8 +44,3 @@ graphics:
     btn_class: "btn--info"
 ---
 
-{% include feature_row id="intro" type="center" %}
-
-{% include feature_row %}
-
-{% include feature_row id="graphics" type="left" %}
