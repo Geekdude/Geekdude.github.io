@@ -1,7 +1,7 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.18.1 by Michael Rose
-  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
@@ -10,10 +10,13 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>One Lap of America 2019 - Aaron Young</title>
-<meta name="description" content="Recently my dad and I competed in Brock Yates’ One Lap of America driving  competition. The official website for the event is found at  onelapofamerica.com. Since the event was  technically a competition, the events were time trials. Each team was scored  and ranked based on how fast they completed each event. The results and  rankings from the event can be found on the results  page. The car we used for the event is my dad’s 2017 Chevrolet Stingray. This put us  in the SGT-1 BB and Stock - GT Classes, where we placed 17th and  15th respectively. Our overall standing was 63rd. ">
+<meta name="description" content="Recently my dad and I competed in Brock Yates’ One Lap of America driving  competition. The official website for the event is found at  onelapofamerica.com. Since the event was  technically a competition, the events were time trials. Each team was scored  and ranked based on how fast they completed each event. The results and  rankings from the event can be found on the results  page. The car we used for the event is my dad’s 2017 Chevrolet Stingray. This put us  in the SGT-1 BB and Stock - GT Classes, where we placed 17th and  15th respectively. Our overall standing was 63rd.">
 
 
   <meta name="author" content="Aaron Young">
+  
+  <meta property="article:author" content="Aaron Young">
+  
 
 
 <meta property="og:type" content="article">
@@ -23,7 +26,7 @@
 <meta property="og:url" content="https://geekdude.github.io/life/one-lap-of-america/">
 
 
-  <meta property="og:description" content="Recently my dad and I competed in Brock Yates’ One Lap of America driving  competition. The official website for the event is found at  onelapofamerica.com. Since the event was  technically a competition, the events were time trials. Each team was scored  and ranked based on how fast they completed each event. The results and  rankings from the event can be found on the results  page. The car we used for the event is my dad’s 2017 Chevrolet Stingray. This put us  in the SGT-1 BB and Stock - GT Classes, where we placed 17th and  15th respectively. Our overall standing was 63rd. ">
+  <meta property="og:description" content="Recently my dad and I competed in Brock Yates’ One Lap of America driving  competition. The official website for the event is found at  onelapofamerica.com. Since the event was  technically a competition, the events were time trials. Each team was scored  and ranked based on how fast they completed each event. The results and  rankings from the event can be found on the results  page. The car we used for the event is my dad’s 2017 Chevrolet Stingray. This put us  in the SGT-1 BB and Stock - GT Classes, where we placed 17th and  15th respectively. Our overall standing was 63rd.">
 
 
 
@@ -33,7 +36,7 @@
 
   <meta name="twitter:site" content="@Geekdude_360">
   <meta name="twitter:title" content="One Lap of America 2019">
-  <meta name="twitter:description" content="Recently my dad and I competed in Brock Yates’ One Lap of America driving  competition. The official website for the event is found at  onelapofamerica.com. Since the event was  technically a competition, the events were time trials. Each team was scored  and ranked based on how fast they completed each event. The results and  rankings from the event can be found on the results  page. The car we used for the event is my dad’s 2017 Chevrolet Stingray. This put us  in the SGT-1 BB and Stock - GT Classes, where we placed 17th and  15th respectively. Our overall standing was 63rd. ">
+  <meta name="twitter:description" content="Recently my dad and I competed in Brock Yates’ One Lap of America driving  competition. The official website for the event is found at  onelapofamerica.com. Since the event was  technically a competition, the events were time trials. Each team was scored  and ranked based on how fast they completed each event. The results and  rankings from the event can be found on the results  page. The car we used for the event is my dad’s 2017 Chevrolet Stingray. This put us  in the SGT-1 BB and Stock - GT Classes, where we placed 17th and  15th respectively. Our overall standing was 63rd.">
   <meta name="twitter:url" content="https://geekdude.github.io/life/one-lap-of-america/">
 
   
@@ -80,10 +83,13 @@
 
 
 
+
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Aaron Young Feed">
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Aaron Young Feed">
+
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -94,21 +100,8 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
-
-<!--[if IE]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
 
 
@@ -133,7 +126,6 @@
 
   <body class="layout--single">
     <nav class="skip-links">
-  <h2 class="screen-reader-text">Skip links</h2>
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
     <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
@@ -152,29 +144,27 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/assets/images/logo88x88.png" alt=""></a>
+          <a class="site-logo" href="/"><img src="/assets/images/logo88x88.png" alt="Aaron Young"></a>
         
         <a class="site-title" href="/">
           Aaron Young
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/about/" >About</a>
+              <a href="/about/">About</a>
             </li><li class="masthead__menu-item">
-              <a href="/blog/" >Blog</a>
+              <a href="/blog/">Blog</a>
             </li><li class="masthead__menu-item">
-              <a href="/research/" >Research</a>
+              <a href="/research/">Research</a>
             </li><li class="masthead__menu-item">
-              <a href="/publications/" >Publications</a>
+              <a href="/publications/">Publications</a>
             </li><li class="masthead__menu-item">
-              <a href="/cv/" >CV</a>
+              <a href="/cv/">CV</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
           <span class="visually-hidden">Toggle search</span>
-          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
-            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
-          </svg>
+          <i class="fas fa-search"></i>
         </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -198,12 +188,8 @@
 
 
 
-
-
-
-
 <div class="page__hero"
-  style=" "
+  style=" background-image: url('');"
 >
   
     <img src="/assets/images/one-lap-header.png" alt="One Lap of America 2019" class="page__hero-image">
@@ -225,8 +211,6 @@
 
   
     <div class="author__avatar">
-      
-
       
         <img src="/assets/images/Aaron_square.jpg" alt="Aaron Young" itemprop="image">
       
@@ -262,7 +246,7 @@
         <li>
           <a href="mailto:youngar@ornl.gov">
             <meta itemprop="email" content="youngar@ornl.gov" />
-            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
           </a>
         </li>
       
@@ -276,7 +260,7 @@
       
         <li>
           <a href="https://www.linkedin.com/in/aaron-young-0791a53b" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
           </a>
         </li>
       
@@ -290,7 +274,7 @@
       
         <li>
           <a href="https://bitbucket.org/Geekdude" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket
+            <i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i><span class="label">Bitbucket</span>
           </a>
         </li>
       
@@ -298,7 +282,7 @@
       
         <li>
           <a href="https://github.com/Geekdude" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
           </a>
         </li>
       
@@ -344,6 +328,7 @@
   </div>
 
 
+
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="One Lap of America 2019">
     <meta itemprop="description" content="Recently my dad and I competed in Brock Yates’ One Lap of America driving competition. The official website for the event is found at onelapofamerica.com. Since the event was technically a competition, the events were time trials. Each team was scored and ranked based on how fast they completed each event. The results and rankings from the event can be found on the results page.The car we used for the event is my dad’s 2017 Chevrolet Stingray. This put us in the SGT-1 BB and Stock - GT Classes, where we placed 17th and 15th respectively. Our overall standing was 63rd.">
@@ -356,15 +341,26 @@
           <h1 id="page-title" class="page__title" itemprop="headline">One Lap of America 2019
 </h1>
           
-            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          8 minute read
+        
+      </span>
+    
+  </p>
 
 
-
-
-  8 minute read
-
-</p>
-          
         </header>
       
 
@@ -373,18 +369,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-fas fa-car"></i> Day of the Trip</h4></header>
-              <ul class="toc__menu">
-  <li><a href="#day-0-travel">Day 0 Travel</a></li>
-  <li><a href="#day-1-registration">Day 1 Registration</a></li>
-  <li><a href="#day-2-skid-pad-and-autocross-south-bend-and-kokomo-indiana">Day 2 Skid Pad and Autocross, South Bend and Kokomo, Indiana</a></li>
-  <li><a href="#day-3-nelson-ledges-garrettsville-ohio">Day 3 Nelson Ledges, Garrettsville, Ohio</a></li>
-  <li><a href="#day-4-road-america-plymouth-wisconsin">Day 4 Road America, Plymouth, Wisconsin</a></li>
-  <li><a href="#day-5-brainerd-international-raceway-brainerd-minnesota">Day 5 Brainerd International Raceway, Brainerd, Minnesota</a></li>
-  <li><a href="#day-6-motorsports-park-hastings-hastings-nebraska">Day 6 Motorsports Park Hastings, Hastings, Nebraska</a></li>
-  <li><a href="#day-7-blackhawk-farms-south-beloit-illinois">Day 7 Blackhawk Farms, South Beloit, Illinois</a></li>
-  <li><a href="#day-8-national-corvette-museum-ncm-motorsports-park-bowling-green-kentucky">Day 8 National Corvette Museum (NCM) Motorsports Park, Bowling Green, Kentucky</a></li>
-  <li><a href="#day-9-skid-pad-south-bend-indiana">Day 9 Skid Pad, South Bend, Indiana</a></li>
-</ul>
+              <ul class="toc__menu"><li><a href="#day-0-travel">Day 0 Travel</a></li><li><a href="#day-1-registration">Day 1 Registration</a></li><li><a href="#day-2-skid-pad-and-autocross-south-bend-and-kokomo-indiana">Day 2 Skid Pad and Autocross, South Bend and Kokomo, Indiana</a></li><li><a href="#day-3-nelson-ledges-garrettsville-ohio">Day 3 Nelson Ledges, Garrettsville, Ohio</a></li><li><a href="#day-4-road-america-plymouth-wisconsin">Day 4 Road America, Plymouth, Wisconsin</a></li><li><a href="#day-5-brainerd-international-raceway-brainerd-minnesota">Day 5 Brainerd International Raceway, Brainerd, Minnesota</a></li><li><a href="#day-6-motorsports-park-hastings-hastings-nebraska">Day 6 Motorsports Park Hastings, Hastings, Nebraska</a></li><li><a href="#day-7-blackhawk-farms-south-beloit-illinois">Day 7 Blackhawk Farms, South Beloit, Illinois</a></li><li><a href="#day-8-national-corvette-museum-ncm-motorsports-park-bowling-green-kentucky">Day 8 National Corvette Museum (NCM) Motorsports Park, Bowling Green, Kentucky</a></li><li><a href="#day-9-skid-pad-south-bend-indiana">Day 9 Skid Pad, South Bend, Indiana</a></li></ul>
 
             </nav>
           </aside>
@@ -412,7 +397,7 @@ show below.</p>
   
     
       <a href="/assets/images/one-lap-schedule.png" title="Complete schedule for the trip.">
-        <img src="/assets/images/one-lap-schedule.png" alt="One Lap Schedule" />
+          <img src="/assets/images/one-lap-schedule.png" alt="One Lap Schedule" />
       </a>
     
   
@@ -428,13 +413,13 @@ and a Lamborghini next to it.</p>
   
     
       <a href="/assets/images/one-lap-day-0-pack.jpg" title="Car packed and ready to travel.">
-        <img src="/assets/images/one-lap-day-0-pack-th.jpg" alt="Packed Car" />
+          <img src="/assets/images/one-lap-day-0-pack-th.jpg" alt="Packed Car" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-0-cars.jpg" title="We knew we were at the right hotel.">
-        <img src="/assets/images/one-lap-day-0-cars-th.jpg" alt="Cars" />
+          <img src="/assets/images/one-lap-day-0-cars-th.jpg" alt="Cars" />
       </a>
     
   
@@ -453,19 +438,19 @@ information book, and attended a drivers meeting.</p>
   
     
       <a href="/assets/images/one-lap-day-1-right.jpg" title="Stickers on the driver's side.">
-        <img src="/assets/images/one-lap-day-1-right-th.jpg" alt="Driver side stickers" />
+          <img src="/assets/images/one-lap-day-1-right-th.jpg" alt="Driver side stickers" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-1-left.jpg" title="Stickers on the passenger's side.">
-        <img src="/assets/images/one-lap-day-1-left-th.jpg" alt="Passenger side stickers" />
+          <img src="/assets/images/one-lap-day-1-left-th.jpg" alt="Passenger side stickers" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-1-book.png" title="38 page route book containing all the needed information.">
-        <img src="/assets/images/one-lap-day-1-book-th.png" alt="Route Book" />
+          <img src="/assets/images/one-lap-day-1-book-th.png" alt="Route Book" />
       </a>
     
   
@@ -490,13 +475,13 @@ discussed strategies on how to drive it.</p>
   
     
       <a href="/assets/images/one-lap-day-2-driver-photo.jpg" title="Picture of me with the car before going out on the skid pad.">
-        <img src="/assets/images/one-lap-day-2-driver-photo-th.jpg" alt="Driver Photo" />
+          <img src="/assets/images/one-lap-day-2-driver-photo-th.jpg" alt="Driver Photo" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-2-panorama.jpg" title="Panorama of the autocross course.">
-        <img src="/assets/images/one-lap-day-2-panorama-th.jpg" alt="Driver Photo" />
+          <img src="/assets/images/one-lap-day-2-panorama-th.jpg" alt="Driver Photo" />
       </a>
     
   
@@ -507,11 +492,10 @@ discussed strategies on how to drive it.</p>
 </figure>
 
 <!-- Courtesy of embedresponsively.com //-->
+
 <div class="responsive-video-container">
-
-  <iframe src="https://www.youtube-nocookie.com/embed/x67rH15sAkI" frameborder="0" allowfullscreen=""></iframe>
-
-</div>
+    <iframe src="https://www.youtube-nocookie.com/embed/x67rH15sAkI" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
 
 <h2 id="day-3-nelson-ledges-garrettsville-ohio">Day 3 Nelson Ledges, Garrettsville, Ohio</h2>
 <p>The second day of driving, we were at Nelson Ledges Road course. We got their 
@@ -524,25 +508,25 @@ parade laps after lunch that I drove.</p>
   
     
       <a href="/assets/images/one-lap-day-3-course.png" title="Nelson Ledges Track Map.">
-        <img src="/assets/images/one-lap-day-3-course-th.png" alt="Course Map" />
+          <img src="/assets/images/one-lap-day-3-course-th.png" alt="Course Map" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-3-entrance.jpg" title="Nelson Ledges Entrance">
-        <img src="/assets/images/one-lap-day-3-entrance-th.jpg" alt="entrance" />
+          <img src="/assets/images/one-lap-day-3-entrance-th.jpg" alt="entrance" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-3-field.jpg" title="Inner parking lot field.">
-        <img src="/assets/images/one-lap-day-3-field-th.jpg" alt="field" />
+          <img src="/assets/images/one-lap-day-3-field-th.jpg" alt="field" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-3-bridge.jpg" title="View of pitlane and startline from bridge.">
-        <img src="/assets/images/one-lap-day-3-bridge-th.jpg" alt="bridge" />
+          <img src="/assets/images/one-lap-day-3-bridge-th.jpg" alt="bridge" />
       </a>
     
   
@@ -553,11 +537,10 @@ parade laps after lunch that I drove.</p>
 </figure>
 
 <!-- Courtesy of embedresponsively.com //-->
+
 <div class="responsive-video-container">
-
-  <iframe src="https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=349" frameborder="0" allowfullscreen=""></iframe>
-
-</div>
+    <iframe src="https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=349" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
 
 <h2 id="day-4-road-america-plymouth-wisconsin">Day 4 Road America, Plymouth, Wisconsin</h2>
 <p>The next track was Road America. In the morning there was rain and the track 
@@ -571,97 +554,97 @@ track and places to spectate.</p>
   
     
       <a href="/assets/images/one-lap-day-4-course.png" title="Road America Track Map">
-        <img src="/assets/images/one-lap-day-4-course-th.png" alt="Course Map" />
+          <img src="/assets/images/one-lap-day-4-course-th.png" alt="Course Map" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-4-pit1.jpg" title="View of the pit area.">
-        <img src="/assets/images/one-lap-day-4-pit1-th.jpg" alt="pit1" />
+          <img src="/assets/images/one-lap-day-4-pit1-th.jpg" alt="pit1" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-4-pit2.jpg" title="Another view of the pit area.">
-        <img src="/assets/images/one-lap-day-4-pit2-th.jpg" alt="pit2" />
+          <img src="/assets/images/one-lap-day-4-pit2-th.jpg" alt="pit2" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-4-torque.jpg" title="My dad torquing the tires before driving.">
-        <img src="/assets/images/one-lap-day-4-torque-th.jpg" alt="torque tires" />
+          <img src="/assets/images/one-lap-day-4-torque-th.jpg" alt="torque tires" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-4-corvette.jpg" title="Line of Corvettes in the pit.">
-        <img src="/assets/images/one-lap-day-4-corvette-th.jpg" alt="corvette line" />
+          <img src="/assets/images/one-lap-day-4-corvette-th.jpg" alt="corvette line" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-4-garage.jpg" title="Garages at the track.">
-        <img src="/assets/images/one-lap-day-4-garage-th.jpg" alt="garage" />
+          <img src="/assets/images/one-lap-day-4-garage-th.jpg" alt="garage" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-4-mclaren.jpg" title="Close up of the McLaren.">
-        <img src="/assets/images/one-lap-day-4-mclaren-th.jpg" alt="mclaren" />
+          <img src="/assets/images/one-lap-day-4-mclaren-th.jpg" alt="mclaren" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-4-garage-inside.jpg" title="Inside of the garage.">
-        <img src="/assets/images/one-lap-day-4-garage-inside-th.jpg" alt="garage-inside" />
+          <img src="/assets/images/one-lap-day-4-garage-inside-th.jpg" alt="garage-inside" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-4-car.jpg" title="Our car and base.">
-        <img src="/assets/images/one-lap-day-4-car-th.jpg" alt="car" />
+          <img src="/assets/images/one-lap-day-4-car-th.jpg" alt="car" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-4-line.jpg" title="First group lined up in pit.">
-        <img src="/assets/images/one-lap-day-4-line-th.jpg" alt="pit line" />
+          <img src="/assets/images/one-lap-day-4-line-th.jpg" alt="pit line" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-4-line2.jpg" title="Second group lined up in pit.">
-        <img src="/assets/images/one-lap-day-4-line2-th.jpg" alt="pit line2" />
+          <img src="/assets/images/one-lap-day-4-line2-th.jpg" alt="pit line2" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-4-lot.jpg" title="Picture of parking lot.">
-        <img src="/assets/images/one-lap-day-4-lot-th.jpg" alt="lot" />
+          <img src="/assets/images/one-lap-day-4-lot-th.jpg" alt="lot" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-4-lot2.jpg" title="Picture of parking lot and garage.">
-        <img src="/assets/images/one-lap-day-4-lot2-th.jpg" alt="lot2" />
+          <img src="/assets/images/one-lap-day-4-lot2-th.jpg" alt="lot2" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-4-wolf.jpg" title="Honda racing car.">
-        <img src="/assets/images/one-lap-day-4-wolf-th.jpg" alt="wolf" />
+          <img src="/assets/images/one-lap-day-4-wolf-th.jpg" alt="wolf" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-4-line3.jpg" title="Durango group lined up in pit.">
-        <img src="/assets/images/one-lap-day-4-line3-th.jpg" alt="pit line3" />
+          <img src="/assets/images/one-lap-day-4-line3-th.jpg" alt="pit line3" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-4-start.jpg" title="Us lined up at the starting line.">
-        <img src="/assets/images/one-lap-day-4-start-th.jpg" alt="start" />
+          <img src="/assets/images/one-lap-day-4-start-th.jpg" alt="start" />
       </a>
     
   
@@ -672,11 +655,10 @@ track and places to spectate.</p>
 </figure>
 
 <!-- Courtesy of embedresponsively.com //-->
+
 <div class="responsive-video-container">
-
-  <iframe src="https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=919" frameborder="0" allowfullscreen=""></iframe>
-
-</div>
+    <iframe src="https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=919" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
 
 <h2 id="day-5-brainerd-international-raceway-brainerd-minnesota">Day 5 Brainerd International Raceway, Brainerd, Minnesota</h2>
 <p>Day 5 was one of the nicest, sunniest, and longest days of the trip. In the 
@@ -711,133 +693,133 @@ had one of the longest transit drives of the trip, 555.5 miles.</p>
   
     
       <a href="/assets/images/one-lap-day-5-course.jpg" title="Brainerd Course Map.">
-        <img src="/assets/images/one-lap-day-5-course-th.jpg" alt="Course Map" />
+          <img src="/assets/images/one-lap-day-5-course-th.jpg" alt="Course Map" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-course2.jpg" title="Alternate Brainerd Course Map.">
-        <img src="/assets/images/one-lap-day-5-course2-th.jpg" alt="Course Map2" />
+          <img src="/assets/images/one-lap-day-5-course2-th.jpg" alt="Course Map2" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-parking.jpg" title="Brainerd parking lot.">
-        <img src="/assets/images/one-lap-day-5-parking-th.jpg" alt="parking" />
+          <img src="/assets/images/one-lap-day-5-parking-th.jpg" alt="parking" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-car.jpg" title="Our pit at Brainerd.">
-        <img src="/assets/images/one-lap-day-5-car-th.jpg" alt="car" />
+          <img src="/assets/images/one-lap-day-5-car-th.jpg" alt="car" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-parking2.jpg" title="More cars along the wall.">
-        <img src="/assets/images/one-lap-day-5-parking2-th.jpg" alt="parking" />
+          <img src="/assets/images/one-lap-day-5-parking2-th.jpg" alt="parking" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-parking3.jpg" title="More parking.">
-        <img src="/assets/images/one-lap-day-5-parking3-th.jpg" alt="parking" />
+          <img src="/assets/images/one-lap-day-5-parking3-th.jpg" alt="parking" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-pastrana.jpg" title="Travis Pastana's car.">
-        <img src="/assets/images/one-lap-day-5-pastrana-th.jpg" alt="pastrana" />
+          <img src="/assets/images/one-lap-day-5-pastrana-th.jpg" alt="pastrana" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-parking4.jpg" title="More parking.">
-        <img src="/assets/images/one-lap-day-5-parking4-th.jpg" alt="parking" />
+          <img src="/assets/images/one-lap-day-5-parking4-th.jpg" alt="parking" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-parking5.jpg" title="More parking.">
-        <img src="/assets/images/one-lap-day-5-parking5-th.jpg" alt="parking" />
+          <img src="/assets/images/one-lap-day-5-parking5-th.jpg" alt="parking" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-parking6.jpg" title="More parking.">
-        <img src="/assets/images/one-lap-day-5-parking6-th.jpg" alt="parking" />
+          <img src="/assets/images/one-lap-day-5-parking6-th.jpg" alt="parking" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-parking7.jpg" title="More parking.">
-        <img src="/assets/images/one-lap-day-5-parking7-th.jpg" alt="parking" />
+          <img src="/assets/images/one-lap-day-5-parking7-th.jpg" alt="parking" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-parking8.jpg" title="More parking.">
-        <img src="/assets/images/one-lap-day-5-parking8-th.jpg" alt="parking" />
+          <img src="/assets/images/one-lap-day-5-parking8-th.jpg" alt="parking" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-parking9.jpg" title="More parking.">
-        <img src="/assets/images/one-lap-day-5-parking9-th.jpg" alt="parking" />
+          <img src="/assets/images/one-lap-day-5-parking9-th.jpg" alt="parking" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-parking10.jpg" title="More parking.">
-        <img src="/assets/images/one-lap-day-5-parking10-th.jpg" alt="parking" />
+          <img src="/assets/images/one-lap-day-5-parking10-th.jpg" alt="parking" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-drag.jpg" title="Start of the drag strip and spectating tower.">
-        <img src="/assets/images/one-lap-day-5-drag-th.jpg" alt="drag" />
+          <img src="/assets/images/one-lap-day-5-drag-th.jpg" alt="drag" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-drag2.jpg" title="Looking down the drag strip.">
-        <img src="/assets/images/one-lap-day-5-drag2-th.jpg" alt="drag" />
+          <img src="/assets/images/one-lap-day-5-drag2-th.jpg" alt="drag" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-pastrana2.jpg" title="Travis Pastana being interviewed and view from spectating tower.">
-        <img src="/assets/images/one-lap-day-5-pastrana2-th.jpg" alt="pastrana2" />
+          <img src="/assets/images/one-lap-day-5-pastrana2-th.jpg" alt="pastrana2" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-tunnel.jpg" title="Entrance to the tunnel under the drag strip.">
-        <img src="/assets/images/one-lap-day-5-tunnel-th.jpg" alt="tunnel" />
+          <img src="/assets/images/one-lap-day-5-tunnel-th.jpg" alt="tunnel" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-tunnel2.jpg" title="Inside the tunnel under the drag strip.">
-        <img src="/assets/images/one-lap-day-5-tunnel2-th.jpg" alt="tunnel2" />
+          <img src="/assets/images/one-lap-day-5-tunnel2-th.jpg" alt="tunnel2" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-grid.jpg" title="Cars in grid.">
-        <img src="/assets/images/one-lap-day-5-grid-th.jpg" alt="grid" />
+          <img src="/assets/images/one-lap-day-5-grid-th.jpg" alt="grid" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-grid2.jpg" title="Our car in grid in pit lane.">
-        <img src="/assets/images/one-lap-day-5-grid2-th.jpg" alt="grid" />
+          <img src="/assets/images/one-lap-day-5-grid2-th.jpg" alt="grid" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-5-grid3.jpg" title="Our car in grid on track.">
-        <img src="/assets/images/one-lap-day-5-grid3-th.jpg" alt="grid" />
+          <img src="/assets/images/one-lap-day-5-grid3-th.jpg" alt="grid" />
       </a>
     
   
@@ -848,11 +830,10 @@ had one of the longest transit drives of the trip, 555.5 miles.</p>
 </figure>
 
 <!-- Courtesy of embedresponsively.com //-->
+
 <div class="responsive-video-container">
-
-  <iframe src="https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=2109" frameborder="0" allowfullscreen=""></iframe>
-
-</div>
+    <iframe src="https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=2109" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
 
 <h2 id="day-6-motorsports-park-hastings-hastings-nebraska">Day 6 Motorsports Park Hastings, Hastings, Nebraska</h2>
 <p>Hastings was a smaller course. We were able to walk the course in the morning. 
@@ -871,79 +852,79 @@ and it was a delicious brisket sandwich.</p>
   
     
       <a href="/assets/images/one-lap-day-6-course.png" title="Motorsport Park Hastings Course Map.">
-        <img src="/assets/images/one-lap-day-6-course-th.png" alt="Course Map" />
+          <img src="/assets/images/one-lap-day-6-course-th.png" alt="Course Map" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-6-panorama.jpg" title="Panorama of Motorsport Park Hastings.">
-        <img src="/assets/images/one-lap-day-6-panorama-th.jpg" alt="panorama" />
+          <img src="/assets/images/one-lap-day-6-panorama-th.jpg" alt="panorama" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-6-start1.jpg" title="Approaching the starting line.">
-        <img src="/assets/images/one-lap-day-6-start1-th.jpg" alt="start1" />
+          <img src="/assets/images/one-lap-day-6-start1-th.jpg" alt="start1" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-6-start2.jpg" title="At the starting line.">
-        <img src="/assets/images/one-lap-day-6-start2-th.jpg" alt="start2" />
+          <img src="/assets/images/one-lap-day-6-start2-th.jpg" alt="start2" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-6-base.jpg" title="Our base at the track. The wind was very bad and caused the tarp to collapse.">
-        <img src="/assets/images/one-lap-day-6-base-th.jpg" alt="base" />
+          <img src="/assets/images/one-lap-day-6-base-th.jpg" alt="base" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-6-cover.jpg" title="Cover from the rain.">
-        <img src="/assets/images/one-lap-day-6-cover-th.jpg" alt="cover" />
+          <img src="/assets/images/one-lap-day-6-cover-th.jpg" alt="cover" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-6-cover2.jpg" title="Cover from the rain.">
-        <img src="/assets/images/one-lap-day-6-cover2-th.jpg" alt="cover" />
+          <img src="/assets/images/one-lap-day-6-cover2-th.jpg" alt="cover" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-6-cover3.jpg" title="Cover from the rain.">
-        <img src="/assets/images/one-lap-day-6-cover3-th.jpg" alt="cover" />
+          <img src="/assets/images/one-lap-day-6-cover3-th.jpg" alt="cover" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-6-line.jpg" title="Group one lined up.">
-        <img src="/assets/images/one-lap-day-6-line-th.jpg" alt="line" />
+          <img src="/assets/images/one-lap-day-6-line-th.jpg" alt="line" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-6-retro.jpg" title="Retro car we saw from another event.">
-        <img src="/assets/images/one-lap-day-6-retro-th.jpg" alt="retro" />
+          <img src="/assets/images/one-lap-day-6-retro-th.jpg" alt="retro" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-6-turbines1.jpg" title="So many wind turbines.">
-        <img src="/assets/images/one-lap-day-6-turbines1-th.jpg" alt="turbines" />
+          <img src="/assets/images/one-lap-day-6-turbines1-th.jpg" alt="turbines" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-6-turbines3.jpg" title="So many wind turbines.">
-        <img src="/assets/images/one-lap-day-6-turbines3-th.jpg" alt="turbines" />
+          <img src="/assets/images/one-lap-day-6-turbines3-th.jpg" alt="turbines" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-6-turbines4.jpg" title="So many wind turbines.">
-        <img src="/assets/images/one-lap-day-6-turbines4-th.jpg" alt="turbines" />
+          <img src="/assets/images/one-lap-day-6-turbines4-th.jpg" alt="turbines" />
       </a>
     
   
@@ -954,11 +935,10 @@ and it was a delicious brisket sandwich.</p>
 </figure>
 
 <!-- Courtesy of embedresponsively.com //-->
+
 <div class="responsive-video-container">
-
-  <iframe src="https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=3002" frameborder="0" allowfullscreen=""></iframe>
-
-</div>
+    <iframe src="https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=3002" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
 
 <h2 id="day-7-blackhawk-farms-south-beloit-illinois">Day 7 Blackhawk Farms, South Beloit, Illinois</h2>
 <p>Blackhawk Farms was a nice course. By now we had the rhythm down. Wake up, get 
@@ -973,97 +953,97 @@ the U portion of the track.</p>
   
     
       <a href="/assets/images/one-lap-day-7-course.jpg" title="Blackhawk Farms Raceway Course Map.">
-        <img src="/assets/images/one-lap-day-7-course-th.jpg" alt="Course Map" />
+          <img src="/assets/images/one-lap-day-7-course-th.jpg" alt="Course Map" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-7-start.jpg" title="Group one lined up.">
-        <img src="/assets/images/one-lap-day-7-start-th.jpg" alt="start" />
+          <img src="/assets/images/one-lap-day-7-start-th.jpg" alt="start" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-7-entrance.jpg" title="The entrance to Blackhawk Farms.">
-        <img src="/assets/images/one-lap-day-7-entrance-th.jpg" alt="entrance" />
+          <img src="/assets/images/one-lap-day-7-entrance-th.jpg" alt="entrance" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-7-car.jpg" title="Our car parked where we unloaded.">
-        <img src="/assets/images/one-lap-day-7-car-th.jpg" alt="car" />
+          <img src="/assets/images/one-lap-day-7-car-th.jpg" alt="car" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-7-flag.jpg" title="Flag station at the starting line.">
-        <img src="/assets/images/one-lap-day-7-flag-th.jpg" alt="flag" />
+          <img src="/assets/images/one-lap-day-7-flag-th.jpg" alt="flag" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-7-parking.jpg" title="Parking area as seen from the lookout deck.">
-        <img src="/assets/images/one-lap-day-7-parking-th.jpg" alt="parking" />
+          <img src="/assets/images/one-lap-day-7-parking-th.jpg" alt="parking" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-7-parking2.jpg" title="Our parking area as seen from the lookout deck.">
-        <img src="/assets/images/one-lap-day-7-parking2-th.jpg" alt="parking" />
+          <img src="/assets/images/one-lap-day-7-parking2-th.jpg" alt="parking" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-7-parking3.jpg" title="Parking area towards the start line, from the lookout deck.">
-        <img src="/assets/images/one-lap-day-7-parking3-th.jpg" alt="parking" />
+          <img src="/assets/images/one-lap-day-7-parking3-th.jpg" alt="parking" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-7-line.jpg" title="Cars lined up to run.">
-        <img src="/assets/images/one-lap-day-7-line-th.jpg" alt="line" />
+          <img src="/assets/images/one-lap-day-7-line-th.jpg" alt="line" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-7-nap.jpg" title="Nap time after many long days of driving.">
-        <img src="/assets/images/one-lap-day-7-nap-th.jpg" alt="nap" />
+          <img src="/assets/images/one-lap-day-7-nap-th.jpg" alt="nap" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-7-nap2.jpg" title="Nap time after many long days of driving.">
-        <img src="/assets/images/one-lap-day-7-nap2-th.jpg" alt="nap" />
+          <img src="/assets/images/one-lap-day-7-nap2-th.jpg" alt="nap" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-7-nap3.jpg" title="Done with nap and glad that I brought the hammock.">
-        <img src="/assets/images/one-lap-day-7-nap3-th.jpg" alt="nap" />
+          <img src="/assets/images/one-lap-day-7-nap3-th.jpg" alt="nap" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-7-chicken.jpg" title="Car with a chicken on the front.">
-        <img src="/assets/images/one-lap-day-7-chicken-th.jpg" alt="chicken" />
+          <img src="/assets/images/one-lap-day-7-chicken-th.jpg" alt="chicken" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-7-chicken2.jpg" title="Closeup of the chicken.">
-        <img src="/assets/images/one-lap-day-7-chicken2-th.jpg" alt="chicken" />
+          <img src="/assets/images/one-lap-day-7-chicken2-th.jpg" alt="chicken" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-7-car2.jpg" title="Car the was being worked on. They borrowed a welding touch to fix the exhast.">
-        <img src="/assets/images/one-lap-day-7-car2-th.jpg" alt="car2" />
+          <img src="/assets/images/one-lap-day-7-car2-th.jpg" alt="car2" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-7-transit.jpg" title="On the road again.">
-        <img src="/assets/images/one-lap-day-7-transit-th.jpg" alt="transit" />
+          <img src="/assets/images/one-lap-day-7-transit-th.jpg" alt="transit" />
       </a>
     
   
@@ -1074,11 +1054,10 @@ the U portion of the track.</p>
 </figure>
 
 <!-- Courtesy of embedresponsively.com //-->
+
 <div class="responsive-video-container">
-
-  <iframe src="https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=3833" frameborder="0" allowfullscreen=""></iframe>
-
-</div>
+    <iframe src="https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=3833" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
 
 <h2 id="day-8-national-corvette-museum-ncm-motorsports-park-bowling-green-kentucky">Day 8 National Corvette Museum (NCM) Motorsports Park, Bowling Green, Kentucky</h2>
 <p>I drove the events at NCM and it was a blast. The weekend before I went to a 
@@ -1111,145 +1090,145 @@ destination to home) we heading back north for the last day.</p>
   
     
       <a href="/assets/images/one-lap-day-8-course.jpg" title="NCM Motorsports Park Course Map Grand Full.">
-        <img src="/assets/images/one-lap-day-8-course-th.jpg" alt="Course Map" />
+          <img src="/assets/images/one-lap-day-8-course-th.jpg" alt="Course Map" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-course2.jpg" title="NCM Motorsports Park course map east and west tracks.">
-        <img src="/assets/images/one-lap-day-8-course2-th.jpg" alt="Course Map" />
+          <img src="/assets/images/one-lap-day-8-course2-th.jpg" alt="Course Map" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-garage.jpg" title="Cars in garage area.">
-        <img src="/assets/images/one-lap-day-8-garage-th.jpg" alt="garage" />
+          <img src="/assets/images/one-lap-day-8-garage-th.jpg" alt="garage" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-parking.jpg" title="Cars in parking area.">
-        <img src="/assets/images/one-lap-day-8-parking-th.jpg" alt="parking" />
+          <img src="/assets/images/one-lap-day-8-parking-th.jpg" alt="parking" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-parking2.jpg" title="Cars in parking area.">
-        <img src="/assets/images/one-lap-day-8-parking2-th.jpg" alt="parking" />
+          <img src="/assets/images/one-lap-day-8-parking2-th.jpg" alt="parking" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-garage2.jpg" title="Cars in garage area.">
-        <img src="/assets/images/one-lap-day-8-garage2-th.jpg" alt="garage" />
+          <img src="/assets/images/one-lap-day-8-garage2-th.jpg" alt="garage" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-garage3.jpg" title="Cars in garage area.">
-        <img src="/assets/images/one-lap-day-8-garage3-th.jpg" alt="garage" />
+          <img src="/assets/images/one-lap-day-8-garage3-th.jpg" alt="garage" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-pitin.jpg" title="Pit-in on the east track.">
-        <img src="/assets/images/one-lap-day-8-pitin-th.jpg" alt="pitin" />
+          <img src="/assets/images/one-lap-day-8-pitin-th.jpg" alt="pitin" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-deception.jpg" title="Turn 12 --- Deception. The hardest turn on the track.">
-        <img src="/assets/images/one-lap-day-8-deception-th.jpg" alt="deception" />
+          <img src="/assets/images/one-lap-day-8-deception-th.jpg" alt="deception" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-parking3.jpg" title="Cars in parking area.">
-        <img src="/assets/images/one-lap-day-8-parking3-th.jpg" alt="parking" />
+          <img src="/assets/images/one-lap-day-8-parking3-th.jpg" alt="parking" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-car.jpg" title="Our car in queue.">
-        <img src="/assets/images/one-lap-day-8-car-th.jpg" alt="car" />
+          <img src="/assets/images/one-lap-day-8-car-th.jpg" alt="car" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-group.jpg" title="Other cars in our run group.">
-        <img src="/assets/images/one-lap-day-8-group-th.jpg" alt="group" />
+          <img src="/assets/images/one-lap-day-8-group-th.jpg" alt="group" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-car2.jpg" title="Our car in queue.">
-        <img src="/assets/images/one-lap-day-8-car2-th.jpg" alt="car" />
+          <img src="/assets/images/one-lap-day-8-car2-th.jpg" alt="car" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-group2.jpg" title="Our run group lined up.">
-        <img src="/assets/images/one-lap-day-8-group2-th.jpg" alt="group" />
+          <img src="/assets/images/one-lap-day-8-group2-th.jpg" alt="group" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-group3.jpg" title="Lined up at the starting line.">
-        <img src="/assets/images/one-lap-day-8-group3-th.jpg" alt="group" />
+          <img src="/assets/images/one-lap-day-8-group3-th.jpg" alt="group" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-race.jpg" title="Here I come down the straight away.">
-        <img src="/assets/images/one-lap-day-8-race-th.jpg" alt="race" />
+          <img src="/assets/images/one-lap-day-8-race-th.jpg" alt="race" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-me.jpg" title="Me posing with the car after the morning run.">
-        <img src="/assets/images/one-lap-day-8-me-th.jpg" alt="me" />
+          <img src="/assets/images/one-lap-day-8-me-th.jpg" alt="me" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-pit.jpg" title="Lined up in the pit, ready to run.">
-        <img src="/assets/images/one-lap-day-8-pit-th.jpg" alt="pit" />
+          <img src="/assets/images/one-lap-day-8-pit-th.jpg" alt="pit" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-pit2.jpg" title="Lined up in the pit, ready to run.">
-        <img src="/assets/images/one-lap-day-8-pit2-th.jpg" alt="pit" />
+          <img src="/assets/images/one-lap-day-8-pit2-th.jpg" alt="pit" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-me2.jpg" title="Me in the car.">
-        <img src="/assets/images/one-lap-day-8-me2-th.jpg" alt="me" />
+          <img src="/assets/images/one-lap-day-8-me2-th.jpg" alt="me" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-me3.jpg" title="Me in the car.">
-        <img src="/assets/images/one-lap-day-8-me3-th.jpg" alt="me" />
+          <img src="/assets/images/one-lap-day-8-me3-th.jpg" alt="me" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-race2.jpg" title="Lining up at the start.">
-        <img src="/assets/images/one-lap-day-8-race2-th.jpg" alt="race" />
+          <img src="/assets/images/one-lap-day-8-race2-th.jpg" alt="race" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-race3.jpg" title="Green means go.">
-        <img src="/assets/images/one-lap-day-8-race3-th.jpg" alt="race" />
+          <img src="/assets/images/one-lap-day-8-race3-th.jpg" alt="race" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-8-race4.jpg" title="Here I come down the straight away.">
-        <img src="/assets/images/one-lap-day-8-race4-th.jpg" alt="race" />
+          <img src="/assets/images/one-lap-day-8-race4-th.jpg" alt="race" />
       </a>
     
   
@@ -1260,11 +1239,10 @@ destination to home) we heading back north for the last day.</p>
 </figure>
 
 <!-- Courtesy of embedresponsively.com //-->
+
 <div class="responsive-video-container">
-
-  <iframe src="https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=4462" frameborder="0" allowfullscreen=""></iframe>
-
-</div>
+    <iframe src="https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=4462" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
 
 <h2 id="day-9-skid-pad-south-bend-indiana">Day 9 Skid Pad, South Bend, Indiana</h2>
 
@@ -1287,127 +1265,127 @@ safely.</p>
   
     
       <a href="/assets/images/one-lap-day-9-group.jpg" title="Group photo of all the teams.">
-        <img src="/assets/images/one-lap-day-9-group-th.jpg" alt="group" />
+          <img src="/assets/images/one-lap-day-9-group-th.jpg" alt="group" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-group2.jpg" title="Setting up for the group photo.">
-        <img src="/assets/images/one-lap-day-9-group2-th.jpg" alt="group" />
+          <img src="/assets/images/one-lap-day-9-group2-th.jpg" alt="group" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-group3.jpg" title="Setting up for the group photo.">
-        <img src="/assets/images/one-lap-day-9-group3-th.jpg" alt="group" />
+          <img src="/assets/images/one-lap-day-9-group3-th.jpg" alt="group" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-group4.jpg" title="The Bandit.">
-        <img src="/assets/images/one-lap-day-9-group4-th.jpg" alt="group" />
+          <img src="/assets/images/one-lap-day-9-group4-th.jpg" alt="group" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-bandit.jpg" title="The Bandit with a dress.">
-        <img src="/assets/images/one-lap-day-9-bandit-th.jpg" alt="group" />
+          <img src="/assets/images/one-lap-day-9-bandit-th.jpg" alt="group" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-group5.jpg" title="Setting up for the group photo.">
-        <img src="/assets/images/one-lap-day-9-group5-th.jpg" alt="group" />
+          <img src="/assets/images/one-lap-day-9-group5-th.jpg" alt="group" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-group6.jpg" title="Setting up for the group photo.">
-        <img src="/assets/images/one-lap-day-9-group6-th.jpg" alt="group" />
+          <img src="/assets/images/one-lap-day-9-group6-th.jpg" alt="group" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-group7.jpg" title="Setting up for the group photo.">
-        <img src="/assets/images/one-lap-day-9-group7-th.jpg" alt="group" />
+          <img src="/assets/images/one-lap-day-9-group7-th.jpg" alt="group" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-honda.jpg" title="Honda Racing Car.">
-        <img src="/assets/images/one-lap-day-9-honda-th.jpg" alt="honda" />
+          <img src="/assets/images/one-lap-day-9-honda-th.jpg" alt="honda" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-group8.jpg" title="Cars in front of the Tire Rack building.">
-        <img src="/assets/images/one-lap-day-9-group8-th.jpg" alt="group" />
+          <img src="/assets/images/one-lap-day-9-group8-th.jpg" alt="group" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-lamborghini.jpg" title="The Lamborghini.">
-        <img src="/assets/images/one-lap-day-9-lamborghini-th.jpg" alt="lamborghini" />
+          <img src="/assets/images/one-lap-day-9-lamborghini-th.jpg" alt="lamborghini" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-lamborghini2.jpg" title="The back of the  Lamborghini.">
-        <img src="/assets/images/one-lap-day-9-lamborghini2-th.jpg" alt="lamborghini" />
+          <img src="/assets/images/one-lap-day-9-lamborghini2-th.jpg" alt="lamborghini" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-group9.jpg" title="Parking lot.">
-        <img src="/assets/images/one-lap-day-9-group9-th.jpg" alt="group" />
+          <img src="/assets/images/one-lap-day-9-group9-th.jpg" alt="group" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-car.jpg" title="Our car.">
-        <img src="/assets/images/one-lap-day-9-car-th.jpg" alt="car" />
+          <img src="/assets/images/one-lap-day-9-car-th.jpg" alt="car" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-69.jpg" title="The team 69 corvette.">
-        <img src="/assets/images/one-lap-day-9-69-th.jpg" alt="team 69" />
+          <img src="/assets/images/one-lap-day-9-69-th.jpg" alt="team 69" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-gasmonkey.jpg" title="The Gas Monkey car.">
-        <img src="/assets/images/one-lap-day-9-gasmonkey-th.jpg" alt="gasmonkey" />
+          <img src="/assets/images/one-lap-day-9-gasmonkey-th.jpg" alt="gasmonkey" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-pastana.jpg" title="Travis Pastana with his car and Yokohama truck.">
-        <img src="/assets/images/one-lap-day-9-pastana-th.jpg" alt="pastana" />
+          <img src="/assets/images/one-lap-day-9-pastana-th.jpg" alt="pastana" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-pokemon.jpg" title="Car with stuffed animals.">
-        <img src="/assets/images/one-lap-day-9-pokemon-th.jpg" alt="pokemon" />
+          <img src="/assets/images/one-lap-day-9-pokemon-th.jpg" alt="pokemon" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-pokemon2.jpg" title="Close up on Pickachu.">
-        <img src="/assets/images/one-lap-day-9-pokemon2-th.jpg" alt="pokemon" />
+          <img src="/assets/images/one-lap-day-9-pokemon2-th.jpg" alt="pokemon" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-team.jpg" title="We successfully completed our first One Lap of America.">
-        <img src="/assets/images/one-lap-day-9-team-th.jpg" alt="team" />
+          <img src="/assets/images/one-lap-day-9-team-th.jpg" alt="team" />
       </a>
     
   
     
       <a href="/assets/images/one-lap-day-9-banquet.jpg" title="Banquet held in the Tire Rack warehouse.">
-        <img src="/assets/images/one-lap-day-9-banquet-th.jpg" alt="banquet" />
+          <img src="/assets/images/one-lap-day-9-banquet-th.jpg" alt="banquet" />
       </a>
     
   
@@ -1418,11 +1396,10 @@ safely.</p>
 </figure>
 
 <!-- Courtesy of embedresponsively.com //-->
+
 <div class="responsive-video-container">
-
-  <iframe src="https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=5042" frameborder="0" allowfullscreen=""></iframe>
-
-</div>
+    <iframe src="https://www.youtube-nocookie.com/embed/x67rH15sAkI?start=5042" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
 
 
         
@@ -1435,15 +1412,11 @@ safely.</p>
 
 
   
-  
-  
 
   <p class="page__taxonomy">
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      
-      
       <a href="/tags/#driving" class="page__taxonomy-item" rel="tag">Driving</a>
     
     </span>
@@ -1456,27 +1429,22 @@ safely.</p>
 
 
   
-  
-  
 
   <p class="page__taxonomy">
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
     <span itemprop="keywords">
     
-      
-      
       <a href="/categories/#life" class="page__taxonomy-item" rel="tag">Life</a>
     
     </span>
   </p>
 
 
-
-        
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Posted:</strong> <time datetime="2019-06-12T00:00:00-04:00">June 12, 2019</time></p>
         
 
-        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-06-12T00:00:00-04:00">June 12, 2019</time></p>
+
+
       </footer>
 
       <section class="page__share">
@@ -1530,29 +1498,36 @@ safely.</p>
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
       <div class="archive__item-teaser">
-        <img src=
-          
-            "/assets/images/dean-nairr-teaser.png"
-          
-          alt="">
+        <img src="/assets/images/dean-nairr-teaser.png" alt="">
       </div>
     
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title no_toc" itemprop="headline">
       
         <a href="/tech/dean-nairr/" rel="permalink">Dr. Dean to Serve on National Artificial Intelligence Research Resource Task Force
 </a>
       
     </h2>
     
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-
-
-
-  less than 1 minute read
-
-</p>
+  <p class="page__meta">
     
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
     <p class="archive__item-excerpt" itemprop="description">My PhD advisor, Mark Dean, was recentally selected to server on the National Artificial Intelligence Research Resource (NAIRR) Task Force. 
 Read more about i...</p>
   </article>
@@ -1567,29 +1542,36 @@ Read more about i...</p>
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
       <div class="archive__item-teaser">
-        <img src=
-          
-            "/assets/images/demo-reel-teaser.png"
-          
-          alt="">
+        <img src="/assets/images/demo-reel-teaser.png" alt="">
       </div>
     
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title no_toc" itemprop="headline">
       
         <a href="/life/prestons-demo-reel/" rel="permalink">Brother’s Acting Demo Reel
 </a>
       
     </h2>
     
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-
-
-
-  less than 1 minute read
-
-</p>
+  <p class="page__meta">
     
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
     <p class="archive__item-excerpt" itemprop="description">I helped my brother Preston edit together an acting demo reel using DaVinci Resolve. Check it out on his website at https://volweb.utk.edu/~pyoung15/acting/ ...</p>
   </article>
 </div>
@@ -1603,29 +1585,36 @@ Read more about i...</p>
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
       <div class="archive__item-teaser">
-        <img src=
-          
-            "/assets/images/blender-donut-teaser.png"
-          
-          alt="">
+        <img src="/assets/images/blender-donut-teaser.png" alt="">
       </div>
     
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title no_toc" itemprop="headline">
       
         <a href="/life/happy-mothers-day/" rel="permalink">Happy Mother’s Day
 </a>
       
     </h2>
     
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-
-
-
-  less than 1 minute read
-
-</p>
+  <p class="page__meta">
     
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
     <p class="archive__item-excerpt" itemprop="description">Happy Mother’s Day! Below is a blender animation I made a few years ago after following the Blender Guru’s Donut Tutorial.
 </p>
   </article>
@@ -1640,29 +1629,36 @@ Read more about i...</p>
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
       <div class="archive__item-teaser">
-        <img src=
-          
-            "/assets/images/ascr-reimagine-teaser.png"
-          
-          alt="">
+        <img src="/assets/images/ascr-reimagine-teaser.png" alt="">
       </div>
     
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title no_toc" itemprop="headline">
       
         <a href="/research/ascr-reimagining-codesign/" rel="permalink">ASCR Workshop on Reimagining Codesign Whitepaper
 </a>
       
     </h2>
     
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-
-
-
-  less than 1 minute read
-
-</p>
+  <p class="page__meta">
     
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
     <p class="archive__item-excerpt" itemprop="description">My whitepaper titled Emerging Heterogeneous Systems Provide Great Opportunities for Codesign for the ASCR Workshop on Reimagining Codesign was accepted.
 </p>
   </article>
@@ -1719,7 +1715,9 @@ Read more about i...</p>
       
     
 
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
   </ul>
 </div>
 
@@ -1730,7 +1728,6 @@ Read more about i...</p>
 
     
   <script src="/assets/js/main.min.js"></script>
-  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 
 
 

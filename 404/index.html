@@ -1,7 +1,7 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.18.1 by Michael Rose
-  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
@@ -9,11 +9,12 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Dr. Dean to Serve on National Artificial Intelligence Research Resource Task Force - Aaron Young</title>
-<meta name="description" content="Personal website for Aaron Young. ">
+<!-- begin _includes/seo.html --><title>Aaron Young</title>
+<meta name="description" content="Personal website for Aaron Young.">
 
 
   <meta name="author" content="Aaron Young">
+  
 
 
 <meta property="og:type" content="website">
@@ -23,7 +24,7 @@
 <meta property="og:url" content="https://geekdude.github.io/404/">
 
 
-  <meta property="og:description" content="Personal website for Aaron Young. ">
+  <meta property="og:description" content="Personal website for Aaron Young.">
 
 
 
@@ -31,7 +32,7 @@
 
   <meta name="twitter:site" content="@Geekdude_360">
   <meta name="twitter:title" content="Aaron Young">
-  <meta name="twitter:description" content="Personal website for Aaron Young. ">
+  <meta name="twitter:description" content="Personal website for Aaron Young.">
   <meta name="twitter:url" content="https://geekdude.github.io/404/">
 
   
@@ -76,10 +77,13 @@
 
 
 
+
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Aaron Young Feed">
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Aaron Young Feed">
+
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -90,21 +94,8 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
-
-<!--[if IE]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
 
 
@@ -129,7 +120,6 @@
 
   <body class="layout--single">
     <nav class="skip-links">
-  <h2 class="screen-reader-text">Skip links</h2>
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
     <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
@@ -148,29 +138,27 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/assets/images/logo88x88.png" alt=""></a>
+          <a class="site-logo" href="/"><img src="/assets/images/logo88x88.png" alt="Aaron Young"></a>
         
         <a class="site-title" href="/">
           Aaron Young
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/about/" >About</a>
+              <a href="/about/">About</a>
             </li><li class="masthead__menu-item">
-              <a href="/blog/" >Blog</a>
+              <a href="/blog/">Blog</a>
             </li><li class="masthead__menu-item">
-              <a href="/research/" >Research</a>
+              <a href="/research/">Research</a>
             </li><li class="masthead__menu-item">
-              <a href="/publications/" >Publications</a>
+              <a href="/publications/">Publications</a>
             </li><li class="masthead__menu-item">
-              <a href="/cv/" >CV</a>
+              <a href="/cv/">CV</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
           <span class="visually-hidden">Toggle search</span>
-          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
-            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
-          </svg>
+          <i class="fas fa-search"></i>
         </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -199,8 +187,6 @@
 
   
     <div class="author__avatar">
-      
-
       
         <img src="/assets/images/Aaron_square.jpg" alt="Aaron Young" itemprop="image">
       
@@ -236,7 +222,7 @@
         <li>
           <a href="mailto:youngar@ornl.gov">
             <meta itemprop="email" content="youngar@ornl.gov" />
-            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
           </a>
         </li>
       
@@ -250,7 +236,7 @@
       
         <li>
           <a href="https://www.linkedin.com/in/aaron-young-0791a53b" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
           </a>
         </li>
       
@@ -264,7 +250,7 @@
       
         <li>
           <a href="https://bitbucket.org/Geekdude" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket
+            <i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i><span class="label">Bitbucket</span>
           </a>
         </li>
       
@@ -272,7 +258,7 @@
       
         <li>
           <a href="https://github.com/Geekdude" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
           </a>
         </li>
       
@@ -318,6 +304,7 @@
   </div>
 
 
+
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     
     
@@ -329,6 +316,8 @@
         <header>
           
           
+
+
         </header>
       
 
@@ -363,10 +352,9 @@
         
 
 
-
         
 
-        
+
       </footer>
 
       
@@ -425,7 +413,9 @@
       
     
 
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
   </ul>
 </div>
 
@@ -436,7 +426,6 @@
 
     
   <script src="/assets/js/main.min.js"></script>
-  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 
 
 

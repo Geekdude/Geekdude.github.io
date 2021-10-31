@@ -1,7 +1,7 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.18.1 by Michael Rose
-  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
@@ -10,10 +10,13 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>The Big Orange Bramble - Aaron Young</title>
-<meta name="description" content="This year marks the three-year anniversary of the 64 node Raspberry Pi cluster known as the Big Orange Bramble or BOB. I am happy to report that BOB is still running strong and there have been no major downtimes or issues with the system. BOB is still occasionally used to train neuromorphic networks using EONS, which you can read more about here. BOB was build as part of the special topics class ECE599 Supercomputer Design and Analysis, Summer 2016 of which I was part. This post includes images of the system and copies of the reports and presentations in case you want to read more about the system. The reports are also posted on Dr. Mark Dean’s website. Dr. Dean taught the course. Also included are the reports for the follow-up project named A Linux Integrated Computing Environment or ALICE, which used Pine64 boards and Nvidia TX1 GPUs. ">
+<meta name="description" content="This year marks the three-year anniversary of the 64 node Raspberry Pi cluster known as the Big Orange Bramble or BOB. I am happy to report that BOB is still running strong and there have been no major downtimes or issues with the system. BOB is still occasionally used to train neuromorphic networks using EONS, which you can read more about here. BOB was build as part of the special topics class ECE599 Supercomputer Design and Analysis, Summer 2016 of which I was part. This post includes images of the system and copies of the reports and presentations in case you want to read more about the system. The reports are also posted on Dr. Mark Dean’s website. Dr. Dean taught the course. Also included are the reports for the follow-up project named A Linux Integrated Computing Environment or ALICE, which used Pine64 boards and Nvidia TX1 GPUs.">
 
 
   <meta name="author" content="Aaron Young">
+  
+  <meta property="article:author" content="Aaron Young">
+  
 
 
 <meta property="og:type" content="article">
@@ -23,7 +26,7 @@
 <meta property="og:url" content="https://geekdude.github.io/tech/bob/">
 
 
-  <meta property="og:description" content="This year marks the three-year anniversary of the 64 node Raspberry Pi cluster known as the Big Orange Bramble or BOB. I am happy to report that BOB is still running strong and there have been no major downtimes or issues with the system. BOB is still occasionally used to train neuromorphic networks using EONS, which you can read more about here. BOB was build as part of the special topics class ECE599 Supercomputer Design and Analysis, Summer 2016 of which I was part. This post includes images of the system and copies of the reports and presentations in case you want to read more about the system. The reports are also posted on Dr. Mark Dean’s website. Dr. Dean taught the course. Also included are the reports for the follow-up project named A Linux Integrated Computing Environment or ALICE, which used Pine64 boards and Nvidia TX1 GPUs. ">
+  <meta property="og:description" content="This year marks the three-year anniversary of the 64 node Raspberry Pi cluster known as the Big Orange Bramble or BOB. I am happy to report that BOB is still running strong and there have been no major downtimes or issues with the system. BOB is still occasionally used to train neuromorphic networks using EONS, which you can read more about here. BOB was build as part of the special topics class ECE599 Supercomputer Design and Analysis, Summer 2016 of which I was part. This post includes images of the system and copies of the reports and presentations in case you want to read more about the system. The reports are also posted on Dr. Mark Dean’s website. Dr. Dean taught the course. Also included are the reports for the follow-up project named A Linux Integrated Computing Environment or ALICE, which used Pine64 boards and Nvidia TX1 GPUs.">
 
 
 
@@ -33,7 +36,7 @@
 
   <meta name="twitter:site" content="@Geekdude_360">
   <meta name="twitter:title" content="The Big Orange Bramble">
-  <meta name="twitter:description" content="This year marks the three-year anniversary of the 64 node Raspberry Pi cluster known as the Big Orange Bramble or BOB. I am happy to report that BOB is still running strong and there have been no major downtimes or issues with the system. BOB is still occasionally used to train neuromorphic networks using EONS, which you can read more about here. BOB was build as part of the special topics class ECE599 Supercomputer Design and Analysis, Summer 2016 of which I was part. This post includes images of the system and copies of the reports and presentations in case you want to read more about the system. The reports are also posted on Dr. Mark Dean’s website. Dr. Dean taught the course. Also included are the reports for the follow-up project named A Linux Integrated Computing Environment or ALICE, which used Pine64 boards and Nvidia TX1 GPUs. ">
+  <meta name="twitter:description" content="This year marks the three-year anniversary of the 64 node Raspberry Pi cluster known as the Big Orange Bramble or BOB. I am happy to report that BOB is still running strong and there have been no major downtimes or issues with the system. BOB is still occasionally used to train neuromorphic networks using EONS, which you can read more about here. BOB was build as part of the special topics class ECE599 Supercomputer Design and Analysis, Summer 2016 of which I was part. This post includes images of the system and copies of the reports and presentations in case you want to read more about the system. The reports are also posted on Dr. Mark Dean’s website. Dr. Dean taught the course. Also included are the reports for the follow-up project named A Linux Integrated Computing Environment or ALICE, which used Pine64 boards and Nvidia TX1 GPUs.">
   <meta name="twitter:url" content="https://geekdude.github.io/tech/bob/">
 
   
@@ -80,10 +83,13 @@
 
 
 
+
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Aaron Young Feed">
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Aaron Young Feed">
+
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -94,21 +100,8 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
-
-<!--[if IE]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
 
 
@@ -133,7 +126,6 @@
 
   <body class="layout--single">
     <nav class="skip-links">
-  <h2 class="screen-reader-text">Skip links</h2>
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
     <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
@@ -152,29 +144,27 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/assets/images/logo88x88.png" alt=""></a>
+          <a class="site-logo" href="/"><img src="/assets/images/logo88x88.png" alt="Aaron Young"></a>
         
         <a class="site-title" href="/">
           Aaron Young
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/about/" >About</a>
+              <a href="/about/">About</a>
             </li><li class="masthead__menu-item">
-              <a href="/blog/" >Blog</a>
+              <a href="/blog/">Blog</a>
             </li><li class="masthead__menu-item">
-              <a href="/research/" >Research</a>
+              <a href="/research/">Research</a>
             </li><li class="masthead__menu-item">
-              <a href="/publications/" >Publications</a>
+              <a href="/publications/">Publications</a>
             </li><li class="masthead__menu-item">
-              <a href="/cv/" >CV</a>
+              <a href="/cv/">CV</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
           <span class="visually-hidden">Toggle search</span>
-          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
-            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
-          </svg>
+          <i class="fas fa-search"></i>
         </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -198,12 +188,8 @@
 
 
 
-
-
-
-
 <div class="page__hero"
-  style=" "
+  style=" background-image: url('');"
 >
   
     <img src="/assets/images/bob-header.png" alt="The Big Orange Bramble" class="page__hero-image">
@@ -225,8 +211,6 @@
 
   
     <div class="author__avatar">
-      
-
       
         <img src="/assets/images/Aaron_square.jpg" alt="Aaron Young" itemprop="image">
       
@@ -262,7 +246,7 @@
         <li>
           <a href="mailto:youngar@ornl.gov">
             <meta itemprop="email" content="youngar@ornl.gov" />
-            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
           </a>
         </li>
       
@@ -276,7 +260,7 @@
       
         <li>
           <a href="https://www.linkedin.com/in/aaron-young-0791a53b" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
           </a>
         </li>
       
@@ -290,7 +274,7 @@
       
         <li>
           <a href="https://bitbucket.org/Geekdude" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket
+            <i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i><span class="label">Bitbucket</span>
           </a>
         </li>
       
@@ -298,7 +282,7 @@
       
         <li>
           <a href="https://github.com/Geekdude" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
           </a>
         </li>
       
@@ -344,6 +328,7 @@
   </div>
 
 
+
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="The Big Orange Bramble">
     <meta itemprop="description" content="This year marks the three-year anniversary of the 64 node Raspberry Pi cluster known as the Big Orange Bramble or BOB.I am happy to report that BOB is still running strong and there have been no major downtimes or issues with the system.BOB is still occasionally used to train neuromorphic networks using EONS, which you can read more about here.BOB was build as part of the special topics class ECE599 Supercomputer Design and Analysis, Summer 2016 of which I was part.This post includes images of the system and copies of the reports and presentations in case you want to read more about the system.The reports are also posted on Dr. Mark Dean’s website.Dr. Dean taught the course.Also included are the reports for the follow-up project named A Linux Integrated Computing Environment or ALICE, which used Pine64 boards and Nvidia TX1 GPUs.">
@@ -356,15 +341,26 @@
           <h1 id="page-title" class="page__title" itemprop="headline">The Big Orange Bramble
 </h1>
           
-            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
 
 
-
-
-  1 minute read
-
-</p>
-          
         </header>
       
 
@@ -373,12 +369,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu">
-  <li><a href="#abstract">Abstract</a></li>
-  <li><a href="#picture-gallery">Picture Gallery</a></li>
-  <li><a href="#project-reports">Project Reports</a></li>
-  <li><a href="#project-presentations">Project Presentations</a></li>
-</ul>
+              <ul class="toc__menu"><li><a href="#abstract">Abstract</a></li><li><a href="#picture-gallery">Picture Gallery</a></li><li><a href="#project-reports">Project Reports</a></li><li><a href="#project-presentations">Project Presentations</a></li></ul>
 
             </nav>
           </aside>
@@ -405,49 +396,49 @@ Beyond the primary target of delivering a functional system, efforts were focuse
   
     
       <a href="/assets/images/bob-system.jpeg" title="BOB system running a distributed fluid simulation application.">
-        <img src="/assets/images/bob-system-th.jpeg" alt="bob-system" />
+          <img src="/assets/images/bob-system-th.jpeg" alt="bob-system" />
       </a>
     
   
     
       <a href="/assets/images/bob-front-view.jpg" title="BOB and ALICE systems side by side. BOB is on the left. ALICE is on the right.">
-        <img src="/assets/images/bob-front-view-th.jpg" alt="bob-front-view" />
+          <img src="/assets/images/bob-front-view-th.jpg" alt="bob-front-view" />
       </a>
     
   
     
       <a href="/assets/images/bob-rack-zoom.jpg" title="Close-up on one tower of 8 Raspberry Pis.">
-        <img src="/assets/images/bob-rack-zoom-th.jpg" alt="bob-rack-zoom" />
+          <img src="/assets/images/bob-rack-zoom-th.jpg" alt="bob-rack-zoom" />
       </a>
     
   
     
       <a href="/assets/images/bob-development-team.jpeg" title="The team that built BOB.">
-        <img src="/assets/images/bob-development-team-th.jpeg" alt="bob-development-team" />
+          <img src="/assets/images/bob-development-team-th.jpeg" alt="bob-development-team" />
       </a>
     
   
     
       <a href="/assets/images/bob-router-zoom.jpg" title="Close-up on BOB's router.">
-        <img src="/assets/images/bob-router-zoom-th.jpg" alt="bob-router-zoom" />
+          <img src="/assets/images/bob-router-zoom-th.jpg" alt="bob-router-zoom" />
       </a>
     
   
     
       <a href="/assets/images/bob-back-view-zoom.jpg" title="Close-up on the headnode and storage nodes.">
-        <img src="/assets/images/bob-back-view-zoom-th.jpg" alt="bob-back-view-zoom" />
+          <img src="/assets/images/bob-back-view-zoom-th.jpg" alt="bob-back-view-zoom" />
       </a>
     
   
     
       <a href="/assets/images/bob-zoom.jpg" title="BOB Rack—Front View.">
-        <img src="/assets/images/bob-zoom-th.jpg" alt="bob-zoom" />
+          <img src="/assets/images/bob-zoom-th.jpg" alt="bob-zoom" />
       </a>
     
   
     
       <a href="/assets/images/bob-back-view.jpg" title="BOB Rack—Back View.">
-        <img src="/assets/images/bob-back-view-th.jpg" alt="bob-back-view" />
+          <img src="/assets/images/bob-back-view-th.jpg" alt="bob-back-view" />
       </a>
     
   
@@ -485,15 +476,11 @@ Beyond the primary target of delivering a functional system, efforts were focuse
 
 
   
-  
-  
 
   <p class="page__taxonomy">
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      
-      
       <a href="/tags/#high-performance-computing" class="page__taxonomy-item" rel="tag">High Performance Computing</a>
     
     </span>
@@ -506,27 +493,22 @@ Beyond the primary target of delivering a functional system, efforts were focuse
 
 
   
-  
-  
 
   <p class="page__taxonomy">
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
     <span itemprop="keywords">
     
-      
-      
       <a href="/categories/#tech" class="page__taxonomy-item" rel="tag">Tech</a>
     
     </span>
   </p>
 
 
-
-        
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Posted:</strong> <time datetime="2019-10-09T05:00:00-04:00">October 9, 2019</time></p>
         
 
-        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2019-10-09T05:00:00-04:00">October 9, 2019</time></p>
+
+
       </footer>
 
       <section class="page__share">
@@ -580,29 +562,36 @@ Beyond the primary target of delivering a functional system, efforts were focuse
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
       <div class="archive__item-teaser">
-        <img src=
-          
-            "/assets/images/dean-nairr-teaser.png"
-          
-          alt="">
+        <img src="/assets/images/dean-nairr-teaser.png" alt="">
       </div>
     
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title no_toc" itemprop="headline">
       
         <a href="/tech/dean-nairr/" rel="permalink">Dr. Dean to Serve on National Artificial Intelligence Research Resource Task Force
 </a>
       
     </h2>
     
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-
-
-
-  less than 1 minute read
-
-</p>
+  <p class="page__meta">
     
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
     <p class="archive__item-excerpt" itemprop="description">My PhD advisor, Mark Dean, was recentally selected to server on the National Artificial Intelligence Research Resource (NAIRR) Task Force. 
 Read more about i...</p>
   </article>
@@ -617,29 +606,36 @@ Read more about i...</p>
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
       <div class="archive__item-teaser">
-        <img src=
-          
-            "/assets/images/demo-reel-teaser.png"
-          
-          alt="">
+        <img src="/assets/images/demo-reel-teaser.png" alt="">
       </div>
     
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title no_toc" itemprop="headline">
       
         <a href="/life/prestons-demo-reel/" rel="permalink">Brother’s Acting Demo Reel
 </a>
       
     </h2>
     
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-
-
-
-  less than 1 minute read
-
-</p>
+  <p class="page__meta">
     
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
     <p class="archive__item-excerpt" itemprop="description">I helped my brother Preston edit together an acting demo reel using DaVinci Resolve. Check it out on his website at https://volweb.utk.edu/~pyoung15/acting/ ...</p>
   </article>
 </div>
@@ -653,29 +649,36 @@ Read more about i...</p>
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
       <div class="archive__item-teaser">
-        <img src=
-          
-            "/assets/images/blender-donut-teaser.png"
-          
-          alt="">
+        <img src="/assets/images/blender-donut-teaser.png" alt="">
       </div>
     
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title no_toc" itemprop="headline">
       
         <a href="/life/happy-mothers-day/" rel="permalink">Happy Mother’s Day
 </a>
       
     </h2>
     
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-
-
-
-  less than 1 minute read
-
-</p>
+  <p class="page__meta">
     
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
     <p class="archive__item-excerpt" itemprop="description">Happy Mother’s Day! Below is a blender animation I made a few years ago after following the Blender Guru’s Donut Tutorial.
 </p>
   </article>
@@ -690,29 +693,36 @@ Read more about i...</p>
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
       <div class="archive__item-teaser">
-        <img src=
-          
-            "/assets/images/ascr-reimagine-teaser.png"
-          
-          alt="">
+        <img src="/assets/images/ascr-reimagine-teaser.png" alt="">
       </div>
     
-    <h2 class="archive__item-title" itemprop="headline">
+    <h2 class="archive__item-title no_toc" itemprop="headline">
       
         <a href="/research/ascr-reimagining-codesign/" rel="permalink">ASCR Workshop on Reimagining Codesign Whitepaper
 </a>
       
     </h2>
     
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-
-
-
-  less than 1 minute read
-
-</p>
+  <p class="page__meta">
     
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
     <p class="archive__item-excerpt" itemprop="description">My whitepaper titled Emerging Heterogeneous Systems Provide Great Opportunities for Codesign for the ASCR Workshop on Reimagining Codesign was accepted.
 </p>
   </article>
@@ -769,7 +779,9 @@ Read more about i...</p>
       
     
 
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
   </ul>
 </div>
 
@@ -780,7 +792,6 @@ Read more about i...</p>
 
     
   <script src="/assets/js/main.min.js"></script>
-  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 
 
 
