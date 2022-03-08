@@ -1,7 +1,7 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.18.1 by Michael Rose
-  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
@@ -10,10 +10,11 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>  Aaron Young - Page 2</title>
-<meta name="description" content="Welcome to my website. ">
+<meta name="description" content="Welcome to my website.">
 
 
   <meta name="author" content="Aaron Young">
+  
 
 
 <meta property="og:type" content="website">
@@ -23,7 +24,7 @@
 <meta property="og:url" content="https://geekdude.github.io/page/2/">
 
 
-  <meta property="og:description" content="Welcome to my website. ">
+  <meta property="og:description" content="Welcome to my website.">
 
 
 
@@ -33,7 +34,7 @@
 
   <meta name="twitter:site" content="@Geekdude_360">
   <meta name="twitter:title" content="">
-  <meta name="twitter:description" content="Welcome to my website. ">
+  <meta name="twitter:description" content="Welcome to my website.">
   <meta name="twitter:url" content="https://geekdude.github.io/page/2/">
 
   
@@ -59,10 +60,10 @@
 <link rel="canonical" href="https://geekdude.github.io/page/2/">
 
 
-  <link rel="prev" href="https://geekdude.github.io/">
+  <link rel="prev" href="https://geekdude.github.io/index.html">
 
 
-  <link rel="next" href="https://geekdude.github.io/page/3/">
+  <link rel="next" href="https://geekdude.github.io/page/3/index.html">
 
 
 <script type="application/ld+json">
@@ -82,10 +83,13 @@
 
 
 
+
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Aaron Young Feed">
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Aaron Young Feed">
+
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -96,21 +100,8 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
-
-<!--[if IE]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
 
 
@@ -135,7 +126,6 @@
 
   <body class="layout--home">
     <nav class="skip-links">
-  <h2 class="screen-reader-text">Skip links</h2>
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
     <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
@@ -154,29 +144,27 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/assets/images/logo88x88.png" alt=""></a>
+          <a class="site-logo" href="/"><img src="/assets/images/logo88x88.png" alt="Aaron Young"></a>
         
         <a class="site-title" href="/">
           Aaron Young
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/about/" >About</a>
+              <a href="/about/">About</a>
             </li><li class="masthead__menu-item">
-              <a href="/blog/" >Blog</a>
+              <a href="/blog/">Blog</a>
             </li><li class="masthead__menu-item">
-              <a href="/research/" >Research</a>
+              <a href="/research/">Research</a>
             </li><li class="masthead__menu-item">
-              <a href="/publications/" >Publications</a>
+              <a href="/publications/">Publications</a>
             </li><li class="masthead__menu-item">
-              <a href="/cv/" >CV</a>
+              <a href="/cv/">CV</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
           <span class="visually-hidden">Toggle search</span>
-          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
-            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
-          </svg>
+          <i class="fas fa-search"></i>
         </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -200,10 +188,6 @@
 
 
 
-
-
-
-
 <div class="page__hero--overlay"
   style="background-color: #808080; background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/rio.jpg');"
 >
@@ -220,11 +204,12 @@
 </p>
       
       
+
+
       
       
         <p>
         
-          
           <a href="/about/" class="btn btn--light-outline btn--large">About Me</a>
         
       
@@ -247,12 +232,13 @@
 
     <section class="page__content" itemprop="text">
       
+
+
+
+
 <div class="feature__wrapper">
 
   
-
-    
-
     <div class="feature__item--center">
       <div class="archive__item">
         
@@ -275,17 +261,18 @@
 
 </div>
 
+
+
+
 <div class="feature__wrapper">
 
   
-
-    
-
     <div class="feature__item">
       <div class="archive__item">
         
           <div class="archive__item-teaser">
-            <img src="/assets/images/typewriter.png" alt="" />
+            <img src="/assets/images/typewriter.png"
+                 alt="">
             
           </div>
         
@@ -304,14 +291,12 @@
       </div>
     </div>
   
-
-    
-
     <div class="feature__item">
       <div class="archive__item">
         
           <div class="archive__item-teaser">
-            <img src="/assets/images/apg.png" alt="APG Logo" />
+            <img src="/assets/images/apg.png"
+                 alt="APG Logo">
             
           </div>
         
@@ -335,14 +320,12 @@
       </div>
     </div>
   
-
-    
-
     <div class="feature__item">
       <div class="archive__item">
         
           <div class="archive__item-teaser">
-            <img src="/assets/images/envelope.png" alt="" />
+            <img src="/assets/images/envelope.png"
+                 alt="">
             
           </div>
         
@@ -367,17 +350,18 @@
 
 </div>
 
+
+
+
 <div class="feature__wrapper">
 
   
-
-    
-
     <div class="feature__item--left">
       <div class="archive__item">
         
           <div class="archive__item-teaser">
-            <img src="/assets/images/graphics_final.png" alt="" />
+            <img src="/assets/images/graphics_final.png"
+                 alt="">
             
           </div>
         
@@ -417,6 +401,58 @@ For my project, I created a 3D Dungeons and Dragons tabletop scene, similar to w
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     <h2 class="archive__item-title" itemprop="headline">
       
+        <a href="/tech/ctags/" rel="permalink">Getting started with Ctags with Vim and Git.
+</a>
+      
+    </h2>
+    
+      <div class="posts__item-teaser">
+        
+        <a href="/tech/ctags/" rel="permalink">
+        
+          <img src=
+          
+              "/assets/images/ctags-teaser.png"
+          
+          alt="">
+        </a>
+      </div>
+    
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Ctags with Vim are incredibly useful for quickly navigating around code.
+With them, Vim can jump between symbols to quickly go to the definition of symbols o...</p>
+  </article>
+</div>
+
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <h2 class="archive__item-title" itemprop="headline">
+      
         <a href="/tech/dean-pc-gamer/" rel="permalink">Dr. Dean featured in PC Gamer
 </a>
       
@@ -435,15 +471,26 @@ For my project, I created a 3D Dungeons and Dragons tabletop scene, similar to w
       </div>
     
     
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-
-
-
-  less than 1 minute read
-
-</p>
+  <p class="page__meta">
     
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
     <p class="archive__item-excerpt" itemprop="description">My PhD advisor, Mark Dean, was recentally featured in PC Gamer for his work on the first IBM PC. Read the article at https://www.pcgamer.com/dr-mark-dean-int...</p>
   </article>
 </div>
@@ -475,15 +522,26 @@ For my project, I created a 3D Dungeons and Dragons tabletop scene, similar to w
       </div>
     
     
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-
-
-
-  5 minute read
-
-</p>
+  <p class="page__meta">
     
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
     <p class="archive__item-excerpt" itemprop="description">After graduating last May, I decided to migrate my website from hosting on the EECS servers at UTK to GitHub Pages.
 I always planned on migrating to GitHub p...</p>
   </article>
@@ -516,15 +574,26 @@ I always planned on migrating to GitHub p...</p>
       </div>
     
     
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-
-
-
-  less than 1 minute read
-
-</p>
+  <p class="page__meta">
     
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
     <p class="archive__item-excerpt" itemprop="description">My dissertation titled SNACC: The Scaled-up Neuromorphic Array Communications Controller is now available at https://trace.tennessee.edu/utk_graddiss/5843/.
 </p>
   </article>
@@ -557,59 +626,29 @@ I always planned on migrating to GitHub p...</p>
       </div>
     
     
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
-
-
-
-  12 minute read
-
-</p>
+  <p class="page__meta">
     
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          12 minute read
+        
+      </span>
+    
+  </p>
+
+
     <p class="archive__item-excerpt" itemprop="description">My favorite type of bread is a fresh, warm loaf of sourdough.
 I can almost go through a whole loaf by myself when it is fresh from the oven.
 Sourdough bread ...</p>
-  </article>
-</div>
-
-
-  
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/tech/reorder/" rel="permalink">Reorder
-</a>
-      
-    </h2>
-    
-      <div class="posts__item-teaser">
-        
-        <a href="/tech/reorder/" rel="permalink">
-        
-          <img src=
-          
-              "/assets/images/reorder-teaser.png"
-          
-          alt="">
-        </a>
-      </div>
-    
-    
-      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
-
-
-
-
-  2 minute read
-
-</p>
-    
-    <p class="archive__item-excerpt" itemprop="description">I recently created a reorder python script to rename, reorder, add, and remove files/directories in a directory with a numerical naming scheme.
-</p>
   </article>
 </div>
 
@@ -620,14 +659,32 @@ Sourdough bread ...</p>
   <ul>
     
     
-      <li><a href="/#recent-posts">Previous</a></li>
+      <li><a href="/index.html#recent-posts">Previous</a></li>
     
 
     
+      
+        <li>
+          <a href="/index.html#recent-posts"  title=" ">1</a>
+        </li>
+      
+        <li>
+          <a href="/page/2/index.html#recent-posts" class="disabled" title=" ">2</a>
+        </li>
+      
+        <li>
+          <a href="/page/3/index.html#recent-posts"  title=" ">3</a>
+        </li>
+      
+        <li>
+          <a href="/page/4/index.html#recent-posts"  title=" ">4</a>
+        </li>
+      
+    
 
     
     
-      <li><a href="/page/3/#recent-posts">Next</a></li>
+      <li><a href="/page/3/index.html#recent-posts">Next</a></li>
     
   </ul>
 </nav>
@@ -681,18 +738,19 @@ Sourdough bread ...</p>
       
     
 
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 Aaron Young. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 Aaron Young. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
     
   <script src="/assets/js/main.min.js"></script>
-  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 
 
 

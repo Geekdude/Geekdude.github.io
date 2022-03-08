@@ -1,21 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2021-10-30T15:45:45-04:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><entry><title type="html">Dr. Dean to Serve on National Artificial Intelligence Research Resource Task Force</title><link href="https://geekdude.github.io/tech/dean-nairr/" rel="alternate" type="text/html" title="Dr. Dean to Serve on National Artificial Intelligence Research Resource Task Force" /><published>2021-07-11T00:00:00-04:00</published><updated>2021-07-11T00:00:00-04:00</updated><id>https://geekdude.github.io/tech/dean-nairr</id><content type="html" xml:base="https://geekdude.github.io/tech/dean-nairr/">&lt;p&gt;My PhD advisor, Mark Dean, was recentally selected to server on the National Artificial Intelligence Research Resource (NAIRR) Task Force. 
-Read more about it at &lt;a href=&quot;https://www.eecs.utk.edu/parker-dean-to-serve-on-national-artificial-intelligence-research-resource-task-force/&quot;&gt;https://www.eecs.utk.edu/parker-dean-to-serve-on-national-artificial-intelligence-research-resource-task-force/&lt;/a&gt;.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="News" /><summary type="html">My PhD advisor, Mark Dean, was recentally selected to server on the National Artificial Intelligence Research Resource (NAIRR) Task Force. Read more about it at https://www.eecs.utk.edu/parker-dean-to-serve-on-national-artificial-intelligence-research-resource-task-force/.</summary></entry><entry><title type="html">Brother’s Acting Demo Reel</title><link href="https://geekdude.github.io/life/prestons-demo-reel/" rel="alternate" type="text/html" title="Brother's Acting Demo Reel" /><published>2021-06-08T00:00:00-04:00</published><updated>2021-06-08T00:00:00-04:00</updated><id>https://geekdude.github.io/life/prestons-demo-reel</id><content type="html" xml:base="https://geekdude.github.io/life/prestons-demo-reel/">&lt;p&gt;I helped my brother Preston edit together an acting demo reel using DaVinci Resolve. Check it out on his website at &lt;a href=&quot;https://volweb.utk.edu/~pyoung15/acting/&quot;&gt;https://volweb.utk.edu/~pyoung15/acting/&lt;/a&gt; or watch it below on Youtube.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2022-03-07T20:41:13-05:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><entry><title type="html">Changing from Disqus to Utterances</title><link href="https://geekdude.github.io/tech/changing-to-utterances/" rel="alternate" type="text/html" title="Changing from Disqus to Utterances" /><published>2021-10-31T00:00:00-04:00</published><updated>2021-10-31T00:00:00-04:00</updated><id>https://geekdude.github.io/tech/changing-to-utterances</id><content type="html" xml:base="https://geekdude.github.io/tech/changing-to-utterances/">&lt;p&gt;I have been having an issue where &lt;a href=&quot;https://disqus.com/&quot;&gt;Disqus&lt;/a&gt; would not send me any emails when new comments are posted to the website.
+After going through all the settings in Disqus, changing my email address, and testing adding comments using a guest login, I could not figure out how to get email notifications to work.
+Because of this, I changed to using &lt;a href=&quot;https://utteranc.es/&quot;&gt;Utterances&lt;/a&gt; for my website’s comments.
+Utterances’ is a great choice since it is open-source and uses the issues tracker of the GitHub repository to store the comments.
+Each page is its own issue, and the comments are added to the issue.
+Now email notification works just like GitHub’s issue email notification system.
+The main downside to Utterances is that you have to log in to a GitHub account in order to post a comment.
+I liked the flexibility that Disqus provided in terms of login types and guest posting, but I need a commenting system that notifies me when new comments are added, and I like that comments are stored as issues in the issue tracker.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Tech" /><category term="Website" /><summary type="html">I have been having an issue where Disqus would not send me any emails when new comments are posted to the website. After going through all the settings in Disqus, changing my email address, and testing adding comments using a guest login, I could not figure out how to get email notifications to work. Because of this, I changed to using Utterances for my website’s comments. Utterances’ is a great choice since it is open-source and uses the issues tracker of the GitHub repository to store the comments. Each page is its own issue, and the comments are added to the issue. Now email notification works just like GitHub’s issue email notification system. The main downside to Utterances is that you have to log in to a GitHub account in order to post a comment. I liked the flexibility that Disqus provided in terms of login types and guest posting, but I need a commenting system that notifies me when new comments are added, and I like that comments are stored as issues in the issue tracker.</summary></entry><entry><title type="html">Dr. Dean to Serve on National Artificial Intelligence Research Resource Task Force</title><link href="https://geekdude.github.io/tech/dean-nairr/" rel="alternate" type="text/html" title="Dr. Dean to Serve on National Artificial Intelligence Research Resource Task Force" /><published>2021-07-11T00:00:00-04:00</published><updated>2021-07-11T00:00:00-04:00</updated><id>https://geekdude.github.io/tech/dean-nairr</id><content type="html" xml:base="https://geekdude.github.io/tech/dean-nairr/">&lt;p&gt;My PhD advisor, Mark Dean, was recentally selected to server on the National Artificial Intelligence Research Resource (NAIRR) Task Force. 
+Read more about it at &lt;a href=&quot;https://www.eecs.utk.edu/parker-dean-to-serve-on-national-artificial-intelligence-research-resource-task-force/&quot;&gt;https://www.eecs.utk.edu/parker-dean-to-serve-on-national-artificial-intelligence-research-resource-task-force/&lt;/a&gt;.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Tech" /><category term="News" /><summary type="html">My PhD advisor, Mark Dean, was recentally selected to server on the National Artificial Intelligence Research Resource (NAIRR) Task Force. Read more about it at https://www.eecs.utk.edu/parker-dean-to-serve-on-national-artificial-intelligence-research-resource-task-force/.</summary></entry><entry><title type="html">Brother’s Acting Demo Reel</title><link href="https://geekdude.github.io/life/prestons-demo-reel/" rel="alternate" type="text/html" title="Brother’s Acting Demo Reel" /><published>2021-06-08T00:00:00-04:00</published><updated>2021-06-08T00:00:00-04:00</updated><id>https://geekdude.github.io/life/prestons-demo-reel</id><content type="html" xml:base="https://geekdude.github.io/life/prestons-demo-reel/">&lt;p&gt;I helped my brother Preston edit together an acting demo reel using DaVinci Resolve. Check it out on his website at &lt;a href=&quot;https://volweb.utk.edu/~pyoung15/acting/&quot;&gt;https://volweb.utk.edu/~pyoung15/acting/&lt;/a&gt; or watch it below on Youtube.&lt;/p&gt;
 
 &lt;!-- Courtesy of embedresponsively.com //--&gt;
+
 &lt;div class=&quot;responsive-video-container&quot;&gt;
-
-  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/H43XMSqUuj8&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;/div&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="DaVinci Resolve" /><summary type="html">I helped my brother Preston edit together an acting demo reel using DaVinci Resolve. Check it out on his website at https://volweb.utk.edu/~pyoung15/acting/ or watch it below on Youtube.</summary></entry><entry><title type="html">Happy Mother’s Day</title><link href="https://geekdude.github.io/life/happy-mothers-day/" rel="alternate" type="text/html" title="Happy Mother's Day" /><published>2021-05-09T00:00:00-04:00</published><updated>2021-05-09T00:00:00-04:00</updated><id>https://geekdude.github.io/life/happy-mothers-day</id><content type="html" xml:base="https://geekdude.github.io/life/happy-mothers-day/">&lt;p&gt;Happy Mother’s Day! Below is a blender animation I made a few years ago after following the &lt;a href=&quot;https://www.youtube.com/watch?v=TPrnSACiTJ4&amp;amp;list=PLexwJr_iILK7IkuhEeAYeN7aLV5AAXKa-&quot;&gt;Blender Guru’s Donut Tutorial&lt;/a&gt;.&lt;/p&gt;
+    &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/H43XMSqUuj8&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Life" /><category term="DaVinci Resolve" /><summary type="html">I helped my brother Preston edit together an acting demo reel using DaVinci Resolve. Check it out on his website at https://volweb.utk.edu/~pyoung15/acting/ or watch it below on Youtube.</summary></entry><entry><title type="html">Happy Mother’s Day</title><link href="https://geekdude.github.io/life/happy-mothers-day/" rel="alternate" type="text/html" title="Happy Mother’s Day" /><published>2021-05-09T00:00:00-04:00</published><updated>2021-05-09T00:00:00-04:00</updated><id>https://geekdude.github.io/life/happy-mothers-day</id><content type="html" xml:base="https://geekdude.github.io/life/happy-mothers-day/">&lt;p&gt;Happy Mother’s Day! Below is a blender animation I made a few years ago after following the &lt;a href=&quot;https://www.youtube.com/watch?v=TPrnSACiTJ4&amp;amp;list=PLexwJr_iILK7IkuhEeAYeN7aLV5AAXKa-&quot;&gt;Blender Guru’s Donut Tutorial&lt;/a&gt;.&lt;/p&gt;
 
 &lt;!-- Courtesy of embedresponsively.com //--&gt;
+
 &lt;div class=&quot;responsive-video-container&quot;&gt;
+    &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/FBvJ1h-pKv8&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Life" /><category term="Blender" /><summary type="html">Happy Mother’s Day! Below is a blender animation I made a few years ago after following the Blender Guru’s Donut Tutorial.</summary></entry><entry><title type="html">ASCR Workshop on Reimagining Codesign Whitepaper</title><link href="https://geekdude.github.io/research/ascr-reimagining-codesign/" rel="alternate" type="text/html" title="ASCR Workshop on Reimagining Codesign Whitepaper" /><published>2021-03-10T00:00:00-05:00</published><updated>2021-03-10T00:00:00-05:00</updated><id>https://geekdude.github.io/research/ascr-reimagining-codesign</id><content type="html" xml:base="https://geekdude.github.io/research/ascr-reimagining-codesign/">&lt;p&gt;My whitepaper titled &lt;a href=&quot;https://custom.cvent.com/DCBD4ADAAD004096B1E4AD96F3C8049E/files/event/f64a4f28b4734808924cc8c3d9a2af63/32fd0b3c80c04326a2adf6827290512f.pdf&quot;&gt;Emerging Heterogeneous Systems Provide Great Opportunities for Codesign&lt;/a&gt; for the &lt;a href=&quot;https://web.cvent.com/event/f64a4f28-b473-4808-924c-c8c3d9a2af63/summary&quot;&gt;ASCR Workshop on Reimagining Codesign&lt;/a&gt; was accepted.&lt;/p&gt;
 
-  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/FBvJ1h-pKv8&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;/div&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Blender" /><summary type="html">Happy Mother’s Day! Below is a blender animation I made a few years ago after following the Blender Guru’s Donut Tutorial.</summary></entry><entry><title type="html">ASCR Workshop on Reimagining Codesign Whitepaper</title><link href="https://geekdude.github.io/research/ascr-reimagining-codesign/" rel="alternate" type="text/html" title="ASCR Workshop on Reimagining Codesign Whitepaper" /><published>2021-03-10T00:00:00-05:00</published><updated>2021-03-10T00:00:00-05:00</updated><id>https://geekdude.github.io/research/ascr-reimagining-codesign</id><content type="html" xml:base="https://geekdude.github.io/research/ascr-reimagining-codesign/">&lt;p&gt;My whitepaper titled &lt;a href=&quot;https://custom.cvent.com/DCBD4ADAAD004096B1E4AD96F3C8049E/files/event/f64a4f28b4734808924cc8c3d9a2af63/32fd0b3c80c04326a2adf6827290512f.pdf&quot;&gt;Emerging Heterogeneous Systems Provide Great Opportunities for Codesign&lt;/a&gt; for the &lt;a href=&quot;https://web.cvent.com/event/f64a4f28-b473-4808-924c-c8c3d9a2af63/summary&quot;&gt;ASCR Workshop on Reimagining Codesign&lt;/a&gt; was accepted.&lt;/p&gt;
-
-&lt;p&gt;All the accepted whitepapers can be found &lt;a href=&quot;https://web.cvent.com/event/f64a4f28-b473-4808-924c-c8c3d9a2af63/websitePage:38a39b7a-d1af-4643-82ac-8fcf1069773b&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Heterogeneous Systems" /><summary type="html">My whitepaper titled Emerging Heterogeneous Systems Provide Great Opportunities for Codesign for the ASCR Workshop on Reimagining Codesign was accepted.</summary></entry><entry><title type="html">Getting started with Ctags with Vim and Git.</title><link href="https://geekdude.github.io/tech/ctags/" rel="alternate" type="text/html" title="Getting started with Ctags with Vim and Git." /><published>2021-03-05T00:00:00-05:00</published><updated>2021-03-05T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/ctags</id><content type="html" xml:base="https://geekdude.github.io/tech/ctags/">&lt;p&gt;&lt;a href=&quot;http://ctags.sourceforge.net/&quot;&gt;Ctags&lt;/a&gt; with Vim are incredibly useful for quickly navigating around code.
+&lt;p&gt;All the accepted whitepapers can be found &lt;a href=&quot;https://web.cvent.com/event/f64a4f28-b473-4808-924c-c8c3d9a2af63/websitePage:38a39b7a-d1af-4643-82ac-8fcf1069773b&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Research" /><category term="Heterogeneous Systems" /><summary type="html">My whitepaper titled Emerging Heterogeneous Systems Provide Great Opportunities for Codesign for the ASCR Workshop on Reimagining Codesign was accepted.</summary></entry><entry><title type="html">Getting started with Ctags with Vim and Git.</title><link href="https://geekdude.github.io/tech/ctags/" rel="alternate" type="text/html" title="Getting started with Ctags with Vim and Git." /><published>2021-03-05T00:00:00-05:00</published><updated>2021-03-05T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/ctags</id><content type="html" xml:base="https://geekdude.github.io/tech/ctags/">&lt;p&gt;&lt;a href=&quot;http://ctags.sourceforge.net/&quot;&gt;Ctags&lt;/a&gt; with Vim are incredibly useful for quickly navigating around code.
 With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document.
 Ctags + Vim end up working very similar to how &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt; or other IDEs “go to definition” and “find all symbols works.”&lt;/p&gt;
 
@@ -26,18 +31,18 @@ Ctags + Vim end up working very similar to how &lt;a href=&quot;https://code.vis
 
 &lt;h2 id=&quot;ctags-with-vim&quot;&gt;Ctags with Vim&lt;/h2&gt;
 
-&lt;p&gt;Ctags can be annoying to use because you have to run the &lt;code class=&quot;highlighter-rouge&quot;&gt;ctags&lt;/code&gt; program to generate a tag file, which then needs to be found by Vim to be used.
+&lt;p&gt;Ctags can be annoying to use because you have to run the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ctags&lt;/code&gt; program to generate a tag file, which then needs to be found by Vim to be used.
 If the code changes, then the tag file will need to be re-updated.
 One way to set up ctags is to map a Vim keypress to generate the ctags.
-In my &lt;code class=&quot;highlighter-rouge&quot;&gt;vimrc&lt;/code&gt;, I set it up to regenerate ctags when I press &amp;lt;F5&amp;gt; while not in a &lt;img src=&quot;http://latex.codecogs.com/gif.latex?\LaTeX&quot; border=&quot;0&quot; /&gt; file.
+In my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vimrc&lt;/code&gt;, I set it up to regenerate ctags when I press &amp;lt;F5&amp;gt; while not in a &lt;img src=&quot;http://latex.codecogs.com/gif.latex?\LaTeX&quot; border=&quot;0&quot; /&gt; file.
 More on the ctags command later.&lt;/p&gt;
 
 &lt;div class=&quot;language-viml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&quot; Set f5 to generate tags for non-latex files&lt;/span&gt;
 augroup TexTags
 autocmd&lt;span class=&quot;p&quot;&gt;!&lt;/span&gt; TexTags
 autocmd &lt;span class=&quot;nb&quot;&gt;FileType&lt;/span&gt; tex &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;b:latex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;
-augroup &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;!&lt;/span&gt;exists&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;b:latex&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+augroup end
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;exists&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;b:latex&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     nnoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;f5&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:!&lt;/span&gt;ctags &lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;R&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;CR&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;endif&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -48,18 +53,18 @@ augroup &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=.&lt;/span&gt;/&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;tags&lt;/span&gt;;$HOME
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;This tags string says to search for the file &lt;code class=&quot;highlighter-rouge&quot;&gt;.tags&lt;/code&gt; in the current file’s directory and recursively search upward until the user’s home directory is reached.&lt;/p&gt;
+&lt;p&gt;This tags string says to search for the file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.tags&lt;/code&gt; in the current file’s directory and recursively search upward until the user’s home directory is reached.&lt;/p&gt;
 
 &lt;h2 id=&quot;ctags-with-vim-and-git&quot;&gt;Ctags with Vim and Git&lt;/h2&gt;
 
 &lt;p&gt;However, I do not manually generate the ctags file with &amp;lt;F5&amp;gt;.
 I store all my source code in &lt;a href=&quot;https://git-scm.com/&quot;&gt;Git&lt;/a&gt;, so instead of manually generating the ctags file, I use &lt;a href=&quot;https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks&quot;&gt;githooks&lt;/a&gt; to automatically generate the ctags files whenever I checkout, commit, merge, or rewrite.
 To setup githooks to be added automatically to newly cloned or created git repos, you make a git template with the correct files.
-The git template will be copied into the new repositories &lt;code class=&quot;highlighter-rouge&quot;&gt;.git&lt;/code&gt; folder on creation.&lt;/p&gt;
+The git template will be copied into the new repositories &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.git&lt;/code&gt; folder on creation.&lt;/p&gt;
 
-&lt;p&gt;First, setup the &lt;code class=&quot;highlighter-rouge&quot;&gt;git_template&lt;/code&gt; structure.&lt;/p&gt;
+&lt;p&gt;First, setup the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git_template&lt;/code&gt; structure.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~/.git_template/
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~/.git_template/
 └── hooks
     ├── ctags
     ├── post-checkout
@@ -105,39 +110,39 @@ ctags &lt;span class=&quot;nt&quot;&gt;-R&lt;/span&gt; &lt;span class=&quot;nt&q
 &lt;span class=&quot;k&quot;&gt;esac&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;You also have to add the template to your &lt;code class=&quot;highlighter-rouge&quot;&gt;.gitconfig&lt;/code&gt;.&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[init]
+&lt;p&gt;You also have to add the template to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitconfig&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[init]
     templatedir = ~/.git_template
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Now more about the ctags command.
 To use the command, you first have to install ctags.
-I use &lt;a href=&quot;http://ctags.sourceforge.net/&quot;&gt;exuberant-ctags&lt;/a&gt; which can be installed with &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install exuberant-ctags&lt;/code&gt; on Ubuntu or Debian based Linux.
+I use &lt;a href=&quot;http://ctags.sourceforge.net/&quot;&gt;exuberant-ctags&lt;/a&gt; which can be installed with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt install exuberant-ctags&lt;/code&gt; on Ubuntu or Debian based Linux.
 The ctags command I use is&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ctags -R --tag-relative --extra=+f -f&quot;$dir/.$$.tags&quot; --languages=-javascript,sql
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ctags -R --tag-relative --extra=+f -f&quot;$dir/.$$.tags&quot; --languages=-javascript,sql
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;-R&lt;/code&gt; recurses into directories.
-The &lt;code class=&quot;highlighter-rouge&quot;&gt;--tag-relative&lt;/code&gt; sets file paths relative to the tag file.
-The &lt;code class=&quot;highlighter-rouge&quot;&gt;--extra=+f&lt;/code&gt; includes the entry for the base file name of every source file.
-The &lt;code class=&quot;highlighter-rouge&quot;&gt;-f&lt;/code&gt; specifies that the tag file should be saved at the root of the git repository as &lt;code class=&quot;highlighter-rouge&quot;&gt;.tags&lt;/code&gt;.
-Finally, the &lt;code class=&quot;highlighter-rouge&quot;&gt;--languages&lt;/code&gt; removes javascript and SQL from the languages which get tagged.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-R&lt;/code&gt; recurses into directories.
+The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--tag-relative&lt;/code&gt; sets file paths relative to the tag file.
+The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--extra=+f&lt;/code&gt; includes the entry for the base file name of every source file.
+The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-f&lt;/code&gt; specifies that the tag file should be saved at the root of the git repository as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.tags&lt;/code&gt;.
+Finally, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--languages&lt;/code&gt; removes javascript and SQL from the languages which get tagged.&lt;/p&gt;
 
 &lt;p&gt;As mentioned before, this template will only apply to new git repositories; therefore, I also created two &lt;a href=&quot;https://fishshell.com/&quot;&gt;fish&lt;/a&gt; functions to reload git hooks based on the git template.
 One file reloads hooks in a git repo without submodules, and the other one recursively updates the hooks of all submodules.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git-reload-hooks.fish&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git-reload-hooks.fish&lt;/code&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function git-reload-hooks --description 'Reload git hooks'
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function git-reload-hooks --description 'Reload git hooks'
 rm -f (git rev-parse --git-dir)/hooks/*
 git init
 end
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git-reload-hooks-all.fish&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git-reload-hooks-all.fish&lt;/code&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function git-reload-hooks-all --description 'Reload all git hooks'
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function git-reload-hooks-all --description 'Reload all git hooks'
     git submodule foreach --recursive 'rm -f $(git rev-parse --git-dir)/hooks/*;git init'
 end
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -147,7 +152,7 @@ I plan to create a future post with more detail on how this is done.&lt;/p&gt;
 
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 &lt;p&gt;I followed &lt;a href=&quot;https://tbaggery.com/2011/08/08/effortless-ctags-with-git.html&quot;&gt;https://tbaggery.com/2011/08/08/effortless-ctags-with-git.html&lt;/a&gt; when I was setting up ctags for the first time.
-I have since modified my setup to work better with git submodules and other edge cases.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Git" /><category term="Vim" /><category term="Ctags" /><summary type="html">Ctags with Vim are incredibly useful for quickly navigating around code. With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document. Ctags + Vim end up working very similar to how Visual Studio Code or other IDEs “go to definition” and “find all symbols works.”</summary></entry><entry><title type="html">Dr. Dean featured in PC Gamer</title><link href="https://geekdude.github.io/tech/dean-pc-gamer/" rel="alternate" type="text/html" title="Dr. Dean featured in PC Gamer" /><published>2021-02-26T00:00:00-05:00</published><updated>2021-02-26T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/dean-pc-gamer</id><content type="html" xml:base="https://geekdude.github.io/tech/dean-pc-gamer/">&lt;p&gt;My PhD advisor, Mark Dean, was recentally featured in PC Gamer for his work on the first IBM PC. Read the article at &lt;a href=&quot;https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/&quot;&gt;https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/&lt;/a&gt;.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="News" /><summary type="html">My PhD advisor, Mark Dean, was recentally featured in PC Gamer for his work on the first IBM PC. Read the article at https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/.</summary></entry><entry><title type="html">Moving Website from web.eecs.utk.edu to Github.io</title><link href="https://geekdude.github.io/tech/moving-website/" rel="alternate" type="text/html" title="Moving Website from web.eecs.utk.edu to Github.io" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/moving-website</id><content type="html" xml:base="https://geekdude.github.io/tech/moving-website/">&lt;p&gt;After graduating last May, I decided to migrate &lt;a href=&quot;/tech/new-website/&quot;&gt;my website&lt;/a&gt; from hosting on the EECS servers at UTK to &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.
+I have since modified my setup to work better with git submodules and other edge cases.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Tech" /><category term="Git" /><category term="Vim" /><category term="Ctags" /><summary type="html">Ctags with Vim are incredibly useful for quickly navigating around code. With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document. Ctags + Vim end up working very similar to how Visual Studio Code or other IDEs “go to definition” and “find all symbols works.”</summary></entry><entry><title type="html">Dr. Dean featured in PC Gamer</title><link href="https://geekdude.github.io/tech/dean-pc-gamer/" rel="alternate" type="text/html" title="Dr. Dean featured in PC Gamer" /><published>2021-02-26T00:00:00-05:00</published><updated>2021-02-26T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/dean-pc-gamer</id><content type="html" xml:base="https://geekdude.github.io/tech/dean-pc-gamer/">&lt;p&gt;My PhD advisor, Mark Dean, was recentally featured in PC Gamer for his work on the first IBM PC. Read the article at &lt;a href=&quot;https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/&quot;&gt;https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/&lt;/a&gt;.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Tech" /><category term="News" /><summary type="html">My PhD advisor, Mark Dean, was recentally featured in PC Gamer for his work on the first IBM PC. Read the article at https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/.</summary></entry><entry><title type="html">Moving Website from web.eecs.utk.edu to Github.io</title><link href="https://geekdude.github.io/tech/moving-website/" rel="alternate" type="text/html" title="Moving Website from web.eecs.utk.edu to Github.io" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/moving-website</id><content type="html" xml:base="https://geekdude.github.io/tech/moving-website/">&lt;p&gt;After graduating last May, I decided to migrate &lt;a href=&quot;/tech/new-website/&quot;&gt;my website&lt;/a&gt; from hosting on the EECS servers at UTK to &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.
 I always planned on migrating to GitHub pages post-graduation; that was one reason I chose to build my website using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.
 GitHub pages can host any static website, but it is designed to build and work with Jekyll sites automatically.
 I wanted to migrate my website properly with correct redirection and Search Engine Optimization (SEO).
@@ -161,7 +166,7 @@ At first, I tried just to move my repository over directly and use GitHub’s bu
 However, this auto-building feature only supports a &lt;a href=&quot;https://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins&quot;&gt;subset of Jekyll plugins&lt;/a&gt;.
 The plugin I use for pagination, &lt;a href=&quot;https://github.com/sverrirs/jekyll-paginate-v2&quot;&gt;Jekyll Paginate V2&lt;/a&gt;, is not one of the supported plugins.
 This limitation means that the built-in building would not work for my site without changing the plugins I use.
-Therefore, I turned off the automatic Jekyll building by adding a &lt;code class=&quot;highlighter-rouge&quot;&gt;.nojekyll&lt;/code&gt; file to the root of the repository.&lt;/p&gt;
+Therefore, I turned off the automatic Jekyll building by adding a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.nojekyll&lt;/code&gt; file to the root of the repository.&lt;/p&gt;
 
 &lt;p&gt;I then tried to build the site automatically with GitHub Actions, but I had trouble getting the site to build using a docker image with the Jekyll build action.
 While looking into the build issues, I realized my website would not build with the newest versions of Jekyll and &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/&quot;&gt;Minimal Mistakes&lt;/a&gt;.
@@ -192,13 +197,13 @@ That was all that was required to migrate the site and start hosting on GitHub P
 &lt;h2 id=&quot;setting-up-redirection&quot;&gt;Setting up redirection&lt;/h2&gt;
 &lt;p&gt;The next step was to set up redirection from the old URL to the new URL.
 After looking into redirection, I discovered that I wanted to use redirection with the permanent redirection status (301) which indicates that the resource has moved permanently.
-From various posts, I learned that a &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file is used on linux servers to specify server-level redirects.
+From various posts, I learned that a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file is used on linux servers to specify server-level redirects.
 I had trouble finding the correct redirect commands until I read the &lt;a href=&quot;https://httpd.apache.org/docs/2.4/mod/mod_alias.html#redirect&quot;&gt;Apache Documentation for Redirect&lt;/a&gt; and &lt;a href=&quot;https://httpd.apache.org/docs/2.4/mod/mod_alias.html#redirectmatch&quot;&gt;RedirectMatch&lt;/a&gt;.
 The trouble I ran into was how to correctly map from a folder on a domain to a domain (i.e. /~ayoung48 to /).&lt;/p&gt;
 
-&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file that ended up working properly is&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file that ended up working properly is&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RedirectMatch 301 &quot;/~ayoung48/(.*)&quot; &quot;https://Geekdude.github.io/$1&quot;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RedirectMatch 301 &quot;/~ayoung48/(.*)&quot; &quot;https://Geekdude.github.io/$1&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;This redirect match command would correctly redirect pages from the old site to the new site.
@@ -207,7 +212,7 @@ I will leave up this redirection until I lose access to the UTK servers.&lt;/p&g
 &lt;h2 id=&quot;search-engine-optimization&quot;&gt;Search Engine Optimization&lt;/h2&gt;
 &lt;p&gt;Since the redirection was setup in the previous section, updating the search optimization is easier.
 I added the new site to &lt;a href=&quot;https://search.google.com/search-console/about&quot;&gt;Google Search Console&lt;/a&gt; and &lt;a href=&quot;https://www.bing.com/webmasters&quot;&gt;Microsoft Webmaster Tools&lt;/a&gt;.
-There did not seem to be an explicit place to let them know about the move&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, but with redirection and having both sites listed under my account, I hope their web crawler will figure it out.
+There did not seem to be an explicit place to let them know about the move&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, but with redirection and having both sites listed under my account, I hope their web crawler will figure it out.
 I do not even need to redo the website verification method since it was already done for the old address and the verification files are still in place.&lt;/p&gt;
 
 &lt;h2 id=&quot;moving-comments&quot;&gt;Moving Comments&lt;/h2&gt;
@@ -218,13 +223,13 @@ I also discovered that I am not getting email notifications when people comment.
 I will need to look into why.
 The settings are correctly set.&lt;/p&gt;
 
-&lt;div class=&quot;footnotes&quot;&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;There was one for google but it required Domain level property types, not URL Prefix like I am using. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;There was one for google but it required Domain level property types, not URL Prefix like I am using. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Website" /><summary type="html">After graduating last May, I decided to migrate my website from hosting on the EECS servers at UTK to GitHub Pages. I always planned on migrating to GitHub pages post-graduation; that was one reason I chose to build my website using Jekyll. GitHub pages can host any static website, but it is designed to build and work with Jekyll sites automatically. I wanted to migrate my website properly with correct redirection and Search Engine Optimization (SEO). Overall the process was relatively easy, but I did run into some issues, primarily with the customizations I have done to the website. This post will cover the overall steps I took and also the issues and workarounds I encountered.</summary></entry><entry><title type="html">PhD Dissertation and Artifacts Available</title><link href="https://geekdude.github.io/research/dissertation/" rel="alternate" type="text/html" title="PhD Dissertation and Artifacts Available" /><published>2021-01-30T00:00:00-05:00</published><updated>2021-01-30T00:00:00-05:00</updated><id>https://geekdude.github.io/research/dissertation</id><content type="html" xml:base="https://geekdude.github.io/research/dissertation/">&lt;p&gt;My dissertation titled &lt;em&gt;SNACC: The Scaled-up Neuromorphic Array Communications Controller&lt;/em&gt; is now available at &lt;a href=&quot;https://trace.tennessee.edu/utk_graddiss/5843/&quot;&gt;https://trace.tennessee.edu/utk_graddiss/5843/&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Tech" /><category term="Website" /><summary type="html">After graduating last May, I decided to migrate my website from hosting on the EECS servers at UTK to GitHub Pages. I always planned on migrating to GitHub pages post-graduation; that was one reason I chose to build my website using Jekyll. GitHub pages can host any static website, but it is designed to build and work with Jekyll sites automatically. I wanted to migrate my website properly with correct redirection and Search Engine Optimization (SEO). Overall the process was relatively easy, but I did run into some issues, primarily with the customizations I have done to the website. This post will cover the overall steps I took and also the issues and workarounds I encountered.</summary></entry><entry><title type="html">PhD Dissertation and Artifacts Available</title><link href="https://geekdude.github.io/research/dissertation/" rel="alternate" type="text/html" title="PhD Dissertation and Artifacts Available" /><published>2021-01-30T00:00:00-05:00</published><updated>2021-01-30T00:00:00-05:00</updated><id>https://geekdude.github.io/research/dissertation</id><content type="html" xml:base="https://geekdude.github.io/research/dissertation/">&lt;p&gt;My dissertation titled &lt;em&gt;SNACC: The Scaled-up Neuromorphic Array Communications Controller&lt;/em&gt; is now available at &lt;a href=&quot;https://trace.tennessee.edu/utk_graddiss/5843/&quot;&gt;https://trace.tennessee.edu/utk_graddiss/5843/&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I have also made available two general-purpose IP blocks written in VHDL that I created as part of my dissertation work. They are a custom Aurora acknowledgment automatic repeat request design available at &lt;a href=&quot;https://github.com/Geekdude/aurora-ack&quot;&gt;https://github.com/Geekdude/aurora-ack&lt;/a&gt; and a AXI4-Stream clock converter design available at &lt;a href=&quot;https://github.com/Geekdude/axi4-stream-clock-converter&quot;&gt;https://github.com/Geekdude/axi4-stream-clock-converter&lt;/a&gt;.&lt;/p&gt;
 
@@ -232,13 +237,13 @@ The settings are correctly set.&lt;/p&gt;
 
 &lt;p&gt;Plain Text:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Young, Aaron Reed, &quot;SNACC: The Scaled-up Neuromorphic Array Communications Controller. &quot; PhD diss., University of Tennessee, 2020.
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Young, Aaron Reed, &quot;SNACC: The Scaled-up Neuromorphic Array Communications Controller. &quot; PhD diss., University of Tennessee, 2020.
 https://trace.tennessee.edu/utk_graddiss/5843
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Bibtex:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@PhdThesis{y:20:snacc,
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@PhdThesis{y:20:snacc,
     title       = {SNACC: The Scaled-up Neuromorphic Array Communications Controller},
     author      = {Aaron Reed Young},
     institution = {University of Tennessee},
@@ -246,7 +251,7 @@ https://trace.tennessee.edu/utk_graddiss/5843
     year        = {2020},
     url         = {https://trace.tennessee.edu/utk_graddiss/5843/}
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Neuromorphic Computing" /><summary type="html">My dissertation titled SNACC: The Scaled-up Neuromorphic Array Communications Controller is now available at https://trace.tennessee.edu/utk_graddiss/5843/.</summary></entry><entry><title type="html">Sourdough Bread</title><link href="https://geekdude.github.io/life/sourdough-bread/" rel="alternate" type="text/html" title="Sourdough Bread" /><published>2020-04-12T00:00:00-04:00</published><updated>2020-04-12T00:00:00-04:00</updated><id>https://geekdude.github.io/life/sourdough-bread</id><content type="html" xml:base="https://geekdude.github.io/life/sourdough-bread/">&lt;p&gt;My favorite type of bread is a fresh, warm loaf of sourdough.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Research" /><category term="Neuromorphic Computing" /><summary type="html">My dissertation titled SNACC: The Scaled-up Neuromorphic Array Communications Controller is now available at https://trace.tennessee.edu/utk_graddiss/5843/.</summary></entry><entry><title type="html">Sourdough Bread</title><link href="https://geekdude.github.io/life/sourdough-bread/" rel="alternate" type="text/html" title="Sourdough Bread" /><published>2020-04-12T00:00:00-04:00</published><updated>2020-04-12T00:00:00-04:00</updated><id>https://geekdude.github.io/life/sourdough-bread</id><content type="html" xml:base="https://geekdude.github.io/life/sourdough-bread/">&lt;p&gt;My favorite type of bread is a fresh, warm loaf of sourdough.
 I can almost go through a whole loaf by myself when it is fresh from the oven.
 Sourdough bread also makes the best french toast and great bread crumbs for wiener schnitzel.
 This post will go over the basics to getting started making sourdough bread.
@@ -417,83 +422,7 @@ The heat lamp would dry out the top of the dough.&lt;/p&gt;
 &lt;p&gt;This video shows the bread proofer I made in action.&lt;/p&gt;
 
 &lt;!-- Courtesy of embedresponsively.com //--&gt;
+
 &lt;div class=&quot;responsive-video-container&quot;&gt;
-
-  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/CaS0XT1j_Mc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;/div&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Food" /><summary type="html">My favorite type of bread is a fresh, warm loaf of sourdough. I can almost go through a whole loaf by myself when it is fresh from the oven. Sourdough bread also makes the best french toast and great bread crumbs for wiener schnitzel. This post will go over the basics to getting started making sourdough bread. It includes links to the resources I used to get started, my favorite recipes, and some tips and tricks I have learned over my years of baking and experimenting for fun.</summary></entry><entry><title type="html">Reorder</title><link href="https://geekdude.github.io/tech/reorder/" rel="alternate" type="text/html" title="Reorder" /><published>2020-01-30T00:00:00-05:00</published><updated>2020-01-30T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/reorder</id><content type="html" xml:base="https://geekdude.github.io/tech/reorder/">&lt;p&gt;I recently created a &lt;a href=&quot;https://github.com/Geekdude/reorder&quot;&gt;reorder&lt;/a&gt; python script to rename, reorder, add, and remove files/directories in a directory with a numerical naming scheme.&lt;/p&gt;
-
-&lt;p&gt;A common file naming practice is to prepend a number to the filename so that the files appear in the order specified by the number. However, say you want to add, delete, or reorder these files, you would have to go through and update all the filenames which have numbers changed from the operation. Although renaming the files like this is not hard, it’s annoying to do when there are multiple files which need to be renamed. I ran into this issue recently while writing my dissertation; each chapter is broken into its own &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; file stored in the &lt;code class=&quot;highlighter-rouge&quot;&gt;chapters/&lt;/code&gt; directory.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;chapters
-├── 01-introduction.tex
-├── 02-related-work.tex
-├── 03-previous-work.tex
-├── 04-goals.tex
-├── 05-tools.tex
-├── 06-danna2-work.tex
-├── 07-snacc.tex
-├── 08-challenges.tex
-├── 09-applications-performance.tex
-├── 10-accomplishments.tex
-├── 11-future.tex
-└── 12-conclusion.tex
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;In order to insert a new chapter or delete a chapter, all the files which come after that chapter will have to be renamed. Further, more in the main &lt;code class=&quot;highlighter-rouge&quot;&gt;.tex&lt;/code&gt; file I include each of the chapters with an include statement.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\include{chapters/01-introduction}
-\include{chapters/02-related-work}
-\include{chapters/03-previous-work}
-\include{chapters/04-goals}
-\include{chapters/05-tools}
-\include{chapters/06-danna2-work}
-\include{chapters/07-snacc}
-\include{chapters/08-challenges}
-\include{chapters/09-applications-performance}
-\include{chapters/10-accomplishments}
-\include{chapters/11-future}
-\include{chapters/12-conclusion}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;This means I have to renumber the files in the directory and the files in the include statements.
-In order to make this operation easier, I created a &lt;a href=&quot;https://github.com/Geekdude/reorder&quot;&gt;reorder&lt;/a&gt; python script to easily rename, add, delete, and reorder the &lt;code class=&quot;highlighter-rouge&quot;&gt;*.tex&lt;/code&gt; files in the chapters directory. This script opens up a text buffer, and you make the desired changes to the buffer; then the script will make the changes to the directory and update the file numbers.&lt;/p&gt;
-
-&lt;p&gt;Additionally, I modified my makefile for the &lt;script type=&quot;math/tex&quot;&gt;\LaTeX&lt;/script&gt; project to include a target to build a &lt;code class=&quot;highlighter-rouge&quot;&gt;chapters.tex&lt;/code&gt; file with the proper include statements for the chapters found in the chapters folder. Now in &lt;code class=&quot;highlighter-rouge&quot;&gt;main.tex&lt;/code&gt; I only need to &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;k&quot;&gt;\input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;chapters.tex&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now if I want to add a new chapter between previous-work and goals, as well as rename “previous work” to “prior work”, all I need to do is run &lt;code class=&quot;highlighter-rouge&quot;&gt;reorder chapters&lt;/code&gt;. I am then presented with the buffer&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;01-introduction.tex
-02-related-work.tex
-03-previous-work.tex
-04-goals.tex
-05-tools.tex
-06-danna2-work.tex
-07-snacc.tex
-08-challenges.tex
-09-applications-performance.tex
-10-accomplishments.tex
-11-future.tex
-12-conclusion.tex
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;I then change the buffer to&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;01-introduction.tex
-02-related-work.tex
-03-prior-work.tex
-new-chapter
-04-goals.tex
-05-tools.tex
-06-danna2-work.tex
-07-snacc.tex
-08-challenges.tex
-09-applications-performance.tex
-10-accomplishments.tex
-11-future.tex
-12-conclusion.tex
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Then I can rebuild the &lt;script type=&quot;math/tex&quot;&gt;\LaTeX&lt;/script&gt; document and the changes to the chapters will be included with a newly generated &lt;code class=&quot;highlighter-rouge&quot;&gt;chapters.tex&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Much appreciation to Jonathan Ambrose who helped come up with the idea for the script, motivated me to write it, and added several additional features to the script.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="File-Organization" /><summary type="html">I recently created a reorder python script to rename, reorder, add, and remove files/directories in a directory with a numerical naming scheme.</summary></entry></feed>
+    &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/CaS0XT1j_Mc&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Life" /><category term="Food" /><summary type="html">My favorite type of bread is a fresh, warm loaf of sourdough. I can almost go through a whole loaf by myself when it is fresh from the oven. Sourdough bread also makes the best french toast and great bread crumbs for wiener schnitzel. This post will go over the basics to getting started making sourdough bread. It includes links to the resources I used to get started, my favorite recipes, and some tips and tricks I have learned over my years of baking and experimenting for fun.</summary></entry></feed>
