@@ -1,0 +1,121 @@
+{
+  "main": {
+    "id": "a59580ddb92d9cfd",
+    "type": "split",
+    "children": [
+      {
+        "id": "1397b0dab58a5045",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_pages/blog.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "18b9c219e2a5671b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3f958aede684ce1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "027dc232fc71bc56",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6fd56a6f337f1d59",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9bfaad225f7c7225",
+    "type": "split",
+    "children": [
+      {
+        "id": "32ba0dd81cc5abfd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66ed64b7db111be2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_pages/blog.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b903660f4e23755c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_pages/blog.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "790dc916f8484716",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_pages/blog.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1397b0dab58a5045",
+  "lastOpenFiles": [
+    "_pages/blog.md",
+    "_pages/category-archive.md",
+    "_pages/about.md",
+    "_posts/2019-03-13-new-website-challenges.md",
+    "_pages/cv.md",
+    "README.md"
+  ]
+}

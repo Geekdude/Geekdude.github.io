@@ -1,0 +1,19 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "defaultViewMode": "preview",
+  "spellcheck": true,
+  "useTab": false,
+  "vimMode": true,
+  "trashOption": "local",
+  "strictLineBreaks": true,
+  "showFrontmatter": true,
+  "foldHeading": true,
+  "foldIndent": false,
+  "showLineNumber": true,
+  "rightToLeft": false,
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "assets"
+}
