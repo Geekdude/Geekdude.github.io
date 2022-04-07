@@ -13,17 +13,22 @@ header:
 
 [Productivity Presentation Slides]({% link assets/productivity-presentation.pdf %})
 
-TLDR: Look through the slides, and then read my commentary below for interesting looking slides.
+**TLDR: Look through the slides, and then read my commentary below for more information on interesting looking slides.**
 
-In October last year, I gave a presentation to the my group at ORNL on my productivity/notetaking/engineering-notebook system.
-This system is inspired by many different systems and I find it extreamly valuble while conducting research.
+During October last year, I gave a presentation to the my group at ORNL on my productivity/notetaking/engineering-notebook system.
+Another word for this system is a Personal Knowledge Base (PKB) or a second brain.[^PKM]
+This system is inspired by many different systems and I find it extremely valuable while conducting research.
 If you are a knowledge worker or student, you will likely find this system useful too. 
 In lou of a regular written article blog post, I decided to try something different;
 I will provide the slides for you to look at, then write my commentary for each slide below for you to read along with the slide.
 This will save me some effort for restructuring the content of the talk, and its helpful to look at the pictures that go along with the writing.
 So for each slide I will have a section of written commentary on that slide and you can progress through the slides as you are reading the corresponding section.
+In the slides, there are many links to internal and exteranal information.
+Any blue text is an internal link to another location in the slide deck, and any purple text is an external link for more information.
 
 So without further ado, welcome to my written presentation on productivity.
+
+[^PKM]: The methods can also be referred to as a Personal Knowledge Management (PKM).
 
 ## Part 1: Building a Second Brain
 
@@ -31,7 +36,7 @@ In this first part, I talk about the most influential system on my own system, t
 
 ### Slide 2 --- Information Scarcity vs Information Abundance
 
-We now live in a time of information abundance[^1].
+We now live in a time of information abundance[^BASB].
 Much of the challenge of in an knowledge worker field such as research or academia comes from the overwhelming explosion of information that is now readily available in digital formats.
 If the bodies of written wisdom in books aren't overwhelming enough, you now have the entirety of the internet, electronic document repositories, email, multiple messaging applications, many code repositories, and a plethora of tools and open-source programs/libraries.
 Most of this talk aims at techniques which can be used to avoid drowning in this abundance, and instead using this abundance to your advantage to thrive and become more productive.
@@ -44,55 +49,102 @@ With scarcity, you could miss out on important information or consume the entire
 The amount of knowledge that must be managed in daily life is overwhelming and then solution to thriving instead of sinking in the abundance is to build a second brain or personal knowledge base.
 This second brain will be a place for you to store and process your thoughts and the abundance of external information.
 
-[^1]: The slide is from [Building a Second Brain Miro Board](https://miro.com/app/board/o9J_lEwGSa8=/) and idea of living in the abundance of information instead of scarcity comes from Tiago Forte.
+[^BASB]: The slide is from [Building a Second Brain Miro Board](https://miro.com/app/board/o9J_lEwGSa8=/) and idea of living in the abundance of information instead of scarcity comes from Tiago Forte.
 
 ### Slide 5 --- Building a Second Brain
 
 This next section of the talk is all about the concepts found in [Building a Second Brain](https://www.buildingasecondbrain.com/) althrough I haven't taken the course, I have been learning about Building a Second Brain (BASB) through free online resources made availible from Forte Labs.
 There are many links on my slides, and they lead to useful resources or back to the places the information came from.
-The Miro Board and the Illistrated notes are both great resources created by prior students of the class, but it helps to watch some of the free videos or read some of the free articles to understand the concepts. I'm also greatly looking forward to the [the upcoming book on BASB](https://smile.amazon.com/Building-Second-Brain-Organize-Potential-ebook/dp/B09LVVN9L3/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1649119407&sr=8-1).
+The Miro Board and the Illistrated notes are both great resources created by prior students of the class, but it helps to watch some of the free videos or read some of the free articles to understand the concepts.
+I'm also greatly looking forward to the [the upcoming book on BASB](https://smile.amazon.com/Building-Second-Brain-Organize-Potential-ebook/dp/B09LVVN9L3/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1649119407&sr=8-1).
 
-For each of my slides on notetaking method, I will provide reasources for further reading, and key concepts from the method. I am unable to go into too much detail on each method, but I wanted to cover the concepts that are the most helpful to me.
+For each of my slides on notetaking method, I will provide reasources for further reading, and key concepts from the method.
+I am unable to go into too much detail on each method, but I wanted to cover the concepts that are the most helpful to me.
 
-This slide covers the major ideas of BASB. As presented in the [Miro Board](https://miro.com/app/board/o9J_lEwGSa8=/), I broke the content down into the steps for the productivity pipeline which is C.O.D.E. or Capture, Organize, Distill, Express. For each of these steps, Tiago presents a Concept, Technique, and Exercise for the step. The place all these steps take place and all the information is worked on is within the second brain. 
+This slide covers the major ideas of BASB.
+As presented in the [Miro Board](https://miro.com/app/board/o9J_lEwGSa8=/), I broke the content down into the steps for the productivity pipeline which is C.O.D.E. or Capture, Organize, Distill, Express.
+For each of these steps, Tiago presents a Concept, Technique, and Exercise for the step.
+The place all these steps take place and all the information is worked on is within the second brain. 
 On this slide, the blue links take you to another slide in the presentation.
 
-The key concepts listed in the bullets are the previously talked about information scarcity vs information abundance mindsets, and the capture criteria of "capture what resonates with you". The things that you find interesting or grab your attention are the things you should capture in your second brain.
+The key concepts listed in the bullets are the previously talked about information scarcity vs information abundance mindsets, and the capture criteria of "capture what resonates with you".
+The things that you find interesting or grab your attention are the things you should capture in your second brain.
 
 ### Slide 6 --- Building a Second Brain---Capture
 
-The first step in BASB is to have universal *capture*. Anythink you consume or create or learn about should be able to be easily capture in the second brain. The second brain should have a universal inbox where anything that captures your attention and resonates with you can be frictionlessly added in to the second brain inbox. For this step don't worry about where the information will go, just focus on having a method of capture that takes no effort. The first step of CODE is capture and its about collecting all interesting information.
+The first step in BASB is to have universal *capture*.
+Anythink you consume or create or learn about should be able to be easily capture in the second brain.
+The second brain should have a universal inbox where anything that captures your attention and resonates with you can be frictionlessly added in to the second brain inbox.
+For this step don't worry about where the information will go, just focus on having a method of capture that takes no effort.
+The first step of CODE is capture and its about collecting all interesting information.
 
 ### Slide 7 --- PARA
 
-The second step of *organize*, is about where to put all the things that you have now captured in your universal inbox. This method is [PARA](https://fortelabs.co/blog/para/). I have an additional `0.` as the inbox where everything can be initially placed before it is organized where it should go. By having a capture place, you don't have to think about where something should go as you are captureing it.
+The second step of *organize*, is about where to put all the things that you have now captured in your universal inbox.
+This method is [PARA](https://fortelabs.co/blog/para/).
+I have an additional `0.` as the inbox where everything can be initially placed before it is organized where it should go.
+By having a capture place, you don't have to think about where something should go as you are captureing it.
 
-The key princibles of PARA are that you leverage the magic number 4 which is easily in the working memory of humans. You have 4 categories and each category tree should only have a depth of 4. The second idea is that you mirror this PARA structure across all the applications you use. Even if you can't use only one program or filesystem, you can still replicate the same general structure across each. The last idea is that it seperate actional items from non-actionable items.
+The key princibles of PARA are that you leverage the magic number 4 which is easily in the working memory of humans.
+You have 4 categories and each category tree should only have a depth of 4.
+The second idea is that you mirror this PARA structure across all the applications you use.
+Even if you can't use only one program or filesystem, you can still replicate the same general structure across each.
+The last idea is that it seperate actional items from non-actionable items.
 
-The categories of PARA are Projects, Areas, Resources, and Archive. Projects have a deadline and they are the things you are activly working on. In my case they are the active projects that I am currently working on. The scope of my projects are longer running (multiple years) but I can still keep all the information on that project in one place where I will be wanting it in the future. This has helped me to context switch between projects even when I have to put them down for weeks.
+The categories of PARA are Projects, Areas, Resources, and Archive.
+Projects have a deadline and they are the things you are activly working on.
+In my case they are the active projects that I am currently working on.
+The scope of my projects are longer running (multiple years) but I can still keep all the information on that project in one place where I will be wanting it in the future.
+This has helped me to context switch between projects even when I have to put them down for weeks.
 
-Areas are categories of respnsibility that are never ending. These are obligations and things you must do, but have no ending. Such are performance reviews, calls for papers, and weekly reviews. I also put working particular vendors in the areas section.
-Resources are things that you want to keep around for refererence, that are still relavent, but you have no project or areas using them. I keep my notes on academic papers here, as well as, general notes.
-Archive is for completed projects, areas that are no longer relevant, and notes that you want to keep, but you don't want in the resources category. If something had no future use, then you can remove it, but I tend to the digital hoarder side, so if I think it had future potential use, but I don't want to have it in the main categories I will move it to archive. I have my archive also have projects, areas, and resources. So when I'm looking for an archived item, I can find it in the same PARA structure.
-When naming PARA folders I suggest naming it `0 Inbox`, `1 Projects`, `2 Areas`, `3 Resources`, and `4 Archive` so that the order is maintain when sorted. PARA is a useful and convient organization method and places the things that you access more freqently at the top, with things you are less likely to use at the bottom. Using search to look in resources and archive is very helpful, and for these categories I mostly access via the search bar whereas projects and areas I normally navigate to without searce.
+Areas are categories of respnsibility that are never ending.
+These are obligations and things you must do, but have no ending.
+Such are performance reviews, calls for papers, and weekly reviews.
+I also put working particular vendors in the areas section.
+Resources are things that you want to keep around for refererence, that are still relavent, but you have no project or areas using them.
+I keep my notes on academic papers here, as well as, general notes.
+Archive is for completed projects, areas that are no longer relevant, and notes that you want to keep, but you don't want in the resources category.
+If something had no future use, then you can remove it, but I tend to the digital hoarder side, so if I think it had future potential use, but I don't want to have it in the main categories I will move it to archive.
+I have my archive also have projects, areas, and resources.
+So when I'm looking for an archived item, I can find it in the same PARA structure.
+When naming PARA folders I suggest naming it `0 Inbox`, `1 Projects`, `2 Areas`, `3 Resources`, and `4 Archive` so that the order is maintain when sorted.
+PARA is a useful and convient organization method and places the things that you access more freqently at the top, with things you are less likely to use at the bottom.
+Using search to look in resources and archive is very helpful, and for these categories I mostly access via the search bar whereas projects and areas I normally navigate to without searce.
 
 ### Slide 8 --- PARA
 
-This image shows how I use the same para structure in multiple places. This helps me stay organize and switch between programmes with less friction.
+This image shows how I use the same para structure in multiple places.
+This helps me stay organize and switch between programmes with less friction.
 
 ### Slide 9 --- Progressive Summarization
 
-We are now in the *distill* part of CODE. In this step, the notes you have captured and organized are refined into more useful and benifitial notes. I use the distill step to both progressivly summerize notes and also to create index pages and build the internal linking between notes. (More on index and internal links later). For progressivly summerization, each time you touch a note, you try to make it easier for your future self to skim next time. So each time you look at it, you can add another level of the summarization. The ideas here is that the summarization happens over many passes of working with the note. Each time you touch a note, try to leave it a little better than you found it. Add more links, summerize, or add clarification to the notes. Another idea is that a wall of text is hard to read, but text with bolding and highlighting, text that has the main points pulled out is easy to skim and to remind yourself of the content quickly without having to do a full read. This allows notes to be review by yourself very quickly at a glance.
+We are now in the *distill* part of CODE.
+In this step, the notes you have captured and organized are refined into more useful and benifitial notes.
+I use the distill step to both progressivly summerize notes and also to create index pages and build the internal linking between notes. (More on index and internal links later).
+For progressivly summerization, each time you touch a note, you try to make it easier for your future self to skim next time.
+So each time you look at it, you can add another level of the summarization.
+The ideas here is that the summarization happens over many passes of working with the note.
+Each time you touch a note, try to leave it a little better than you found it.
+Add more links, summerize, or add clarification to the notes.
+Another idea is that a wall of text is hard to read, but text with bolding and highlighting, text that has the main points pulled out is easy to skim and to remind yourself of the content quickly without having to do a full read.
+This allows notes to be review by yourself very quickly at a glance.
 
-The basid 5 levels fo progressive summarization are shown in the slide. For more information on progressive summarization see [Progressive Summarization: A Practical Technique for Designing Discoverable Notes](https://fortelabs.co/blog/progressive-summarization-a-practical-technique-for-designing-discoverable-notes/)
+The basid 5 levels fo progressive summarization are shown in the slide.
+For more information on progressive summarization see [Progressive Summarization: A Practical Technique for Designing Discoverable Notes](https://fortelabs.co/blog/progressive-summarization-a-practical-technique-for-designing-discoverable-notes/)
 
 ### Slide 10 --- Progressive Summarization Landscape
 
-This slide shows the landscape of notes which have been progressivly summarized. Each node is at a different point of the summarization process, with untouched nodes still lower in the stack, but certain high-quality, relevent notes have been through all the steps. This makes a landscape of knowledge with the most relevent notes standing out amongst the others.
+This slide shows the landscape of notes which have been progressivly summarized.
+Each node is at a different point of the summarization process, with untouched nodes still lower in the stack, but certain high-quality, relevent notes have been through all the steps.
+This makes a landscape of knowledge with the most relevent notes standing out amongst the others.
 
 ### Slide 11 --- Intermediate Packets
 
-With Intermedia Packets we are now in the *express* part of CODE. Here is where notes are mature enough that you create something from them. My blog represent completed packets, but you can also have progress reports, one-slide summaries, and many other types of intermediate packets. An intermediate packet is just the encapsulated work where you create something that can be shared with others. It goes along with the saying "We only know what we make", so by creating content, you learn and create something of value to share.
+With Intermedia Packets we are now in the *express* part of CODE.
+Here is where notes are mature enough that you create something from them.
+My blog represent completed packets, but you can also have progress reports, one-slide summaries, and many other types of intermediate packets.
+An intermediate packet is just the encapsulated work where you create something that can be shared with others.
+It goes along with the saying "We only know what we make", so by creating content, you learn and create something of value to share.
 
 ### Slide 12 --- Ways of Creating Intermediate Packets
 
@@ -104,27 +156,76 @@ This slide shows additional examples of intermediate packets.
 
 ### Slide 13 --- Divergence and Convergence
 
-Now that we have covered the tools to *capture*, *organize*, *distil*, and *express*, lets look at the complete process as a whole in more detail. From the starting point, you explore and capture and learn all you can. This is the divergence of information. Then when you distill, you start to exploit what you have learned and condense it down into something that you want to express and turn into a final deliverable. This pattern goes along with the idea of exploration vs explitation found in the [multi-armed bandit machine learning problem](https://en.wikipedia.org/wiki/Multi-armed_bandit). Each project you work on should have a similar pattern of breathing in to a bredth of informtion then breathing out a distilled, condenced deliverable from the information you gathered.
+Now that we have covered the tools to *capture*, *organize*, *distil*, and *express*, lets look at the complete process as a whole in more detail.
+From the starting point, you explore and capture and learn all you can.
+This is the divergence of information.
+Then when you distill, you start to exploit what you have learned and condense it down into something that you want to express and turn into a final deliverable.
+This pattern goes along with the idea of exploration vs explitation found in the [multi-armed bandit machine learning problem](https://en.wikipedia.org/wiki/Multi-armed_bandit).
+Each project you work on should have a similar pattern of breathing in to a bredth of informtion then breathing out a distilled, condenced deliverable from the information you gathered.
 
 ### Slide 14 --- Just-in-Time Project Mangagement
 
-A.K.A the lazy project manager.[^2] 
+A.K.A the lazy project manager.[^LDM] 
 
-[^2]: Taken from the idea of [The Lazy Dungeon Master](https://slyflourish.com/lazydm/)
+[^LDM]: Taken from the idea of [The Lazy Dungeon Master](https://slyflourish.com/lazydm/)
 
 
-I like to combine this idea with lazy note taking and other just in time activities, like lazy progressive summarization. Basically, you do the work when you need to, and reuse, and rehash previous research and effort.
-Lazy performance reviews are built from lazy quarterly reports which are built from lazy weekly updates, which are built from a lazy daily log. Basically, at each step I reuse parts from the previous step so that no part of the process is all that difficult. I lazily improve my notes as I work with them. Each time I don't put in that much effort to improve them, but over time they are very valuable. More in line with the lazy project cycle, the artifacts from previous completed projects are then recycled back into the second brain to become useful components for future projects.
+I like to combine this idea with lazy note taking and other just in time activities, like lazy progressive summarization.
+Basically, you do the work when you need to, and reuse, and rehash previous research and effort.
+Lazy performance reviews are built from lazy quarterly reports which are built from lazy weekly updates, which are built from a lazy daily log.
+Basically, at each step I reuse parts from the previous step so that no part of the process is all that difficult.
+I lazily improve my notes as I work with them.
+Each time I don't put in that much effort to improve them, but over time they are very valuable.
+More in line with the lazy project cycle, the artifacts from previous completed projects are then recycled back into the second brain to become useful components for future projects.
 
 ### Slide 15 --- 10+1 Principles for Building a Second Brain
 
 These are the 10 (plus a bonus) principles for building a second brain.
-I think they are fairly clear from the slide. These are the core ideas to building a second brain. For more details, listen to [Tiago's Podcast](https://fortelabs.co/blog/basbpodcast).
+I think they are fairly clear from the slide.
+These are the core ideas to building a second brain.
+For more details, listen to [Tiago's Podcast](https://fortelabs.co/blog/basbpodcast) or read [The 10 Principles of Building a Second Brain](https://fortelabs.co/blog/the-10-principles-of-building-a-second-brain/).
 
 ### Slide 16 --- Solution to Information Overload
 
-Taking the second brain concepts and CODE process together, the second brain becomes a solution to information overload where you repeatadly follow the steps on this slide. These steps are similar to the process of Getting Things Done (GTD). 
+Taking the second brain concepts and CODE process together, the second brain becomes a solution to information overload where you repeatadly follow the steps on this slide.
+These steps are similar to the process of Getting Things Done (GTD). 
 
 ## Part 2: Other Personal Knowledge Base Systems
 
-Now I transition to talk about other systems that have had an influence on my own system.
+Now I transition to talking about other systems that have had an influence on my own system.
+
+## Slide 18 --- Commonplace Book
+
+The main takeaway from this system is a common, central resource for everything.
+This has inspired me to store everything I find meaningfull into my PKB.
+The other key idea is to always have a way to be able to take quick notes and add to it.
+For me I used to carry around a moleskin notebook, and I still have an active bullet journel, but now since I use OneNote heavily, I can just add a note from anywhere from my phone to my OneNote inbox.
+The last key concept is to use the commonplace book to keep from forgetting thoughts and ideas.
+A thought you don't write down is a good as a though you never had.
+
+## Slide 19 --- Bullet Journal
+
+The way I rapidly log my daily engineering journal is very similar to the Bullet Journal method.
+The advantage with the digital OneNote version is that it is easy to create links from the bullet to another page with more detail (although the same could easily be done on paper with a page reference at the end of the line.) I also keep a personal analog Bullet Journal and I am now on volumn 4.
+One other tidbit I found useful is that after I finish a Bullet Journal I can copy the index into OneNote so that when I am searching for a topic, I find the item and the index and know where to look in the physical book.
+Another interesting idea from Bullet Journal is that you can create different "Collections" which are just a fancy way of saying pages with a particular layout and use.
+Since these collections are created on a blank sheet of paper, the concepts can translate to any medium.
+They default collections presented by Bullet Journal are very useful for pen and paper work, but the same types of tools might be implemented automatically by a digital tool or can be included as pages in the digital tool.
+
+## Slide 20 --- Zettlekasten (Luhmann's Slip-Box)
+
+The Zettlekasten was a second brain created entirely using index cards for notes.
+These notes then had many internal references to other notes which built up a huge web of knowledge.
+Related notes are linked to other related notes.
+Although the filing cabnets full of notes are impressive, This system translates well to digital systems where hyperlinks can be made between notes.
+A key from this system is that you need a unique identifer for each note so that you can create links to it.
+The system is valuable from the emerging connectivity between ideas.
+Each idea should be automic and stand on its own, with one idea per note.
+The system is expandale in any direction and represents the wavefront of your knowledge in each area.
+Another key idea is that there are multiple types of notes and that each node should be handled differently and used differently. 
+These note types are:
+- Fleeting Notes --- Quick notes to remind you of an idea, will be turned into a permanent note then discarded.
+- Literature Notes --- Notes on a peice of writing, tied to the bibliography of the source for future citing.
+- Permanent Notes --- Notes in your own words that are refined so that they are automic can stand alone.
+These are added to the slip-box and never removed.
+
