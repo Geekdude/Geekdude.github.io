@@ -16,7 +16,7 @@ header:
 
 **TLDR: Look through the slides, and then read my commentary below for more information on interesting looking slides.**
 
-In October last year, I gave a presentation to my group at ORNL on my productivity/notetaking/engineering-notebook system.
+In October last year, I gave a presentation to my group at ORNL on my productivity/note-taking/engineering-notebook system.
 Another word for this system is a Personal Knowledge Base (PKB) or a second brain.[^PKM]
 This system is inspired by many different systems, and I find it extremely valuable while conducting research.
 If you are a knowledge worker or student, you will likely find this system useful also.
@@ -40,70 +40,70 @@ In this first part, I talk about the most influential system on my own system, t
 ### Slide 2 --- Information Scarcity vs Information Abundance
 
 We now live in a time of information abundance[^BASB].
-Much of the challenge of in an knowledge worker field such as research or academia comes from the overwhelming explosion of information that is now readily available in digital formats.
+Much of the challenge in a knowledge worker field such as research or academia comes from the overwhelming explosion of information that is now readily available in digital formats.
 If the bodies of written wisdom in books aren't overwhelming enough, you now have the entirety of the internet, electronic document repositories, email, multiple messaging applications, many code repositories, and a plethora of tools and open-source programs/libraries.
-Most of this talk aims at techniques which can be used to avoid drowning in this abundance, and instead using this abundance to your advantage to thrive and become more productive.
+Most of this talk aims at techniques that can be used to avoid drowning in this abundance and instead of using this abundance to your advantage to thrive and become more productive.
 
 One of the challenges to overcome is to stop living like information is scarce and start living like it is abundant.
-This means that not everything can be watch or listened too, so you have to be selective about what you give your attention, and be OK with putting it down early if it is not as helpful as your thought.
+This means that not everything can be watched or listened to, so you have to be selective about what you give your attention to and be OK with putting it down early if it is not as helpful as your thought.
 It means that information can be shared instead of hoarded.
-With scarcity, you could miss out on important information or consume the entire knowledge on a topic; with abundance, there is no end to the stream of information and you dip in and out of the stream as needed, and collect the best information into your own pool of knowledge.
+With scarcity, you could miss out on important information or consume the entire knowledge on a topic; with abundance, there is no end to the stream of information, and you dip in and out of the stream as needed and collect the best information into your own pool of knowledge.
 
-The amount of knowledge that must be managed in daily life is overwhelming and then solution to thriving instead of sinking in the abundance is to build a second brain or personal knowledge base.
+The amount of knowledge that must be managed in daily life is overwhelming, and then the solution to thriving instead of sinking in the abundance is to build a second brain or personal knowledge base.
 This second brain will be a place for you to store and process your thoughts and the abundance of external information.
 
 [^BASB]: The slide is from [Building a Second Brain Miro Board](https://miro.com/app/board/o9J_lEwGSa8=/) and idea of living in the abundance of information instead of scarcity comes from Tiago Forte.
 
 ### Slide 5 --- Building a Second Brain
 
-This next section of the talk is all about the concepts found in [Building a Second Brain](https://www.buildingasecondbrain.com/) although I haven't taken the course, I have been learning about Building a Second Brain (BASB) through free online resources made available from Forte Labs.
+This next section of the talk is all about the concepts found in [Building a Second Brain](https://www.buildingasecondbrain.com/); although I haven't taken the course, I have been learning about Building a Second Brain (BASB) through free online resources made available from Forte Labs.
 There are many links on my slides, and they lead to useful resources or back to the places the information came from.
 The Miro Board and the Illustrated notes are both great resources created by prior students of the class, but it helps to watch some of the free videos or read some of the free articles to understand the concepts.
-I'm also greatly looking forward to the [the upcoming book on BASB](https://smile.amazon.com/Building-Second-Brain-Organize-Potential-ebook/dp/B09LVVN9L3/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1649119407&sr=8-1).
+I'm also greatly looking forward to the [upcoming book on BASB](https://smile.amazon.com/Building-Second-Brain-Organize-Potential-ebook/dp/B09LVVN9L3/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1649119407&sr=8-1).
 
-For each of my slides on note taking method, I will provide resources for further reading, and key concepts from the method.
+For each of my slides on a note-taking method, I will provide resources for further reading and key concepts from the method.
 I am unable to go into too much detail on each method, but I wanted to cover the concepts that are the most helpful to me.
 
 This slide covers the major ideas of BASB.
-As presented in the [Miro Board](https://miro.com/app/board/o9J_lEwGSa8=/), I broke the content down into the steps for the productivity pipeline which is C.O.D.E., Capture, Organize, Distill, Express.
+As presented in the [Miro Board](https://miro.com/app/board/o9J_lEwGSa8=/), I broke the content down into the steps for the productivity pipeline, which are C.O.D.E., Capture, Organize, Distill, and Express.
 For each of these steps, Tiago presents a Concept, Technique, and Exercise for the step.
 The place all these steps take place and all the information is worked on is within the second brain.
 On this slide, the blue links take you to another slide in the presentation.
 
-The key concepts listed in the bullets are the previously talked about information scarcity vs information abundance mindsets, and the capture criteria of "capture what resonates with you".
+The key concepts listed in the bullets are the previously talked about information scarcity vs information abundance mindsets and the capture criteria of "capture what resonates with you."
 The things that you find interesting or grab your attention are the things you should capture in your second brain.
 
 ### Slide 6 --- Building a Second Brain---Capture
 
 The first step in BASB is to have universal *capture*.
-Anything you consume or create or learn about should be able to be easily capture in the second brain.
-The second brain should have a universal inbox where anything that captures your attention and resonates with you can be frictionlessly added in to the second brain inbox.
-For this step don't worry about where the information will go, just focus on having a method of capture that takes no effort.
-The first step of CODE is capture and its about collecting all interesting information.
+Anything you consume or create, or learn about should be able to be easily captured in the second brain.
+The second brain should have a universal inbox where anything that captures your attention and resonates with you can be frictionlessly added to the second brain inbox.
+For this step, don't worry about where the information will go; just focus on having a method of capture that takes no effort.
+The first step of CODE is capture, and it is about collecting all interesting information.
 
 ### Slide 7 --- PARA
 
 The second step of *organize*, is about where to put all the things that you have now captured in your universal inbox.
 This method is [PARA](https://fortelabs.co/blog/para/).
-I have an additional `0.` as the inbox where everything can be initially placed before it is organized where it should go.
+I have an additional `0` as the inbox where everything can be initially placed before it is organized where it should go.
 By having a capture place, you don't have to think about where something should go as you are capturing it.
 
-The key principles of PARA are that you leverage the magic number 4 which is easily in the working memory of humans.
-You have 4 categories and each category tree should only have a depth of 4.
+The key principles of PARA are that you leverage the magic number 4, which is easily in the working memory of humans.
+You have four categories, and each category tree should only have a depth of 4.
 The second idea is that you mirror this PARA structure across all the applications you use.
 Even if you can't use only one program or file system, you can still replicate the same general structure across each.
-The last idea is that it separate actional items from non-actionable items.
+The last idea is that it separates actional items from non-actionable items.
 
 The categories of PARA are Projects, Areas, Resources, and Archive.
-Projects have a deadline and they are the things you are actively working on.
-In my case they are the active projects that I am currently working on.
-The scope of my projects are longer running (multiple years) but I can still keep all the information on that project in one place where I will be wanting it in the future.
+Projects have a deadline, and they are the things you are actively working on.
+In my case, they are the active projects that I am currently working on.
+The scope of my projects is longer running (multiple years), but I can still keep all the information on that project in one place where I will be want it in the future.
 This has helped me to context switch between projects even when I have to put them down for weeks.
 
-Areas are categories of responsibility that are never ending.
-These are obligations and things you must do, but have no ending.
+Areas are categories of responsibility that are never-ending.
+These are obligations and things you must do but have no end.
 Such are performance reviews, calls for papers, and weekly reviews.
-I also put working particular vendors in the areas section.
+I also put working with particular vendors in the areas section.
 Resources are things that you want to keep around for reference, that are still relevant, but you have no project or areas using them.
 I keep my notes on academic papers here, as well as, general notes.
 Archive is for completed projects, areas that are no longer relevant, and notes that you want to keep, but you don't want in the resources category.
@@ -241,7 +241,7 @@ In this part, I go over a comparison of methods for taking notes and the tools t
 
 ### Slide 22 --- Note Taking Comparisons
 
-These slides are a series of versions statements with different note taking styles compared.
+These slides are a series of versions statements with different note-taking styles compared.
 In each case, I think both sides are useful and can be used together.
 
 #### Knowledge Network vs Knowledge Hierarchies
@@ -288,7 +288,7 @@ Some specific pages, like my weekly reports or bibliography notes have a more ri
 
 ### Slide 23 --- Consideration for a Note Taking Program
 
-Here I list out what I think should be important things to consider when you are selecting which note taking program to use.
+Here I list out what I think should be important things to consider when you are selecting which note-taking program to use.
 As an example I will go through the list with my current program of choice, OneNote.
 
 1. OneNote can easily capture any type of information from typed notes to handwritten notes to webpages to whiteboards.
@@ -299,26 +299,26 @@ As an example I will go through the list with my current program of choice, OneN
 6. OneNote has a default structure similar to physical notebooks with Notebook -> Section Group -> Section -> Page hierarchy. Other structures can be created via hyperlinks.
 7. OneNote can hyperlink easily to website, files, sections, pages, or paragraphs.[^paragraph]
 8. OneNote makes it easy to move or reformat notes.
-9. This is one of the areas where OneNote does a bad job. It is difficult to import or export notes from other note taking apps. OneNote does work OK with the rest of the office suite and pages can be shared by email.
+9. This is one of the areas where OneNote does a bad job. It is difficult to import or export notes from other note-taking apps. OneNote does work OK with the rest of the office suite and pages can be shared by email.
 10. Again here OneNote is so-so. Attached files can be easily opened from OneNote, but the notes themselves cannot be edited directly by an external program.
 
 So based on this criterial, OneNote gets a 8 out of 10 with a few areas it could improve on.
-OneNote is still my program of choice because of the ease of capture, ease of restructuring and reformating, power of the hyperlinks, and because of their unmatched support for the pen and handwritten note taking with all the other features as well.
+OneNote is still my program of choice because of the ease of capture, ease of restructuring and reformating, power of the hyperlinks, and because of their unmatched support for the pen and handwritten note-taking with all the other features as well.
 I won't claim that OneNote is the best for handwritten notes, but it is the best for a hybrid of handwritten and typed notes.
 
 [^paragraph]: Although paragraph linking is currently too fragile to be relied on, since moving a page will break them.
 
-### Slide 24 --- Note Taking Programs
+### Slide 24 --- Note-Taking Programs
 
-Here is my list of good note taking programs.
+Here is my list of good note-taking programs.
 From this list the ones I have used heavily are the paper lab notebooks, VimWiki, and OneNote.
 I have also used Evernote some.
 As mentioned prio, I keep a Bullet Journal and use OneNote for my digital notes.
 
-The other programs on this list are highly recommended by the Note Taking community and I have installed and tried out most of them.
+The other programs on this list are highly recommended by the note-taking community and I have installed and tried out most of them.
 I put my short notes for each on the page.
-Of this list, I am keeping a closer watch on Obsidian and Notion as both are gaining a lot of traction in the note taking community.
-Obsidian is my favorite markdown based note taking program and Notion is my favorite collaborative system.
+Of this list, I am keeping a closer watch on Obsidian and Notion as both are gaining a lot of traction in the note-taking community.
+Obsidian is my favorite markdown based note-taking program and Notion is my favorite collaborative system.
 
 ## Part 4: My Personal Knowledge Base System
 
@@ -330,7 +330,7 @@ This slide goes over the progression of my PKB over time.
 I first started with a custom duct tape folder with many nerdy features which had a clipboard with my weekly task sheet.
 That is what I used in highschool to keep track of academic work.
 
-For my personal note taking, I started with a more traditional long-form journal in volume 1 then for volume 2 I switch to a bullet journal style.
+For my personal note-taking, I started with a more traditional long-form journal in volume 1 then for volume 2 I switch to a bullet journal style.
 Now volume 4 is still using the bullet journal style.
 I don't use the handwritten as much so it takes a few years for me to fill one up, but I like to still have it and use it.
 
@@ -348,7 +348,7 @@ When I started my new Job at ORNL, I switched to a windows machine for my main c
 
 ### Slide 27 --- Demo My Personal Knowledge Base
 
-During the actual talk, I gave a live demo of my note taking system.
+During the actual talk, I gave a live demo of my note-taking system.
 Since this presentation is written I will give more details on my OneNote structure.
 
 I've been using PARA with OneNote for work and personal use since I started my current job a year and a half ago.
