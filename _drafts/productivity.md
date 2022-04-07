@@ -4,9 +4,10 @@ toc: true
 toc_sticky: false
 categories: [Research]
 tags: [Productivity, BASB, PKB]
+excerpt: In October last year, I gave a presentation to the my group at ORNL on my productivity/notetaking/engineering-notebook system. Another word for this system is a Personal Knowledge Base (PKB) or a second brain.
 header:
-    image: /assets/images/template-header.png
-    teaser: /assets/images/template-teaser.png
+    image: /assets/images/productivity-header.png
+    teaser: /assets/images/productivity-teaser.png
 ---
 
 ## Introduction
@@ -15,16 +16,18 @@ header:
 
 **TLDR: Look through the slides, and then read my commentary below for more information on interesting looking slides.**
 
-During October last year, I gave a presentation to the my group at ORNL on my productivity/notetaking/engineering-notebook system.
+In October last year, I gave a presentation to my group at ORNL on my productivity/notetaking/engineering-notebook system.
 Another word for this system is a Personal Knowledge Base (PKB) or a second brain.[^PKM]
-This system is inspired by many different systems and I find it extremely valuable while conducting research.
-If you are a knowledge worker or student, you will likely find this system useful too.
-In Lieu of a regular written article blog post, I decided to try something different;
+This system is inspired by many different systems, and I find it extremely valuable while conducting research.
+If you are a knowledge worker or student, you will likely find this system useful also.
+In lieu of a regular written article blog post, I decided to try something different;
 I will provide the slides for you to look at, then write my commentary for each slide below for you to read along with the slide.
-This will save me some effort for restructuring the content of the talk, and its helpful to look at the pictures that go along with the writing.
-So for each slide I will have a section of written commentary on that slide and you can progress through the slides as you are reading the corresponding section.
+This will save me some effort in restructuring the content of the talk, and it is helpful to look at the pictures that go along with the writing.
+So for each slide, I will have a section of written commentary on that slide, and you can progress through the slides as you are reading the corresponding section.
 In the slides, there are many links to internal and external information.
 Any blue text is an internal link to another location in the slide deck, and any purple text is an external link for more information.
+
+<!--more-->
 
 So without further ado, welcome to my written presentation on productivity.
 
