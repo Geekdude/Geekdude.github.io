@@ -1,4 +1,506 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2022-03-07T22:00:37-05:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><entry><title type="html">Changing from Disqus to Utterances</title><link href="https://geekdude.github.io/tech/changing-to-utterances/" rel="alternate" type="text/html" title="Changing from Disqus to Utterances" /><published>2021-10-31T00:00:00-04:00</published><updated>2021-10-31T00:00:00-04:00</updated><id>https://geekdude.github.io/tech/changing-to-utterances</id><content type="html" xml:base="https://geekdude.github.io/tech/changing-to-utterances/">&lt;p&gt;I have been having an issue where &lt;a href=&quot;https://disqus.com/&quot;&gt;Disqus&lt;/a&gt; would not send me any emails when new comments are posted to the website.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2022-04-07T23:38:36-04:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><entry><title type="html">Personal Knowledge Base and Productivity Presentation</title><link href="https://geekdude.github.io/research/productivity/" rel="alternate" type="text/html" title="Personal Knowledge Base and Productivity Presentation" /><published>2022-04-07T00:00:00-04:00</published><updated>2022-04-07T00:00:00-04:00</updated><id>https://geekdude.github.io/research/productivity</id><content type="html" xml:base="https://geekdude.github.io/research/productivity/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/productivity-presentation.pdf&quot;&gt;Personal Knowledge Base and Productivity Presentation Slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TLDR: Look through the slides, and then read my commentary below for more information on interesting looking slides.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In October last year, I gave a presentation to my group at ORNL on my productivity/note-taking/engineering-notebook system.
+Another word for this system is a Personal Knowledge Base (PKB) or a second brain.&lt;sup id=&quot;fnref:PKM&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:PKM&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;
+This system is inspired by many different systems, and I find it extremely valuable while conducting research.
+If you are a knowledge worker or student, you will likely find this system useful also.
+In lieu of a regular written article style blog post, I decided to try something different;
+I will provide the slides for you to look at, then write my commentary for each slide below for you to read along with the slides.
+This will save me some effort in restructuring the content of the talk, and it is helpful to look at the pictures that go along with the writing.
+So for each slide, I will have a section of written commentary on that slide, and you can progress through the slides as you are reading the corresponding section.
+In the slides, there are many links to internal and external information.
+Any blue text is an internal link to another location in the slide deck, and any purple text is an external link for more information.&lt;/p&gt;
+
+&lt;p&gt;So without further ado, welcome to my written presentation on productivity.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-1-building-a-second-brain&quot;&gt;Part 1: Building a Second Brain&lt;/h2&gt;
+
+&lt;p&gt;In this first part, I talk about the most influential system on my own system, that of Building a Second Brain from Tiago Forte.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-2--information-scarcity-vs-information-abundance&quot;&gt;Slide 2 — Information Scarcity vs Information Abundance&lt;/h3&gt;
+
+&lt;p&gt;We now live in a time of information abundance.&lt;sup id=&quot;fnref:BASB&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:BASB&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;
+Much of the challenge in a knowledge based field such as research or academia comes from the overwhelming explosion of information that is now readily available in digital formats.
+If the bodies of written wisdom in books were not overwhelming enough, you now have the entirety of the internet, electronic document repositories, email, multiple messaging applications, many code repositories, and a plethora of tools and open-source programs/libraries.
+Most of this talk aims at techniques that can be used to avoid drowning in this abundance, and instead, of how to use this abundance to your advantage to thrive and become more productive.&lt;/p&gt;
+
+&lt;p&gt;One of the challenges to overcome is to stop living like information is scarce and start living like it is abundant.
+This means that not everything can be watched or listened to, so you have to be selective about what you give your attention to and be OK with putting it down early if it is not as helpful as your thought.
+It means that information can be shared instead of hoarded.
+With scarcity, you could miss out on important information and potentially consume the entire available knowledge on a topic; with abundance, there is no end to the stream of information, and you dip in and out of the stream as needed and collect the best information into your own pool of knowledge.&lt;/p&gt;
+
+&lt;p&gt;The amount of knowledge that must be managed in daily life is overwhelming, and the solution to thriving instead of sinking in the abundance is to build a second brain or personal knowledge base.
+This second brain will be a place for you to store and process your thoughts along with the abundance of external information.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-5--building-a-second-brain&quot;&gt;Slide 5 — Building a Second Brain&lt;/h3&gt;
+
+&lt;p&gt;This next section of the talk is all about the concepts found in &lt;a href=&quot;https://www.buildingasecondbrain.com/&quot;&gt;Building a Second Brain&lt;/a&gt;; although I haven’t taken the course, I have been learning about Building a Second Brain (BASB) through free online resources made available from Forte Labs.
+There are many links on my slides, and they lead to useful resources or back to the places the information came from.
+The Miro Board and the Illustrated notes are both great resources created by prior students of the class, but it helps to watch some of the free videos or read some of the free articles to understand the concepts.
+I’m also greatly looking forward to the &lt;a href=&quot;https://smile.amazon.com/Building-Second-Brain-Organize-Potential-ebook/dp/B09LVVN9L3/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;amp;qid=1649119407&amp;amp;sr=8-1&quot;&gt;upcoming book on BASB&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For each of my slides on a note-taking method, I will provide resources for further reading and key concepts from the method.
+I am unable to go into too much detail on each method, but I wanted to cover the concepts that are the most helpful to me.&lt;/p&gt;
+
+&lt;p&gt;This slide covers the major ideas of BASB.
+As presented in the &lt;a href=&quot;https://miro.com/app/board/o9J_lEwGSa8=/&quot;&gt;Miro Board&lt;/a&gt;, I broke the content down into the steps of the productivity pipeline, which are C.O.D.E., Capture, Organize, Distill, and Express.
+For each of these steps, Tiago presents a concept, technique, and exercise for the step.
+The place where all these steps take place and where all the information is worked on is within the second brain.
+On this slide, the blue links take you to another slide in the presentation.&lt;/p&gt;
+
+&lt;p&gt;The key concepts listed in the bullets are the previously talked about information scarcity vs information abundance mindsets and the capture criteria of “capture what resonates with you.”
+The things that you find interesting or grab your attention are the things you should capture in your second brain.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-6--building-a-second-braincapture&quot;&gt;Slide 6 — Building a Second Brain—Capture&lt;/h3&gt;
+
+&lt;p&gt;The first step in BASB is to have universal &lt;em&gt;capture&lt;/em&gt;, and it is about collecting all interesting information.
+Anything you consume or create, or learn about should be able to be easily captured in the second brain.
+The second brain should have a universal inbox where anything that captures your attention and resonates with you can be frictionlessly added to the second brain inbox.
+The capture needs to be frictionless, otherwise its tempting to be too lazy to capture the information, or the capture process will be too slow for live capture.
+For this step, don’t worry about where the information will go; just focus on having a method of capture that takes no effort.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-7--para&quot;&gt;Slide 7 — PARA&lt;/h3&gt;
+
+&lt;p&gt;The second step of &lt;em&gt;organize&lt;/em&gt;, is about where to put all the things that you have now captured in your universal inbox.
+The method used is &lt;a href=&quot;https://fortelabs.co/blog/para/&quot;&gt;PARA&lt;/a&gt;.
+In addition to the main four locations, I always include an additional &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0&lt;/code&gt; as the inbox where everything can be initially placed before it is organized where it should go.
+By having a capture place, you don’t have to think about where something should go as you are capturing it.&lt;/p&gt;
+
+&lt;p&gt;The key principles of PARA are that you leverage the magic number 4, which is easily in the working memory of humans.
+You have four categories, and each category tree should only have a depth of 4.
+The second idea is that you mirror this PARA structure across all the applications you use.
+Even if you can’t use only one program or file system, you can still replicate the same general structure across each.
+The last idea is that it separates actional items from non-actionable items.&lt;/p&gt;
+
+&lt;p&gt;The categories of PARA are Projects, Areas, Resources, and Archive.
+Projects have a deadline, and they are the things you are actively working on.
+In my case, they are the active projects that I am currently working on.
+The scope of my projects is longer running (multiple years), but I can still keep all the information on that project in one place where I will want it in the future.
+This has helped me to context switch between projects even when I have to put them down for weeks at a time.&lt;/p&gt;
+
+&lt;p&gt;Areas are categories of responsibility that are never-ending.
+These are obligations and things you must do but have no end, such as performance reviews, calls for papers, and weekly reviews.
+I also put notes on working with particular vendors in the areas section.&lt;/p&gt;
+
+&lt;p&gt;Resources are things that you want to keep around for reference, things that are still generally relevant, but you have no project or areas using them.
+(If a project or area was using the note, then it would go there instead.)
+I keep my notes on academic papers here, as well as general notes.&lt;/p&gt;
+
+&lt;p&gt;Archive is for completed projects, areas that are no longer relevant, and notes that you want to keep but you don’t want in the resources category.
+If something had no future use, then you can remove it, but I tend to the digital hoarder side, so if I think it had future potential use, but I don’t want to have it in the main categories, I will move it to archive.
+In my archive, I also have the subfolders: projects, areas, and resources.
+That way, when I’m looking for an archived item, I can find it in the same PARA structure.&lt;/p&gt;
+
+&lt;p&gt;When naming PARA folders, I suggest naming them &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0 Inbox&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1 Projects&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2 Areas&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3 Resources&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4 Archive&lt;/code&gt;, so that the order is maintained when sorted.
+PARA is a useful and convenient organization method, and it places the things that you access more frequently at the top, with things you are less likely to use at the bottom.
+Using search to look in resources and archive is very helpful, and for these categories, I mostly access them via the search bar, whereas projects and areas I normally navigate to without search.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-8--para&quot;&gt;Slide 8 — PARA&lt;/h3&gt;
+
+&lt;p&gt;This image shows how I use the same PARA structure in multiple places.
+This helps me stay organized and switch between programs with less friction.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-9--progressive-summarization&quot;&gt;Slide 9 — Progressive Summarization&lt;/h3&gt;
+
+&lt;p&gt;We are now in the &lt;em&gt;distill&lt;/em&gt; part of CODE.
+In this step, the notes you have captured and organized are refined into more useful and beneficial notes.
+I use the distill step to both progressively summarize notes and also to create index pages and build the internal linking between notes. Index pages are pages which summarize a topic or provide additional structure by linking to other pages.
+Index pages are also a landing page for knowledge on a particular topic.&lt;/p&gt;
+
+&lt;p&gt;For progressive summarization, each time you touch a note, you try to make it easier for your future self to skim next time.
+So each time you look at it, you can add another level of the summarization.
+The idea here is that the summarization happens over many passes of working with the note.
+Each time you touch a note, try to leave it a little better than you found it.
+Add more links, summarize, or add clarification to the notes.&lt;/p&gt;
+
+&lt;p&gt;Another idea is that a wall of text is hard to read, but text with bolding and highlighting, text that has the main points pulled out, is easy to skim and to remind yourself of the content quickly without having to do a full read.
+This allows notes to be reviewed by yourself very quickly at a glance.&lt;/p&gt;
+
+&lt;p&gt;The basic five levels of progressive summarization are shown in the slide.
+For more information on progressive summarization, see &lt;a href=&quot;https://fortelabs.co/blog/progressive-summarization-a-practical-technique-for-designing-discoverable-notes/&quot;&gt;Progressive Summarization: A Practical Technique for Designing Discoverable Notes&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-10--progressive-summarization-landscape&quot;&gt;Slide 10 — Progressive Summarization Landscape&lt;/h3&gt;
+
+&lt;p&gt;This slide shows the landscape of notes which have been progressively summarized.
+Each node is at a different point of the summarization process, with untouched nodes still lower in the stack, but certain high-quality, relevant notes have been through all the steps.
+This makes a landscape of knowledge with the most relevant notes standing out amongst the others.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-11--intermediate-packets&quot;&gt;Slide 11 — Intermediate Packets&lt;/h3&gt;
+
+&lt;p&gt;With Intermediate Packets, we are now in the &lt;em&gt;express&lt;/em&gt; part of CODE.
+Here is where notes are mature enough that you create something from them.
+My blog posts represent completed packets, but you can also have progress reports, one-slide summaries, and many other types of intermediate packets.
+An intermediate packet is just the encapsulated work where you create something that can be shared with others.
+It goes along with the saying, “We only know what we make”, so by creating content, you learn and create something of value to share.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-12--ways-of-creating-intermediate-packets&quot;&gt;Slide 12 — Ways of Creating Intermediate Packets&lt;/h3&gt;
+
+&lt;p&gt;This slide covers the activities that result in intermediate packets.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-12--kinds-of-intermediate-packets&quot;&gt;Slide 12 — Kinds of Intermediate Packets&lt;/h3&gt;
+
+&lt;p&gt;This slide shows additional examples of intermediate packets.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-13--divergence-and-convergence&quot;&gt;Slide 13 — Divergence and Convergence&lt;/h3&gt;
+
+&lt;p&gt;Now that we have covered the tools to &lt;em&gt;capture&lt;/em&gt;, &lt;em&gt;organize&lt;/em&gt;, &lt;em&gt;distill&lt;/em&gt;, and &lt;em&gt;express&lt;/em&gt;, let’s look at the complete process as a whole in more detail.
+From the starting point, you explore and capture and learn all you can.
+This is the divergence of information.
+Then when you distill, you start to exploit what you have learned and condense it down into something that you want to express and turn into a final deliverable.
+This pattern goes along with the idea of exploration vs exploitation found in the &lt;a href=&quot;https://en.wikipedia.org/wiki/Multi-armed_bandit&quot;&gt;multi-armed bandit machine learning problem&lt;/a&gt;.
+Each project you work on should have a similar pattern of breathing in a breadth of information and then breathing out a distilled, condensed deliverable from the information you gathered.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-14--just-in-time-project-management&quot;&gt;Slide 14 — Just-in-Time Project Management&lt;/h3&gt;
+
+&lt;p&gt;Also known as the being a lazy project manager.&lt;sup id=&quot;fnref:LDM&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:LDM&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;I like to combine this idea with lazy note-taking and other just-in-time activities, like lazy progressive summarization.
+Basically, you do the work when you need to, while reusing, and rehashing previous research and effort.
+Lazy performance reviews are built from lazy quarterly reports which are built from lazy weekly updates, which are built from a lazy daily log.
+Basically, at each step, I reuse parts from the previous step so that no part of the process is all that difficult.
+I lazily improve my notes as I work with them.
+Each time I don’t put in that much effort to improve them, but over time they are very valuable.
+More in line with the lazy project cycle, the artifacts from previously completed projects are then recycled back into the second brain to become useful components for future projects.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-15--101-principles-for-building-a-second-brain&quot;&gt;Slide 15 — 10+1 Principles for Building a Second Brain&lt;/h3&gt;
+
+&lt;p&gt;These are the 10 (plus a bonus) principles for building a second brain.
+I think they are fairly clear from the slide.
+These are the core ideas for building a second brain.
+For more details, listen to &lt;a href=&quot;https://fortelabs.co/blog/basbpodcast&quot;&gt;Tiago’s Podcast&lt;/a&gt; or read &lt;a href=&quot;https://fortelabs.co/blog/the-10-principles-of-building-a-second-brain/&quot;&gt;The 10 Principles of Building a Second Brain&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-16--solution-to-information-overload&quot;&gt;Slide 16 — Solution to Information Overload&lt;/h3&gt;
+
+&lt;p&gt;Taking the second brain concepts and CODE process together, the second brain becomes a solution to information overload where you repeatedly follow the steps on this slide.
+These steps are similar to the process of Getting Things Done (GTD).&lt;/p&gt;
+
+&lt;h2 id=&quot;part-2-other-personal-knowledge-base-systems&quot;&gt;Part 2: Other Personal Knowledge Base Systems&lt;/h2&gt;
+
+&lt;p&gt;Now I transition to talking about other systems that have had an influence on my own system.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-18--commonplace-book&quot;&gt;Slide 18 — Commonplace Book&lt;/h3&gt;
+
+&lt;p&gt;The main takeaway from this system is that it is a common, central resource for everything.
+This has inspired me to store everything I find meaningful in my PKB.
+The other key idea is to always have a way to be able to take quick notes and add to the commonplace book.
+The way I incorporate this idea, is that I used to carry around a moleskin notebook, and I still have an active bullet journal, but now since I use OneNote heavily, I can just add a note from anywhere from my phone to my OneNote inbox.
+The last key concept is to use the commonplace book to keep from forgetting thoughts and ideas.
+“A thought you don’t write down is as good as a thought you never had.”&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-19--bullet-journal&quot;&gt;Slide 19 — Bullet Journal&lt;/h3&gt;
+
+&lt;p&gt;The way I rapidly log my daily engineering journal is very similar to the Bullet Journal method.
+The advantage of the digital OneNote version is that it is easy to create links from the bullet to another page with more detail.
+(Although the same could easily be done on paper with a page reference at the end of the line.)
+I also keep a personal analog bullet journal, and I am now on volume 4.&lt;/p&gt;
+
+&lt;p&gt;One other tidbit I found useful is that after I finish a bullet journal, I can copy the index into OneNote so that when I am searching for a topic, I find the item in the index and know where to look in the physical book.
+Another interesting idea from Bullet Journal, is that you can create different “Collections,” which are just a fancy way of saying pages with a particular layout and use.
+Since these collections are created on a blank sheet of paper, the concepts can translate to any medium.
+The default collections presented by Bullet Journal are very useful for pen and paperwork, but the same types of tools might be implemented automatically by a digital tool or can be included as pages in the digital tool.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-20--zettlekästen-luhmanns-slip-box&quot;&gt;Slide 20 — Zettlekästen (Luhmann’s Slip-Box)&lt;/h3&gt;
+
+&lt;p&gt;The Zettlekästen was a second brain created entirely using index cards for notes.
+These notes then had many internal references to other notes, which built up a huge web of knowledge.
+Related notes are linked to other related notes.
+Although the filing cabinets full of notes are impressive, this system translates well to digital systems where hyperlinks can be made between notes.
+A key of this system is that you need a unique identifier for each note so that you can create links to it.
+The system is valuable from the emerging connectivity between ideas.
+Each idea should be atomic and stand on its own, with one idea per note.
+The system is expandable in any direction and represents the wavefront of your knowledge in each area.&lt;/p&gt;
+
+&lt;p&gt;Another key idea is that there are multiple types of notes and that each node should be handled differently and used differently.
+These note types are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fleeting Notes — Quick notes to remind you of an idea, they will be turned into a permanent note and then discarded.&lt;/li&gt;
+  &lt;li&gt;Literature Notes — Notes on a piece of writing that are tied to the bibliography of the source for future citing.&lt;/li&gt;
+  &lt;li&gt;Permanent Notes — Notes in your own words that are refined so that they are atomic and can stand alone. These are added to the slip-box and never removed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This system was created with writing academic papers in mind, and the book &lt;em&gt;How to Take Smart Notes&lt;/em&gt; goes over the writing method as well as the Zettlekästen design.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-3-note-taking-tools&quot;&gt;Part 3: Note Taking Tools&lt;/h2&gt;
+
+&lt;p&gt;In this part, I go over a comparison of methods for taking notes and the tools that could be used for note-taking.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-22--note-taking-comparisons&quot;&gt;Slide 22 — Note-Taking Comparisons&lt;/h3&gt;
+
+&lt;p&gt;These slides are a series of versions of statements with different note-taking styles compared.
+In each case, I think both sides are useful and can be used together.&lt;/p&gt;
+
+&lt;h4 id=&quot;knowledge-network-vs-knowledge-hierarchies&quot;&gt;Knowledge Network vs Knowledge Hierarchies&lt;/h4&gt;
+
+&lt;p&gt;This is comparing a more traditional index as you would find in a book with the web of links you would find on a wiki page.
+I think both organizational methods are good.
+A hierarchy is good for locating a note manually, and a web of links is great for representing connections between notes.
+In my system, I use OneNote with a &lt;a href=&quot;#slide-7--para&quot;&gt;PARA&lt;/a&gt; organizational hierarchy for placing notes in a notebook, then I make heavy use of internal links and index pages to re-represent information and connect related information together.&lt;/p&gt;
+
+&lt;h4 id=&quot;search-vs-locate&quot;&gt;Search vs Locate&lt;/h4&gt;
+
+&lt;p&gt;Notes can either be searched for using the search bar of an application or they can be located based on their location in the notebook.
+As I mentioned in the &lt;a href=&quot;#slide-7--para&quot;&gt;PARA&lt;/a&gt; section, I used both methods.
+When I am switching contexts between projects, and I know where the notes are located, I navigate to them directly by clicking on them in the hierarchy.
+If I’m looking for a resource page, I will jump to it quickly by searching for the name of the resource.
+Sometimes I do both; I search for an index page by name, then I click on the link to the place I want to go.
+Other times I’m not sure what I am looking for, and I leverage the power of search to look for keywords on a page where I’m not sure what I will find.
+With these kinds of searches, I’m sometimes surprised that I have notes on a topic that I forgot about.&lt;/p&gt;
+
+&lt;h4 id=&quot;one-note-per-source-vs-one-note-per-idea&quot;&gt;One Note per Source vs One Note per Idea&lt;/h4&gt;
+
+&lt;p&gt;How much information should be on each note?
+Again the answer depends.
+For myself, if I am taking notes on a resource, I will create one note per source of information.
+Then as I process the ideas, I will switch to one note per topic.
+If an idea is a big idea or stands alone, I will then move it to its own note.
+By in large, I have medium-length notes and try to keep the note length to what can be easily scrolled through.
+If a note is too long, I will look for ways to break it up.
+I don’t often mind notes being short, but I don’t want to fill my notebook sections with too many small notes.&lt;/p&gt;
+
+&lt;p&gt;I think the best solution to this problem is to reduce the granularity at which you can create internal links.
+OneNote almost has the right idea here with the ability to create internal links to paragraphs; however, the implementation is bad, and these kinds of links are fragile.
+Most systems support linking to a heading, this is generally still close enough to get you to the right location in the notes.
+The key here is that the link between content should make it obvious to what you are linking to.
+If you take long pages of notes, then a link at the page level is less useful than a link to a header or to a paragraph.&lt;/p&gt;
+
+&lt;h4 id=&quot;fluid-vs-structure&quot;&gt;Fluid vs Structure&lt;/h4&gt;
+
+&lt;p&gt;The idea here is whether one should have a strict structure or template for notes, or if each note should have a fluid ad hoc design.
+Here again, I tend to the middle ground, where I found that for some types of notes, it is useful to have some common components; but by in large, I am fluid on a note-to-note basis, where each note builds up based on the content of the note.
+Then if I want to restructure the note later, I can without too much difficulty.
+So, in general, I start with a black page when I make a new note.
+Some specific pages, like my weekly reports or bibliography notes have a more rigid structure.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-23--consideration-for-a-note-taking-program&quot;&gt;Slide 23 — Consideration for a Note-Taking Program&lt;/h3&gt;
+
+&lt;p&gt;Here I list of what I think should be important things to consider when you are selecting which note-taking program to use.
+As an example, I will go through the list with my current program of choice, OneNote.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;OneNote can easily capture any type of information, from typed notes to handwritten notes to webpages to whiteboards.&lt;/li&gt;
+  &lt;li&gt;OneNote has powerful search capabilities and can even search inside images and handwritten notes.&lt;/li&gt;
+  &lt;li&gt;OneNote is available on Windows, Mac, Android, iPhone, and via the web. So I can access it from anywhere.&lt;/li&gt;
+  &lt;li&gt;OneNote is backed up locally with the windows client and on the cloud.&lt;/li&gt;
+  &lt;li&gt;OneNote can encrypt certain notes with a password.&lt;/li&gt;
+  &lt;li&gt;OneNote has a default structure similar to physical notebooks with a Notebook → Section Group → Section → Page hierarchy. Other structures can be created via hyperlinks.&lt;/li&gt;
+  &lt;li&gt;OneNote can easily hyperlink to websites, files, sections, pages, or paragraphs.&lt;sup id=&quot;fnref:paragraph&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:paragraph&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;OneNote makes it easy to move or reformat notes.&lt;/li&gt;
+  &lt;li&gt;This is one of the areas where OneNote does a bad job. It is difficult to import or export notes from other note-taking apps. OneNote does work OK with the rest of the office suite, and pages can be shared by email.&lt;/li&gt;
+  &lt;li&gt;Again here, OneNote is so-so. Attached files can be easily opened from OneNote, but the notes themselves cannot be edited directly by an external program.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So based on these criteria, OneNote gets an 8 out of 10 with a few areas it could improve on.
+OneNote is still my program of choice because of the ease of capture, ease of restructuring and reformating, power of the hyperlinks, and because of their unmatched support for the pen and handwritten note-taking with all the other features as well.
+I won’t claim that OneNote is the best for handwritten notes, but it does seem to be the best for a hybrid of handwritten and typed notes.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-24--note-taking-programs&quot;&gt;Slide 24 — Note-Taking Programs&lt;/h3&gt;
+
+&lt;p&gt;Here is my list of good note-taking programs.
+From this list, the ones I have used heavily are the paper lab notebooks, VimWiki, and OneNote.
+I have also used Evernote to a lesser extent.
+As mentioned prior, I keep a Bullet Journal and use OneNote for my digital notes.&lt;/p&gt;
+
+&lt;p&gt;The other programs on this list are highly recommended by the note-taking community, and I have installed and tried out most of them.
+I put my short notes for each one on the slide.
+Of this list, I am keeping a closer eye on Obsidian and Notion as both are gaining a lot of traction in the note-taking community.
+Obsidian is my favorite markdown-based note-taking program, and Notion is my favorite collaborative system.&lt;/p&gt;
+
+&lt;h2 id=&quot;part-4-my-personal-knowledge-base-system&quot;&gt;Part 4: My Personal Knowledge Base System&lt;/h2&gt;
+
+&lt;p&gt;Here I go over my own personal system in more detail.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-26--my-personal-knowledge-base-story&quot;&gt;Slide 26 — My Personal Knowledge Base Story&lt;/h3&gt;
+
+&lt;p&gt;This slide goes over the progression of my PKB over time.
+I first started with a custom duct tape folder with many nerdy features, which had a clipboard with my weekly task sheet.
+That is what I used in high school to keep track of academic work.&lt;/p&gt;
+
+&lt;p&gt;For my personal journaling/note-taking, I started with a more traditional long-form journal in volume 1; then, for volume 2, I switched to a bullet journal style.
+Now volume 4 is still using the bullet journal style.
+I don’t use the handwritten notebooks as much, so it takes a few years for me to fill one up, but I like to still have it and use it.&lt;/p&gt;
+
+&lt;p&gt;Next, during internships, I used a physical engineering notebook where I kept all my notes.
+This worked well when I was primarily only working on one project at a time, and it took a long time to fill up a single book.
+I outgrew this system in grad school when I filled up notebooks and had more trouble finding previous notes. At this point I was using multiple three-ringed binders to keep my physical notes.&lt;/p&gt;
+
+&lt;p&gt;From there, I switched to VimWiki, which I used in the terminal on Linux, along with my code and paper writing in LaTeX.
+The problem with VimWiki was that it was harder to capture images, and I still needed to do my visual thinking on paper since I like to think using handwriting.
+I based my VimWiki on a &lt;a href=&quot;https://biarri.com/an-efficient-and-effective-research-environment/&quot;&gt;research structure I found on the internet&lt;/a&gt;, then later, I restructured my VimWiki using a Zettlekästen style.
+At this point, I was also trying out using a Rocketbook with Evernote to handle my handwritten notes.&lt;/p&gt;
+
+&lt;p&gt;Finally, we get to where I am now, which is using PARA with OneNote.
+When I started my new job at ORNL, I switched to a windows machine for my main computer, and OneNote is a supported electronic lab notebook tool. I have greatly enjoyed using it, apart from a few various gripes.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-27--demo-my-personal-knowledge-base&quot;&gt;Slide 27 — Demo My Personal Knowledge Base&lt;/h3&gt;
+
+&lt;p&gt;During the actual talk, I gave a live demo of my note-taking system.
+Since this presentation is written, I will give more details on my OneNote structure.&lt;/p&gt;
+
+&lt;p&gt;I’ve been using PARA with OneNote for work and personal use since I started my current job a year and a half ago.
+I am a Software Engineer/Researcher for Oak Ridge National Laboratory, so I have many active projects and technical notes to keep track of.
+My second brain stored in OneNote with PARA organization has been an indispensable resource to me.&lt;/p&gt;
+
+&lt;p&gt;My OneNote structure is:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Notebook for Work
+    &lt;ul&gt;
+      &lt;li&gt;Inbox&lt;/li&gt;
+      &lt;li&gt;Journal (Daily log of research activities)
+        &lt;ul&gt;
+          &lt;li&gt;I use my journal to track tasks I work on and links to meetings and note pages.&lt;/li&gt;
+          &lt;li&gt;I use note hierarchy to organize and minimize notes by year.&lt;/li&gt;
+          &lt;li&gt;At the bottom of the current month, I also keep my todo tasks list organized by project with a todo today, todo next, and todo inbox.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Notes (General notes. This could be in 3 Resources, but I keep it here since I add to it frequently. Notes in here I find primarily from search)&lt;/li&gt;
+      &lt;li&gt;[SG] 1 Projects
+        &lt;ul&gt;
+          &lt;li&gt;[SG] Name of first project
+            &lt;ul&gt;
+              &lt;li&gt;Notes - Name of first project&lt;/li&gt;
+              &lt;li&gt;Meetings - Name of first project&lt;/li&gt;
+              &lt;li&gt;Emails - Name of first project&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;[SG] Name of second project
+            &lt;ul&gt;
+              &lt;li&gt;….&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;[SG] 2 Areas
+        &lt;ul&gt;
+          &lt;li&gt;Various area sections and section groups&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;[SG] 3 Resources
+        &lt;ul&gt;
+          &lt;li&gt;Various resource sections and section groups&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;[SG] 4 Archive
+        &lt;ul&gt;
+          &lt;li&gt;Same PARA structure for inactive resources.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Personal Notebook
+    &lt;ul&gt;
+      &lt;li&gt;… similar PARA structure&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[SG] is a section group.&lt;/p&gt;
+
+&lt;p&gt;Tips and Tricks:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Section groups are sorted alphanumerically, so you can use numbers to force a sort order. (i.e., “1 Projects”, “2 Areas”, …)&lt;/li&gt;
+  &lt;li&gt;Use hyperlinks and index pages.
+    &lt;ul&gt;
+      &lt;li&gt;You can hyperlink internally to any paragraph, this is super powerful, and I use it to link notes together in a Zettlekästen like web. I like the mix of hyperlinks and hierarchical sections for organizing notes—the best of both organization methods. Specific index landing pages with hyperlinks can be a view into your notes with a different organization.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add “- project name” to sections that have names that are the same in different section groups.
+    &lt;ul&gt;
+      &lt;li&gt;This makes it much easier to find the correct section to move an item to when you move a note.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Only put content in one place. Hyperlink if you want it somewhere else. This means I don’t copy notes; I just move them to the most logical place.&lt;/li&gt;
+  &lt;li&gt;I have found that OneNote is less keyboard friendly for key bindings, so I use a stream deck and macros to make it much easier to do common OneNote Operations.&lt;/li&gt;
+  &lt;li&gt;If you are using OneNote on a windows desktop, you can install Onetastic, which adds some missing features in OneNote and the ability to write advanced macros. (I wrote my own macros to make the conversion from my previous second brain in VimWiki to OneNote easier.)&lt;/li&gt;
+  &lt;li&gt;Integration with Outlook is great if your work also uses Outlook for email.&lt;/li&gt;
+  &lt;li&gt;Sending note pages via email also works great.&lt;/li&gt;
+  &lt;li&gt;Pen support with a pen display or iPad is great. So are pictures of whiteboards or screenshots of presentations. OneNote attempts to do OCR on pictures and handwriting with various levels of success. Still, it was good enough for me to rediscover useful information that I had written in cursive using search.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;part-5-productivity-tools&quot;&gt;Part 5: Productivity Tools&lt;/h2&gt;
+
+&lt;p&gt;At this point of the talk, I switch from talking about PKB and start talking about various productivity tools for Software Engineers/Researchers.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-29--useful-hardware-for-remote-work&quot;&gt;Slide 29 — Useful Hardware for Remote Work&lt;/h3&gt;
+
+&lt;p&gt;On the slide is a picture of my remote work setup.
+I found it great to have a pen display for digital handwritten notes and for remote whiteboarding.
+A stream deck is wonderful for easily creating macros.
+The best part is that since the buttons have a screen, you can see what each button will do.
+When you switch programs, the macros switch as well.
+The stream deck tasks some time to manually set up, but it is a joy to use and a great time saver once set up.
+I especially like using it with OneNote since OneNote keybindings are limited, but with macros, I can leverage alt menu navigation to perform complex functions with a single button press.
+I recommend having a nice docking station or a desktop computer.
+In my setup, I have a dual laptop stand and USB Type-C dock, which works with both my personal and work computer.&lt;/p&gt;
+
+&lt;p&gt;Update: Now that I am working at the office, I have a similar setup at work so that it is easy to switch from at home and on-site work.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-30--stream-deck&quot;&gt;Slide 30 — Stream Deck&lt;/h3&gt;
+
+&lt;p&gt;This slide shows off some of my custom Stream Deck macro pages for various applications.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-31--jabref&quot;&gt;Slide 31 — JabRef&lt;/h3&gt;
+
+&lt;p&gt;JabRef is an amazing tool for managing bibliographies if you primarily write papers using LaTeX with the bibliographies in the BibTeX or BibLaTeX format.
+I keep my JabRef bibliography in Git, and I have a personal repository and a shared repository within my group at ORNL.
+I started using JabRef in grad school, and it continues to work well.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-32--slack&quot;&gt;Slide 32 — Slack&lt;/h3&gt;
+
+&lt;p&gt;This slide has some of the main tips for using slack from a slack training I attended.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-33--project-management-in-gitlab&quot;&gt;Slide 33 — Project Management in GitLab&lt;/h3&gt;
+
+&lt;p&gt;Project management in GitLab, GitHub, or Bitbucket is great, and I highly recommend leveraging the tools to manage projects.
+One thing that has been useful for research projects is to create a project repo that tracks the project as a whole and can be used to store all the artifacts from the project.
+The issue board can keep track of tasks and discussions on topics.
+Separate code repos can be added to the project repo as submodules for organization.
+READMEs and wikis can be used to keep shared knowledge on the project.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-34--weekly-review&quot;&gt;Slide 34 — Weekly Review&lt;/h3&gt;
+
+&lt;p&gt;I follow a process similar to &lt;a href=&quot;https://fortelabs.co/blog/the-one-touch-guide-to-doing-a-weekly-review/&quot;&gt;Tiago’s Guide to doing a weekly review&lt;/a&gt;.
+This process is helpful for me to keep my digital workspace uncluttered.&lt;/p&gt;
+
+&lt;p&gt;The next two slides are from &lt;a href=&quot;https://fortelabs.co/blog/the-one-touch-guide-to-doing-a-weekly-review/&quot;&gt;Tiago’s Guide to doing a weekly review&lt;/a&gt; and highlight the process.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-37--weekly-review&quot;&gt;Slide 37 — Weekly Review&lt;/h3&gt;
+
+&lt;p&gt;This slide gives an overview of the steps to a weekly review, and I would recommend reading and watching Tiago’s material for more details on the process.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-38--task-tracking&quot;&gt;Slide 38 — Task Tracking&lt;/h3&gt;
+
+&lt;p&gt;I would recommend tracking tasks and using a productivity method similar to GTD.&lt;/p&gt;
+
+&lt;h3 id=&quot;slide-39--time-tracking&quot;&gt;Slide 39 — Time Tracking&lt;/h3&gt;
+
+&lt;p&gt;I used &lt;a href=&quot;https://toggl.com/track/&quot;&gt;Toggl Track&lt;/a&gt; to track the time I spend on various projects.&lt;/p&gt;
+
+&lt;h2 id=&quot;appendix&quot;&gt;Appendix&lt;/h2&gt;
+
+&lt;p&gt;I included my summary of &lt;a href=&quot;https://fortelabs.co/blog/how-to-take-smart-notes/&quot;&gt;Tiago’s summary of How to Take Smart Notes&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:PKM&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The methods can also be referred to as a Personal Knowledge Management (PKM). &lt;a href=&quot;#fnref:PKM&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:BASB&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The slide is from &lt;a href=&quot;https://miro.com/app/board/o9J_lEwGSa8=/&quot;&gt;Building a Second Brain Miro Board&lt;/a&gt; and idea of living in the abundance of information instead of scarcity comes from Tiago Forte. &lt;a href=&quot;#fnref:BASB&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:LDM&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Taken from the idea of &lt;a href=&quot;https://slyflourish.com/lazydm/&quot;&gt;The Lazy Dungeon Master&lt;/a&gt; &lt;a href=&quot;#fnref:LDM&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:paragraph&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Although paragraph linking is currently too fragile to be relied on, since moving a page to a new location will break the paragraph links. &lt;a href=&quot;#fnref:paragraph&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Research" /><category term="Productivity" /><category term="BASB" /><category term="PKB" /><summary type="html">In October last year, I gave a presentation to the my group at ORNL on my productivity/notetaking/engineering-notebook system. Another word for this system is a Personal Knowledge Base (PKB) or a second brain.</summary></entry><entry><title type="html">Changing from Disqus to Utterances</title><link href="https://geekdude.github.io/tech/changing-to-utterances/" rel="alternate" type="text/html" title="Changing from Disqus to Utterances" /><published>2021-10-31T00:00:00-04:00</published><updated>2021-10-31T00:00:00-04:00</updated><id>https://geekdude.github.io/tech/changing-to-utterances</id><content type="html" xml:base="https://geekdude.github.io/tech/changing-to-utterances/">&lt;p&gt;I have been having an issue where &lt;a href=&quot;https://disqus.com/&quot;&gt;Disqus&lt;/a&gt; would not send me any emails when new comments are posted to the website.
 After going through all the settings in Disqus, changing my email address, and testing adding comments using a guest login, I could not figure out how to get email notifications to work.
 Because of this, I changed to using &lt;a href=&quot;https://utteranc.es/&quot;&gt;Utterances&lt;/a&gt; for my website’s comments.
 Utterances’ is a great choice since it is open-source and uses the issues tracker of the GitHub repository to store the comments.
@@ -251,178 +753,4 @@ https://trace.tennessee.edu/utk_graddiss/5843
     year        = {2020},
     url         = {https://trace.tennessee.edu/utk_graddiss/5843/}
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Research" /><category term="Neuromorphic Computing" /><summary type="html">My dissertation titled SNACC: The Scaled-up Neuromorphic Array Communications Controller is now available at https://trace.tennessee.edu/utk_graddiss/5843/.</summary></entry><entry><title type="html">Sourdough Bread</title><link href="https://geekdude.github.io/life/sourdough-bread/" rel="alternate" type="text/html" title="Sourdough Bread" /><published>2020-04-12T00:00:00-04:00</published><updated>2020-04-12T00:00:00-04:00</updated><id>https://geekdude.github.io/life/sourdough-bread</id><content type="html" xml:base="https://geekdude.github.io/life/sourdough-bread/">&lt;p&gt;My favorite type of bread is a fresh, warm loaf of sourdough.
-I can almost go through a whole loaf by myself when it is fresh from the oven.
-Sourdough bread also makes the best french toast and great bread crumbs for wiener schnitzel.
-This post will go over the basics to getting started making sourdough bread.
-It includes links to the resources I used to get started, my favorite recipes, and some tips and tricks I have learned over my years of baking and experimenting for fun.&lt;/p&gt;
-
-&lt;h2 id=&quot;starter&quot;&gt;Starter&lt;/h2&gt;
-&lt;p&gt;At first I tried to make my own starter.
-This didn’t really work out all that well.
-I learned that you should not try to make a sourdough starter by initially adding in baking yeast.
-If you do this, you will not get the good sourdough flavor and it will be harder to form the symbiotic relationship between bacteria and wild yeast which gives sourdough its unique acidic flavor.
-After a first bland attempt and subsequent difficulty to get a starter to grow with wild yeast (i.e.
-with only flour and water).
-I decided to buy &lt;a href=&quot;https://shop.kingarthurflour.com/items/classic-fresh-sourdough-starter-1-oz&quot;&gt;starter from King Arthur Flour&lt;/a&gt;.
-This starter worked much better.
-I bought it in 2013 and I have kept it going ever since.
-I keep the sourdough starter in a &lt;a href=&quot;https://shop.kingarthurflour.com/items/classic-king-arthur-sourdough-crock&quot;&gt;King Arthur Sourdough Crock&lt;/a&gt;.
-They also sale the &lt;a href=&quot;https://shop.kingarthurflour.com/items/sourdough-starter-and-crock-set&quot;&gt;starter in a set with the crock&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;starter-care&quot;&gt;Starter Care&lt;/h3&gt;
-&lt;p&gt;King Arthur Flour provides a great &lt;a href=&quot;https://www.kingarthurflour.com/learn/guides/sourdough&quot;&gt;sourdough guide&lt;/a&gt; to learn how to get started with sourdough bread.
-It includes information on how to maintain a starter as well as how to bake bread.
-This is where I first started and I still use much of what I learned here.&lt;/p&gt;
-
-&lt;p&gt;I generally end up neglecting my starter for a few months at a time when I get busy and didn’t have time to bake.
-The starter will do well for this long in the fridge.
-Do not freeze the starter since doing so could harm the microbes.
-If I’m not planing on using my starer within the next few days, I will keep it in the fridge.
-The cold slows down the activity of the organisms which also slows down the rate they consume the flour.
-After a while, brown liquid will form on the top of the starter.
-This is expected and can be mixed back into the starter before feeding.
-If the starter ever shows signs of mold, has an orange or pink tint/streak or smells putrid then it went bad with harmful microorganism and you will want to throw it out.
-I don’t know how common this is as mine has never spoiled.
-The smell of sourdough is quite sharp but it should smell like beer or bread and not like spoiled food.&lt;/p&gt;
-
-&lt;p&gt;When I feed my starter I mix together a cup of starter, a cup of water, and a cup of flour.
-I usually use a scale which means I mix together 172 grams of starter, water, and flour.
-You can vary the ratios, but I found that the same amount of each works well.
-I aim for a pancake batter like consistency.
-Too much water and there isn’t as much food.
-Too much flour and the starter can expand outside the container and makes a mess.
-A nice balance will bubble, but not trap the air so that it expands.&lt;/p&gt;
-
-&lt;p&gt;There is a difference between a fed and unfed starter.
-A fed starer is active and bubbling.
-Typically, you can feed the starter and wait a few hours and it will be active.
-An unfed starter is straight from the fridge before feeding.
-If it has been a long time since I fed the starter, I will feed it, let it sit at room temperature for a day, feed it again, and wait for it to appear active before I consider it fed.
-I have made bread with both fed and unfed starter.
-The fed starter makes it easier to get fluffier bread but unfed still works.&lt;/p&gt;
-
-&lt;p&gt;Another great trick I learned is that you can easily transfer starter by taking some of it and adding lots of flour so that it forms a dry ball.
-The dry ball can then be stored in the top of a bag of flour you are taking on a trip.
-I have used this to transfer my starter when I traveled to visit relatives and I wanted to make sourdough bread for them.
-The bag of flour with dried starter in the top was much easier to transfer then the ceramic crock.&lt;/p&gt;
-
-&lt;h2 id=&quot;sourdough-bread&quot;&gt;Sourdough Bread&lt;/h2&gt;
-&lt;p&gt;Bread making is as much an art as a science.
-There are many factors at work to determine how the final loaf will turn out.
-These variables include the activity of the starter, the water-to-flour ratio, and the time and temperatures for the various fermenting, proofing, and rising stages.
-Although I started out following the &lt;a href=&quot;https://www.kingarthurflour.com/recipes/extra-tangy-sourdough-bread-recipe&quot;&gt;Extra-Tangy Sourdough Bread recipe&lt;/a&gt;, I also started experimenting with this recipe to learn how different ingredients and techniques affected the final loaf.
-Now I still loosely follow the recipe, but I do it more from experience and practice then from precisely measuring everything.
-My goal was actually to simplify the process as much as possible, down to the key ingredients, understand the role these ingredients play and then understand the phases of the proofing process.
-I found that the bread mostly came out well every time and the variation was fun.
-My current bread relies on simple ingredients and gets the great sourdough flavor from only the starter and the proofing steps.&lt;/p&gt;
-
-&lt;p&gt;My approach to making bread has been shaped by reading a variety of books, reading internet posts, and from watching YouTube videos.
-Of particular note is &lt;a href=&quot;https://smile.amazon.com/dp/0825463149/ref=cm_sw_em_r_mt_dp_U_gAoKEbRRY3PKE&quot;&gt;In Celebration of Simplicity: The Joy of Living Lightly&lt;/a&gt; which is about living a life based on gospel simplicity through an extended metaphor with the simple ingredients in bread.
-This book inspired me to keep the ingredients simple and to understand the role of each.
-The bread chapter in &lt;a href=&quot;https://smile.amazon.com/dp/0143125338/ref=cm_sw_em_r_mt_dp_U_ZHoKEb3MET40D&quot;&gt;Cooked: A Natural History of Transformation&lt;/a&gt; was very interesting and led me to experimenting with whole wheat sourdough bread and also to use wetter dough.
-The whole wheat was very challenging, but I could eventually make a good sandwich bread loaf.
-However, I could never get as yummy of an artesian loaf as I could with white flour.
-The introduction to &lt;a href=&quot;https://smile.amazon.com/Classic-Sourdoughs-Revised-Bakers-Handbook-ebook/dp/B004EWFUQ4/ref=sr_1_36?dchild=1&amp;amp;keywords=sourdough+bread&amp;amp;qid=1586731950&amp;amp;sr=8-36&quot;&gt;Classic Sourdoughs&lt;/a&gt; has a great, concise, introduction to the art of sourdough bread making with information on the various factors and how they affect the final loaf.&lt;/p&gt;
-
-&lt;h3 id=&quot;my-method-of-baking-bread&quot;&gt;My Method of Baking Bread&lt;/h3&gt;
-&lt;p&gt;So I will now walk you through my process making bread, but for a recipe and more details instructions follow the &lt;a href=&quot;https://www.kingarthurflour.com/recipes/extra-tangy-sourdough-bread-recipe&quot;&gt;Extra-Tangy Sourdough Bread recipe&lt;/a&gt; and start experimenting.
-I start off the day before by mixing together a small mason jar of water (2-ish cups), the leftover starter after feeding it, and a sifter full of flour (3-ish cups) in a large glass mixing bowl.
-I spend a while mixing this together until it is quite smooth 1-3 minutes.
-At this stage it should be uniform and still liquidy like pancake batter.
-You want it to be liquidy so that it won’t overflow the bowl overnight.
-Then let the bowl sit out on the counter until you go to bed, then move it into the fridge (I will leave it out all night if I used an unfed starter).&lt;/p&gt;
-
-&lt;p&gt;The next day I just add some salt, honey, and herbs.
-With these ingreadients, I stopped measuring the amounts percisely.
-Start with the amounts listed in the recipe, but after awhile you get a feel for the rough amounts and no longer have to measure precisely.
-I like using thyme or a mix of Italian herbs.
-For this part I take inspiration from Penelope Wilcock who says in &lt;a href=&quot;https://smile.amazon.com/dp/0825463149/ref=cm_sw_em_r_mt_dp_U_gAoKEbRRY3PKE&quot;&gt;In Celebration of Simplicity: The Joy of Living Lightly&lt;/a&gt; “When I add salt, yeast, honey and herbs into my bread, I just put in ‘some’. Approximate amounts will do, creating acceptable variants in the taste.”
-I no longer add sour salt to my bread, since I am able to get a strong natural sourdough flavor without it.
-At this point I also usually add in some olive oil.
-If you want artesian bread, then leave the olive oil out.
-But if you want sandwich bread with a softer crust include it.
-The oil will reduce the size of the air pockets and make the crust softer and better for sandwich bread.
-Again with the oil, I don’t measure precisely but pour in ‘some’ from my tin olive oil container.
-I probably add around a tablespoon or two.
-On the amount of oil to add, Penelope says “I put lots in.”
-I mix everything together, so that it is uniformly combined.
-Then I either dump it out onto a bed of flour or start adding flour while I am stirring.
-I mix the added flour in with the dough.&lt;/p&gt;
-
-&lt;p&gt;At this point I should probably let the dough rest for a bit to autolyse but normally I forget and just start with the kneading.
-While I knead I try to keep the dough as wet as I want to deal with, as I start to knead it using the “slap” kneading method.
-This method is shown in the &lt;a href=&quot;https://www.kingarthurflour.com/learn/guides/sourdough/bake&quot;&gt;King Arthur Kneading video&lt;/a&gt; and requires less effort than other methods and allows stickier dough to be handled.
-This main kneading needs to be long and I do it for at least 10 minutes.
-As you continue kneading the dough will start to get firmer and harder to knead.
-This means you are closer to finishing.
-I try to keep it sticky and will occasionally add flour to the outside to make it less sticky.
-While I am kneading it, I add more flour based on the constency of the dough.
-From &lt;a href=&quot;https://smile.amazon.com/dp/0143125338/ref=cm_sw_em_r_mt_dp_U_ZHoKEb3MET40D&quot;&gt;Cooked: A Natural History of Transformation&lt;/a&gt;, the wetter the dough, the better for artisan breads.
-However, I like to find my happy middle ground with a sticky dough, but one that is dry enough to no lose its structure during the proofing process.
-With really wet dough, you should fold the dough as it rises. With dryer dough, this is not required.
-I would begin with the recipe and then start expirementing.
-If you want to track expirements with the amount of ingredients in the recipe, you can use the &lt;a href=&quot;https://en.wikipedia.org/wiki/Baker_percentage&quot;&gt;baker’s percentage&lt;/a&gt;, which measures the ratio of other ingreadetants by weight to that of the flour.
-Of great inportance is the dough hydration, which is the baker’s percentage of water.
-Once I am done kneading, I clean the large mixing bowl the dough was in, coat it with olive oil, then add the dough back to the bowl.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/bread-proof-initial.jpg&quot; alt=&quot;before proof&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Then I move the dough to my bread proofing box and wait a while.
-You can easily make bread without a proofing box, but see more information about them &lt;a href=&quot;#bread-proofing-box&quot;&gt;here&lt;/a&gt;.
-I either try to fold the bread every 30 min to 1 hour, if I am doing a particular wet dough as this helps the gluten form better, or I just let it sit without attention.
-Like the recipe says, I wait anywhere between 2 and 5 hours as I watch it occasionally to see how it is rising.
-Once I am convinced it has risen well, I do the short knock back kneading for around 2 minutes, then I divide the dough into two halves, shape it, and either add it to a &lt;a href=&quot;https://shop.kingarthurflour.com/items/king-arthur-standard-bread-loaf-pan-8-x-4&quot;&gt;bread loaf pan&lt;/a&gt; or a &lt;a href=&quot;https://shop.kingarthurflour.com/items/round-brotform&quot;&gt;brotform&lt;/a&gt;.
-Often I will do both to make a round artesian loaf and a sandwich loaf.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/bread-proof-final.jpg&quot; alt=&quot;after proof&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Then I let it rise in the proofing box for another 2 to 4 hours until it has risen.
-Then I preheat the oven and bake the bread.
-I spray the top of the bread with water (olive oil could also be used) and cut slits in the dough to let the air escape as it rises.
-I usually start the oven off at 500°F for the first ten minutes to help the bread rise quickly.
-Then I reduce the temperature to 425°F and add aluminum foil to prevent the crust from hardening as much as it finishes cooking for 15 to 20 more minutes.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/bread-final-rise.jpg&quot; alt=&quot;final rise&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The finished bread is great while it is still hot.
-The second loaf can be frozen if you don’t plan on eating it for a few days.
-The bread will last for about a week before it becomes stale.
-Slightly stale bread works great for french toast (even better than fresh bread in fact since it keeps together better as it soaks up the egg/milk mix); also any leftover bread which is stale can be blended into bread crumbs and stored in the freezer.
-For bread crumbs the bread either has to be stale or toasted in order to blend into good bread crumbs.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/bread-cooked.jpg&quot; alt=&quot;bread cooked&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;waffles&quot;&gt;Waffles&lt;/h2&gt;
-&lt;p&gt;My favorite waffle recipe is by far the &lt;a href=&quot;https://www.kingarthurflour.com/recipes/classic-sourdough-waffles-or-pancakes-recipe&quot;&gt;Classic Sourdough Waffles or Pancakes&lt;/a&gt; from King Arthur Flour.
-These Waffles have a great sourdough taste to them.
-I have found that you can leave excess batter in the fridge and cook it subsequent days without issues.
-I would try to eat it up within three days though.
-I also found that the sourdough flavor is slightly stronger each day.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/bread-waffle-1.jpg&quot; alt=&quot;waffle&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/bread-waffle-2.jpg&quot; alt=&quot;waffle&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;bread-proofing-box&quot;&gt;Bread Proofing Box&lt;/h2&gt;
-&lt;p&gt;I wanted to try using a proofing box to see if it would improve the quality of my sourdough bread.
-However, I didn’t want to by a proofing box if it would not make a big impact.
-So when I was thinking of a final group project idea for ECE551—Digital System Design, I decided to make my own “Smart” bread proofing box with temperature and humidity control, built-in automatic schedule, and a web interface.
-The project was great fun and the final report can be found &lt;a href=&quot;/assets/bread-proofing-report.pdf&quot;&gt;here&lt;/a&gt;.
-As part of the project, I also experimented with making bread with the bread box.
-I found that the flavors of the bread were better when the bread box was used.
-At this time I also decided to stop using sour salt in my bread, since I could get great natural sour flavors in my bread and I didn’t want to cover them up with the sour salt.
-The bread proofer we made for the class worked great, but I ended up getting a &lt;a href=&quot;https://shop.kingarthurflour.com/items/folding-bread-proofer-and-slow-cooker&quot;&gt;commercial bread proofer&lt;/a&gt; mostly since it can fold down easily and was made out of sturdier materials.
-The commercial bread proofer does lack a few of the features from the one I made.
-It doesn’t have the proofing scheduling/timing, humidity control, or a web interface.
-On the flip side the commercial one works well and folds down nicely.
-However, its heating element works much better than the heat lamp I used.
-The heat lamp would dry out the top of the dough.&lt;/p&gt;
-
-&lt;p&gt;This video shows the bread proofer I made in action.&lt;/p&gt;
-
-&lt;!-- Courtesy of embedresponsively.com //--&gt;
-
-&lt;div class=&quot;responsive-video-container&quot;&gt;
-    &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/CaS0XT1j_Mc&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-  &lt;/div&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Life" /><category term="Food" /><summary type="html">My favorite type of bread is a fresh, warm loaf of sourdough. I can almost go through a whole loaf by myself when it is fresh from the oven. Sourdough bread also makes the best french toast and great bread crumbs for wiener schnitzel. This post will go over the basics to getting started making sourdough bread. It includes links to the resources I used to get started, my favorite recipes, and some tips and tricks I have learned over my years of baking and experimenting for fun.</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Research" /><category term="Neuromorphic Computing" /><summary type="html">My dissertation titled SNACC: The Scaled-up Neuromorphic Array Communications Controller is now available at https://trace.tennessee.edu/utk_graddiss/5843/.</summary></entry></feed>
