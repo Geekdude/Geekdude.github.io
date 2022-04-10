@@ -3,13 +3,15 @@ title: Future Project Ideas.
 ---
 
 # High Priority
+
 - Church Garden
 - Minimal Dotfiles
 - Table Demo
 - Automation Script
-- Note Taking Method
+- ~~Note Taking Method~~
 
 # Other
+
 - LaTeX templates.
 - Vim plugins/config
 - tmux config
