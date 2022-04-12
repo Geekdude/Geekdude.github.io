@@ -33,12 +33,19 @@ Since some of these configuration files are specific to work or to my own machin
 **This public dotfiles repository can be found at <https://github.com/Geekdude/dotfiles>**.
 I hope that you find my dotfiles interesting and helpful as you create your own dotfiles repository.
 
-As you create your own dotfiles repository, I recommend that you start from a simple base and go through example configurations and make sure you understand what the configuration lines are doing. Then you can copy in the lines which change the configuration in a way that you like. *Don't just use public configuration examples without taking the time to understand what the configuration is doing.*
+As you create your own dotfiles repository, I recommend that you start from a simple base and go through example configurations and make sure you understand what the configuration lines are doing.
+Then you can copy in the lines which change the configuration in a way that you like. *Don't just use public configuration examples without taking the time to understand what the configuration is doing.*
 Some of my configuration, you probably don't want, but some of it you might find useful.
 I enjoy learning about the features of other people configurations and potentially incorporating some of the configuration into my own config.
-My configurations started simple and grew over time as I wanted my system to behave differently and searched for a solution, or saw a cool configuration on the internet or from colleagues. Sometimes I ran into a specific problem and find the solution in a configuration change, then incorporated the change into my configuration files.
+My configurations started simple and grew over time as I wanted my system to behave differently and searched for a solution, or saw a cool configuration on the internet or from colleagues.
+Sometimes I ran into a specific problem and find the solution in a configuration change, then incorporated the change into my configuration files.
 
 Over time I also changed the programs I use, so I have some older configuration files for these programs, even though I do not use these programs as much.
-I also changed which shell I use primarily. I started with Bash, then switch to zsh for the added features, now I am currently using fish. I still keep my bash and zsh config in case I go back to these shells, but I primarily use fish now. One downside to fish, is that it is not compatible with bash, so I still find myself going back to bash or zsh frequently to run bash scripts. I liked the general look I had for bash so as I configured zsh and fish, I kept the same general look.
+I also changed which shell I use primarily.
+I started with Bash, then switch to zsh for the added features, now I am currently using fish.
+I still keep my bash and zsh config in case I go back to these shells, but I primarily use fish now.
+One downside to fish, is that it is not compatible with bash, so I still find myself going back to bash or zsh frequently to run bash scripts.
+I liked the general look I had for bash so as I configured zsh and fish, I kept the same general look.
 
-Now that you know the general dotfile setup, and have access to my public dotfiles, I will talk in more detail about my dotfiles and as I do, you are free to look through the dotfile repository as well. I tried to be clear in the comments of the dotfiles what the configuration lines do, and in this blog post I will give more broader information about the features and reasoning behind the setup.
+Now that you know the general dotfile setup, and have access to my public dotfiles, I will talk in more detail about my dotfiles and as I do, you are free to look through the dotfile repository as well.
+I tried to be clear in the comments of the dotfiles what the configuration lines do, and in this blog post I will give more broader information about the features and reasoning behind the setup.
