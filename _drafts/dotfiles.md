@@ -49,3 +49,23 @@ I liked the general look I had for bash so as I configured zsh and fish, I kept 
 
 Now that you know the general dotfile setup, and have access to my public dotfiles, I will talk in more detail about my dotfiles and as I do, you are free to look through the dotfile repository as well.
 I tried to be clear in the comments of the dotfiles what the configuration lines do, and in this blog post I will give more broader information about the features and reasoning behind the setup.
+
+## makesymlinks.sh
+
+## Git
+
+## Fish
+
+## Tmux
+
+## Vim
+
+## Basic Apt Installs
+
+## Bin
+
+## Fonts
+
+## Inkscape
+
+## Bonus: Zork
