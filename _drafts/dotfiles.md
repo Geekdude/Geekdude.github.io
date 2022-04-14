@@ -1,5 +1,5 @@
 ---
-title: My Dotfiles Storage using Git and Shared Dotfile Repo.
+title: My Dotfiles Storage using Git and Shared Dotfile Repo
 toc: true
 toc_sticky: false
 categories: [Tech]
@@ -10,6 +10,7 @@ header:
 ---
 
 ## Introduction and Dotfile Storage Method
+
 When I started heavily using Linux in collage and started customizing and creating configuration files, I quickly need a way to store, backup, and setup my various configuration dotfiles. 
 A logical place to store configuration files is in git, since you can see modifications to the dotfiles, easily commit new changes, and you can even make multiple branches if you need different versions of the dotfiles.
 I do not remember the exact tutorial I followed, but a form of the method I used seems to be floating around on the internet in multiple blog posts.
@@ -50,24 +51,128 @@ I liked the general look I had for bash so as I configured zsh and fish, I kept 
 Now that you know the general dotfile setup, and have access to my public dotfiles, I will talk in more detail about my dotfiles and as I do, you are free to look through the dotfile repository as well.
 I tried to be clear in the comments of the dotfiles what the configuration lines do, and in this blog post I will give more broader information about the features and reasoning behind the setup.
 
+## README.md
+
+The README file goes over the process on how to setup the dotfile configuration on a new system.
+From the steps, you can see how the relatively simple process is made more difficult when I need to use ssh keys to pull from a private repository.
+
 ## makesymlinks.sh
+
+This file creates the symlinks for the dotfiles back to the corresponding file in the dotfiles directory.
+Over time this script was also extended to pull and update external submodules, to create other additional symlinks, and to link symlinks to folders.
+This script is run to setup all the dotfiles.
+I have more submodules listed in .gitmodules than I actually use.
+That is why I explicitly list the submodules I want in the script.
+This is primarily since it is much easier to add a new submodule than to remove it, and I might want to use it again.
 
 ## Ssh
 
+In my private dotfiles repo, I keep passcode protected and also gpg encrypted ssh keys.
+The makesymlinks.sh script will call the command to decrypt the keys as part of the setup.
+In practice, I have to add the keys before I con clone the dotfiles directory and I have to then manually setup the symlink to .ssh.
+That's is the problem with using a private dotfiles repo; the keys need to be in place before you can clone the repo.
+I also use a .ssh/config file to configure connections to remote machines.
+Since the information in .ssh is more sensitive, I have not included any of it in the public dotfiles repo.
+
 ## Git
+
+The git configuration is stored in `gitconfig`, global git ignores are stored in `gitignore_global`, and my git hook templates are stored in `git_template`.
+I removed the `user.name` and `user.email` config items from the `gitconfig`, but those can be easily added back when git prompts you to set them. 
+
+I use [Beyond Compare 4](https://www.scootersoftware.com/) as my main difftool.
+I also added other tools with aliases.
+vimdiff, vimmerge, gvimdiff, and gvimmerge use vim and gvim respectively to perform the diff or merge.
+I also found [difftastic](https://github.com/Wilfred/difftastic) which is a better terminal diff than `diff` and is aliased to difft.
+My favorite alias, which I use all the time, is `tree`, which prints out a nice tree view of the git log. 
+Other aliases are `sup` which updates recursively all submodules and `sfor` is a alias to run a for loop over all submodules.
+I also have `hash` which prints out the current git hash, and `pwd` which prints out the top-level of the git repo. `pwd` is a miss-leading name, but I can remember it easily.
+I also have `s` which prints the status of the current directory.
+
+My template directory has the necessary hooks to setup ctags.
+These ctags are then used by my vim configuration to easily jump to tags in my file.
+Each time a git operation occurs the ctags are regenerated, which keeps them up-to-date.
+My global `gitignore_global` ignores the generated ctag files.
+Ctags are further discussed in my [Ctags blog post]({% link _posts/2021-03-05-ctags.md %})
+
+I like to use fast-forward only so that I have to explicitly chose to make a merge.
+That way it is easier for me to pick to merge or to rebase.
 
 ## Fish
 
+I like to use the [fish](https://fishshell.com/) shell.
+I think it is a well designed shell with an easy to understand configuration structure.
+Out of the box, it has many of the feature by default that are a pain to setup in zsh.
+I was also able to keep the same basic them as my previous shell configurations.
+Some of my favorite features are:
+
+- Automatic prediction and auto complete of commands base on previously used commands.
+- Command completions based on man pages. (I also have a function, `fish_add_completions`, to generate a manpage from `--help` output, and reload the man completions so that programs I write can have easy command completions)
+- Powerful prompt with git status, exit code, time, and the duration of the last command.
+- Easy configuration with a conf.d for config files and functions for custom functions.
+
+My config.fish has inline comments describing what everything does.
+One thing to point out is that I call `setxkbmap` and `xcape` commands to replace capslock with control/escape and both shifts with capslock.
+
+Inside `conf.d` I have configuration files broken down by the name of what they are configuring.
+Any file in this directory will be include in the configuration of fish.
+I use `ssh_agent.fish` to make sure I always have an ssh-agent running.
+
+Inside functions, I have all my custom functiokns.
+In fish the prompts are just a function that is called, so my prompt is defined in `fish_prompt.fish` and `fish_right_prompt.fish`.
+`funcedsave.fish` combines the built in [funced](https://fishshell.com/docs/current/cmds/funced.html) and [funcsave](https://fishshell.com/docs/current/cmds/funcsave.html) functions.
+
+`git-add-submodule.fish` adds an existing clone nested repository as a submodule of the parent.
+`git-reload-hooks.fish` and `git-reload-hooks-all.fish` reload hooks based on the git template for either the current repo, or recursively into all the submodules.
+
+Something new I am trying is the [fisher](https://github.com/jorgebucaran/fisher) fish plugin manager with [z](https://github.com/jethrokuan/z) for directory jumping.
+
 ## Tmux
+
+My Tmux config is setup to work with nested local and remote tmux sessions. `tmux.conf` specifies the local tmux configuration and `tmux/tmux.remote.conf` adjusts the status bar on the remote tmux session.
+\<F12\> is used to toggle disable/enable the outer tmux session so that the inner tmux session is easier to work with.
+
+My tmux config also has mouse support, plugins to show resource monitoring, and more vim-like bindings.
+
+I spend a while figuring out the full color range for both tmux and fish, and the color settings at the top of the file seem to work.
+Since I use MobaXTerm which has some cool features that only work if bash is your default shell, I use tmux to set my default shell to fish.
+That way fish is started anytime I start my tmux session.
+
+In `bin`, I also have some helpful tmux scrips.
+`tmuxes` opens or connects to a new single tmux session which has the same view as a previous connection.
+This command only open on common tmux session and multiple sessions will follow the same cursor.
+`tmuxs` also opens the same tmux session, but this time it creates a new view into it so that the cursor does not follow the previous window.
+`tmux_allow` and `tmux_disallow` changes the permissions of the tmux socket to allow other users on the same machine to connect to the same tmux session.
 
 ## Vim
 
 ## Basic Apt Installs
 
+This script is used to update and upgrade apt packages, then install a common set of apt packages that I expect every system to have.
+Between the dotfiles repo, this script, and Synology drive, I can go from a fresh Ubuntu install to a configure system very quickly.
+This is useful since I redo my computers frequently or setup a new virtual machine.
+
 ## Bin
+
+`create-thumbnails` is used to reduce the resolution of images to create thumbnail versions.
+I use this for my website to reduce the size of the smaller images in a gallery.
+
+`pdf-shrink` reduces the size of PDFs by calling other commands with the correct arguments.
+
+`esv` uses the [ESV](https://www.esv.org) API to create a terminal program to read or listen to the bible.
+If you want to use this program, you will first have to generate a API token from [ESV.org](https://api.esv.org/).
+
+Reorder is a program I wrote and is discussed in the [Reorder blog post]({% link _posts/2020-01-30-reorder.md %})
 
 ## Fonts
 
+Here I store all the fonts I want to use across my machines.
+Then, `makesymlinks.sh` will create a symlink to the local font location and run `fc-cache` to cache the fonts so that they are properly installed as locally installed fonts.
+I did not include the fonts in the public repo since I didn't want to check the licensing on each font.
+
 ## Inkscape
 
+I setup Inkscape with the extensions I use.
+
 ## Bonus: Zork
+
+No system is complete without Zork, so as a bonus I install Zork by default.
