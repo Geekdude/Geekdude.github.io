@@ -10,6 +10,7 @@ permalink: /publications/
 <i class="fab fa-orcid"></i> [ORCID ID](https://orcid.org/0000-0002-5448-4667)
 
 ### Publications
+* [Heterogeneous Memory System Framework for HPC]({% link /assets/Heterogeneous-Memory-System-Framework-for-HPC_ASCR-2022.pdf %}), Kazi Asifuzzaman, Narasinga Rao Miniskar, Aaron R. Young, Frank Liu, and Jeffrey S. Vetter, *ASCR Workshop on the Management and Storage of Scientific Data*, 2022.
 * [A Hierarchical Task Scheduler for Heterogeneous Computing](https://link.springer.com/chapter/10.1007/978-3-030-78713-4_4), Narasinga Rao Miniskar, Frank Liu, Aaron R. Young, Dwaipayan Chakraborty, Jeffrey S. Vetter, *International Conference on High Performance Computing*, 2021, 57-76.
 * [Toward Evaluating High-Level Synthesis Portability and Performance between Intel and Xilinx FPGAs](https://dl.acm.org/doi/10.1145/3456669.3456699), Anthony Cabrera, Aaron Young, Jacob Lambert, Zhili Xiao, Amy An, Seyong Lee, Zheming Jin, Jungwon Kim,  Jeremy Buhler, Roger Chamberlain, and Jeffrey Vetter, *IWOCL'21: International Workshop on OpenCL*, 2021.
 * [Emerging Heterogeneous Systems Provide Great Opportunities for Codesign]({% link /assets/YoungA_EmergingHeterogeneousSystemsProvideGreatOpportunitiesforCodesign.pdf %}), Aaron R. Young, Jeffrey S. Vetter, Frank Liu, Narasinga Rao Miniskar, Sarat Sreepathi, and Anthony M. Cabrera, *ASCR Workshop on Reimagining Codesign*, 2021.
