@@ -59,20 +59,12 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#ffffff;stroke-width:0.35277778;stroke:#ff0000;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffffff;stroke-width:0.35277778;stroke:none;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect7"
        width="132.29167"
        height="79.375"
        x="0"
        y="0" />
-    <path
-       style="fill:none;stroke:#ff0000;stroke-width:0.35277778;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 0,0 132.29166,79.374999"
-       id="path831" />
-    <path
-       style="fill:none;stroke:#ff0000;stroke-width:0.35277778;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 0,79.374999 132.29167,0"
-       id="path833" />
     <g
        id="g51"
        transform="matrix(0.85642651,0,0,0.85642651,10.136198,0.55810724)">
