@@ -11,7 +11,7 @@ header:
 ---
 
 I use [Vim](https://www.vim.org/) and [Visual Studio Code](https://code.visualstudio.com/) as my main text editors, and I have found multiple plugins to both which add nice features to the respective program.
-In this post, I will go over my favorite Vim plugins. I install these plugins as part of [my dotfiles setup]({% link _drafts/dotfiles.md %}), so it is easy to setup vim with plugins on each system I use.
+In this post, I will go over my favorite Vim plugins. I install these plugins as part of [my dotfiles setup]({% link _posts/2022-04-14-dotfiles.md %}), so it is easy to setup vim with plugins on each system I use.
 
 ## Core Plugins
 
