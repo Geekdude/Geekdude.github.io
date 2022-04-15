@@ -5,8 +5,8 @@ toc_sticky: false
 categories: [Tech]
 tags: [Linux]
 header:
-    image: /assets/images/template-header.png
-    teaser: /assets/images/template-teaser.png
+    image: /assets/images/dotfiles-header.png
+    teaser: /assets/images/dotfiles-teaser.png
 ---
 
 ## Introduction and Dotfile Storage Method

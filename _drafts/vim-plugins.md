@@ -6,8 +6,8 @@ toc_max_header: 2
 categories: [Tech]
 tags: [Vim]
 header:
-    image: /assets/images/template-header.png
-    teaser: /assets/images/template-teaser.png
+    image: /assets/images/vim-plugin-header.png
+    teaser: /assets/images/vim-plugin-teaser.png
 ---
 
 I use [Vim](https://www.vim.org/) and [Visual Studio Code](https://code.visualstudio.com/) as my main text editors, and I have found multiple plugins to both which add nice features to the respective program.
