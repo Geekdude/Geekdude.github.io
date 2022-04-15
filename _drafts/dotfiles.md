@@ -77,7 +77,7 @@ Since the information in .ssh is more sensitive, I have not included any of it i
 ## Git
 
 The git configuration is stored in `gitconfig`, global git ignores are stored in `gitignore_global`, and my git hook templates are stored in `git_template`.
-I removed the `user.name` and `user.email` config items from the `gitconfig`, but those can be easily added back when git prompts you to set them. 
+I removed the `user.name` and `user.email` config items from the `gitconfig`, but those can be easily added back when git prompts you to set them.
 
 I use [Beyond Compare 4](https://www.scootersoftware.com/) as my main difftool.
 I also added other tools with aliases.
@@ -145,6 +145,53 @@ This command only open on common tmux session and multiple sessions will follow 
 
 ## Vim
 
+I use [Vim](https://www.vim.org/) and [Visual Studio Code](https://code.visualstudio.com/) as my main text editors.
+Vim is still the editor that I am the most proficient with and also the one that I have customized the most.
+With the various plugins I have, my Vim behaves more like a modern tool like Visual Studio Code, compared to vanilla VI editor.
+I have and still use Vim as an code editor, word processor, note taker, and documentation writer, and various plugins make it more suited for these tasks.
+To learn about the plugins I use see [My Favorite Vim Plugins]({% link _drafts/vim-plugins.md %}).
+These plugins are install using [pathogen](https://github.com/tpope/vim-pathogen) and the plugins are added as submodules to my dotfiles repo. `makesymlinks.sh` is used to initiate and update the submodules.
+Some of the plugins I have modified and the submodules point to my forks of the original repos.
+
+Just like with my other config files, I have inline comments to explain my configuration.
+However, I will mention here some specific features I have.
+See my [Ctags blog post]({% link _posts/2021-03-05-ctags.md %}) for more information on how Ctags are setup.
+I like to use 3 spaces by default, even though that seems like a chaotic-neutral choice on the alignment chart.
+I have a check, which disables many features when the text file is over 10MB, with this setting vim is able to open humongous text files which break most other text editors.
+I have a function which automatically strips training whitespace from files on save with the exception of when editing markdown files since trailing whitespace has meaning in markdown.
+To help see trailing whitespace in those file formates, I add a $/cdot$ in place of the training space.
+I created my own color scheme which is modification off of the default color scheme.
+I also setup proper 256 and GUI colors so that the color scheme looks good.
+
+I added two useful functions for when I edit text.
+To make line diffing of text easier, and since LaTeX and Vim treat newlines without a blank as part of the same paragraph, I write one sentence per line in the source document. 
+
+```vim
+" Search for paragraphs that do no end in a newline.
+nnoremap <leader>l<space> /[.!?]'\?'\?\zs\s\+\ze\(\w\\|\\\)<cr>
+" Join lines and add a newline at the ends of sentences.
+vnoremap <leader>l<space> :s/[.!?]'\?'\?\zs\s\+\ze\(\w\\|\\\)/\r/g<cr>
+```
+
+When `<leader>l<space>` is pressed, the sentance ending periods which are not followed by a newline are searched for and highlighted.
+When a visual selection is made and `<leader>l<space>` is pressed, the newlines are added to the selected region.
+This makes it easy to reformate text note in the one sentance per line format to this format.
+Just use `J` to join all the lines in a paragraph, then press `<V>` then `<leader>l<space>`.
+
+`:DuplicateTabpane` is useful for quickly duplicating your current window layout to a new tab. Then `:TabooRename` can be used to rename the tab to a new name.
+
+Here are my keybindings I use with working with vim-zettel:
+
+```text
+Zettel Vim Keybindings
+
+<leader>zs  ZettelSearchMap
+<leader>zy  ZettelYankNameMap
+<leader>z   ZettelNewSelectedMap
+<leader>nv Notational Vim
+:ZettelNew <title>
+```
+
 ## Basic Apt Installs
 
 This script is used to update and upgrade apt packages, then install a common set of apt packages that I expect every system to have.
@@ -171,7 +218,7 @@ I did not include the fonts in the public repo since I didn't want to check the 
 
 ## Inkscape
 
-I setup Inkscape with the extensions I use.
+I setup Inkscape with the extensions I use. I created my own addition to circuit symbols to make a black box symbol.
 
 ## Bonus: Zork
 
