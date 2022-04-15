@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_pages/blog.md",
+            "file": "_drafts/productivity.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_pages/blog.md",
+                "file": "_drafts/productivity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_pages/blog.md",
+                "file": "_drafts/productivity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_pages/blog.md"
+                "file": "_drafts/productivity.md"
               }
             }
           }
@@ -111,6 +111,7 @@
   },
   "active": "1397b0dab58a5045",
   "lastOpenFiles": [
+    "_drafts/productivity.md",
     "_pages/blog.md",
     "_pages/category-archive.md",
     "_pages/about.md",
