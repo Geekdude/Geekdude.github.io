@@ -11,11 +11,11 @@ header:
 ---
 
 I use [Vim](https://www.vim.org/) and [Visual Studio Code](https://code.visualstudio.com/) as my main text editors, and I have found multiple plugins to both which add nice features to the respective program.
-In this post, I will go over my favorite Vim plugins. I install these plugins as part of [my dotfiles setup]({% link _posts/2022-04-14-dotfiles.md %}), so it is easy to setup vim with plugins on each system I use.
+In this post, I will go over my favorite Vim plugins. I install these plugins as part of [my dotfiles setup]({% link _posts/2022-04-14-dotfiles.md %}), so it is easy to set up Vim with plugins on each system I use.
 
 ## Core Plugins
 
-These plugins are ones that I highly recommend and add what I would consider core features to vim.
+These plugins are ones that I highly recommend and add what I would consider core features to Vim.
 
 ### vim-commentary
 
@@ -33,7 +33,7 @@ Show the file's git diff status in the gutter.
 
 url:  <https://github.com/tpope/vim-vinegar.git>
 
-Makes netrw work much better. Main addition is `-` to go up a directory.
+Makes netrw work much better. The main addition is `-` to go up a directory.
 
 ### vim-unimpaired
 
@@ -93,13 +93,13 @@ Easily search for, substitute, and abbreviate multiple variants of a word.
 
 url:  <https://github.com/mattn/calendar-vim.git>
 
-Open a calendar within vim. Use `:Calendar` to open.
+Open a calendar within Vim. Use `:Calendar` to open.
 
 ### vim-exchange
 
 url:  <https://github.com/tommcdo/vim-exchange.git>
 
-Easy text exchange operator for vim.
+Easy text exchange operator for Vim.
 
 #### Mappings
 
@@ -174,7 +174,7 @@ Perform all your vim insert mode completions with Tab.
 
 url:  <https://github.com/mbbill/undotree.git>
 
-Undo history visualizer for Vim. Use `:UndotreeToggle` to start. This has saved me in the cases where I undid some changes, then accidentally made a new change but wanted to redo to the previous state.
+Undo history visualizer for Vim. Use `:UndotreeToggle` to start. This has saved me in the cases where I undid some changes, then accidentally made a new change but wanted to redo it to the previous state.
 
 ### vim-autocorrect
 
@@ -191,13 +191,13 @@ Browse cheat sheets from [cheat.sh](http://cheat.sh/) directly from vim.
 
 ## Note-taking
 
-These are plugins which go alone with taking notes in vim. See [Personal Knowledge Base and Productivity Presentation]({% link _posts/2022-04-07-productivity.md %}) for more information on note-taking.
+These are plugins that go alone with taking notes in vim. See [Personal Knowledge Base and Productivity Presentation]({% link _posts/2022-04-07-productivity.md %}) for more information on note-taking.
 
 ### vimwiki
 
 url:  <https://github.com/geekdude/vimwiki.git>
 
-A Personal Wiki for vim. I used this as my primary note-taking tool before switching to OneNote. See [Personal Knowledge Base and Productivity Presentation]({% link _posts/2022-04-07-productivity.md %}) for more information on my note-taking system.
+A Personal Wiki for Vim. I used this as my primary note-taking tool before switching to OneNote. See [Personal Knowledge Base and Productivity Presentation]({% link _posts/2022-04-07-productivity.md %}) for more information on my note-taking system.
 
 ### vim-zettel
 
@@ -215,23 +215,23 @@ fzf wrappers for vim.
 
 url:  <https://github.com/alok/notational-fzf-vim>
 
-Notational Velocity for vim. Used to fuzzy search through a Vimwiki.
+Notational Velocity for Vim. It is used to fuzzy search through a Vimwiki.
 
 ## Writing Tools
 
-This are the plugins which help with the paper writing process in vim.
+These are the plugins that help with the paper writing process in Vim.
 
 ### vimtex
 
 url:  <https://github.com/lervag/vimtex.git>
 
-A vim plugin for editing LaTeX files. This is my favorite of the many LaTeX plugins.
+A Vim plugin for editing LaTeX files. This is my favorite of the many LaTeX plugins.
 
 ### vim-dict
 
 url:  <https://github.com/szw/vim-dict.git>
 
-Dictionary lookup inside vim. To lookup a work use the `:Dict` command.
+Dictionary lookup inside Vim. To lookup a work use the `:Dict` command.
 
 ### vim-online-thesaurus
 
@@ -243,19 +243,19 @@ Online thesaurus lookup. Use `<Leader>cs` to query and replace the current word.
 
 url:  <https://github.com/suan/vim-instant-markdown.git>
 
-Instant Markdown previews with vim. Use `:InstantMarkdownPreview` to start.
+Instant Markdown previews with Vim. Use `:InstantMarkdownPreview` to start.
 
 ### LanguageTool
 
 url:  <https://github.com/vim-scripts/LanguageTool.git>
 
-Grammar checker using LanguageTool for vim.
+Grammar checker using LanguageTool for Vim.
 
 ### vim-pencil
 
 url:  <https://github.com/reedes/vim-pencil>
 
-Plugin to help vim be more friendly for writing prose. Handles automatic wrapping of text.
+Plugin to help Vim be more friendly for writing prose. It handles automatic wrapping of text.
 
 ### goyo.vim
 
@@ -269,13 +269,13 @@ Distraction-free writing in Vim.
 
 url:  <https://github.com/nvie/vim-flake8.git>
 
-Verify python syntax with flake8. To use press `<F7>`.
+Verify Python syntax with flake8. To use press `<F7>`.
 
 ### vim-scala
 
 url:  <https://github.com/derekwyatt/vim-scala.git>
 
-Add Scala programming language support to vim.
+Add Scala programming language support to Vim.
 
 ### vim-fish
 
@@ -317,11 +317,11 @@ GVim plugin to highlight hex codes to help with tweaking colors.
 
 url:  <https://github.com/vim-scripts/Conque-GDB.git>
 
-GDB command line interface and terminal emulator in Vim.
+GDB command-line interface and terminal emulator in Vim.
 
 ## Color Themes
 
-Note: I don't use these color schemes, since I created my own color scheme.
+Note: I don't use these color schemes since I created my own color scheme.
 
 ### palenight.vim
 
@@ -349,30 +349,30 @@ Retro groove color scheme for Vim. Recommended by  <https://www.slant.co/topics/
 
 ## Unused but still might be helpful
 
-These are plugins the I no longer use.
+These are plugins that I no longer use.
 
 ### vim-fugitive
 
 url:  <https://github.com/tpope/vim-fugitive.git>
 
-A git wrapper for vim.
+A git wrapper for Vim.
 
 ### YouCompleteMe
 
 url:  <https://github.com/Valloric/YouCompleteMe.git>
 
 A code-completion engine for vim.
-Note: I don't use this one anymore since it was a bigger pain to setup then the benefit to use it.
+Note: I don't use this one anymore since it was a bigger pain to set up than the benefit of using it.
 
 ### vim-smooth-scroll
 
 url:  <https://github.com/terryma/vim-smooth-scroll.git>
 
-Makes scrolling in vim nice and smooth. (Currently I do not have this plugin mapped.)
+Makes scrolling in Vim nice and smooth. (Currently, I do not have this plugin mapped.)
 
 ### vim-qargs
 
 url:  <https://github.com/nelstrom/vim-qargs.git>
 
 Adds a Qargs utility command to populate the argument list from the files in the quickfix list.
-Note: The functionality provided by this project has been made largely obsolete in recent versions of vim.
+Note: The functionality provided by this project has been made largely obsolete in recent versions of Vim.
