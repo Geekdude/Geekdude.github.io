@@ -1,0 +1,984 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>My Dotfiles Storage using Git and Shared Dotfile Repo - Aaron Young</title>
+<meta name="description" content="Introduction and Dotfile Storage Method">
+
+
+  <meta name="author" content="Aaron Young">
+  
+  <meta property="article:author" content="Aaron Young">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Aaron Young">
+<meta property="og:title" content="My Dotfiles Storage using Git and Shared Dotfile Repo">
+<meta property="og:url" content="https://geekdude.github.io/tech/dotfiles/">
+
+
+  <meta property="og:description" content="Introduction and Dotfile Storage Method">
+
+
+
+  <meta property="og:image" content="https://geekdude.github.io/assets/images/dotfiles-header.png">
+
+
+
+  <meta name="twitter:site" content="@Geekdude_360">
+  <meta name="twitter:title" content="My Dotfiles Storage using Git and Shared Dotfile Repo">
+  <meta name="twitter:description" content="Introduction and Dotfile Storage Method">
+  <meta name="twitter:url" content="https://geekdude.github.io/tech/dotfiles/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://geekdude.github.io/assets/images/dotfiles-header.png">
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2022-04-14T00:00:00-04:00">
+
+
+
+
+
+  
+
+  
+    <meta property="fb:app_id" content="406715286767549">
+  
+
+
+<link rel="canonical" href="https://geekdude.github.io/tech/dotfiles/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Aaron Young",
+      "url": "https://geekdude.github.io/",
+      "sameAs": ["https://twitter.com/Geekdude_360","https://www.facebook.com/Geekdude","https://www.linkedin.com/in/aaron-young-0791a53b/","https://bitbucket.org/Geekdude/","https://github.com/Geekdude"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Aaron Young Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href='/assets/favicons/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='/assets/favicons/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes="16x16" href='/assets/favicons/favicon-16x16.png'>
+<link rel="manifest" href='/assets/favicons/site.webmanifest'>
+<link rel="mask-icon" href='/assets/favicons/safari-pinned-tab.svg' color="#5bbad5">
+<link rel="shortcut icon" href='/assets/favicons/favicon.ico'>
+<meta name="msapplication-TileColor" content="#00a300">
+<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo88x88.png" alt="Aaron Young"></a>
+        
+        <a class="site-title" href="/">
+          Aaron Young
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/research/">Research</a>
+            </li><li class="masthead__menu-item">
+              <a href="/publications/">Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/cv/">CV</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero"
+  style=" background-image: url('');"
+>
+  
+    <img src="/assets/images/dotfiles-header.png" alt="My Dotfiles Storage using Git and Shared Dotfile Repo" class="page__hero-image">
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/Aaron_square.jpg" alt="Aaron Young" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Aaron Young</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Software Engineer in the Architectures and Performance Group at Oak Ridge National Laboratory</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Knoxville, TN</span>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:youngar@ornl.gov">
+            <meta itemprop="email" content="youngar@ornl.gov" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.linkedin.com/in/aaron-young-0791a53b" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://bitbucket.org/Geekdude" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i><span class="label">Bitbucket</span>
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="https://github.com/Geekdude" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li><a href="https://scholar.google.com/citations?user=7_WjfTQAAAAJ&hl=en"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+      
+
+      
+      <li><a href="https://orcid.org/0000-0002-5448-4667"><i class="fab fa-orcid"></i> ORCID</a></li>
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="My Dotfiles Storage using Git and Shared Dotfile Repo">
+    <meta itemprop="description" content="Introduction and Dotfile Storage Method">
+    <meta itemprop="datePublished" content="2022-04-14T00:00:00-04:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">My Dotfiles Storage using Git and Shared Dotfile Repo
+</h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          13 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#introduction-and-dotfile-storage-method">Introduction and Dotfile Storage Method</a></li><li><a href="#my-public-dotfiles">My Public Dotfiles</a></li><li><a href="#readmemd">README.md</a></li><li><a href="#makesymlinkssh">makesymlinks.sh</a></li><li><a href="#ssh">Ssh</a></li><li><a href="#git">Git</a></li><li><a href="#fish">Fish</a></li><li><a href="#tmux">Tmux</a></li><li><a href="#vim">Vim</a></li><li><a href="#basic-apt-installs">Basic Apt Installs</a></li><li><a href="#bin">Bin</a></li><li><a href="#fonts">Fonts</a></li><li><a href="#inkscape">Inkscape</a></li><li><a href="#bonus-zork">Bonus: Zork</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="introduction-and-dotfile-storage-method">Introduction and Dotfile Storage Method</h2>
+
+<p>When I started heavily using Linux in college and started customizing and creating configuration files, I quickly needed a way to store, backup, and set up my various configuration dotfiles.
+A logical place to store configuration files is in git.
+You can see modifications to the dotfiles, easily commit new changes, and even make multiple branches if you need different versions of the dotfiles.
+I do not remember the exact tutorial I followed, but a form of the method I used seems to be floating around on the internet in multiple blog posts.
+<a href="https://betterprogramming.pub/managing-your-dotfiles-with-git-4dee603a19a2">Managing Your Dotfiles With Git</a> from 2020 seems to use the same method as me, and credits <a href="http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/">Using Git and Github to Manage Your Dotfiles</a> from 2012 for the method.
+Given the age of the older post and how closely <a href="https://github.com/michaeljsmalley/dotfiles">his example on GitHub</a> matches the first commit of my dotfiles repo, I would guess that this is the template I followed.</p>
+
+<p>I started with a simple base and then built up the dotfiles and configuration over many years.
+My dotfiles repository currently has 623 commits and was started in 2016.
+The original structure from the example can still be found in my setup.
+Therefore, instead of reproducing the same content as <a href="http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/">Using Git and Github to Manage Your Dotfiles</a>, I recommend you pause reading this blog and read about this method of storing dotfiles from the original blog post.</p>
+
+<p><strong>Read <a href="http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/">Using Git and Github to Manage Your Dotfiles</a></strong></p>
+
+<h2 id="my-public-dotfiles">My Public Dotfiles</h2>
+
+<p>Now that you have read about the dotfile setup, you know how the dotfile directory is stored in git.
+A setup script is used to create symlinks from the configuration files in the home directory to point back to configuration files in the dotfiles folder.
+I have multiple branches in my dotfiles repo.
+I have one main branch which I use on my personal Linux machines; then I also have a branch, that I used on the University machines at school, a branch that I use on machines at work, and a branch that I use on WSL machines.
+Each of these types of machines has some deviations from the main branch, but I periodically compare the contents back to the main branch to ensure that all the good features are present in all and that the places they diverge still apply.
+Since some of these configuration files are specific to work or to my own machines, I decided to make a public dotfiles repo, where I will copy the content of my dotfiles which is not sensitive and which is generic across the branches and that I think will be of general use and interest.
+<strong>This public dotfiles repository can be found at <a href="https://github.com/Geekdude/dotfiles">https://github.com/Geekdude/dotfiles</a></strong>.
+I hope you find my dotfiles interesting and helpful as you create your own dotfiles repository.</p>
+
+<p>As you create your own dotfiles repository, I recommend that you start from a simple base, go through example configurations, and understand what the configuration lines are doing.
+Then you can copy in the lines which change the configuration in a way that you like. <em>Don’t just use public configuration examples without taking the time to understand what the configuration is doing.</em>
+You probably do not want parts of my configuration, but some of it you will likely find helpful.
+I enjoy learning about the features of other people’s configurations and potentially incorporating some of the configurations into my own config.
+My configurations started simple and grew over time as I wanted my system to behave differently and searched for a solution or saw a cool configuration on the internet or from colleagues.
+Sometimes I ran into a specific problem and found the solution in a configuration change, then incorporated the change into my configuration files.</p>
+
+<p>Over time I also changed the programs I use, so I have some older configuration files for these programs, even though I do not use these programs as much.
+I also changed which shell I use primarily.
+I started with Bash, then switched to Zsh for the added features.
+Now I am currently using fish.
+I still keep my Bash and Zsh config in case I go back to these shells, but I primarily use fish now.
+One downside to fish, is that it is not compatible with Bash, so I still find myself going back to Bash or Zsh frequently to run Bash scripts.
+I liked the general look I had for Bash, so I kept the same general look as I configured zsh and fish.</p>
+
+<p>Now that you know the general dotfile setup and have access to my public dotfiles, I will talk in more detail about my dotfiles, and as I do, you are free to look through the dotfile repository as well.
+I tried to be clear in the comments of the dotfiles what the configuration lines do, and in this blog post, I will give broader information about the features and reasoning behind the setup.</p>
+
+<h2 id="readmemd">README.md</h2>
+
+<p>The README file goes over how to set up the dotfile configuration on a new system.
+From the steps, you can see how the relatively simple process is made more difficult when I need to use ssh keys to pull from a private repository.</p>
+
+<h2 id="makesymlinkssh">makesymlinks.sh</h2>
+
+<p>This file creates the symlinks for the dotfiles back to the corresponding file in the dotfiles directory.
+Over time, this script was also extended to pull and update external submodules, create other additional symlinks, and link symlinks to folders. 
+This script is run to set up all the dotfiles.
+I have more submodules listed in .gitmodules than I actually use.
+That is why I explicitly list the submodules I want in the script.
+This is primarily done since it is much easier to add a new submodule than to remove it, and I might want to use it again.</p>
+
+<h2 id="ssh">Ssh</h2>
+
+<p>In my private dotfiles repo, I keep passcode protected and GPG encrypted ssh keys.
+The makesymlinks.sh script will call the command to decrypt the keys as part of the setup.
+In practice, I have to add the keys before I can clone the dotfiles directory, and I have to manually set up the symlink to .ssh.
+That’s is the problem with using a private dotfiles repo; the keys need to be in place before you can clone the repo.
+I also use a .ssh/config file to configure connections to remote machines.
+Since the information in .ssh is more sensitive, I have not included any of it in the public dotfiles repo.</p>
+
+<h2 id="git">Git</h2>
+
+<p>The git configuration is stored in <code class="language-plaintext highlighter-rouge">gitconfig</code>, global git ignores are stored in <code class="language-plaintext highlighter-rouge">gitignore_global</code>, and my git hook templates are stored in <code class="language-plaintext highlighter-rouge">git_template</code>.
+I removed the <code class="language-plaintext highlighter-rouge">user.name</code> and <code class="language-plaintext highlighter-rouge">user.email</code> config items from the <code class="language-plaintext highlighter-rouge">gitconfig</code>, but those can be easily added back when git prompts you to set them.</p>
+
+<p>I use <a href="https://www.scootersoftware.com/">Beyond Compare 4</a> as my main diff tool.
+I also added other tools with aliases.
+<code class="language-plaintext highlighter-rouge">vimdiff</code>, <code class="language-plaintext highlighter-rouge">vimmerge</code>, <code class="language-plaintext highlighter-rouge">gvimdiff</code>, and <code class="language-plaintext highlighter-rouge">gvimmerge</code> use Vim and GVim respectively to perform the diff or merge.
+I also found <a href="https://github.com/Wilfred/difftastic">difftastic</a>, which is a better terminal diff than <code class="language-plaintext highlighter-rouge">diff</code> and is aliased to <code class="language-plaintext highlighter-rouge">difft</code>.
+My favorite alias, which I use all the time, is <code class="language-plaintext highlighter-rouge">tree</code>, which prints out a nice tree view of the git log. 
+Other aliases are <code class="language-plaintext highlighter-rouge">sup</code> which recursively updates all submodules, and <code class="language-plaintext highlighter-rouge">sfor</code> is an alias to run a for loop over all submodules.
+I also have <code class="language-plaintext highlighter-rouge">hash</code> which prints out the current git hash, and <code class="language-plaintext highlighter-rouge">pwd</code>, which prints out the top-level directory of the git repo.
+<code class="language-plaintext highlighter-rouge">pwd</code> might be a misleading name, but I can remember it easily.
+Finally, I also have <code class="language-plaintext highlighter-rouge">s</code>, which prints the status of the current directory.</p>
+
+<p>My template directory has the necessary hooks to set up ctags.
+These ctags are then used by my Vim configuration to jump to tags in my file quickly.
+Each time a git operation occurs the, ctags are regenerated, which keeps them up-to-date.
+My global <code class="language-plaintext highlighter-rouge">gitignore_global</code> ignores the generated ctag files.
+Ctags are further discussed in my <a href="/tech/ctags/">Ctags blog post</a></p>
+
+<p>I like to use fast-forward-only so that I have to explicitly choose to make a merge.
+That way, it is easier for me to pick to merge or to rebase instead of defaulting to merge.</p>
+
+<h2 id="fish">Fish</h2>
+
+<p>I like to use the <a href="https://fishshell.com/">fish</a> shell.
+I think it is a well-designed shell with an easy-to-understand configuration structure.
+Out of the box, it has many of the features by default that are a pain to set up in Zsh.
+I was also able to keep the same basic theme as my previous shell configurations.
+Some of my favorite features are:</p>
+
+<ul>
+  <li>Automatic prediction and auto-completion of commands based on previously used commands.</li>
+  <li>Command completion based on man pages. (I also have a function, <code class="language-plaintext highlighter-rouge">fish_add_completions</code>, to generate a manpage from <code class="language-plaintext highlighter-rouge">--help</code> output, and reload the man completions so that programs I write can have easy command completions)</li>
+  <li>Powerful prompt with git status, exit code, time, and the duration of the last command.</li>
+  <li>Easy configuration with a conf.d for config files and functions for custom functions.</li>
+</ul>
+
+<p>My <code class="language-plaintext highlighter-rouge">config.fish</code> has inline comments describing what everything does.
+One thing to point out is that I call <code class="language-plaintext highlighter-rouge">setxkbmap</code> and <code class="language-plaintext highlighter-rouge">xcape</code> commands to replace capslock with control/escape and both shifts with capslock.</p>
+
+<p>Inside <code class="language-plaintext highlighter-rouge">conf.d</code> I have configuration files broken down by the name of what they are configuring.
+Any file in this directory will be included in the configuration of fish.
+I use <code class="language-plaintext highlighter-rouge">ssh_agent.fish</code> to make sure I always have an ssh-agent running.</p>
+
+<p>Inside functions, I have all my custom functions.
+In fish, the prompts are just a shell function, so my prompt is defined in <code class="language-plaintext highlighter-rouge">fish_prompt.fish</code> and <code class="language-plaintext highlighter-rouge">fish_right_prompt.fish</code>.
+<code class="language-plaintext highlighter-rouge">funcedsave.fish</code> combines the built-in <a href="https://fishshell.com/docs/current/cmds/funced.html">funced</a> and <a href="https://fishshell.com/docs/current/cmds/funcsave.html">funcsave</a> functions.</p>
+
+<p><code class="language-plaintext highlighter-rouge">git-add-submodule.fish</code> adds an existing clone nested repository as a submodule of the parent.
+<code class="language-plaintext highlighter-rouge">git-reload-hooks.fish</code> and <code class="language-plaintext highlighter-rouge">git-reload-hooks-all.fish</code> reload hooks based on the git template for either the current repo or recursively into all the submodules.</p>
+
+<p>Something new I am trying is the <a href="https://github.com/jorgebucaran/fisher">fisher</a> fish plugin manager with <a href="https://github.com/jethrokuan/z">z</a> for directory jumping.</p>
+
+<h2 id="tmux">Tmux</h2>
+
+<p>My Tmux config is set up to work with nested local and remote tmux sessions. <code class="language-plaintext highlighter-rouge">tmux.conf</code> specifies the local tmux configuration and <code class="language-plaintext highlighter-rouge">tmux/tmux.remote.conf</code> adjusts the status bar on the remote tmux session.
+&lt;F12&gt; is used to toggle the disable/enable of the outer tmux session to make the inner tmux session easier to work with.</p>
+
+<p>My tmux config also has mouse support, plugins to show resource monitoring, and more Vim-like bindings.</p>
+
+<p>I spent a while figuring out the full-color range for both tmux and fish, and the color settings at the top of the file seem to work.
+Since I use MobaXTerm, which has some nifty features that only work if Bash is your default shell, I use tmux to set my default shell to fish.
+That way, fish is started anytime I start my tmux session.</p>
+
+<p>In <code class="language-plaintext highlighter-rouge">bin</code>, I also have some helpful tmux scrips.
+<code class="language-plaintext highlighter-rouge">tmuxes</code> opens or connects to a new single tmux session with the same view as a previous connection.
+This command only opens a common tmux session, and multiple sessions will follow the same cursor.
+<code class="language-plaintext highlighter-rouge">tmuxs</code> also opens the same tmux session, but this time it creates a new view into it so that the cursor does not follow the previous window.
+<code class="language-plaintext highlighter-rouge">tmux_allow</code> and <code class="language-plaintext highlighter-rouge">tmux_disallow</code> changes the permissions of the tmux socket to allow other users on the same machine to connect to the same tmux session.</p>
+
+<h2 id="vim">Vim</h2>
+
+<p>I use <a href="https://www.vim.org/">Vim</a> and <a href="https://code.visualstudio.com/">Visual Studio Code</a> as my main text editors.
+Vim is still the editor that I am the most proficient with and also the one that I have customized the most.
+With the various plugins I have, my Vim behaves more like a modern tool like Visual Studio Code compared to the vanilla VI editor.
+I have and still use Vim as a code editor, word processor, note taker, and documentation writer, and various plugins make it more suited for these tasks.
+To learn about the plugins I use see <a href="/tech/vim-plugins/">My Favorite Vim Plugins</a>.
+These plugins are installed using <a href="https://github.com/tpope/vim-pathogen">pathogen</a>, and the plugins are added as submodules to my dotfiles repo. <code class="language-plaintext highlighter-rouge">makesymlinks.sh</code> is used to initiate and update the submodules.
+Some of the plugins I have modified and the submodules point to my forks of the original repos.</p>
+
+<p>Just like with my other config files, I have inline comments to explain my configuration.
+However, I will mention here some specific features I have.
+See my <a href="/tech/ctags/">Ctags blog post</a> for more information on how Ctags is set up.
+I like to use three spaces by default, even though that seems like a chaotic-neutral choice on the alignment chart.
+I have a check which disables many features when the text file is over 10MB.
+With this setting, Vim can open humongous text files that break most other text editors.
+I have a function that automatically strips training whitespace from files on save except when editing markdown files since trailing whitespace has meaning in markdown.
+To help see trailing whitespace in those file formats, I add a $/cdot$ in place of the training space.
+I created my own color scheme, which is a modification of the default color scheme.
+I also set up proper 256 and GUI colors so that the color scheme looks good.</p>
+
+<p>I added two useful functions for when I edit text.
+To make line diffing of text easier, and since LaTeX and Vim treat newlines without a blank as part of the same paragraph, I write one sentence per line in the source document.</p>
+
+<div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">" Search for paragraphs that do no end in a newline.</span>
+nnoremap <span class="p">&lt;</span>leader<span class="p">&gt;</span><span class="k">l</span><span class="p">&lt;</span>space<span class="p">&gt;</span> /<span class="p">[.!</span>?<span class="p">]</span><span class="s1">'\?'</span>\?\zs\s\<span class="p">+</span>\ze\<span class="p">(</span>\<span class="k">w</span>\\<span class="p">|</span>\\\<span class="p">)&lt;</span><span class="k">cr</span><span class="p">&gt;</span>
+<span class="c">" Join lines and add a newline at the ends of sentences.</span>
+vnoremap <span class="p">&lt;</span>leader<span class="p">&gt;</span><span class="k">l</span><span class="p">&lt;</span>space<span class="p">&gt;</span> <span class="p">:</span>s<span class="sr">/[.!?]'\?'\?\zs\s\+\ze\(\w\\|\\\)/</span>\<span class="k">r</span>/<span class="k">g</span><span class="p">&lt;</span><span class="k">cr</span><span class="p">&gt;</span>
+</code></pre></div></div>
+
+<p>When <code class="language-plaintext highlighter-rouge">&lt;leader&gt;l&lt;space&gt;</code> is pressed, the sentence ending periods that are not followed by a newline are searched for and highlighted.
+When a visual selection is made, and <code class="language-plaintext highlighter-rouge">&lt;leader&gt;l&lt;space&gt;</code> is pressed, the newlines are added to the selected region.
+This makes it easy to reformat text note in the one sentence per line format to this format.
+Just use <code class="language-plaintext highlighter-rouge">J</code> to join all the lines in a paragraph, then press <code class="language-plaintext highlighter-rouge">&lt;V&gt;</code> then <code class="language-plaintext highlighter-rouge">&lt;leader&gt;l&lt;space&gt;</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">:DuplicateTabpane</code> is useful for quickly duplicating your current window layout to a new tab. Then <code class="language-plaintext highlighter-rouge">:TabooRename</code> can be used to rename the tab to a new name.</p>
+
+<p>Here are my keybindings that I use when working with vim-zettel:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Zettel Vim Keybindings
+
+&lt;leader&gt;zs  ZettelSearchMap
+&lt;leader&gt;zy  ZettelYankNameMap
+&lt;leader&gt;z   ZettelNewSelectedMap
+&lt;leader&gt;nv Notational Vim
+:ZettelNew &lt;title&gt;
+</code></pre></div></div>
+
+<h2 id="basic-apt-installs">Basic Apt Installs</h2>
+
+<p>This script is used to update and upgrade apt packages, then install a common set of apt packages that I expect every system to have.
+Between the dotfiles repo, this script, and Synology drive, I can go from a fresh Ubuntu install to a configure system very quickly.
+This is useful since I redo my computers frequently or set up a new virtual machine.</p>
+
+<h2 id="bin">Bin</h2>
+
+<p><code class="language-plaintext highlighter-rouge">create-thumbnails</code> is used to reduce the resolution of images to create thumbnail versions.
+I use this for my website to reduce the size of the smaller images in a gallery.</p>
+
+<p><code class="language-plaintext highlighter-rouge">pdf-shrink</code> reduces the size of PDFs by calling other commands with the correct arguments.</p>
+
+<p><code class="language-plaintext highlighter-rouge">esv</code> uses the <a href="https://www.esv.org">ESV</a> API to create a terminal program to read or listen to the bible.
+If you want to use this program, you will first have to generate an API token from <a href="https://api.esv.org/">ESV.org</a>.</p>
+
+<p>Reorder is a program I wrote and is discussed in the <a href="/tech/reorder/">Reorder blog post</a></p>
+
+<h2 id="fonts">Fonts</h2>
+
+<p>Here I store all the fonts I want to use across my machines.
+Then, <code class="language-plaintext highlighter-rouge">makesymlinks.sh</code> will create a symlink to the local font location and run <code class="language-plaintext highlighter-rouge">fc-cache</code> to cache the fonts so that they are properly installed as locally installed fonts.
+I did not include the fonts in the public repo since I didn’t want to check the licensing on each font.</p>
+
+<h2 id="inkscape">Inkscape</h2>
+
+<p>I set up Inkscape with the extensions I use. I created my own addition to circuit symbols to make a black box symbol.</p>
+
+<h2 id="bonus-zork">Bonus: Zork</h2>
+
+<p>No system is complete without Zork, so as a bonus, I install Zork by default.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#linux" class="page__taxonomy-item" rel="tag">Linux</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#tech" class="page__taxonomy-item" rel="tag">Tech</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-04-14T00:00:00-04:00">April 14, 2022</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?via=Geekdude_360&text=My+Dotfiles+Storage+using+Git+and+Shared+Dotfile+Repo%20https%3A%2F%2Fgeekdude.github.io%2Ftech%2Fdotfiles%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgeekdude.github.io%2Ftech%2Fdotfiles%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgeekdude.github.io%2Ftech%2Fdotfiles%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/tech/vim-plugins/" class="pagination--pager" title="My Favorite Vim Plugins
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Comments</h4>
+      <section id="utterances-comments"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/vim-plugin-teaser.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/tech/vim-plugins/" rel="permalink">My Favorite Vim Plugins
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">I use Vim and Visual Studio Code as my main text editors, and I have found multiple plugins to both which add nice features to the respective program.
+In thi...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/productivity-teaser.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/research/productivity/" rel="permalink">Personal Knowledge Base and Productivity Presentation
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          28 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">In October last year, I gave a presentation to the my group at ORNL on my productivity/notetaking/engineering-notebook system. Another word for this system i...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/utterances-teaser.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/tech/changing-to-utterances/" rel="permalink">Changing from Disqus to Utterances
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">I have been having an issue where Disqus would not send me any emails when new comments are posted to the website.
+After going through all the settings in Di...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/dean-nairr-teaser.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/tech/dean-nairr/" rel="permalink">Dr. Dean to Serve on National Artificial Intelligence Research Resource Task Force
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">My PhD advisor, Mark Dean, was recentally selected to server on the National Artificial Intelligence Research Resource (NAIRR) Task Force. 
+Read more about i...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="mailto:youngar@ornl.gov" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://bitbucket.org/Geekdude/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+        
+      
+        
+          <li><a href="https://github.com/Geekdude" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/aaron-young-0791a53b" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Aaron Young. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147196137-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147196137-1', { 'anonymize_ip': false});
+</script>
+
+
+
+
+
+
+    <script>
+  'use strict';
+
+  (function() {
+    var commentContainer = document.querySelector('#utterances-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://utteranc.es/client.js');
+    script.setAttribute('repo', 'Geekdude/Geekdude.github.io');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', 'github-light');
+    script.setAttribute('crossorigin', 'anonymous');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+
+  
+
+
+
+
+
+  </body>
+</html>

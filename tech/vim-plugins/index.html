@@ -1,0 +1,1132 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>My Favorite Vim Plugins - Aaron Young</title>
+<meta name="description" content="I use Vim and Visual Studio Code as my main text editors, and I have found multiple plugins to both which add nice features to the respective program. In this post, I will go over my favorite Vim plugins. I install these plugins as part of my dotfiles setup, so it is easy to set up Vim with plugins on each system I use.">
+
+
+  <meta name="author" content="Aaron Young">
+  
+  <meta property="article:author" content="Aaron Young">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Aaron Young">
+<meta property="og:title" content="My Favorite Vim Plugins">
+<meta property="og:url" content="https://geekdude.github.io/tech/vim-plugins/">
+
+
+  <meta property="og:description" content="I use Vim and Visual Studio Code as my main text editors, and I have found multiple plugins to both which add nice features to the respective program. In this post, I will go over my favorite Vim plugins. I install these plugins as part of my dotfiles setup, so it is easy to set up Vim with plugins on each system I use.">
+
+
+
+  <meta property="og:image" content="https://geekdude.github.io/assets/images/vim-plugin-header.png">
+
+
+
+  <meta name="twitter:site" content="@Geekdude_360">
+  <meta name="twitter:title" content="My Favorite Vim Plugins">
+  <meta name="twitter:description" content="I use Vim and Visual Studio Code as my main text editors, and I have found multiple plugins to both which add nice features to the respective program. In this post, I will go over my favorite Vim plugins. I install these plugins as part of my dotfiles setup, so it is easy to set up Vim with plugins on each system I use.">
+  <meta name="twitter:url" content="https://geekdude.github.io/tech/vim-plugins/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://geekdude.github.io/assets/images/vim-plugin-header.png">
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2022-04-13T00:00:00-04:00">
+
+
+
+
+
+  
+
+  
+    <meta property="fb:app_id" content="406715286767549">
+  
+
+
+<link rel="canonical" href="https://geekdude.github.io/tech/vim-plugins/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Aaron Young",
+      "url": "https://geekdude.github.io/",
+      "sameAs": ["https://twitter.com/Geekdude_360","https://www.facebook.com/Geekdude","https://www.linkedin.com/in/aaron-young-0791a53b/","https://bitbucket.org/Geekdude/","https://github.com/Geekdude"]
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Aaron Young Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href='/assets/favicons/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='/assets/favicons/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes="16x16" href='/assets/favicons/favicon-16x16.png'>
+<link rel="manifest" href='/assets/favicons/site.webmanifest'>
+<link rel="mask-icon" href='/assets/favicons/safari-pinned-tab.svg' color="#5bbad5">
+<link rel="shortcut icon" href='/assets/favicons/favicon.ico'>
+<meta name="msapplication-TileColor" content="#00a300">
+<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo88x88.png" alt="Aaron Young"></a>
+        
+        <a class="site-title" href="/">
+          Aaron Young
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/research/">Research</a>
+            </li><li class="masthead__menu-item">
+              <a href="/publications/">Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/cv/">CV</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero"
+  style=" background-image: url('');"
+>
+  
+    <img src="/assets/images/vim-plugin-header.png" alt="My Favorite Vim Plugins" class="page__hero-image">
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/Aaron_square.jpg" alt="Aaron Young" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Aaron Young</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Software Engineer in the Architectures and Performance Group at Oak Ridge National Laboratory</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Knoxville, TN</span>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:youngar@ornl.gov">
+            <meta itemprop="email" content="youngar@ornl.gov" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.linkedin.com/in/aaron-young-0791a53b" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://bitbucket.org/Geekdude" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i><span class="label">Bitbucket</span>
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="https://github.com/Geekdude" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+      <li><a href="https://scholar.google.com/citations?user=7_WjfTQAAAAJ&hl=en"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+      
+
+      
+      <li><a href="https://orcid.org/0000-0002-5448-4667"><i class="fab fa-orcid"></i> ORCID</a></li>
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="My Favorite Vim Plugins">
+    <meta itemprop="description" content="I use Vim and Visual Studio Code as my main text editors, and I have found multiple plugins to both which add nice features to the respective program.In this post, I will go over my favorite Vim plugins. I install these plugins as part of my dotfiles setup, so it is easy to set up Vim with plugins on each system I use.">
+    <meta itemprop="datePublished" content="2022-04-13T00:00:00-04:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">My Favorite Vim Plugins
+</h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#core-plugins">Core Plugins</a><ul><li><a href="#vim-commentary">vim-commentary</a></li><li><a href="#vim-gitgutter">vim-gitgutter</a></li><li><a href="#vim-vinegar">vim-vinegar</a></li><li><a href="#vim-unimpaired">vim-unimpaired</a></li><li><a href="#vim-rename">vim-rename</a></li><li><a href="#vim-textobj-entire">vim-textobj-entire</a></li><li><a href="#vim-capslock">vim-capslock</a></li><li><a href="#vim-textobj-user">vim-textobj-user</a></li><li><a href="#vim-repeat">vim-repeat</a></li><li><a href="#vim-surround">vim-surround</a></li><li><a href="#vim-visual-star-search">vim-visual-star-search</a></li><li><a href="#vim-abolish">vim-abolish</a></li><li><a href="#calendar-vim">calendar-vim</a></li><li><a href="#vim-exchange">vim-exchange</a><ul><li><a href="#mappings">Mappings</a></li><li><a href="#some-notes">Some notes</a></li></ul></li><li><a href="#vim-textobj-sentence">vim-textobj-sentence</a></li><li><a href="#taboo">Taboo</a></li></ul></li><li><a href="#awesome-added-features">Awesome Added Features</a><ul><li><a href="#tabular">tabular</a></li><li><a href="#ctrlpvim">ctrlp.vim</a></li><li><a href="#vim-buffergator">vim-buffergator</a></li><li><a href="#tagbar">tagbar</a></li><li><a href="#supertab">supertab</a></li><li><a href="#undotree">undotree</a></li><li><a href="#vim-autocorrect">vim-autocorrect</a></li><li><a href="#cheatsh-vim">Cheat.sh-vim</a></li></ul></li><li><a href="#note-taking">Note-taking</a><ul><li><a href="#vimwiki">vimwiki</a></li><li><a href="#vim-zettel">vim-zettel</a></li><li><a href="#fzf">fzf</a></li><li><a href="#notational-fzf-vim">notational-fzf-vim</a></li></ul></li><li><a href="#writing-tools">Writing Tools</a><ul><li><a href="#vimtex">vimtex</a></li><li><a href="#vim-dict">vim-dict</a></li><li><a href="#vim-online-thesaurus">vim-online-thesaurus</a></li><li><a href="#vim-instant-markdown">vim-instant-markdown</a></li><li><a href="#languagetool">LanguageTool</a></li><li><a href="#vim-pencil">vim-pencil</a></li><li><a href="#goyovim">goyo.vim</a></li></ul></li><li><a href="#coding-or-language-support">Coding or Language Support</a><ul><li><a href="#vim-flake8">vim-flake8</a></li><li><a href="#vim-scala">vim-scala</a></li><li><a href="#vim-fish">vim-fish</a></li><li><a href="#doxygentoolkitvim">DoxygenToolkit.vim</a></li><li><a href="#vim-gdscript3">vim-gdscript3</a></li></ul></li><li><a href="#plugins-used-for-code-and-colorscheme-debugging">Plugins used for code and colorscheme debugging</a><ul><li><a href="#vim-hilinktrace">vim-HiLinkTrace</a></li><li><a href="#xterm-color-tablevim">xterm-color-table.vim</a></li><li><a href="#hexhighlight">hexHighlight</a></li><li><a href="#conque-gdb">Conque-GDB</a></li></ul></li><li><a href="#color-themes">Color Themes</a><ul><li><a href="#palenightvim">palenight.vim</a></li><li><a href="#vim-one">vim-one</a></li><li><a href="#molokai">molokai</a></li><li><a href="#gruvbox">gruvbox</a></li></ul></li><li><a href="#unused-but-still-might-be-helpful">Unused but still might be helpful</a><ul><li><a href="#vim-fugitive">vim-fugitive</a></li><li><a href="#youcompleteme">YouCompleteMe</a></li><li><a href="#vim-smooth-scroll">vim-smooth-scroll</a></li><li><a href="#vim-qargs">vim-qargs</a></li></ul></li></ul>
+
+            </nav>
+          </aside>
+        
+        <p>I use <a href="https://www.vim.org/">Vim</a> and <a href="https://code.visualstudio.com/">Visual Studio Code</a> as my main text editors, and I have found multiple plugins to both which add nice features to the respective program.
+In this post, I will go over my favorite Vim plugins. I install these plugins as part of <a href="/tech/dotfiles/">my dotfiles setup</a>, so it is easy to set up Vim with plugins on each system I use.</p>
+
+<h2 id="core-plugins">Core Plugins</h2>
+
+<p>These plugins are ones that I highly recommend and add what I would consider core features to Vim.</p>
+
+<h3 id="vim-commentary">vim-commentary</h3>
+
+<p>url:  <a href="https://github.com/tpope/vim-commentary.git">https://github.com/tpope/vim-commentary.git</a></p>
+
+<p>Comment stuff out. Use <code class="language-plaintext highlighter-rouge">gcc</code> to comment out a line and <code class="language-plaintext highlighter-rouge">gc</code> to comment out a motion.</p>
+
+<h3 id="vim-gitgutter">vim-gitgutter</h3>
+
+<p>url:  <a href="https://github.com/airblade/vim-gitgutter.git">https://github.com/airblade/vim-gitgutter.git</a></p>
+
+<p>Show the file’s git diff status in the gutter.</p>
+
+<h3 id="vim-vinegar">vim-vinegar</h3>
+
+<p>url:  <a href="https://github.com/tpope/vim-vinegar.git">https://github.com/tpope/vim-vinegar.git</a></p>
+
+<p>Makes netrw work much better. The main addition is <code class="language-plaintext highlighter-rouge">-</code> to go up a directory.</p>
+
+<h3 id="vim-unimpaired">vim-unimpaired</h3>
+
+<p>url:  <a href="https://github.com/tpope/vim-unimpaired.git">https://github.com/tpope/vim-unimpaired.git</a></p>
+
+<p>Pairs of handy bracket mappings. They allow <code class="language-plaintext highlighter-rouge">[</code> or <code class="language-plaintext highlighter-rouge">]</code> followed by a character to jump forward or backward. <code class="language-plaintext highlighter-rouge">]q</code> is <code class="language-plaintext highlighter-rouge">:cnext</code>. <code class="language-plaintext highlighter-rouge">[q</code> is <code class="language-plaintext highlighter-rouge">:cprevious</code>. <code class="language-plaintext highlighter-rouge">]a</code> is <code class="language-plaintext highlighter-rouge">:next</code>. <code class="language-plaintext highlighter-rouge">[b</code> is <code class="language-plaintext highlighter-rouge">:bprevious</code>. See the documentation for the full set of 20 mappings and mnemonics.</p>
+
+<h3 id="vim-rename">vim-rename</h3>
+
+<p>url:  <a href="https://github.com/wojtekmach/vim-rename.git">https://github.com/wojtekmach/vim-rename.git</a></p>
+
+<p>Rename a buffer within vim and on disk. Use <code class="language-plaintext highlighter-rouge">:saveas &lt;newfile&gt;</code> to rename the file and remove the old file from disk.</p>
+
+<h3 id="vim-textobj-entire">vim-textobj-entire</h3>
+
+<p>url:  <a href="https://github.com/kana/vim-textobj-entire.git">https://github.com/kana/vim-textobj-entire.git</a></p>
+
+<p>Provides text objects <code class="language-plaintext highlighter-rouge">ae</code> and <code class="language-plaintext highlighter-rouge">ie</code> which represent the entire buffer.</p>
+
+<h3 id="vim-capslock">vim-capslock</h3>
+
+<p>url:  <a href="https://github.com/tpope/vim-capslock.git">https://github.com/tpope/vim-capslock.git</a></p>
+
+<p>Press <code class="language-plaintext highlighter-rouge">&lt;C-G&gt;c</code> in insert mode to toggle a temporary software caps lock. I used this when I didn’t have a caps lock since I rebound it to control. Now I don’t use this as much since pressing both shift keys is my caps lock.</p>
+
+<h3 id="vim-textobj-user">vim-textobj-user</h3>
+
+<p>url:  <a href="https://github.com/kana/vim-textobj-user.git">https://github.com/kana/vim-textobj-user.git</a></p>
+
+<p>Create your own text objects easily. Used by other plugins.</p>
+
+<h3 id="vim-repeat">vim-repeat</h3>
+
+<p>url:  <a href="https://github.com/tpope/vim-repeat.git">https://github.com/tpope/vim-repeat.git</a></p>
+
+<p>Enables repeating supported plugin maps with <code class="language-plaintext highlighter-rouge">..</code></p>
+
+<h3 id="vim-surround">vim-surround</h3>
+
+<p>url:  <a href="https://github.com/tpope/vim-surround.git">https://github.com/tpope/vim-surround.git</a></p>
+
+<p>Adds surround text mapping with s. I.e., <code class="language-plaintext highlighter-rouge">cs"'</code> to change <code class="language-plaintext highlighter-rouge">"</code> to <code class="language-plaintext highlighter-rouge">'</code> surrounding text.</p>
+
+<h3 id="vim-visual-star-search">vim-visual-star-search</h3>
+
+<p>url:  <a href="https://github.com/nelstrom/vim-visual-star-search.git">https://github.com/nelstrom/vim-visual-star-search.git</a></p>
+
+<p>Start a <code class="language-plaintext highlighter-rouge">*</code> or <code class="language-plaintext highlighter-rouge">#</code> search from a visual block.</p>
+
+<h3 id="vim-abolish">vim-abolish</h3>
+
+<p>url:  <a href="https://github.com/tpope/vim-abolish.git">https://github.com/tpope/vim-abolish.git</a></p>
+
+<p>Easily search for, substitute, and abbreviate multiple variants of a word.</p>
+
+<h3 id="calendar-vim">calendar-vim</h3>
+
+<p>url:  <a href="https://github.com/mattn/calendar-vim.git">https://github.com/mattn/calendar-vim.git</a></p>
+
+<p>Open a calendar within Vim. Use <code class="language-plaintext highlighter-rouge">:Calendar</code> to open.</p>
+
+<h3 id="vim-exchange">vim-exchange</h3>
+
+<p>url:  <a href="https://github.com/tommcdo/vim-exchange.git">https://github.com/tommcdo/vim-exchange.git</a></p>
+
+<p>Easy text exchange operator for Vim.</p>
+
+<h4 id="mappings">Mappings</h4>
+
+<p><code class="language-plaintext highlighter-rouge">cx</code></p>
+
+<p>On the first use, define the first <code class="language-plaintext highlighter-rouge">{motion}</code> to exchange. On the second use, define the second <code class="language-plaintext highlighter-rouge">{motion}</code> and perform the exchange.</p>
+
+<p><code class="language-plaintext highlighter-rouge">cxx</code></p>
+
+<p>Like <code class="language-plaintext highlighter-rouge">cx</code>, but use the current line.</p>
+
+<p><code class="language-plaintext highlighter-rouge">X</code></p>
+
+<p>Like <code class="language-plaintext highlighter-rouge">cx</code>, but for Visual mode.</p>
+
+<p><code class="language-plaintext highlighter-rouge">cxc</code></p>
+
+<p>Clear any <code class="language-plaintext highlighter-rouge">{motion}</code> pending for exchange.</p>
+
+<h4 id="some-notes">Some notes</h4>
+
+<p>If you’re using the same motion again (e.g. exchanging two words using <code class="language-plaintext highlighter-rouge">cxiw</code>), you can use <code class="language-plaintext highlighter-rouge">.</code> the second time.
+If one region is fully contained within the other, it will replace the containing region.</p>
+
+<h3 id="vim-textobj-sentence">vim-textobj-sentence</h3>
+
+<p>url:  <a href="https://github.com/reedes/vim-textobj-sentence.git">https://github.com/reedes/vim-textobj-sentence.git</a></p>
+
+<p>Improving on Vim’s native sentence text object and motion.</p>
+
+<h3 id="taboo">Taboo</h3>
+
+<p>url:  <a href="https://github.com/gcmt/taboo.vim">https://github.com/gcmt/taboo.vim</a></p>
+
+<p>Few utilities for pretty tabs. <code class="language-plaintext highlighter-rouge">:TabooRename &lt;name&gt;</code> to rename a tab.</p>
+
+<h2 id="awesome-added-features">Awesome Added Features</h2>
+
+<p>These plugins add cool new features to Vim.</p>
+
+<h3 id="tabular">tabular</h3>
+
+<p>url:  <a href="https://github.com/godlygeek/tabular.git">https://github.com/godlygeek/tabular.git</a></p>
+
+<p>Vim script for text filtering and alignment. Amazing plugin for aligning LaTeX tables and assignment lists.</p>
+
+<h3 id="ctrlpvim">ctrlp.vim</h3>
+
+<p>url:  <a href="https://github.com/ctrlpvim/ctrlp.vim.git">https://github.com/ctrlpvim/ctrlp.vim.git</a></p>
+
+<p>Use <code class="language-plaintext highlighter-rouge">&lt;c-p&gt;</code> for a fuzzy finder. Easily search for files.</p>
+
+<h3 id="vim-buffergator">vim-buffergator</h3>
+
+<p>url:  <a href="https://github.com/jeetsukumaran/vim-buffergator.git">https://github.com/jeetsukumaran/vim-buffergator.git</a></p>
+
+<p>List, select, and switch between buffers. Use <code class="language-plaintext highlighter-rouge">&lt;Leader&gt;b</code> to open the buffer side panel.</p>
+
+<h3 id="tagbar">tagbar</h3>
+
+<p>url:  <a href="https://github.com/majutsushi/tagbar.git">https://github.com/majutsushi/tagbar.git</a></p>
+
+<p>Display tags in a window, ordered by scope. Used to navigate quickly within a file. Use <code class="language-plaintext highlighter-rouge">&lt;Leader&gt;cc</code> to open.</p>
+
+<h3 id="supertab">supertab</h3>
+
+<p>url:  <a href="https://github.com/ervandew/supertab.git">https://github.com/ervandew/supertab.git</a></p>
+
+<p>Perform all your vim insert mode completions with Tab.</p>
+
+<h3 id="undotree">undotree</h3>
+
+<p>url:  <a href="https://github.com/mbbill/undotree.git">https://github.com/mbbill/undotree.git</a></p>
+
+<p>Undo history visualizer for Vim. Use <code class="language-plaintext highlighter-rouge">:UndotreeToggle</code> to start. This has saved me in the cases where I undid some changes, then accidentally made a new change but wanted to redo it to the previous state.</p>
+
+<h3 id="vim-autocorrect">vim-autocorrect</h3>
+
+<p>url:  <a href="https://github.com/panozzaj/vim-autocorrect.git">https://github.com/panozzaj/vim-autocorrect.git</a></p>
+
+<p>Correct common typos and misspellings as you type in Vim.
+Note: this plugin is slow to load, but I still find it super helpful and less annoying than Word’s autocorrect.</p>
+
+<h3 id="cheatsh-vim">Cheat.sh-vim</h3>
+
+<p>url: <a href="https://github.com/dbeniamine/cheat.sh-vim">https://github.com/dbeniamine/cheat.sh-vim</a></p>
+
+<p>Browse cheat sheets from <a href="http://cheat.sh/">cheat.sh</a> directly from vim.</p>
+
+<h2 id="note-taking">Note-taking</h2>
+
+<p>These are plugins that go alone with taking notes in vim. See <a href="/research/productivity/">Personal Knowledge Base and Productivity Presentation</a> for more information on note-taking.</p>
+
+<h3 id="vimwiki">vimwiki</h3>
+
+<p>url:  <a href="https://github.com/geekdude/vimwiki.git">https://github.com/geekdude/vimwiki.git</a></p>
+
+<p>A Personal Wiki for Vim. I used this as my primary note-taking tool before switching to OneNote. See <a href="/research/productivity/">Personal Knowledge Base and Productivity Presentation</a> for more information on my note-taking system.</p>
+
+<h3 id="vim-zettel">vim-zettel</h3>
+
+<p>url:  <a href="https://github.com/michal-h21/vim-zettel">https://github.com/michal-h21/vim-zettel</a></p>
+
+<p>Vim plugin to implement Zettelkasten with Vimwiki.</p>
+
+<h3 id="fzf">fzf</h3>
+
+<p>url:  <a href="https://github.com/junegunn/fzf.vim">https://github.com/junegunn/fzf.vim</a></p>
+
+<p>fzf wrappers for vim.</p>
+
+<h3 id="notational-fzf-vim">notational-fzf-vim</h3>
+
+<p>url:  <a href="https://github.com/alok/notational-fzf-vim">https://github.com/alok/notational-fzf-vim</a></p>
+
+<p>Notational Velocity for Vim. It is used to fuzzy search through a Vimwiki.</p>
+
+<h2 id="writing-tools">Writing Tools</h2>
+
+<p>These are the plugins that help with the paper writing process in Vim.</p>
+
+<h3 id="vimtex">vimtex</h3>
+
+<p>url:  <a href="https://github.com/lervag/vimtex.git">https://github.com/lervag/vimtex.git</a></p>
+
+<p>A Vim plugin for editing LaTeX files. This is my favorite of the many LaTeX plugins.</p>
+
+<h3 id="vim-dict">vim-dict</h3>
+
+<p>url:  <a href="https://github.com/szw/vim-dict.git">https://github.com/szw/vim-dict.git</a></p>
+
+<p>Dictionary lookup inside Vim. To lookup a work use the <code class="language-plaintext highlighter-rouge">:Dict</code> command.</p>
+
+<h3 id="vim-online-thesaurus">vim-online-thesaurus</h3>
+
+<p>url:  <a href="https://github.com/Ron89/thesaurus_query.vim">https://github.com/Ron89/thesaurus_query.vim</a></p>
+
+<p>Online thesaurus lookup. Use <code class="language-plaintext highlighter-rouge">&lt;Leader&gt;cs</code> to query and replace the current word.</p>
+
+<h3 id="vim-instant-markdown">vim-instant-markdown</h3>
+
+<p>url:  <a href="https://github.com/suan/vim-instant-markdown.git">https://github.com/suan/vim-instant-markdown.git</a></p>
+
+<p>Instant Markdown previews with Vim. Use <code class="language-plaintext highlighter-rouge">:InstantMarkdownPreview</code> to start.</p>
+
+<h3 id="languagetool">LanguageTool</h3>
+
+<p>url:  <a href="https://github.com/vim-scripts/LanguageTool.git">https://github.com/vim-scripts/LanguageTool.git</a></p>
+
+<p>Grammar checker using LanguageTool for Vim.</p>
+
+<h3 id="vim-pencil">vim-pencil</h3>
+
+<p>url:  <a href="https://github.com/reedes/vim-pencil">https://github.com/reedes/vim-pencil</a></p>
+
+<p>Plugin to help Vim be more friendly for writing prose. It handles automatic wrapping of text.</p>
+
+<h3 id="goyovim">goyo.vim</h3>
+
+<p>url:  <a href="https://github.com/junegunn/goyo.vim.git">https://github.com/junegunn/goyo.vim.git</a></p>
+
+<p>Distraction-free writing in Vim.</p>
+
+<h2 id="coding-or-language-support">Coding or Language Support</h2>
+
+<h3 id="vim-flake8">vim-flake8</h3>
+
+<p>url:  <a href="https://github.com/nvie/vim-flake8.git">https://github.com/nvie/vim-flake8.git</a></p>
+
+<p>Verify Python syntax with flake8. To use press <code class="language-plaintext highlighter-rouge">&lt;F7&gt;</code>.</p>
+
+<h3 id="vim-scala">vim-scala</h3>
+
+<p>url:  <a href="https://github.com/derekwyatt/vim-scala.git">https://github.com/derekwyatt/vim-scala.git</a></p>
+
+<p>Add Scala programming language support to Vim.</p>
+
+<h3 id="vim-fish">vim-fish</h3>
+
+<p>url:  <a href="https://github.com/dag/vim-fish.git">https://github.com/dag/vim-fish.git</a></p>
+
+<p>Vim support for editing fish scripts.</p>
+
+<h3 id="doxygentoolkitvim">DoxygenToolkit.vim</h3>
+
+<p>url:  <a href="https://github.com/vim-scripts/DoxygenToolkit.vim.git">https://github.com/vim-scripts/DoxygenToolkit.vim.git</a></p>
+
+<p>Simplify Doxygen documentation in C, C++, Python.</p>
+
+<h3 id="vim-gdscript3">vim-gdscript3</h3>
+
+<p>url:  <a href="https://github.com/calviken/vim-gdscript3">https://github.com/calviken/vim-gdscript3</a></p>
+
+<p>Support syntax for Godot script.</p>
+
+<h2 id="plugins-used-for-code-and-colorscheme-debugging">Plugins used for code and colorscheme debugging</h2>
+
+<h3 id="vim-hilinktrace">vim-HiLinkTrace</h3>
+
+<p>url:  <a href="https://github.com/gerw/vim-HiLinkTrace.git">https://github.com/gerw/vim-HiLinkTrace.git</a></p>
+
+<p>Trace highlighting with <code class="language-plaintext highlighter-rouge">\hlt</code>.</p>
+
+<h3 id="xterm-color-tablevim">xterm-color-table.vim</h3>
+
+<p>url:  <a href="https://github.com/guns/xterm-color-table.vim.git">https://github.com/guns/xterm-color-table.vim.git</a></p>
+
+<p>Displays all 256 terminal colors with the command <code class="language-plaintext highlighter-rouge">:XtermColorTable.</code></p>
+
+<h3 id="hexhighlight">hexHighlight</h3>
+
+<p>GVim plugin to highlight hex codes to help with tweaking colors.</p>
+
+<h3 id="conque-gdb">Conque-GDB</h3>
+
+<p>url:  <a href="https://github.com/vim-scripts/Conque-GDB.git">https://github.com/vim-scripts/Conque-GDB.git</a></p>
+
+<p>GDB command-line interface and terminal emulator in Vim.</p>
+
+<h2 id="color-themes">Color Themes</h2>
+
+<p>Note: I don’t use these color schemes since I created my own color scheme.</p>
+
+<h3 id="palenightvim">palenight.vim</h3>
+
+<p>url:  <a href="https://github.com/drewtempelmeyer/palenight.vim.git">https://github.com/drewtempelmeyer/palenight.vim.git</a></p>
+
+<p>Soothing color scheme for vim. Recommended by  <a href="https://blog.pabuisson.com/2018/06/favorite-color-schemes-modern-vim-neovim/">https://blog.pabuisson.com/2018/06/favorite-color-schemes-modern-vim-neovim/</a></p>
+
+<h3 id="vim-one">vim-one</h3>
+
+<p>url:  <a href="https://github.com/rakr/vim-one.git">https://github.com/rakr/vim-one.git</a></p>
+
+<p>Adaptation of one-light and one-dark (Atom) colorschemes for vim. Recommended by  <a href="https://blog.pabuisson.com/2018/06/favorite-color-schemes-modern-vim-neovim/">https://blog.pabuisson.com/2018/06/favorite-color-schemes-modern-vim-neovim/</a></p>
+
+<h3 id="molokai">molokai</h3>
+
+<p>url:  <a href="https://github.com/tomasr/molokai.git">https://github.com/tomasr/molokai.git</a></p>
+
+<p>Molokai color scheme for Vim. Recommended by  <a href="https://www.slant.co/topics/480/~best-vim-color-schemes">https://www.slant.co/topics/480/~best-vim-color-schemes</a></p>
+
+<h3 id="gruvbox">gruvbox</h3>
+
+<p>url:  <a href="https://github.com/morhetz/gruvbox.git">https://github.com/morhetz/gruvbox.git</a></p>
+
+<p>Retro groove color scheme for Vim. Recommended by  <a href="https://www.slant.co/topics/480/~best-vim-color-schemes">https://www.slant.co/topics/480/~best-vim-color-schemes</a></p>
+
+<h2 id="unused-but-still-might-be-helpful">Unused but still might be helpful</h2>
+
+<p>These are plugins that I no longer use.</p>
+
+<h3 id="vim-fugitive">vim-fugitive</h3>
+
+<p>url:  <a href="https://github.com/tpope/vim-fugitive.git">https://github.com/tpope/vim-fugitive.git</a></p>
+
+<p>A git wrapper for Vim.</p>
+
+<h3 id="youcompleteme">YouCompleteMe</h3>
+
+<p>url:  <a href="https://github.com/Valloric/YouCompleteMe.git">https://github.com/Valloric/YouCompleteMe.git</a></p>
+
+<p>A code-completion engine for vim.
+Note: I don’t use this one anymore since it was a bigger pain to set up than the benefit of using it.</p>
+
+<h3 id="vim-smooth-scroll">vim-smooth-scroll</h3>
+
+<p>url:  <a href="https://github.com/terryma/vim-smooth-scroll.git">https://github.com/terryma/vim-smooth-scroll.git</a></p>
+
+<p>Makes scrolling in Vim nice and smooth. (Currently, I do not have this plugin mapped.)</p>
+
+<h3 id="vim-qargs">vim-qargs</h3>
+
+<p>url:  <a href="https://github.com/nelstrom/vim-qargs.git">https://github.com/nelstrom/vim-qargs.git</a></p>
+
+<p>Adds a Qargs utility command to populate the argument list from the files in the quickfix list.
+Note: The functionality provided by this project has been made largely obsolete in recent versions of Vim.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#vim" class="page__taxonomy-item" rel="tag">Vim</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#tech" class="page__taxonomy-item" rel="tag">Tech</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-04-13T00:00:00-04:00">April 13, 2022</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?via=Geekdude_360&text=My+Favorite+Vim+Plugins%20https%3A%2F%2Fgeekdude.github.io%2Ftech%2Fvim-plugins%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgeekdude.github.io%2Ftech%2Fvim-plugins%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgeekdude.github.io%2Ftech%2Fvim-plugins%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/research/productivity/" class="pagination--pager" title="Personal Knowledge Base and Productivity Presentation
+">Previous</a>
+    
+    
+      <a href="/tech/dotfiles/" class="pagination--pager" title="My Dotfiles Storage using Git and Shared Dotfile Repo
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Comments</h4>
+      <section id="utterances-comments"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/dotfiles-teaser.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/tech/dotfiles/" rel="permalink">My Dotfiles Storage using Git and Shared Dotfile Repo
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          13 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Introduction and Dotfile Storage Method
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/productivity-teaser.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/research/productivity/" rel="permalink">Personal Knowledge Base and Productivity Presentation
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          28 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">In October last year, I gave a presentation to the my group at ORNL on my productivity/notetaking/engineering-notebook system. Another word for this system i...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/utterances-teaser.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/tech/changing-to-utterances/" rel="permalink">Changing from Disqus to Utterances
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">I have been having an issue where Disqus would not send me any emails when new comments are posted to the website.
+After going through all the settings in Di...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/dean-nairr-teaser.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/tech/dean-nairr/" rel="permalink">Dr. Dean to Serve on National Artificial Intelligence Research Resource Task Force
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">My PhD advisor, Mark Dean, was recentally selected to server on the National Artificial Intelligence Research Resource (NAIRR) Task Force. 
+Read more about i...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="mailto:youngar@ornl.gov" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://bitbucket.org/Geekdude/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+        
+      
+        
+          <li><a href="https://github.com/Geekdude" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/aaron-young-0791a53b" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Aaron Young. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147196137-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147196137-1', { 'anonymize_ip': false});
+</script>
+
+
+
+
+
+
+    <script>
+  'use strict';
+
+  (function() {
+    var commentContainer = document.querySelector('#utterances-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://utteranc.es/client.js');
+    script.setAttribute('repo', 'Geekdude/Geekdude.github.io');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', 'github-light');
+    script.setAttribute('crossorigin', 'anonymous');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+
+  
+
+
+
+
+
+  </body>
+</html>

@@ -1,4 +1,587 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2022-04-14T10:41:31-04:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><entry><title type="html">Personal Knowledge Base and Productivity Presentation</title><link href="https://geekdude.github.io/research/productivity/" rel="alternate" type="text/html" title="Personal Knowledge Base and Productivity Presentation" /><published>2022-04-07T00:00:00-04:00</published><updated>2022-04-07T00:00:00-04:00</updated><id>https://geekdude.github.io/research/productivity</id><content type="html" xml:base="https://geekdude.github.io/research/productivity/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2022-04-15T21:25:23-04:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><entry><title type="html">My Dotfiles Storage using Git and Shared Dotfile Repo</title><link href="https://geekdude.github.io/tech/dotfiles/" rel="alternate" type="text/html" title="My Dotfiles Storage using Git and Shared Dotfile Repo" /><published>2022-04-14T00:00:00-04:00</published><updated>2022-04-14T00:00:00-04:00</updated><id>https://geekdude.github.io/tech/dotfiles</id><content type="html" xml:base="https://geekdude.github.io/tech/dotfiles/">&lt;h2 id=&quot;introduction-and-dotfile-storage-method&quot;&gt;Introduction and Dotfile Storage Method&lt;/h2&gt;
+
+&lt;p&gt;When I started heavily using Linux in college and started customizing and creating configuration files, I quickly needed a way to store, backup, and set up my various configuration dotfiles.
+A logical place to store configuration files is in git.
+You can see modifications to the dotfiles, easily commit new changes, and even make multiple branches if you need different versions of the dotfiles.
+I do not remember the exact tutorial I followed, but a form of the method I used seems to be floating around on the internet in multiple blog posts.
+&lt;a href=&quot;https://betterprogramming.pub/managing-your-dotfiles-with-git-4dee603a19a2&quot;&gt;Managing Your Dotfiles With Git&lt;/a&gt; from 2020 seems to use the same method as me, and credits &lt;a href=&quot;http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/&quot;&gt;Using Git and Github to Manage Your Dotfiles&lt;/a&gt; from 2012 for the method.
+Given the age of the older post and how closely &lt;a href=&quot;https://github.com/michaeljsmalley/dotfiles&quot;&gt;his example on GitHub&lt;/a&gt; matches the first commit of my dotfiles repo, I would guess that this is the template I followed.&lt;/p&gt;
+
+&lt;p&gt;I started with a simple base and then built up the dotfiles and configuration over many years.
+My dotfiles repository currently has 623 commits and was started in 2016.
+The original structure from the example can still be found in my setup.
+Therefore, instead of reproducing the same content as &lt;a href=&quot;http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/&quot;&gt;Using Git and Github to Manage Your Dotfiles&lt;/a&gt;, I recommend you pause reading this blog and read about this method of storing dotfiles from the original blog post.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Read &lt;a href=&quot;http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/&quot;&gt;Using Git and Github to Manage Your Dotfiles&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;my-public-dotfiles&quot;&gt;My Public Dotfiles&lt;/h2&gt;
+
+&lt;p&gt;Now that you have read about the dotfile setup, you know how the dotfile directory is stored in git.
+A setup script is used to create symlinks from the configuration files in the home directory to point back to configuration files in the dotfiles folder.
+I have multiple branches in my dotfiles repo.
+I have one main branch which I use on my personal Linux machines; then I also have a branch, that I used on the University machines at school, a branch that I use on machines at work, and a branch that I use on WSL machines.
+Each of these types of machines has some deviations from the main branch, but I periodically compare the contents back to the main branch to ensure that all the good features are present in all and that the places they diverge still apply.
+Since some of these configuration files are specific to work or to my own machines, I decided to make a public dotfiles repo, where I will copy the content of my dotfiles which is not sensitive and which is generic across the branches and that I think will be of general use and interest.
+&lt;strong&gt;This public dotfiles repository can be found at &lt;a href=&quot;https://github.com/Geekdude/dotfiles&quot;&gt;https://github.com/Geekdude/dotfiles&lt;/a&gt;&lt;/strong&gt;.
+I hope you find my dotfiles interesting and helpful as you create your own dotfiles repository.&lt;/p&gt;
+
+&lt;p&gt;As you create your own dotfiles repository, I recommend that you start from a simple base, go through example configurations, and understand what the configuration lines are doing.
+Then you can copy in the lines which change the configuration in a way that you like. &lt;em&gt;Don’t just use public configuration examples without taking the time to understand what the configuration is doing.&lt;/em&gt;
+You probably do not want parts of my configuration, but some of it you will likely find helpful.
+I enjoy learning about the features of other people’s configurations and potentially incorporating some of the configurations into my own config.
+My configurations started simple and grew over time as I wanted my system to behave differently and searched for a solution or saw a cool configuration on the internet or from colleagues.
+Sometimes I ran into a specific problem and found the solution in a configuration change, then incorporated the change into my configuration files.&lt;/p&gt;
+
+&lt;p&gt;Over time I also changed the programs I use, so I have some older configuration files for these programs, even though I do not use these programs as much.
+I also changed which shell I use primarily.
+I started with Bash, then switched to Zsh for the added features.
+Now I am currently using fish.
+I still keep my Bash and Zsh config in case I go back to these shells, but I primarily use fish now.
+One downside to fish, is that it is not compatible with Bash, so I still find myself going back to Bash or Zsh frequently to run Bash scripts.
+I liked the general look I had for Bash, so I kept the same general look as I configured zsh and fish.&lt;/p&gt;
+
+&lt;p&gt;Now that you know the general dotfile setup and have access to my public dotfiles, I will talk in more detail about my dotfiles, and as I do, you are free to look through the dotfile repository as well.
+I tried to be clear in the comments of the dotfiles what the configuration lines do, and in this blog post, I will give broader information about the features and reasoning behind the setup.&lt;/p&gt;
+
+&lt;h2 id=&quot;readmemd&quot;&gt;README.md&lt;/h2&gt;
+
+&lt;p&gt;The README file goes over how to set up the dotfile configuration on a new system.
+From the steps, you can see how the relatively simple process is made more difficult when I need to use ssh keys to pull from a private repository.&lt;/p&gt;
+
+&lt;h2 id=&quot;makesymlinkssh&quot;&gt;makesymlinks.sh&lt;/h2&gt;
+
+&lt;p&gt;This file creates the symlinks for the dotfiles back to the corresponding file in the dotfiles directory.
+Over time, this script was also extended to pull and update external submodules, create other additional symlinks, and link symlinks to folders. 
+This script is run to set up all the dotfiles.
+I have more submodules listed in .gitmodules than I actually use.
+That is why I explicitly list the submodules I want in the script.
+This is primarily done since it is much easier to add a new submodule than to remove it, and I might want to use it again.&lt;/p&gt;
+
+&lt;h2 id=&quot;ssh&quot;&gt;Ssh&lt;/h2&gt;
+
+&lt;p&gt;In my private dotfiles repo, I keep passcode protected and GPG encrypted ssh keys.
+The makesymlinks.sh script will call the command to decrypt the keys as part of the setup.
+In practice, I have to add the keys before I can clone the dotfiles directory, and I have to manually set up the symlink to .ssh.
+That’s is the problem with using a private dotfiles repo; the keys need to be in place before you can clone the repo.
+I also use a .ssh/config file to configure connections to remote machines.
+Since the information in .ssh is more sensitive, I have not included any of it in the public dotfiles repo.&lt;/p&gt;
+
+&lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
+
+&lt;p&gt;The git configuration is stored in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gitconfig&lt;/code&gt;, global git ignores are stored in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gitignore_global&lt;/code&gt;, and my git hook templates are stored in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git_template&lt;/code&gt;.
+I removed the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;user.name&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;user.email&lt;/code&gt; config items from the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gitconfig&lt;/code&gt;, but those can be easily added back when git prompts you to set them.&lt;/p&gt;
+
+&lt;p&gt;I use &lt;a href=&quot;https://www.scootersoftware.com/&quot;&gt;Beyond Compare 4&lt;/a&gt; as my main diff tool.
+I also added other tools with aliases.
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vimdiff&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vimmerge&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gvimdiff&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gvimmerge&lt;/code&gt; use Vim and GVim respectively to perform the diff or merge.
+I also found &lt;a href=&quot;https://github.com/Wilfred/difftastic&quot;&gt;difftastic&lt;/a&gt;, which is a better terminal diff than &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;diff&lt;/code&gt; and is aliased to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;difft&lt;/code&gt;.
+My favorite alias, which I use all the time, is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tree&lt;/code&gt;, which prints out a nice tree view of the git log. 
+Other aliases are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sup&lt;/code&gt; which recursively updates all submodules, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sfor&lt;/code&gt; is an alias to run a for loop over all submodules.
+I also have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hash&lt;/code&gt; which prints out the current git hash, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pwd&lt;/code&gt;, which prints out the top-level directory of the git repo.
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pwd&lt;/code&gt; might be a misleading name, but I can remember it easily.
+Finally, I also have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;s&lt;/code&gt;, which prints the status of the current directory.&lt;/p&gt;
+
+&lt;p&gt;My template directory has the necessary hooks to set up ctags.
+These ctags are then used by my Vim configuration to jump to tags in my file quickly.
+Each time a git operation occurs the, ctags are regenerated, which keeps them up-to-date.
+My global &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gitignore_global&lt;/code&gt; ignores the generated ctag files.
+Ctags are further discussed in my &lt;a href=&quot;/tech/ctags/&quot;&gt;Ctags blog post&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I like to use fast-forward-only so that I have to explicitly choose to make a merge.
+That way, it is easier for me to pick to merge or to rebase instead of defaulting to merge.&lt;/p&gt;
+
+&lt;h2 id=&quot;fish&quot;&gt;Fish&lt;/h2&gt;
+
+&lt;p&gt;I like to use the &lt;a href=&quot;https://fishshell.com/&quot;&gt;fish&lt;/a&gt; shell.
+I think it is a well-designed shell with an easy-to-understand configuration structure.
+Out of the box, it has many of the features by default that are a pain to set up in Zsh.
+I was also able to keep the same basic theme as my previous shell configurations.
+Some of my favorite features are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Automatic prediction and auto-completion of commands based on previously used commands.&lt;/li&gt;
+  &lt;li&gt;Command completion based on man pages. (I also have a function, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fish_add_completions&lt;/code&gt;, to generate a manpage from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--help&lt;/code&gt; output, and reload the man completions so that programs I write can have easy command completions)&lt;/li&gt;
+  &lt;li&gt;Powerful prompt with git status, exit code, time, and the duration of the last command.&lt;/li&gt;
+  &lt;li&gt;Easy configuration with a conf.d for config files and functions for custom functions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config.fish&lt;/code&gt; has inline comments describing what everything does.
+One thing to point out is that I call &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setxkbmap&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xcape&lt;/code&gt; commands to replace capslock with control/escape and both shifts with capslock.&lt;/p&gt;
+
+&lt;p&gt;Inside &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conf.d&lt;/code&gt; I have configuration files broken down by the name of what they are configuring.
+Any file in this directory will be included in the configuration of fish.
+I use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh_agent.fish&lt;/code&gt; to make sure I always have an ssh-agent running.&lt;/p&gt;
+
+&lt;p&gt;Inside functions, I have all my custom functions.
+In fish, the prompts are just a shell function, so my prompt is defined in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fish_prompt.fish&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fish_right_prompt.fish&lt;/code&gt;.
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;funcedsave.fish&lt;/code&gt; combines the built-in &lt;a href=&quot;https://fishshell.com/docs/current/cmds/funced.html&quot;&gt;funced&lt;/a&gt; and &lt;a href=&quot;https://fishshell.com/docs/current/cmds/funcsave.html&quot;&gt;funcsave&lt;/a&gt; functions.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git-add-submodule.fish&lt;/code&gt; adds an existing clone nested repository as a submodule of the parent.
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git-reload-hooks.fish&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git-reload-hooks-all.fish&lt;/code&gt; reload hooks based on the git template for either the current repo or recursively into all the submodules.&lt;/p&gt;
+
+&lt;p&gt;Something new I am trying is the &lt;a href=&quot;https://github.com/jorgebucaran/fisher&quot;&gt;fisher&lt;/a&gt; fish plugin manager with &lt;a href=&quot;https://github.com/jethrokuan/z&quot;&gt;z&lt;/a&gt; for directory jumping.&lt;/p&gt;
+
+&lt;h2 id=&quot;tmux&quot;&gt;Tmux&lt;/h2&gt;
+
+&lt;p&gt;My Tmux config is set up to work with nested local and remote tmux sessions. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmux.conf&lt;/code&gt; specifies the local tmux configuration and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmux/tmux.remote.conf&lt;/code&gt; adjusts the status bar on the remote tmux session.
+&amp;lt;F12&amp;gt; is used to toggle the disable/enable of the outer tmux session to make the inner tmux session easier to work with.&lt;/p&gt;
+
+&lt;p&gt;My tmux config also has mouse support, plugins to show resource monitoring, and more Vim-like bindings.&lt;/p&gt;
+
+&lt;p&gt;I spent a while figuring out the full-color range for both tmux and fish, and the color settings at the top of the file seem to work.
+Since I use MobaXTerm, which has some nifty features that only work if Bash is your default shell, I use tmux to set my default shell to fish.
+That way, fish is started anytime I start my tmux session.&lt;/p&gt;
+
+&lt;p&gt;In &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bin&lt;/code&gt;, I also have some helpful tmux scrips.
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmuxes&lt;/code&gt; opens or connects to a new single tmux session with the same view as a previous connection.
+This command only opens a common tmux session, and multiple sessions will follow the same cursor.
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmuxs&lt;/code&gt; also opens the same tmux session, but this time it creates a new view into it so that the cursor does not follow the previous window.
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmux_allow&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmux_disallow&lt;/code&gt; changes the permissions of the tmux socket to allow other users on the same machine to connect to the same tmux session.&lt;/p&gt;
+
+&lt;h2 id=&quot;vim&quot;&gt;Vim&lt;/h2&gt;
+
+&lt;p&gt;I use &lt;a href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt; and &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt; as my main text editors.
+Vim is still the editor that I am the most proficient with and also the one that I have customized the most.
+With the various plugins I have, my Vim behaves more like a modern tool like Visual Studio Code compared to the vanilla VI editor.
+I have and still use Vim as a code editor, word processor, note taker, and documentation writer, and various plugins make it more suited for these tasks.
+To learn about the plugins I use see &lt;a href=&quot;/tech/vim-plugins/&quot;&gt;My Favorite Vim Plugins&lt;/a&gt;.
+These plugins are installed using &lt;a href=&quot;https://github.com/tpope/vim-pathogen&quot;&gt;pathogen&lt;/a&gt;, and the plugins are added as submodules to my dotfiles repo. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;makesymlinks.sh&lt;/code&gt; is used to initiate and update the submodules.
+Some of the plugins I have modified and the submodules point to my forks of the original repos.&lt;/p&gt;
+
+&lt;p&gt;Just like with my other config files, I have inline comments to explain my configuration.
+However, I will mention here some specific features I have.
+See my &lt;a href=&quot;/tech/ctags/&quot;&gt;Ctags blog post&lt;/a&gt; for more information on how Ctags is set up.
+I like to use three spaces by default, even though that seems like a chaotic-neutral choice on the alignment chart.
+I have a check which disables many features when the text file is over 10MB.
+With this setting, Vim can open humongous text files that break most other text editors.
+I have a function that automatically strips training whitespace from files on save except when editing markdown files since trailing whitespace has meaning in markdown.
+To help see trailing whitespace in those file formats, I add a $/cdot$ in place of the training space.
+I created my own color scheme, which is a modification of the default color scheme.
+I also set up proper 256 and GUI colors so that the color scheme looks good.&lt;/p&gt;
+
+&lt;p&gt;I added two useful functions for when I edit text.
+To make line diffing of text easier, and since LaTeX and Vim treat newlines without a blank as part of the same paragraph, I write one sentence per line in the source document.&lt;/p&gt;
+
+&lt;div class=&quot;language-vim highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&quot; Search for paragraphs that do no end in a newline.&lt;/span&gt;
+nnoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;leader&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;space&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; /&lt;span class=&quot;p&quot;&gt;[.!&lt;/span&gt;?&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'\?'&lt;/span&gt;\?\zs\s\&lt;span class=&quot;p&quot;&gt;+&lt;/span&gt;\ze\&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;\&lt;span class=&quot;k&quot;&gt;w&lt;/span&gt;\\&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;\\\&lt;span class=&quot;p&quot;&gt;)&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;cr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;&quot; Join lines and add a newline at the ends of sentences.&lt;/span&gt;
+vnoremap &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;leader&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;space&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;s&lt;span class=&quot;sr&quot;&gt;/[.!?]'\?'\?\zs\s\+\ze\(\w\\|\\\)/&lt;/span&gt;\&lt;span class=&quot;k&quot;&gt;r&lt;/span&gt;/&lt;span class=&quot;k&quot;&gt;g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;cr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;When &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;leader&amp;gt;l&amp;lt;space&amp;gt;&lt;/code&gt; is pressed, the sentence ending periods that are not followed by a newline are searched for and highlighted.
+When a visual selection is made, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;leader&amp;gt;l&amp;lt;space&amp;gt;&lt;/code&gt; is pressed, the newlines are added to the selected region.
+This makes it easy to reformat text note in the one sentence per line format to this format.
+Just use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;J&lt;/code&gt; to join all the lines in a paragraph, then press &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;V&amp;gt;&lt;/code&gt; then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;leader&amp;gt;l&amp;lt;space&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:DuplicateTabpane&lt;/code&gt; is useful for quickly duplicating your current window layout to a new tab. Then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:TabooRename&lt;/code&gt; can be used to rename the tab to a new name.&lt;/p&gt;
+
+&lt;p&gt;Here are my keybindings that I use when working with vim-zettel:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Zettel Vim Keybindings
+
+&amp;lt;leader&amp;gt;zs  ZettelSearchMap
+&amp;lt;leader&amp;gt;zy  ZettelYankNameMap
+&amp;lt;leader&amp;gt;z   ZettelNewSelectedMap
+&amp;lt;leader&amp;gt;nv Notational Vim
+:ZettelNew &amp;lt;title&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;basic-apt-installs&quot;&gt;Basic Apt Installs&lt;/h2&gt;
+
+&lt;p&gt;This script is used to update and upgrade apt packages, then install a common set of apt packages that I expect every system to have.
+Between the dotfiles repo, this script, and Synology drive, I can go from a fresh Ubuntu install to a configure system very quickly.
+This is useful since I redo my computers frequently or set up a new virtual machine.&lt;/p&gt;
+
+&lt;h2 id=&quot;bin&quot;&gt;Bin&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create-thumbnails&lt;/code&gt; is used to reduce the resolution of images to create thumbnail versions.
+I use this for my website to reduce the size of the smaller images in a gallery.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pdf-shrink&lt;/code&gt; reduces the size of PDFs by calling other commands with the correct arguments.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;esv&lt;/code&gt; uses the &lt;a href=&quot;https://www.esv.org&quot;&gt;ESV&lt;/a&gt; API to create a terminal program to read or listen to the bible.
+If you want to use this program, you will first have to generate an API token from &lt;a href=&quot;https://api.esv.org/&quot;&gt;ESV.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Reorder is a program I wrote and is discussed in the &lt;a href=&quot;/tech/reorder/&quot;&gt;Reorder blog post&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;fonts&quot;&gt;Fonts&lt;/h2&gt;
+
+&lt;p&gt;Here I store all the fonts I want to use across my machines.
+Then, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;makesymlinks.sh&lt;/code&gt; will create a symlink to the local font location and run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fc-cache&lt;/code&gt; to cache the fonts so that they are properly installed as locally installed fonts.
+I did not include the fonts in the public repo since I didn’t want to check the licensing on each font.&lt;/p&gt;
+
+&lt;h2 id=&quot;inkscape&quot;&gt;Inkscape&lt;/h2&gt;
+
+&lt;p&gt;I set up Inkscape with the extensions I use. I created my own addition to circuit symbols to make a black box symbol.&lt;/p&gt;
+
+&lt;h2 id=&quot;bonus-zork&quot;&gt;Bonus: Zork&lt;/h2&gt;
+
+&lt;p&gt;No system is complete without Zork, so as a bonus, I install Zork by default.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Tech" /><category term="Linux" /><summary type="html">Introduction and Dotfile Storage Method</summary></entry><entry><title type="html">My Favorite Vim Plugins</title><link href="https://geekdude.github.io/tech/vim-plugins/" rel="alternate" type="text/html" title="My Favorite Vim Plugins" /><published>2022-04-13T00:00:00-04:00</published><updated>2022-04-13T00:00:00-04:00</updated><id>https://geekdude.github.io/tech/vim-plugins</id><content type="html" xml:base="https://geekdude.github.io/tech/vim-plugins/">&lt;p&gt;I use &lt;a href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt; and &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt; as my main text editors, and I have found multiple plugins to both which add nice features to the respective program.
+In this post, I will go over my favorite Vim plugins. I install these plugins as part of &lt;a href=&quot;/tech/dotfiles/&quot;&gt;my dotfiles setup&lt;/a&gt;, so it is easy to set up Vim with plugins on each system I use.&lt;/p&gt;
+
+&lt;h2 id=&quot;core-plugins&quot;&gt;Core Plugins&lt;/h2&gt;
+
+&lt;p&gt;These plugins are ones that I highly recommend and add what I would consider core features to Vim.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-commentary&quot;&gt;vim-commentary&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/tpope/vim-commentary.git&quot;&gt;https://github.com/tpope/vim-commentary.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Comment stuff out. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gcc&lt;/code&gt; to comment out a line and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gc&lt;/code&gt; to comment out a motion.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-gitgutter&quot;&gt;vim-gitgutter&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/airblade/vim-gitgutter.git&quot;&gt;https://github.com/airblade/vim-gitgutter.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Show the file’s git diff status in the gutter.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-vinegar&quot;&gt;vim-vinegar&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/tpope/vim-vinegar.git&quot;&gt;https://github.com/tpope/vim-vinegar.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Makes netrw work much better. The main addition is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-&lt;/code&gt; to go up a directory.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-unimpaired&quot;&gt;vim-unimpaired&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/tpope/vim-unimpaired.git&quot;&gt;https://github.com/tpope/vim-unimpaired.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Pairs of handy bracket mappings. They allow &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;]&lt;/code&gt; followed by a character to jump forward or backward. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;]q&lt;/code&gt; is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:cnext&lt;/code&gt;. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[q&lt;/code&gt; is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:cprevious&lt;/code&gt;. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;]a&lt;/code&gt; is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:next&lt;/code&gt;. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[b&lt;/code&gt; is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:bprevious&lt;/code&gt;. See the documentation for the full set of 20 mappings and mnemonics.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-rename&quot;&gt;vim-rename&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/wojtekmach/vim-rename.git&quot;&gt;https://github.com/wojtekmach/vim-rename.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Rename a buffer within vim and on disk. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:saveas &amp;lt;newfile&amp;gt;&lt;/code&gt; to rename the file and remove the old file from disk.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-textobj-entire&quot;&gt;vim-textobj-entire&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/kana/vim-textobj-entire.git&quot;&gt;https://github.com/kana/vim-textobj-entire.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Provides text objects &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ae&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ie&lt;/code&gt; which represent the entire buffer.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-capslock&quot;&gt;vim-capslock&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/tpope/vim-capslock.git&quot;&gt;https://github.com/tpope/vim-capslock.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Press &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;C-G&amp;gt;c&lt;/code&gt; in insert mode to toggle a temporary software caps lock. I used this when I didn’t have a caps lock since I rebound it to control. Now I don’t use this as much since pressing both shift keys is my caps lock.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-textobj-user&quot;&gt;vim-textobj-user&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/kana/vim-textobj-user.git&quot;&gt;https://github.com/kana/vim-textobj-user.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Create your own text objects easily. Used by other plugins.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-repeat&quot;&gt;vim-repeat&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/tpope/vim-repeat.git&quot;&gt;https://github.com/tpope/vim-repeat.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Enables repeating supported plugin maps with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;..&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-surround&quot;&gt;vim-surround&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/tpope/vim-surround.git&quot;&gt;https://github.com/tpope/vim-surround.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Adds surround text mapping with s. I.e., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cs&quot;'&lt;/code&gt; to change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;'&lt;/code&gt; surrounding text.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-visual-star-search&quot;&gt;vim-visual-star-search&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/nelstrom/vim-visual-star-search.git&quot;&gt;https://github.com/nelstrom/vim-visual-star-search.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Start a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt; search from a visual block.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-abolish&quot;&gt;vim-abolish&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/tpope/vim-abolish.git&quot;&gt;https://github.com/tpope/vim-abolish.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Easily search for, substitute, and abbreviate multiple variants of a word.&lt;/p&gt;
+
+&lt;h3 id=&quot;calendar-vim&quot;&gt;calendar-vim&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/mattn/calendar-vim.git&quot;&gt;https://github.com/mattn/calendar-vim.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Open a calendar within Vim. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:Calendar&lt;/code&gt; to open.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-exchange&quot;&gt;vim-exchange&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/tommcdo/vim-exchange.git&quot;&gt;https://github.com/tommcdo/vim-exchange.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Easy text exchange operator for Vim.&lt;/p&gt;
+
+&lt;h4 id=&quot;mappings&quot;&gt;Mappings&lt;/h4&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cx&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;On the first use, define the first &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{motion}&lt;/code&gt; to exchange. On the second use, define the second &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{motion}&lt;/code&gt; and perform the exchange.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cxx&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cx&lt;/code&gt;, but use the current line.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;X&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cx&lt;/code&gt;, but for Visual mode.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cxc&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Clear any &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{motion}&lt;/code&gt; pending for exchange.&lt;/p&gt;
+
+&lt;h4 id=&quot;some-notes&quot;&gt;Some notes&lt;/h4&gt;
+
+&lt;p&gt;If you’re using the same motion again (e.g. exchanging two words using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cxiw&lt;/code&gt;), you can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.&lt;/code&gt; the second time.
+If one region is fully contained within the other, it will replace the containing region.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-textobj-sentence&quot;&gt;vim-textobj-sentence&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/reedes/vim-textobj-sentence.git&quot;&gt;https://github.com/reedes/vim-textobj-sentence.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Improving on Vim’s native sentence text object and motion.&lt;/p&gt;
+
+&lt;h3 id=&quot;taboo&quot;&gt;Taboo&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/gcmt/taboo.vim&quot;&gt;https://github.com/gcmt/taboo.vim&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Few utilities for pretty tabs. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:TabooRename &amp;lt;name&amp;gt;&lt;/code&gt; to rename a tab.&lt;/p&gt;
+
+&lt;h2 id=&quot;awesome-added-features&quot;&gt;Awesome Added Features&lt;/h2&gt;
+
+&lt;p&gt;These plugins add cool new features to Vim.&lt;/p&gt;
+
+&lt;h3 id=&quot;tabular&quot;&gt;tabular&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/godlygeek/tabular.git&quot;&gt;https://github.com/godlygeek/tabular.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Vim script for text filtering and alignment. Amazing plugin for aligning LaTeX tables and assignment lists.&lt;/p&gt;
+
+&lt;h3 id=&quot;ctrlpvim&quot;&gt;ctrlp.vim&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/ctrlpvim/ctrlp.vim.git&quot;&gt;https://github.com/ctrlpvim/ctrlp.vim.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;c-p&amp;gt;&lt;/code&gt; for a fuzzy finder. Easily search for files.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-buffergator&quot;&gt;vim-buffergator&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/jeetsukumaran/vim-buffergator.git&quot;&gt;https://github.com/jeetsukumaran/vim-buffergator.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;List, select, and switch between buffers. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;Leader&amp;gt;b&lt;/code&gt; to open the buffer side panel.&lt;/p&gt;
+
+&lt;h3 id=&quot;tagbar&quot;&gt;tagbar&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/majutsushi/tagbar.git&quot;&gt;https://github.com/majutsushi/tagbar.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Display tags in a window, ordered by scope. Used to navigate quickly within a file. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;Leader&amp;gt;cc&lt;/code&gt; to open.&lt;/p&gt;
+
+&lt;h3 id=&quot;supertab&quot;&gt;supertab&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/ervandew/supertab.git&quot;&gt;https://github.com/ervandew/supertab.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Perform all your vim insert mode completions with Tab.&lt;/p&gt;
+
+&lt;h3 id=&quot;undotree&quot;&gt;undotree&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/mbbill/undotree.git&quot;&gt;https://github.com/mbbill/undotree.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Undo history visualizer for Vim. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:UndotreeToggle&lt;/code&gt; to start. This has saved me in the cases where I undid some changes, then accidentally made a new change but wanted to redo it to the previous state.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-autocorrect&quot;&gt;vim-autocorrect&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/panozzaj/vim-autocorrect.git&quot;&gt;https://github.com/panozzaj/vim-autocorrect.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Correct common typos and misspellings as you type in Vim.
+Note: this plugin is slow to load, but I still find it super helpful and less annoying than Word’s autocorrect.&lt;/p&gt;
+
+&lt;h3 id=&quot;cheatsh-vim&quot;&gt;Cheat.sh-vim&lt;/h3&gt;
+
+&lt;p&gt;url: &lt;a href=&quot;https://github.com/dbeniamine/cheat.sh-vim&quot;&gt;https://github.com/dbeniamine/cheat.sh-vim&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Browse cheat sheets from &lt;a href=&quot;http://cheat.sh/&quot;&gt;cheat.sh&lt;/a&gt; directly from vim.&lt;/p&gt;
+
+&lt;h2 id=&quot;note-taking&quot;&gt;Note-taking&lt;/h2&gt;
+
+&lt;p&gt;These are plugins that go alone with taking notes in vim. See &lt;a href=&quot;/research/productivity/&quot;&gt;Personal Knowledge Base and Productivity Presentation&lt;/a&gt; for more information on note-taking.&lt;/p&gt;
+
+&lt;h3 id=&quot;vimwiki&quot;&gt;vimwiki&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/geekdude/vimwiki.git&quot;&gt;https://github.com/geekdude/vimwiki.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A Personal Wiki for Vim. I used this as my primary note-taking tool before switching to OneNote. See &lt;a href=&quot;/research/productivity/&quot;&gt;Personal Knowledge Base and Productivity Presentation&lt;/a&gt; for more information on my note-taking system.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-zettel&quot;&gt;vim-zettel&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/michal-h21/vim-zettel&quot;&gt;https://github.com/michal-h21/vim-zettel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Vim plugin to implement Zettelkasten with Vimwiki.&lt;/p&gt;
+
+&lt;h3 id=&quot;fzf&quot;&gt;fzf&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/junegunn/fzf.vim&quot;&gt;https://github.com/junegunn/fzf.vim&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;fzf wrappers for vim.&lt;/p&gt;
+
+&lt;h3 id=&quot;notational-fzf-vim&quot;&gt;notational-fzf-vim&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/alok/notational-fzf-vim&quot;&gt;https://github.com/alok/notational-fzf-vim&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Notational Velocity for Vim. It is used to fuzzy search through a Vimwiki.&lt;/p&gt;
+
+&lt;h2 id=&quot;writing-tools&quot;&gt;Writing Tools&lt;/h2&gt;
+
+&lt;p&gt;These are the plugins that help with the paper writing process in Vim.&lt;/p&gt;
+
+&lt;h3 id=&quot;vimtex&quot;&gt;vimtex&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/lervag/vimtex.git&quot;&gt;https://github.com/lervag/vimtex.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A Vim plugin for editing LaTeX files. This is my favorite of the many LaTeX plugins.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-dict&quot;&gt;vim-dict&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/szw/vim-dict.git&quot;&gt;https://github.com/szw/vim-dict.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dictionary lookup inside Vim. To lookup a work use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:Dict&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-online-thesaurus&quot;&gt;vim-online-thesaurus&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/Ron89/thesaurus_query.vim&quot;&gt;https://github.com/Ron89/thesaurus_query.vim&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Online thesaurus lookup. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;Leader&amp;gt;cs&lt;/code&gt; to query and replace the current word.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-instant-markdown&quot;&gt;vim-instant-markdown&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/suan/vim-instant-markdown.git&quot;&gt;https://github.com/suan/vim-instant-markdown.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Instant Markdown previews with Vim. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:InstantMarkdownPreview&lt;/code&gt; to start.&lt;/p&gt;
+
+&lt;h3 id=&quot;languagetool&quot;&gt;LanguageTool&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/vim-scripts/LanguageTool.git&quot;&gt;https://github.com/vim-scripts/LanguageTool.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Grammar checker using LanguageTool for Vim.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-pencil&quot;&gt;vim-pencil&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/reedes/vim-pencil&quot;&gt;https://github.com/reedes/vim-pencil&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Plugin to help Vim be more friendly for writing prose. It handles automatic wrapping of text.&lt;/p&gt;
+
+&lt;h3 id=&quot;goyovim&quot;&gt;goyo.vim&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/junegunn/goyo.vim.git&quot;&gt;https://github.com/junegunn/goyo.vim.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Distraction-free writing in Vim.&lt;/p&gt;
+
+&lt;h2 id=&quot;coding-or-language-support&quot;&gt;Coding or Language Support&lt;/h2&gt;
+
+&lt;h3 id=&quot;vim-flake8&quot;&gt;vim-flake8&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/nvie/vim-flake8.git&quot;&gt;https://github.com/nvie/vim-flake8.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Verify Python syntax with flake8. To use press &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;F7&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-scala&quot;&gt;vim-scala&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/derekwyatt/vim-scala.git&quot;&gt;https://github.com/derekwyatt/vim-scala.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Add Scala programming language support to Vim.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-fish&quot;&gt;vim-fish&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/dag/vim-fish.git&quot;&gt;https://github.com/dag/vim-fish.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Vim support for editing fish scripts.&lt;/p&gt;
+
+&lt;h3 id=&quot;doxygentoolkitvim&quot;&gt;DoxygenToolkit.vim&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/vim-scripts/DoxygenToolkit.vim.git&quot;&gt;https://github.com/vim-scripts/DoxygenToolkit.vim.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Simplify Doxygen documentation in C, C++, Python.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-gdscript3&quot;&gt;vim-gdscript3&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/calviken/vim-gdscript3&quot;&gt;https://github.com/calviken/vim-gdscript3&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Support syntax for Godot script.&lt;/p&gt;
+
+&lt;h2 id=&quot;plugins-used-for-code-and-colorscheme-debugging&quot;&gt;Plugins used for code and colorscheme debugging&lt;/h2&gt;
+
+&lt;h3 id=&quot;vim-hilinktrace&quot;&gt;vim-HiLinkTrace&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/gerw/vim-HiLinkTrace.git&quot;&gt;https://github.com/gerw/vim-HiLinkTrace.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Trace highlighting with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\hlt&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;xterm-color-tablevim&quot;&gt;xterm-color-table.vim&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/guns/xterm-color-table.vim.git&quot;&gt;https://github.com/guns/xterm-color-table.vim.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Displays all 256 terminal colors with the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:XtermColorTable.&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;hexhighlight&quot;&gt;hexHighlight&lt;/h3&gt;
+
+&lt;p&gt;GVim plugin to highlight hex codes to help with tweaking colors.&lt;/p&gt;
+
+&lt;h3 id=&quot;conque-gdb&quot;&gt;Conque-GDB&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/vim-scripts/Conque-GDB.git&quot;&gt;https://github.com/vim-scripts/Conque-GDB.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;GDB command-line interface and terminal emulator in Vim.&lt;/p&gt;
+
+&lt;h2 id=&quot;color-themes&quot;&gt;Color Themes&lt;/h2&gt;
+
+&lt;p&gt;Note: I don’t use these color schemes since I created my own color scheme.&lt;/p&gt;
+
+&lt;h3 id=&quot;palenightvim&quot;&gt;palenight.vim&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/drewtempelmeyer/palenight.vim.git&quot;&gt;https://github.com/drewtempelmeyer/palenight.vim.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Soothing color scheme for vim. Recommended by  &lt;a href=&quot;https://blog.pabuisson.com/2018/06/favorite-color-schemes-modern-vim-neovim/&quot;&gt;https://blog.pabuisson.com/2018/06/favorite-color-schemes-modern-vim-neovim/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-one&quot;&gt;vim-one&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/rakr/vim-one.git&quot;&gt;https://github.com/rakr/vim-one.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Adaptation of one-light and one-dark (Atom) colorschemes for vim. Recommended by  &lt;a href=&quot;https://blog.pabuisson.com/2018/06/favorite-color-schemes-modern-vim-neovim/&quot;&gt;https://blog.pabuisson.com/2018/06/favorite-color-schemes-modern-vim-neovim/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;molokai&quot;&gt;molokai&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/tomasr/molokai.git&quot;&gt;https://github.com/tomasr/molokai.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Molokai color scheme for Vim. Recommended by  &lt;a href=&quot;https://www.slant.co/topics/480/~best-vim-color-schemes&quot;&gt;https://www.slant.co/topics/480/~best-vim-color-schemes&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;gruvbox&quot;&gt;gruvbox&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/morhetz/gruvbox.git&quot;&gt;https://github.com/morhetz/gruvbox.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Retro groove color scheme for Vim. Recommended by  &lt;a href=&quot;https://www.slant.co/topics/480/~best-vim-color-schemes&quot;&gt;https://www.slant.co/topics/480/~best-vim-color-schemes&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;unused-but-still-might-be-helpful&quot;&gt;Unused but still might be helpful&lt;/h2&gt;
+
+&lt;p&gt;These are plugins that I no longer use.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-fugitive&quot;&gt;vim-fugitive&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/tpope/vim-fugitive.git&quot;&gt;https://github.com/tpope/vim-fugitive.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A git wrapper for Vim.&lt;/p&gt;
+
+&lt;h3 id=&quot;youcompleteme&quot;&gt;YouCompleteMe&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/Valloric/YouCompleteMe.git&quot;&gt;https://github.com/Valloric/YouCompleteMe.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A code-completion engine for vim.
+Note: I don’t use this one anymore since it was a bigger pain to set up than the benefit of using it.&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-smooth-scroll&quot;&gt;vim-smooth-scroll&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/terryma/vim-smooth-scroll.git&quot;&gt;https://github.com/terryma/vim-smooth-scroll.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Makes scrolling in Vim nice and smooth. (Currently, I do not have this plugin mapped.)&lt;/p&gt;
+
+&lt;h3 id=&quot;vim-qargs&quot;&gt;vim-qargs&lt;/h3&gt;
+
+&lt;p&gt;url:  &lt;a href=&quot;https://github.com/nelstrom/vim-qargs.git&quot;&gt;https://github.com/nelstrom/vim-qargs.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Adds a Qargs utility command to populate the argument list from the files in the quickfix list.
+Note: The functionality provided by this project has been made largely obsolete in recent versions of Vim.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Tech" /><category term="Vim" /><summary type="html">I use Vim and Visual Studio Code as my main text editors, and I have found multiple plugins to both which add nice features to the respective program. In this post, I will go over my favorite Vim plugins. I install these plugins as part of my dotfiles setup, so it is easy to set up Vim with plugins on each system I use.</summary></entry><entry><title type="html">Personal Knowledge Base and Productivity Presentation</title><link href="https://geekdude.github.io/research/productivity/" rel="alternate" type="text/html" title="Personal Knowledge Base and Productivity Presentation" /><published>2022-04-07T00:00:00-04:00</published><updated>2022-04-07T00:00:00-04:00</updated><id>https://geekdude.github.io/research/productivity</id><content type="html" xml:base="https://geekdude.github.io/research/productivity/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;/assets/productivity-presentation.pdf&quot;&gt;Personal Knowledge Base and Productivity Presentation Slides&lt;/a&gt;&lt;/p&gt;
 
@@ -654,103 +1237,4 @@ I plan to create a future post with more detail on how this is done.&lt;/p&gt;
 
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 &lt;p&gt;I followed &lt;a href=&quot;https://tbaggery.com/2011/08/08/effortless-ctags-with-git.html&quot;&gt;https://tbaggery.com/2011/08/08/effortless-ctags-with-git.html&lt;/a&gt; when I was setting up ctags for the first time.
-I have since modified my setup to work better with git submodules and other edge cases.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Tech" /><category term="Git" /><category term="Vim" /><category term="Ctags" /><summary type="html">Ctags with Vim are incredibly useful for quickly navigating around code. With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document. Ctags + Vim end up working very similar to how Visual Studio Code or other IDEs “go to definition” and “find all symbols works.”</summary></entry><entry><title type="html">Dr. Dean featured in PC Gamer</title><link href="https://geekdude.github.io/tech/dean-pc-gamer/" rel="alternate" type="text/html" title="Dr. Dean featured in PC Gamer" /><published>2021-02-26T00:00:00-05:00</published><updated>2021-02-26T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/dean-pc-gamer</id><content type="html" xml:base="https://geekdude.github.io/tech/dean-pc-gamer/">&lt;p&gt;My PhD advisor, Mark Dean, was recentally featured in PC Gamer for his work on the first IBM PC. Read the article at &lt;a href=&quot;https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/&quot;&gt;https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/&lt;/a&gt;.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Tech" /><category term="News" /><summary type="html">My PhD advisor, Mark Dean, was recentally featured in PC Gamer for his work on the first IBM PC. Read the article at https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/.</summary></entry><entry><title type="html">Moving Website from web.eecs.utk.edu to Github.io</title><link href="https://geekdude.github.io/tech/moving-website/" rel="alternate" type="text/html" title="Moving Website from web.eecs.utk.edu to Github.io" /><published>2021-02-24T00:00:00-05:00</published><updated>2021-02-24T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/moving-website</id><content type="html" xml:base="https://geekdude.github.io/tech/moving-website/">&lt;p&gt;After graduating last May, I decided to migrate &lt;a href=&quot;/tech/new-website/&quot;&gt;my website&lt;/a&gt; from hosting on the EECS servers at UTK to &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.
-I always planned on migrating to GitHub pages post-graduation; that was one reason I chose to build my website using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.
-GitHub pages can host any static website, but it is designed to build and work with Jekyll sites automatically.
-I wanted to migrate my website properly with correct redirection and Search Engine Optimization (SEO).
-Overall the process was relatively easy, but I did run into some issues, primarily with the customizations I have done to the website.
-This post will cover the overall steps I took and also the issues and workarounds I encountered.&lt;/p&gt;
-
-&lt;h2 id=&quot;moving-the-site-to-github&quot;&gt;Moving the site to GitHub&lt;/h2&gt;
-&lt;p&gt;Previously I have been hosting my repository as a private repo in &lt;a href=&quot;https://bitbucket.org/&quot;&gt;bitbucket&lt;/a&gt;.
-I decided to move the repository to a public &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; repo since I used GitHub pages for hosting.
-At first, I tried just to move my repository over directly and use GitHub’s built-in building of Jekyll.
-However, this auto-building feature only supports a &lt;a href=&quot;https://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins&quot;&gt;subset of Jekyll plugins&lt;/a&gt;.
-The plugin I use for pagination, &lt;a href=&quot;https://github.com/sverrirs/jekyll-paginate-v2&quot;&gt;Jekyll Paginate V2&lt;/a&gt;, is not one of the supported plugins.
-This limitation means that the built-in building would not work for my site without changing the plugins I use.
-Therefore, I turned off the automatic Jekyll building by adding a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.nojekyll&lt;/code&gt; file to the root of the repository.&lt;/p&gt;
-
-&lt;p&gt;I then tried to build the site automatically with GitHub Actions, but I had trouble getting the site to build using a docker image with the Jekyll build action.
-While looking into the build issues, I realized my website would not build with the newest versions of Jekyll and &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/&quot;&gt;Minimal Mistakes&lt;/a&gt;.
-By finding a copy of the Gemfile.lock file I used to build the website with last, I was able to roll back to the old versions and build my website correctly again.
-Again, the issue was related to the custom template files I created to use Paginate V2 for my home pages and article pages.
-The trouble with Jekyll and extension versions leads me to an important lessons learned:
-&lt;strong&gt;Store the Gemfile.lock in version control so that you can diagnose issues caused by building with newer versions of the tools and extensions.&lt;/strong&gt;
-I was lucky and could just pull the lock file from my backups which saved me extra debugging time.&lt;/p&gt;
-
-&lt;p&gt;Since I like the way my website looks and I didn’t want to spend extra time porting my template to the newer version, I decided to keep building the website locally and uploading the static site for hosting.
-Luckily GitHub Pages supports this flow.
-The static website can be uploaded to the main branch or a branch called gh-pages.
-Actually, the branch and path can be chosen under Settings -&amp;gt; Options -&amp;gt; GitHub Pages, so any location can be used for the source.
-At first, I tested uploading the built website to the main branch, and the website was hosted as expected.
-But I then decided to host the website’s source in the main branch and a gh-pages branch to host the built website.
-To make the whole process simpler, I wanted to update my deploy script to build and deploy the website to a branch in the repository.
-At first, I was hesitant to store the built files in the repo, but since the files are in an orphaned branch, they are separate from the main branch.
-The orphan branch (as opposed to a folder in the main branch) will make cleaning the files up easier, if they get too large.&lt;/p&gt;
-
-&lt;p&gt;Luckily updating the build script was easy since I found a &lt;a href=&quot;https://github.com/X1011/git-directory-deploy&quot;&gt;Git Directory Deploy&lt;/a&gt; script that I could leverage to copy the built site directory to a separate orphaned git branch.
-Now &lt;a href=&quot;https://github.com/Geekdude/Geekdude.github.io/blob/master/deploy.sh&quot;&gt;my deploy script&lt;/a&gt; just calls a &lt;a href=&quot;https://github.com/Geekdude/Geekdude.github.io/blob/master/deploy_github.sh&quot;&gt;customized version of the git deploy script&lt;/a&gt; with the variables filled in for my site.
-Previously it would use rsync to copy the build files to the EECS servers website folder.&lt;/p&gt;
-
-&lt;p&gt;Since I decided to use the same local build then deploy setup, minimal changes were needed to the site itself.
-I updated the site URL in &lt;a href=&quot;https://github.com/Geekdude/Geekdude.github.io/blob/master/_config.yml&quot;&gt;_config.yml&lt;/a&gt; as well as updated the previously mentioned deploy scripts.
-That was all that was required to migrate the site and start hosting on GitHub Pages. The source code for the site can be found at &lt;a href=&quot;https://github.com/Geekdude/Geekdude.github.io&quot;&gt;https://github.com/Geekdude/Geekdude.github.io&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;setting-up-redirection&quot;&gt;Setting up redirection&lt;/h2&gt;
-&lt;p&gt;The next step was to set up redirection from the old URL to the new URL.
-After looking into redirection, I discovered that I wanted to use redirection with the permanent redirection status (301) which indicates that the resource has moved permanently.
-From various posts, I learned that a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file is used on linux servers to specify server-level redirects.
-I had trouble finding the correct redirect commands until I read the &lt;a href=&quot;https://httpd.apache.org/docs/2.4/mod/mod_alias.html#redirect&quot;&gt;Apache Documentation for Redirect&lt;/a&gt; and &lt;a href=&quot;https://httpd.apache.org/docs/2.4/mod/mod_alias.html#redirectmatch&quot;&gt;RedirectMatch&lt;/a&gt;.
-The trouble I ran into was how to correctly map from a folder on a domain to a domain (i.e. /~ayoung48 to /).&lt;/p&gt;
-
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.htaccess&lt;/code&gt; file that ended up working properly is&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RedirectMatch 301 &quot;/~ayoung48/(.*)&quot; &quot;https://Geekdude.github.io/$1&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;This redirect match command would correctly redirect pages from the old site to the new site.
-I will leave up this redirection until I lose access to the UTK servers.&lt;/p&gt;
-
-&lt;h2 id=&quot;search-engine-optimization&quot;&gt;Search Engine Optimization&lt;/h2&gt;
-&lt;p&gt;Since the redirection was setup in the previous section, updating the search optimization is easier.
-I added the new site to &lt;a href=&quot;https://search.google.com/search-console/about&quot;&gt;Google Search Console&lt;/a&gt; and &lt;a href=&quot;https://www.bing.com/webmasters&quot;&gt;Microsoft Webmaster Tools&lt;/a&gt;.
-There did not seem to be an explicit place to let them know about the move&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, but with redirection and having both sites listed under my account, I hope their web crawler will figure it out.
-I do not even need to redo the website verification method since it was already done for the old address and the verification files are still in place.&lt;/p&gt;
-
-&lt;h2 id=&quot;moving-comments&quot;&gt;Moving Comments&lt;/h2&gt;
-&lt;p&gt;Moving comments with Discus was easy as well.
-Since I have 301 redirection set up, I could just go into Admin -&amp;gt; Moderate Comments -&amp;gt; Tools -&amp;gt; Migration Tools and use the Redirect Crawler.
-Then Discus ported the two comments I had on my old site to the new site.
-I also discovered that I am not getting email notifications when people comment.
-I will need to look into why.
-The settings are correctly set.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;There was one for google but it required Domain level property types, not URL Prefix like I am using. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Tech" /><category term="Website" /><summary type="html">After graduating last May, I decided to migrate my website from hosting on the EECS servers at UTK to GitHub Pages. I always planned on migrating to GitHub pages post-graduation; that was one reason I chose to build my website using Jekyll. GitHub pages can host any static website, but it is designed to build and work with Jekyll sites automatically. I wanted to migrate my website properly with correct redirection and Search Engine Optimization (SEO). Overall the process was relatively easy, but I did run into some issues, primarily with the customizations I have done to the website. This post will cover the overall steps I took and also the issues and workarounds I encountered.</summary></entry><entry><title type="html">PhD Dissertation and Artifacts Available</title><link href="https://geekdude.github.io/research/dissertation/" rel="alternate" type="text/html" title="PhD Dissertation and Artifacts Available" /><published>2021-01-30T00:00:00-05:00</published><updated>2021-01-30T00:00:00-05:00</updated><id>https://geekdude.github.io/research/dissertation</id><content type="html" xml:base="https://geekdude.github.io/research/dissertation/">&lt;p&gt;My dissertation titled &lt;em&gt;SNACC: The Scaled-up Neuromorphic Array Communications Controller&lt;/em&gt; is now available at &lt;a href=&quot;https://trace.tennessee.edu/utk_graddiss/5843/&quot;&gt;https://trace.tennessee.edu/utk_graddiss/5843/&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I have also made available two general-purpose IP blocks written in VHDL that I created as part of my dissertation work. They are a custom Aurora acknowledgment automatic repeat request design available at &lt;a href=&quot;https://github.com/Geekdude/aurora-ack&quot;&gt;https://github.com/Geekdude/aurora-ack&lt;/a&gt; and a AXI4-Stream clock converter design available at &lt;a href=&quot;https://github.com/Geekdude/axi4-stream-clock-converter&quot;&gt;https://github.com/Geekdude/axi4-stream-clock-converter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;recommended-citation&quot;&gt;Recommended Citation&lt;/h2&gt;
-
-&lt;p&gt;Plain Text:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Young, Aaron Reed, &quot;SNACC: The Scaled-up Neuromorphic Array Communications Controller. &quot; PhD diss., University of Tennessee, 2020.
-https://trace.tennessee.edu/utk_graddiss/5843
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Bibtex:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@PhdThesis{y:20:snacc,
-    title       = {SNACC: The Scaled-up Neuromorphic Array Communications Controller},
-    author      = {Aaron Reed Young},
-    institution = {University of Tennessee},
-    month       = {May},
-    year        = {2020},
-    url         = {https://trace.tennessee.edu/utk_graddiss/5843/}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Research" /><category term="Neuromorphic Computing" /><summary type="html">My dissertation titled SNACC: The Scaled-up Neuromorphic Array Communications Controller is now available at https://trace.tennessee.edu/utk_graddiss/5843/.</summary></entry></feed>
+I have since modified my setup to work better with git submodules and other edge cases.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Tech" /><category term="Git" /><category term="Vim" /><category term="Ctags" /><summary type="html">Ctags with Vim are incredibly useful for quickly navigating around code. With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document. Ctags + Vim end up working very similar to how Visual Studio Code or other IDEs “go to definition” and “find all symbols works.”</summary></entry><entry><title type="html">Dr. Dean featured in PC Gamer</title><link href="https://geekdude.github.io/tech/dean-pc-gamer/" rel="alternate" type="text/html" title="Dr. Dean featured in PC Gamer" /><published>2021-02-26T00:00:00-05:00</published><updated>2021-02-26T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/dean-pc-gamer</id><content type="html" xml:base="https://geekdude.github.io/tech/dean-pc-gamer/">&lt;p&gt;My PhD advisor, Mark Dean, was recentally featured in PC Gamer for his work on the first IBM PC. Read the article at &lt;a href=&quot;https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/&quot;&gt;https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/&lt;/a&gt;.&lt;/p&gt;</content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Tech" /><category term="News" /><summary type="html">My PhD advisor, Mark Dean, was recentally featured in PC Gamer for his work on the first IBM PC. Read the article at https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/.</summary></entry></feed>
