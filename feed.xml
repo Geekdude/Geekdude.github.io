@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2022-04-20T23:57:54-04:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><entry><title type="html">My Dotfiles Storage using Git and Shared Dotfile Repo</title><link href="https://geekdude.github.io/tech/dotfiles/" rel="alternate" type="text/html" title="My Dotfiles Storage using Git and Shared Dotfile Repo" /><published>2022-04-14T00:00:00-04:00</published><updated>2022-04-14T00:00:00-04:00</updated><id>https://geekdude.github.io/tech/dotfiles</id><content type="html" xml:base="https://geekdude.github.io/tech/dotfiles/">&lt;h2 id=&quot;introduction-and-dotfile-storage-method&quot;&gt;Introduction and Dotfile Storage Method&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2022-04-26T00:27:55-04:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><entry><title type="html">My Dotfiles Storage using Git and Shared Dotfile Repo</title><link href="https://geekdude.github.io/tech/dotfiles/" rel="alternate" type="text/html" title="My Dotfiles Storage using Git and Shared Dotfile Repo" /><published>2022-04-14T00:00:00-04:00</published><updated>2022-04-26T06:00:00-04:00</updated><id>https://geekdude.github.io/tech/dotfiles</id><content type="html" xml:base="https://geekdude.github.io/tech/dotfiles/">&lt;h2 id=&quot;introduction-and-dotfile-storage-method&quot;&gt;Introduction and Dotfile Storage Method&lt;/h2&gt;
 
 &lt;p&gt;When I started heavily using Linux in college and started customizing and creating configuration files, I quickly needed a way to store, backup, and set up my various configuration dotfiles.
 A logical place to store configuration files is in git.
@@ -35,13 +35,13 @@ Sometimes I ran into a specific problem and found the solution in a configuratio
 &lt;p&gt;Over time I also changed the programs I use, so I have some older configuration files for these programs, even though I do not use these programs as much.
 I also changed which shell I use primarily.
 I started with Bash, then switched to Zsh for the added features.
-Now I am currently using fish.
-I still keep my Bash and Zsh config in case I go back to these shells, but I primarily use fish now.
-One downside to fish, is that it is not compatible with Bash, so I still find myself going back to Bash or Zsh frequently to run Bash scripts.
-I liked the general look I had for Bash, so I kept the same general look as I configured zsh and fish.&lt;/p&gt;
+Now I am currently using Fish.
+I still keep my Bash and Zsh config in case I go back to these shells, but I primarily use Fish now.
+One downside to Fish, is that it is not compatible with Bash, so I still find myself going back to Bash or Zsh frequently to run Bash scripts.
+I liked the general look I had for Bash, so I kept the same general look as I configured Zsh and Fish.&lt;/p&gt;
 
 &lt;p&gt;Now that you know the general dotfile setup and have access to my public dotfiles, I will talk in more detail about my dotfiles, and as I do, you are free to look through the dotfile repository as well.
-I tried to be clear in the comments of the dotfiles what the configuration lines do, and in this blog post, I will give broader information about the features and reasoning behind the setup.&lt;/p&gt;
+I tried to be clear in the comments of the dotfiles with what the configuration lines do, and in this blog post, I will give broader information about the features and reasoning behind the setup.&lt;/p&gt;
 
 &lt;h2 id=&quot;readmemd&quot;&gt;README.md&lt;/h2&gt;
 
@@ -64,7 +64,7 @@ The makesymlinks.sh script will call the command to decrypt the keys as part of 
 In practice, I have to add the keys before I can clone the dotfiles directory, and I have to manually set up the symlink to .ssh.
 That’s is the problem with using a private dotfiles repo; the keys need to be in place before you can clone the repo.
 I also use a .ssh/config file to configure connections to remote machines.
-Since the information in .ssh is more sensitive, I have not included any of it in the public dotfiles repo.&lt;/p&gt;
+Since the information in .ssh is sensitive, I have not included any of it in the public dotfiles repo.&lt;/p&gt;
 
 &lt;h2 id=&quot;git&quot;&gt;Git&lt;/h2&gt;
 
@@ -92,7 +92,7 @@ That way, it is easier for me to pick to merge or to rebase instead of defaultin
 
 &lt;h2 id=&quot;fish&quot;&gt;Fish&lt;/h2&gt;
 
-&lt;p&gt;I like to use the &lt;a href=&quot;https://fishshell.com/&quot;&gt;fish&lt;/a&gt; shell.
+&lt;p&gt;I like to use the &lt;a href=&quot;https://fishshell.com/&quot;&gt;Fish&lt;/a&gt; shell.
 I think it is a well-designed shell with an easy-to-understand configuration structure.
 Out of the box, it has many of the features by default that are a pain to set up in Zsh.
 I was also able to keep the same basic theme as my previous shell configurations.
@@ -109,40 +109,40 @@ Some of my favorite features are:&lt;/p&gt;
 One thing to point out is that I call &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setxkbmap&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xcape&lt;/code&gt; commands to replace capslock with control/escape and both shifts with capslock.&lt;/p&gt;
 
 &lt;p&gt;Inside &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;conf.d&lt;/code&gt; I have configuration files broken down by the name of what they are configuring.
-Any file in this directory will be included in the configuration of fish.
+Any file in this directory will be included in the configuration of Fish.
 I use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh_agent.fish&lt;/code&gt; to make sure I always have an ssh-agent running.&lt;/p&gt;
 
 &lt;p&gt;Inside functions, I have all my custom functions.
-In fish, the prompts are just a shell function, so my prompt is defined in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fish_prompt.fish&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fish_right_prompt.fish&lt;/code&gt;.
+In Fish, the prompts are just a shell function, so my prompt is defined in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fish_prompt.fish&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fish_right_prompt.fish&lt;/code&gt;.
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;funcedsave.fish&lt;/code&gt; combines the built-in &lt;a href=&quot;https://fishshell.com/docs/current/cmds/funced.html&quot;&gt;funced&lt;/a&gt; and &lt;a href=&quot;https://fishshell.com/docs/current/cmds/funcsave.html&quot;&gt;funcsave&lt;/a&gt; functions.&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git-add-submodule.fish&lt;/code&gt; adds an existing clone nested repository as a submodule of the parent.
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git-reload-hooks.fish&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git-reload-hooks-all.fish&lt;/code&gt; reload hooks based on the git template for either the current repo or recursively into all the submodules.&lt;/p&gt;
 
-&lt;p&gt;Something new I am trying is the &lt;a href=&quot;https://github.com/jorgebucaran/fisher&quot;&gt;fisher&lt;/a&gt; fish plugin manager with &lt;a href=&quot;https://github.com/jethrokuan/z&quot;&gt;z&lt;/a&gt; for directory jumping.&lt;/p&gt;
+&lt;p&gt;Something new I am trying is the &lt;a href=&quot;https://github.com/jorgebucaran/fisher&quot;&gt;fisher&lt;/a&gt; Fish plugin manager with &lt;a href=&quot;https://github.com/jethrokuan/z&quot;&gt;z&lt;/a&gt; for directory jumping.&lt;/p&gt;
 
 &lt;h2 id=&quot;tmux&quot;&gt;Tmux&lt;/h2&gt;
 
-&lt;p&gt;My Tmux config is set up to work with nested local and remote tmux sessions. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmux.conf&lt;/code&gt; specifies the local tmux configuration and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmux/tmux.remote.conf&lt;/code&gt; adjusts the status bar on the remote tmux session.
-&amp;lt;F12&amp;gt; is used to toggle the disable/enable of the outer tmux session to make the inner tmux session easier to work with.&lt;/p&gt;
+&lt;p&gt;My Tmux config is set up to work with nested local and remote Tmux sessions. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmux.conf&lt;/code&gt; specifies the local Tmux configuration and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmux/tmux.remote.conf&lt;/code&gt; adjusts the status bar on the remote Tmux session.
+&amp;lt;F12&amp;gt; is used to toggle the disable/enable of the outer Tmux session to make the inner Tmux session easier to work with.&lt;/p&gt;
 
-&lt;p&gt;My tmux config also has mouse support, plugins to show resource monitoring, and more Vim-like bindings.&lt;/p&gt;
+&lt;p&gt;My Tmux config also has mouse support, plugins to show resource monitoring, and more Vim-like bindings.&lt;/p&gt;
 
-&lt;p&gt;I spent a while figuring out the full-color range for both tmux and fish, and the color settings at the top of the file seem to work.
-Since I use MobaXTerm, which has some nifty features that only work if Bash is your default shell, I use tmux to set my default shell to fish.
-That way, fish is started anytime I start my tmux session.&lt;/p&gt;
+&lt;p&gt;I spent a while figuring out the full-color range for both Tmux and Fish, and the color settings at the top of the file seem to work.
+Since I use MobaXTerm, which has some nifty features that only work if Bash is your default shell, I use Tmux to set my default shell to Fish.
+That way, Fish is started anytime I start my Tmux session.&lt;/p&gt;
 
-&lt;p&gt;In &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bin&lt;/code&gt;, I also have some helpful tmux scrips.
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmuxes&lt;/code&gt; opens or connects to a new single tmux session with the same view as a previous connection.
-This command only opens a common tmux session, and multiple sessions will follow the same cursor.
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmuxs&lt;/code&gt; also opens the same tmux session, but this time it creates a new view into it so that the cursor does not follow the previous window.
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmux_allow&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmux_disallow&lt;/code&gt; changes the permissions of the tmux socket to allow other users on the same machine to connect to the same tmux session.&lt;/p&gt;
+&lt;p&gt;In &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bin&lt;/code&gt;, I also have some helpful Tmux scrips.
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmuxes&lt;/code&gt; opens or connects to a new single Tmux session with the same view as a previous connection.
+This command only opens a common Tmux session, and multiple sessions will follow the same cursor.
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmuxs&lt;/code&gt; also opens the same Tmux session, but this time it creates a new view into it so that the cursor does not follow the previous window.
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmux_allow&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmux_disallow&lt;/code&gt; changes the permissions of the Tmux socket to allow other users on the same machine to connect to the same Tmux session.&lt;/p&gt;
 
 &lt;h2 id=&quot;vim&quot;&gt;Vim&lt;/h2&gt;
 
 &lt;p&gt;I use &lt;a href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt; and &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt; as my main text editors.
 Vim is still the editor that I am the most proficient with and also the one that I have customized the most.
-With the various plugins I have, my Vim behaves more like a modern tool like Visual Studio Code compared to the vanilla VI editor.
+With the various plugins I have, my Vim behaves more like a modern tool like Visual Studio Code compared to the vanilla Vi editor.
 I have and still use Vim as a code editor, word processor, note taker, and documentation writer, and various plugins make it more suited for these tasks.
 To learn about the plugins I use see &lt;a href=&quot;/tech/vim-plugins/&quot;&gt;My Favorite Vim Plugins&lt;/a&gt;.
 These plugins are installed using &lt;a href=&quot;https://github.com/tpope/vim-pathogen&quot;&gt;pathogen&lt;/a&gt;, and the plugins are added as submodules to my dotfiles repo. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;makesymlinks.sh&lt;/code&gt; is used to initiate and update the submodules.
@@ -154,8 +154,8 @@ See my &lt;a href=&quot;/tech/ctags/&quot;&gt;Ctags blog post&lt;/a&gt; for more
 I like to use three spaces by default, even though that seems like a chaotic-neutral choice on the alignment chart.
 I have a check which disables many features when the text file is over 10MB.
 With this setting, Vim can open humongous text files that break most other text editors.
-I have a function that automatically strips training whitespace from files on save except when editing markdown files since trailing whitespace has meaning in markdown.
-To help see trailing whitespace in those file formats, I add a $/cdot$ in place of the training space.
+I have a function that automatically strips trailing whitespace from files on save except when editing markdown files since trailing whitespace has meaning in markdown.
+To help see trailing whitespace in those file formats, I add a · in place of the trailing space.
 I created my own color scheme, which is a modification of the default color scheme.
 I also set up proper 256 and GUI colors so that the color scheme looks good.&lt;/p&gt;
 
