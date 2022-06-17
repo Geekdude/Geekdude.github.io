@@ -10,6 +10,7 @@ permalink: /publications/
 <i class="fab fa-orcid"></i> [ORCID ID](https://orcid.org/0000-0002-5448-4667)
 
 ### Publications
+* [Design and Analysis of CXL Performance Models for Tightly-Coupled Heterogeneous Computing](https://dl.acm.org/doi/abs/10.1145/3529336.3530817), Anthony M. Cabrera, Aaron R. Young, Jeffrey S. Vetter, *ExHET '22: Proceedings of the 1st International Workshop on Extreme Heterogeneity Solutions*, 2022.
 * [Heterogeneous Memory System Framework for HPC]({% link /assets/Heterogeneous-Memory-System-Framework-for-HPC_ASCR-2022.pdf %}), Kazi Asifuzzaman, Narasinga Rao Miniskar, Aaron R. Young, Frank Liu, and Jeffrey S. Vetter, *ASCR Workshop on the Management and Storage of Scientific Data*, 2022.
 * [A Hierarchical Task Scheduler for Heterogeneous Computing](https://link.springer.com/chapter/10.1007/978-3-030-78713-4_4), Narasinga Rao Miniskar, Frank Liu, Aaron R. Young, Dwaipayan Chakraborty, Jeffrey S. Vetter, *International Conference on High Performance Computing*, 2021, 57-76.
 * [Toward Evaluating High-Level Synthesis Portability and Performance between Intel and Xilinx FPGAs](https://dl.acm.org/doi/10.1145/3456669.3456699), Anthony Cabrera, Aaron Young, Jacob Lambert, Zhili Xiao, Amy An, Seyong Lee, Zheming Jin, Jungwon Kim,  Jeremy Buhler, Roger Chamberlain, and Jeffrey Vetter, *IWOCL'21: International Workshop on OpenCL*, 2021.
