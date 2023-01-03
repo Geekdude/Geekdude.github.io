@@ -12,7 +12,8 @@ permalink: /publications/
 ### Publications
 
 #### Journal, Conference, and Workshop Papers
-* [A Neuromorphic Algorithm for Radiation Anomaly Detection](https://dl.acm.org/doi/10.1145/3546790.3546815), James Ghawaly, Aaron Young, Dan Archer, Nick Prins, Brett Witherspoon, Catherine Schuman, *Proceedings of the International Conference on Neuromorphic Systems 2022*, 2022
+* [A survey on processing-in-memory techniques: Advances and challenges](https://www.sciencedirect.com/science/article/pii/S2773064622000160), Kazi Asifuzzaman, Narasinga Rao Miniskar, Aaron R. Young, Frank Liu, Jeffrey S. Vetter, *Memories - Materials, Devices, Circuits and Systems*, 2022.
+* [A Neuromorphic Algorithm for Radiation Anomaly Detection](https://dl.acm.org/doi/10.1145/3546790.3546815), James Ghawaly, Aaron Young, Dan Archer, Nick Prins, Brett Witherspoon, Catherine Schuman, *Proceedings of the International Conference on Neuromorphic Systems 2022*, 2022.
 * [Design and Analysis of CXL Performance Models for Tightly-Coupled Heterogeneous Computing](https://dl.acm.org/doi/abs/10.1145/3529336.3530817), Anthony M. Cabrera, Aaron R. Young, Jeffrey S. Vetter, *ExHET '22: Proceedings of the 1st International Workshop on Extreme Heterogeneity Solutions*, 2022.
 * [Heterogeneous Memory System Framework for HPC]({% link /assets/Heterogeneous-Memory-System-Framework-for-HPC_ASCR-2022.pdf %}), Kazi Asifuzzaman, Narasinga Rao Miniskar, Aaron R. Young, Frank Liu, and Jeffrey S. Vetter, *ASCR Workshop on the Management and Storage of Scientific Data*, 2022.
 * [A Hierarchical Task Scheduler for Heterogeneous Computing](https://link.springer.com/chapter/10.1007/978-3-030-78713-4_4), Narasinga Rao Miniskar, Frank Liu, Aaron R. Young, Dwaipayan Chakraborty, Jeffrey S. Vetter, *International Conference on High Performance Computing*, 2021, 57-76.
