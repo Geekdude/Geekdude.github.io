@@ -12,8 +12,9 @@ permalink: /publications/
 ### Publications
 
 #### Journal, Conference, and Workshop Papers
+* [Encoding Integers and Rationals on Neuromorphic Computers using Virtual Neuron](https://rdcu.be/dgSfT), Prasanna Date, Shruti Kulkarni, Aaron Young, Catherine Schuman, Thomas Potok, Jeffrey Vetter, *Sci Rep 13*, 2022.
 * [Virtual Neuron: A Neuromorphic Approach for Encoding Numbers](https://ieeexplore.ieee.org/abstract/document/10062742), Prasanna Date, Shruti Kulkarni, Aaron Young, Catherine Schuman, Thomas Potok, Jeffrey S. Vetter, *2022 IEEE International Conference on Rebooting Computing (ICRC)*, 2022.
-* [Encoding Integers and Rationals on Neuromorphic Computers using Virtual Neuron](https://arxiv.org/abs/2208.07468), Prasanna Date, Shruti Kulkarni, Aaron Young, Catherine Schuman, Thomas Potok, Jeffrey Vetter, *arXiv*, 2022.
+* [Encoding Integers and Rationals on Neuromorphic Computers using Virtual Neuron (arXiv)](https://arxiv.org/abs/2208.07468), Prasanna Date, Shruti Kulkarni, Aaron Young, Catherine Schuman, Thomas Potok, Jeffrey Vetter, *arXiv*, 2022.
 * [Adrastea: An Efficient FPGA Design Environment for Heterogeneous Scientific Computing and Machine Learning](https://link.springer.com/chapter/10.1007/978-3-031-23606-8_14), Aaron R. Young, Narasinga Rao Miniskar, Frank Liu, Willem Blokland, Jeffrey S. Vetter, *Smoky Mountains Computational Sciences and Engineering Conference (SMC 2022)*, 2023.
 * [Ultra Low Latency Machine Learning for Scientific Edge Applications ](https://ieeexplore.ieee.org/abstract/document/10035147), Narasinga Rao Miniskar, Aaron Young, Frank Liu, Willem Blokland, Anthony Cabrera, Jeffery S. Vetter, *2022 32nd International Conference on Field-Programmable Logic and Applications (FPL)*, 2022.
 
