@@ -12,6 +12,7 @@ permalink: /publications/
 ### Publications
 
 #### Journal, Conference, and Workshop Papers
+* [A 3D Implementation of Convolutional Neural Network for Fast Inference](https://doi.org/10.1109/ISCAS46773.2023.10181622), Narasinga Rao Miniskar, Pruek Vanna-Iampikul, Aaron Young, Sung Kyu Lim, Frank Liu, Jieun Yoo, Corrinne Mills, Nhan Tran, Farah Fahim, Jeffrey S Vetter, *2023 IEEE International Symposium on Circuits and Systems (ISCAS)*, 2023.
 * [Abisko: Deep codesign of an architecture for spiking neural networks using novel neuromorphic materials](https://doi.org/10.1177/10943420231178537), Jeffrey S. Vetter, Prasanna Date, Farah Fahim, Shruti R. Kulkarni, Petro Maksymovych, A. Alec Talin, Marc Gonzalez Tallada, Pruek Vanna-iampikul, Aaron R. Young, David Brooks, Yu Cao, Wei Gu-Yeon, Sung Kyu Lim, Frank Liu, Matthew Marinella, Bobby Sumpter and Narasinga Rao Miniskar, *The International Journal of High Performance Computing Applications*, 2023.
 * [Encoding Integers and Rationals on Neuromorphic Computers using Virtual Neuron](https://rdcu.be/dgSfT), Prasanna Date, Shruti Kulkarni, Aaron Young, Catherine Schuman, Thomas Potok, Jeffrey Vetter, *Sci Rep 13*, 2022.
 * [Virtual Neuron: A Neuromorphic Approach for Encoding Numbers](https://ieeexplore.ieee.org/abstract/document/10062742), Prasanna Date, Shruti Kulkarni, Aaron Young, Catherine Schuman, Thomas Potok, Jeffrey S. Vetter, *2022 IEEE International Conference on Rebooting Computing (ICRC)*, 2022.
