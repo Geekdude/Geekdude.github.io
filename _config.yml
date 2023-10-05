@@ -293,6 +293,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-archives
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -303,7 +304,7 @@ whitelist:
   - jemoji
   - jekyll-include-cache
   - jekyll-archives
-
+  - jekyll-redirect-from
 
 # Archives
 #  Type
