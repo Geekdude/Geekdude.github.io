@@ -408,13 +408,13 @@ summarize, there are multiple was to have liquid fill in the correct url (with
 the baseurl) for you. I’m going to explain each method using the old website 
 image found in the previous post. One method is to use the prepend filter:</p>
 
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![Old Website](<span class="p">{{</span><span class="w"> </span><span class="s1">'/assets/images/old_website.png'</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">prepend</span><span class="p">:</span><span class="nv">site</span><span class="p">.</span><span class="nv">baseurl</span><span class="w"> </span><span class="p">}}</span>)
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![Old Website](<span class="cp">{{</span><span class="w"> </span><span class="s1">'/assets/images/old_website.png'</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">prepend</span><span class="p">:</span><span class="nv">site</span><span class="p">.</span><span class="nv">baseurl</span><span class="w"> </span><span class="cp">}}</span>)
 </code></pre></div></div>
 <p>This method is OK, it just prepends the string found in site.baseurl to the 
 url, but there are better ways. Another way is to use the relative_url or 
 absolute_url filters.</p>
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![Old Website](<span class="p">{{</span><span class="w"> </span><span class="s1">'/assets/images/old_website.png'</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">relative_url</span><span class="w"> </span><span class="p">}}</span>)
-![Old Website](<span class="p">{{</span><span class="w"> </span><span class="s1">'/assets/images/old_website.png'</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">absolute_url</span><span class="w"> </span><span class="p">}}</span>)
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![Old Website](<span class="cp">{{</span><span class="w"> </span><span class="s1">'/assets/images/old_website.png'</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">relative_url</span><span class="w"> </span><span class="cp">}}</span>)
+![Old Website](<span class="cp">{{</span><span class="w"> </span><span class="s1">'/assets/images/old_website.png'</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">absolute_url</span><span class="w"> </span><span class="cp">}}</span>)
 </code></pre></div></div>
 <p>With these filters relative_url will generate</p>
 <pre><code class="language-txt">/~ayoung48/assets/images/old_website.png
@@ -426,7 +426,7 @@ absolute_url filters.</p>
 intent on what you are trying to accomplish.</p>
 
 <p>The last way I found to generate the links is with the link tag.</p>
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![Old Website](<span class="p">{{</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">baseurl</span><span class="w"> </span><span class="p">}}{%</span><span class="w"> </span><span class="nt">link</span><span class="w"> </span>/assets/images/old_website.png<span class="w"> </span><span class="p">%}</span>)
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![Old Website](<span class="cp">{{</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">baseurl</span><span class="w"> </span><span class="cp">}}{%</span><span class="w"> </span><span class="nt">link</span><span class="w"> </span>/assets/images/old_website.png<span class="w"> </span><span class="cp">%}</span>)
 </code></pre></div></div>
 <p>Although this syntax is the worst looking, it gives the added benefit of 
 correctly generating the permalink of the file you are trying to link to. This 
@@ -482,7 +482,7 @@ rsync <span class="nt">-vrzchp</span> <span class="nt">--delete-after</span> _si
 <p>With the release of Jekyll 4.0, the <code class="language-plaintext highlighter-rouge">link</code> and <code class="language-plaintext highlighter-rouge">post_url</code> tags no longer need <code class="language-plaintext highlighter-rouge">site.baseurl</code> prepended every time they are used. These tags now use their <code class="language-plaintext highlighter-rouge">relative_url</code> filter to correctly take care of prepending the <code class="language-plaintext highlighter-rouge">site.baseurl</code>. This does mean that existing uses of the prepend pattern will break and the <code class="language-plaintext highlighter-rouge">site.baseurl</code> part should be removed. I like this change since it makes linking shorter, but a site wide find and replace was needed to fix the links.</p>
 
 <p>So in summary, the recommended was to generate links is with the link tag. For example:</p>
-<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![Old Website](<span class="p">{%</span><span class="w"> </span><span class="nt">link</span><span class="w"> </span>/assets/images/old_website.png<span class="w"> </span><span class="p">%}</span>)
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![Old Website](<span class="cp">{%</span><span class="w"> </span><span class="nt">link</span><span class="w"> </span>/assets/images/old_website.png<span class="w"> </span><span class="cp">%}</span>)
 </code></pre></div></div>
 <p>This method is now the most concise, readable, and will correctly generate the permalink URL following the site rules. It will also perform link validation to make sure the linked file exists.</p>
 
@@ -534,6 +534,8 @@ rsync <span class="nt">-vrzchp</span> <span class="nt">--delete-after</span> _si
 
       <section class="page__share">
   
+    <h4 class="page__share-title">Share on</h4>
+  
 
   <a href="https://twitter.com/intent/tweet?via=Geekdude_360&text=Challenges+with+New+Website+Deployment+%28Jekyll+and+Subdomains%29%20https%3A%2F%2Fgeekdude.github.io%2Ftech%2Fnew-website-challenges%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
@@ -561,7 +563,7 @@ rsync <span class="nt">-vrzchp</span> <span class="nt">--delete-after</span> _si
       <div class="page__comments">
   
   
-      <h4 class="page__comments-title">Comments</h4>
+      <h4 class="page__comments-title">Leave a comment</h4>
       <section id="utterances-comments"></section>
     
 </div>
@@ -572,7 +574,7 @@ rsync <span class="nt">-vrzchp</span> <span class="nt">--delete-after</span> _si
   
   
     <div class="page__related">
-      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <h4 class="page__related-title">You may also enjoy</h4>
       <div class="grid__wrapper">
         
           
@@ -778,6 +780,8 @@ After going through all the settings in Di...</p>
         <div class="page__footer-follow">
   <ul class="social-icons">
     
+      <li><strong>Follow:</strong></li>
+    
 
     
       
@@ -805,7 +809,7 @@ After going through all the settings in Di...</p>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2023 Aaron Young. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2024 Aaron Young. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
