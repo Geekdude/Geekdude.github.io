@@ -217,6 +217,7 @@ kramdown:
 # Sass/SCSS
 sass:
   sass_dir: _sass
+  quiet_deps: true # Disable printing deprecation warnings to terminal
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
