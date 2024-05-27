@@ -2,3 +2,7 @@ _site
 .sass-cache
 .jekyll-metadata
 .jekyll-cache/
+.vscode/
+.bundle/
+vendor/
+gemset.nix
