@@ -1,0 +1,36 @@
+# quad.obj
+#
+# Created by Aaron Young
+#
+#  A quad that fills the whole screen. Used to display rendered frames.
+#
+# Vertices:
+#  1: -1.0 -1.0  0.0
+#  2:  1.0 -1.0  0.0
+#  3: -1.0  1.0  0.0
+#  4:  1.0  1.0  0.0
+#
+# Texture Coordinates
+#  1: 0.0 0.0
+#  2: 1.0 0.0
+#  3: 0.0 1.0
+#  4: 1.0 1.0
+#
+# Normal Vectors
+#  1: 0.0  0.0 -1.0
+
+v -1.0 -1.0 0.0
+v  1.0 -1.0 0.0
+v -1.0  1.0 0.0
+v  1.0  1.0 0.0
+
+vt 0.0 0.0
+vt 1.0 0.0
+vt 0.0 1.0
+vt 1.0 1.0
+
+vn  0.0  0.0 -1.0
+
+# Front Face
+f 1/1/1 2/2/1 4/4/1
+f 1/1/1 4/4/1 3/3/1

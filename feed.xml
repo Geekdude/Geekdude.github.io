@@ -1,4 +1,595 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2024-01-29T13:22:11-05:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><entry><title type="html">My Dotfiles Storage using Git and Shared Dotfile Repo</title><link href="https://geekdude.github.io/tech/dotfiles/" rel="alternate" type="text/html" title="My Dotfiles Storage using Git and Shared Dotfile Repo" /><published>2022-04-14T00:00:00-04:00</published><updated>2022-04-26T06:00:00-04:00</updated><id>https://geekdude.github.io/tech/dotfiles</id><content type="html" xml:base="https://geekdude.github.io/tech/dotfiles/"><![CDATA[<h2 id="introduction-and-dotfile-storage-method">Introduction and Dotfile Storage Method</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://geekdude.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://geekdude.github.io/" rel="alternate" type="text/html" /><updated>2024-05-27T16:04:31-04:00</updated><id>https://geekdude.github.io/feed.xml</id><title type="html">Aaron Young</title><subtitle>Personal website for Aaron Young.</subtitle><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><entry><title type="html">One Lap of America 2024</title><link href="https://geekdude.github.io/life/one-lap-of-america-2024/" rel="alternate" type="text/html" title="One Lap of America 2024" /><published>2024-05-11T00:00:00-04:00</published><updated>2024-05-11T00:00:00-04:00</updated><id>https://geekdude.github.io/life/one-lap-of-america-2024</id><content type="html" xml:base="https://geekdude.github.io/life/one-lap-of-america-2024/"><![CDATA[<p>My dad and I recently completed our third year of Brock Yates’ One Lap of America 2024 driving competition. For some reason, we keep coming back 🤪. I’m just kidding; it is a lot of fun.</p>
+
+<p>This year, I edited the videos and compiled the pictures while in transit. I also started and completed going through <a href="/life/one-lap-of-america-2023/">last year’s pictures/videos</a>. 
+This year, we got a nice rhythm down. After the event in the morning, I would take the first shift of the transit. Then, when we ran low on gas, we would stop at a gas station, and I would collect the SD cards to download and process the photos and video during the second transition before switching again and driving the rest of the transit for that day.</p>
+
+<p>The One Lap of America official website is <a href="https://www.onelapofamerica.com">onelapofamerica.com</a>. 
+Since the event was technically a competition, the events were time trials. Each team was scored and ranked based on how fast they completed each event.
+The event results and rankings can be found on the <a href="https://www.onelapofamerica.com">One Lap of America website</a> under History -&gt; Previous One Laps. </p>
+
+<p>My dad’s 2023 Chevrolet C8 Stingray has now completed two One Laps of America.
+Our team number was 55, and we beat our number for the first time, finishing 50<sup>th</sup> overall. Our goal, as always, was not to place well but to have fun, complete the event, and bring the car back home, and we completed all of these goals. The track route was really nice this year, and the trip overall seemed easier this year than in past years. The time zones usually changed in our favor for the long days and we maintained good sleep starting out.</p>
+
+<figure class=" ">
+  
+    
+      <a href="/assets/images/oloa-24-map.png" title="Map of the 2024 Route.">
+          <img src="/assets/images/oloa-24-map.png" alt="One Lap Map 2024" />
+      </a>
+    
+  
+  
+    <figcaption>Map of the 2024 Route.
+</figcaption>
+  
+</figure>
+
+<h2 id="picture-gallery">Picture Gallery</h2>
+
+<figure class=" ">
+  
+    
+      <a href="/assets/images/oloa-24-cover.jpg" title="Moving Picture">
+          <img src="/assets/images/oloa-24-cover-th.jpg" alt="Moving Picture" />
+      </a>
+    
+  
+  
+</figure>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/oloa-24-day0-0.HEIC.jpg" title="">
+          <img src="/assets/images/oloa-24-day0-0-th.HEIC.jpg" alt="day0 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day0-1.HEIC.jpg" title="">
+          <img src="/assets/images/oloa-24-day0-1-th.HEIC.jpg" alt="day0 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day0-2.HEIC.jpg" title="">
+          <img src="/assets/images/oloa-24-day0-2-th.HEIC.jpg" alt="day0 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day0-3.HEIC.jpg" title="">
+          <img src="/assets/images/oloa-24-day0-3-th.HEIC.jpg" alt="day0 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day0-4.HEIC.jpg" title="">
+          <img src="/assets/images/oloa-24-day0-4-th.HEIC.jpg" alt="day0 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day0-5.HEIC.jpg" title="">
+          <img src="/assets/images/oloa-24-day0-5-th.HEIC.jpg" alt="day0 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day0-6.HEIC.jpg" title="">
+          <img src="/assets/images/oloa-24-day0-6-th.HEIC.jpg" alt="day0 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day0-7.HEIC.jpg" title="">
+          <img src="/assets/images/oloa-24-day0-7-th.HEIC.jpg" alt="day0 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day0-8.HEIC.jpg" title="">
+          <img src="/assets/images/oloa-24-day0-8-th.HEIC.jpg" alt="day0 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day0-9.HEIC.jpg" title="">
+          <img src="/assets/images/oloa-24-day0-9-th.HEIC.jpg" alt="day0 picture" />
+      </a>
+    
+  
+  
+</figure>
+
+<h2 id="all-transit-at-1000x-playback">All Transit at 1000x Playback</h2>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/UQ872ahzK4A?si=YSSHbxxl8KmH79KT" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="day-1-skid-pad-south-bend-and-kokomo-indiana">Day 1 Skid Pad, South Bend and Kokomo, Indiana</h2>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/AiHHZUqaW5w?si=yNkm47_nKS2UXTkp" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="day-2-motorsports-park-hastings-hastings-nebraska">Day 2 Motorsports Park Hastings, Hastings, Nebraska</h2>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/oloa-24-day2-0.jpg" title="">
+          <img src="/assets/images/oloa-24-day2-0-th.jpg" alt="day2 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day2-1.jpg" title="">
+          <img src="/assets/images/oloa-24-day2-1-th.jpg" alt="day2 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day2-2.jpg" title="">
+          <img src="/assets/images/oloa-24-day2-2-th.jpg" alt="day2 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day2-3.jpg" title="">
+          <img src="/assets/images/oloa-24-day2-3-th.jpg" alt="day2 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day2-4.jpg" title="">
+          <img src="/assets/images/oloa-24-day2-4-th.jpg" alt="day2 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day2-5.jpg" title="">
+          <img src="/assets/images/oloa-24-day2-5-th.jpg" alt="day2 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day2-6.jpg" title="">
+          <img src="/assets/images/oloa-24-day2-6-th.jpg" alt="day2 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day2-7.jpg" title="">
+          <img src="/assets/images/oloa-24-day2-7-th.jpg" alt="day2 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day2-8.jpg" title="">
+          <img src="/assets/images/oloa-24-day2-8-th.jpg" alt="day2 picture" />
+      </a>
+    
+  
+  
+    <figcaption>Day 2 Gallery.
+</figcaption>
+  
+</figure>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/AiHHZUqaW5w?si=yNkm47_nKS2UXTkp&amp;start=122" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="day-3-high-plains-raceway-deer-trail-colorado">Day 3 High Plains Raceway, Deer Trail, Colorado</h2>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/oloa-24-day3-0.jpg" title="">
+          <img src="/assets/images/oloa-24-day3-0-th.jpg" alt="day3 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day3-1.jpg" title="">
+          <img src="/assets/images/oloa-24-day3-1-th.jpg" alt="day3 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day3-2.jpg" title="">
+          <img src="/assets/images/oloa-24-day3-2-th.jpg" alt="day3 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day3-3.jpg" title="">
+          <img src="/assets/images/oloa-24-day3-3-th.jpg" alt="day3 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day3-4.jpg" title="">
+          <img src="/assets/images/oloa-24-day3-4-th.jpg" alt="day3 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day3-5.jpg" title="">
+          <img src="/assets/images/oloa-24-day3-5-th.jpg" alt="day3 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day3-6.jpg" title="">
+          <img src="/assets/images/oloa-24-day3-6-th.jpg" alt="day3 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day3-7.jpg" title="">
+          <img src="/assets/images/oloa-24-day3-7-th.jpg" alt="day3 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day3-8.jpg" title="">
+          <img src="/assets/images/oloa-24-day3-8-th.jpg" alt="day3 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day3-9.jpg" title="">
+          <img src="/assets/images/oloa-24-day3-9-th.jpg" alt="day3 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day3-10.jpg" title="">
+          <img src="/assets/images/oloa-24-day3-10-th.jpg" alt="day3 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day3-11.jpg" title="">
+          <img src="/assets/images/oloa-24-day3-11-th.jpg" alt="day3 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day3-12.jpg" title="">
+          <img src="/assets/images/oloa-24-day3-12-th.jpg" alt="day3 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day3-13.jpg" title="">
+          <img src="/assets/images/oloa-24-day3-13-th.jpg" alt="day3 picture" />
+      </a>
+    
+  
+  
+    <figcaption>Day 3 Gallery.
+</figcaption>
+  
+</figure>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/AiHHZUqaW5w?si=yNkm47_nKS2UXTkp&amp;start=789" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="day-4-hedge-hollow-racetrack-adrian-missouri">Day 4 Hedge Hollow Racetrack, Adrian, Missouri</h2>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/oloa-24-day4-0.jpg" title="">
+          <img src="/assets/images/oloa-24-day4-0-th.jpg" alt="day4 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day4-1.jpg" title="">
+          <img src="/assets/images/oloa-24-day4-1-th.jpg" alt="day4 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day4-2.jpg" title="">
+          <img src="/assets/images/oloa-24-day4-2-th.jpg" alt="day4 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day4-3.jpg" title="">
+          <img src="/assets/images/oloa-24-day4-3-th.jpg" alt="day4 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day4-4.jpg" title="Mock arrest and K9 demonstration.">
+          <img src="/assets/images/oloa-24-day4-4-th.jpg" alt="day4 picture" />
+      </a>
+    
+  
+  
+    <figcaption>Day 4 Gallery.
+</figcaption>
+  
+</figure>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/AiHHZUqaW5w?si=yNkm47_nKS2UXTkp&amp;start=1685" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="day-5-national-corvette-museum-ncm-motorsports-park-and-autocross-bowling-green-kentucky">Day 5 National Corvette Museum (NCM) Motorsports Park and Autocross, Bowling Green, Kentucky</h2>
+
+<figure class=" ">
+  
+    
+      <a href="/assets/images/oloa-24-ncm-lighning.png" title="Lightning at NCM caused and additional storms caused the afternoon session to be canceled.">
+          <img src="/assets/images/oloa-24-ncm-lighning-th.png" alt="Lightning at NCM" />
+      </a>
+    
+  
+  
+    <figcaption>Day 5 Gallery.
+</figcaption>
+  
+</figure>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/AiHHZUqaW5w?si=yNkm47_nKS2UXTkp&amp;start=2698" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="day-6-pittsburgh-international-race-complex-wampum-pennsylvania">Day 6 Pittsburgh International Race Complex, Wampum, Pennsylvania</h2>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/oloa-24-day6-0.jpg" title="">
+          <img src="/assets/images/oloa-24-day6-0-th.jpg" alt="day6 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day6-1.jpg" title="">
+          <img src="/assets/images/oloa-24-day6-1-th.jpg" alt="day6 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day6-2.jpg" title="">
+          <img src="/assets/images/oloa-24-day6-2-th.jpg" alt="day6 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day6-3.jpg" title="">
+          <img src="/assets/images/oloa-24-day6-3-th.jpg" alt="day6 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day6-4.jpg" title="">
+          <img src="/assets/images/oloa-24-day6-4-th.jpg" alt="day6 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day6-5.jpg" title="">
+          <img src="/assets/images/oloa-24-day6-5-th.jpg" alt="day6 picture" />
+      </a>
+    
+  
+  
+    <figcaption>Day 6 Gallery.
+</figcaption>
+  
+</figure>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/AiHHZUqaW5w?si=yNkm47_nKS2UXTkp&amp;start=3368" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="day-7-putnam-park-road-course-greencastle-indianna">Day 7 Putnam Park Road Course, Greencastle, Indianna</h2>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/oloa-24-day7-0.jpg" title="">
+          <img src="/assets/images/oloa-24-day7-0-th.jpg" alt="day7 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day7-1.jpg" title="">
+          <img src="/assets/images/oloa-24-day7-1-th.jpg" alt="day7 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day7-2.jpg" title="">
+          <img src="/assets/images/oloa-24-day7-2-th.jpg" alt="day7 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day7-3.jpg" title="">
+          <img src="/assets/images/oloa-24-day7-3-th.jpg" alt="day7 picture" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-24-day7-4.jpg" title="">
+          <img src="/assets/images/oloa-24-day7-4-th.jpg" alt="day7 picture" />
+      </a>
+    
+  
+  
+    <figcaption>Day 7 Gallery.
+</figcaption>
+  
+</figure>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/AiHHZUqaW5w?si=yNkm47_nKS2UXTkp&amp;start=4221" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="day-8-skid-pad-south-bend-indiana">Day 8 Skid Pad, South Bend, Indiana</h2>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/AiHHZUqaW5w?si=yNkm47_nKS2UXTkp&amp;start=4745" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>]]></content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Life" /><category term="Driving" /><summary type="html"><![CDATA[My dad and I recently completed our third year of Brock Yates’ One Lap of America 2024 driving competition. For some reason, we keep coming back 🤪. I’m just kidding; it is a lot of fun.]]></summary></entry><entry><title type="html">One Lap of America 2023</title><link href="https://geekdude.github.io/life/one-lap-of-america-2023/" rel="alternate" type="text/html" title="One Lap of America 2023" /><published>2023-05-13T00:00:00-04:00</published><updated>2023-05-13T00:00:00-04:00</updated><id>https://geekdude.github.io/life/one-lap-of-america-2023</id><content type="html" xml:base="https://geekdude.github.io/life/one-lap-of-america-2023/"><![CDATA[<p>Last year, my dad and I competed in Brock Yates’ One Lap of America 2023 driving competition. 
+This is our second time entering this driving competition; the last time we entered was in <a href="/life/one-lap-of-america/">2019</a>.
+It took a full year until we went on our third One Lap of America (2024) before I got around to processing the videos and photos from 2023. 
+The transit provided ample time for me to work on editing last year’s footage.
+Eventually, I caught up, so I edited the footage from the morning when I was taking a break from driving in the afternoon.
+We got a nice rhythm down. After the morning’s event, I would take the first shift of the transit. Then, when we ran low on gas, we would stop at a gas station, and I would collect the SD cards to download and process the photos and video during the second transition before switching again and driving the rest of the transit for that day.</p>
+
+<p>The One Lap of America official website is <a href="https://www.onelapofamerica.com">onelapofamerica.com</a>. 
+Since the event was technically a competition, the events were time trials. Each team was scored and ranked based on how fast they completed each event.
+The event results and rankings can be found on the <a href="https://www.onelapofamerica.com">One Lap of America website</a> under History -&gt; Previous One Laps. </p>
+
+<p>We took my dad’s new 2023 Chevrolet C8 Stingray this year.
+We were not sure if it would arrive from the dealer in time, so we debated whether to take my brother’s Kia or my Beetle as a backup vehicle.
+Luckily, it did come in in time for us to prepare the car and get it to One Lap.
+We finished putting in the recommended miles on the car before it was track-ready during the transit to the start of One Lap.</p>
+
+<p>Our car’s number this year was 37, and we finished 53<sup>rd</sup> overall. Our goal, however, was not to place well but to have fun, complete the event, and bring the car back home, and we completed all of these goals.
+The competition was long, but fun. 
+Each day, we had roughly the same schedule.
+We would wake up early, around 7, and then head to the track, where we would drive in two events. 
+After which, we would drive for around 500 miles to reach the next hotel, so we could do it all again.</p>
+
+<figure class=" ">
+  
+    
+      <a href="/assets/images/oloa-23-map.png" title="Map of the 2023 Route.">
+          <img src="/assets/images/oloa-23-map.png" alt="One Lap Map 2023" />
+      </a>
+    
+  
+  
+    <figcaption>Map of the 2023 Route.
+</figcaption>
+  
+</figure>
+
+<h2 id="picture-gallery">Picture Gallery</h2>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/oloa-23-car.JPG" title="Action Shot">
+          <img src="/assets/images/oloa-23-car-th.JPG" alt="Action Shot" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-23-team.JPG" title="Running on Empty: Team 37">
+          <img src="/assets/images/oloa-23-team-th.JPG" alt="Running on Empty: Team 37" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-23-chase.JPG" title="Catch the BMW">
+          <img src="/assets/images/oloa-23-chase-th.JPG" alt="Chase" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/oloa-23-cone.JPG" title="Cone for a Hat, Optical Illusion">
+          <img src="/assets/images/oloa-23-cone-th.JPG" alt="Cone for a Hat" />
+      </a>
+    
+  
+  
+</figure>
+
+<h2 id="day-1-skid-pad-and-autocross-south-bend-and-kokomo-indiana">Day 1 Skid Pad and Autocross, South Bend and Kokomo, Indiana</h2>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/ZwTU-qNr1cs?si=e7v7x7U3cs1ZTCY0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="day-2-nelson-ledges-garrettsville-ohio">Day 2 Nelson Ledges, Garrettsville, Ohio</h2>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/ZwTU-qNr1cs?si=e7v7x7U3cs1ZTCY0&amp;start=344" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="day-3-road-atlanta-braselton-georgia">Day 3 Road Atlanta, Braselton, Georgia.</h2>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/ZwTU-qNr1cs?si=e7v7x7U3cs1ZTCY0&amp;start=877" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="day-4-nashville-superspeedway-lebanon-tennessee">Day 4 Nashville Superspeedway, Lebanon, Tennessee</h2>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/ZwTU-qNr1cs?si=e7v7x7U3cs1ZTCY0&amp;start=1416" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="day-5-eagles-canyon-raceway-decatur-texas">Day 5 Eagles Canyon Raceway, Decatur, Texas</h2>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/ZwTU-qNr1cs?si=e7v7x7U3cs1ZTCY0&amp;start=1872" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="day-6-hallett-motor-racing-circuit-jennings-oklahoma">Day 6 Hallett Motor Racing Circuit, Jennings, Oklahoma.</h2>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/ZwTU-qNr1cs?si=e7v7x7U3cs1ZTCY0&amp;start=2762" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="day-7-national-corvette-museum-ncm-motorsports-park-bowling-green-kentucky">Day 7 National Corvette Museum (NCM) Motorsports Park, Bowling Green, Kentucky</h2>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/ZwTU-qNr1cs?si=e7v7x7U3cs1ZTCY0&amp;start=3551" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<h2 id="day-8-skid-pad-south-bend-indiana">Day 8 Skid Pad, South Bend, Indiana</h2>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/ZwTU-qNr1cs?si=e7v7x7U3cs1ZTCY0&amp;start=4368" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>]]></content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Life" /><category term="Driving" /><summary type="html"><![CDATA[Last year, my dad and I competed in Brock Yates’ One Lap of America 2023 driving competition. This is our second time entering this driving competition; the last time we entered was in 2019. It took a full year until we went on our third One Lap of America (2024) before I got around to processing the videos and photos from 2023. The transit provided ample time for me to work on editing last year’s footage. Eventually, I caught up, so I edited the footage from the morning when I was taking a break from driving in the afternoon. We got a nice rhythm down. After the morning’s event, I would take the first shift of the transit. Then, when we ran low on gas, we would stop at a gas station, and I would collect the SD cards to download and process the photos and video during the second transition before switching again and driving the rest of the transit for that day.]]></summary></entry><entry><title type="html">My Dotfiles Storage using Git and Shared Dotfile Repo</title><link href="https://geekdude.github.io/tech/dotfiles/" rel="alternate" type="text/html" title="My Dotfiles Storage using Git and Shared Dotfile Repo" /><published>2022-04-14T00:00:00-04:00</published><updated>2022-04-26T06:00:00-04:00</updated><id>https://geekdude.github.io/tech/dotfiles</id><content type="html" xml:base="https://geekdude.github.io/tech/dotfiles/"><![CDATA[<h2 id="introduction-and-dotfile-storage-method">Introduction and Dotfile Storage Method</h2>
 
 <p>When I started heavily using Linux in college and started customizing and creating configuration files, I quickly needed a way to store, backup, and set up my various configuration dotfiles.
 A logical place to store configuration files is in git.
@@ -1093,148 +1684,16 @@ The main downside to Utterances is that you have to log in to a GitHub account i
 I liked the flexibility that Disqus provided in terms of login types and guest posting, but I need a commenting system that notifies me when new comments are added, and I like that comments are stored as issues in the issue tracker.</p>]]></content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Tech" /><category term="Website" /><summary type="html"><![CDATA[I have been having an issue where Disqus would not send me any emails when new comments are posted to the website. After going through all the settings in Disqus, changing my email address, and testing adding comments using a guest login, I could not figure out how to get email notifications to work. Because of this, I changed to using Utterances for my website’s comments. Utterances’ is a great choice since it is open-source and uses the issues tracker of the GitHub repository to store the comments. Each page is its own issue, and the comments are added to the issue. Now email notification works just like GitHub’s issue email notification system. The main downside to Utterances is that you have to log in to a GitHub account in order to post a comment. I liked the flexibility that Disqus provided in terms of login types and guest posting, but I need a commenting system that notifies me when new comments are added, and I like that comments are stored as issues in the issue tracker.]]></summary></entry><entry><title type="html">Dr. Dean to Serve on National Artificial Intelligence Research Resource Task Force</title><link href="https://geekdude.github.io/tech/dean-nairr/" rel="alternate" type="text/html" title="Dr. Dean to Serve on National Artificial Intelligence Research Resource Task Force" /><published>2021-07-11T00:00:00-04:00</published><updated>2021-07-11T00:00:00-04:00</updated><id>https://geekdude.github.io/tech/dean-nairr</id><content type="html" xml:base="https://geekdude.github.io/tech/dean-nairr/"><![CDATA[<p>My PhD advisor, Mark Dean, was recentally selected to server on the National Artificial Intelligence Research Resource (NAIRR) Task Force. 
 Read more about it at <a href="https://www.eecs.utk.edu/parker-dean-to-serve-on-national-artificial-intelligence-research-resource-task-force/">https://www.eecs.utk.edu/parker-dean-to-serve-on-national-artificial-intelligence-research-resource-task-force/</a>.</p>]]></content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Tech" /><category term="News" /><summary type="html"><![CDATA[My PhD advisor, Mark Dean, was recentally selected to server on the National Artificial Intelligence Research Resource (NAIRR) Task Force. Read more about it at https://www.eecs.utk.edu/parker-dean-to-serve-on-national-artificial-intelligence-research-resource-task-force/.]]></summary></entry><entry><title type="html">Brother’s Acting Demo Reel</title><link href="https://geekdude.github.io/life/prestons-demo-reel/" rel="alternate" type="text/html" title="Brother’s Acting Demo Reel" /><published>2021-06-08T00:00:00-04:00</published><updated>2021-06-08T00:00:00-04:00</updated><id>https://geekdude.github.io/life/prestons-demo-reel</id><content type="html" xml:base="https://geekdude.github.io/life/prestons-demo-reel/"><![CDATA[<p>I helped my brother Preston edit together an acting demo reel using DaVinci Resolve. Check it out on his website at <a href="https://volweb.utk.edu/~pyoung15/acting/">https://volweb.utk.edu/~pyoung15/acting/</a> or watch it below on Youtube.</p>
 
-<!-- Courtesy of embedresponsively.com //-->
+<!-- Courtesy of embedresponsively.com -->
 
 <div class="responsive-video-container">
     <iframe src="https://www.youtube-nocookie.com/embed/H43XMSqUuj8" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
   </div>]]></content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Life" /><category term="DaVinci Resolve" /><summary type="html"><![CDATA[I helped my brother Preston edit together an acting demo reel using DaVinci Resolve. Check it out on his website at https://volweb.utk.edu/~pyoung15/acting/ or watch it below on Youtube.]]></summary></entry><entry><title type="html">Happy Mother’s Day</title><link href="https://geekdude.github.io/life/happy-mothers-day/" rel="alternate" type="text/html" title="Happy Mother’s Day" /><published>2021-05-09T00:00:00-04:00</published><updated>2021-05-09T00:00:00-04:00</updated><id>https://geekdude.github.io/life/happy-mothers-day</id><content type="html" xml:base="https://geekdude.github.io/life/happy-mothers-day/"><![CDATA[<p>Happy Mother’s Day! Below is a blender animation I made a few years ago after following the <a href="https://www.youtube.com/watch?v=TPrnSACiTJ4&amp;list=PLexwJr_iILK7IkuhEeAYeN7aLV5AAXKa-">Blender Guru’s Donut Tutorial</a>.</p>
 
-<!-- Courtesy of embedresponsively.com //-->
+<!-- Courtesy of embedresponsively.com -->
 
 <div class="responsive-video-container">
     <iframe src="https://www.youtube-nocookie.com/embed/FBvJ1h-pKv8" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
   </div>]]></content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Life" /><category term="Blender" /><summary type="html"><![CDATA[Happy Mother’s Day! Below is a blender animation I made a few years ago after following the Blender Guru’s Donut Tutorial.]]></summary></entry><entry><title type="html">ASCR Workshop on Reimagining Codesign Whitepaper</title><link href="https://geekdude.github.io/research/ascr-reimagining-codesign/" rel="alternate" type="text/html" title="ASCR Workshop on Reimagining Codesign Whitepaper" /><published>2021-03-10T00:00:00-05:00</published><updated>2021-03-10T00:00:00-05:00</updated><id>https://geekdude.github.io/research/ascr-reimagining-codesign</id><content type="html" xml:base="https://geekdude.github.io/research/ascr-reimagining-codesign/"><![CDATA[<p>My whitepaper titled <a href="https://custom.cvent.com/DCBD4ADAAD004096B1E4AD96F3C8049E/files/event/f64a4f28b4734808924cc8c3d9a2af63/32fd0b3c80c04326a2adf6827290512f.pdf">Emerging Heterogeneous Systems Provide Great Opportunities for Codesign</a> for the <a href="https://web.cvent.com/event/f64a4f28-b473-4808-924c-c8c3d9a2af63/summary">ASCR Workshop on Reimagining Codesign</a> was accepted.</p>
 
-<p>All the accepted whitepapers can be found <a href="https://web.cvent.com/event/f64a4f28-b473-4808-924c-c8c3d9a2af63/websitePage:38a39b7a-d1af-4643-82ac-8fcf1069773b">here</a>.</p>]]></content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Research" /><category term="Heterogeneous Systems" /><summary type="html"><![CDATA[My whitepaper titled Emerging Heterogeneous Systems Provide Great Opportunities for Codesign for the ASCR Workshop on Reimagining Codesign was accepted.]]></summary></entry><entry><title type="html">Getting started with Ctags with Vim and Git.</title><link href="https://geekdude.github.io/tech/ctags/" rel="alternate" type="text/html" title="Getting started with Ctags with Vim and Git." /><published>2021-03-05T00:00:00-05:00</published><updated>2021-03-05T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/ctags</id><content type="html" xml:base="https://geekdude.github.io/tech/ctags/"><![CDATA[<p><a href="http://ctags.sourceforge.net/">Ctags</a> with Vim are incredibly useful for quickly navigating around code.
-With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document.
-Ctags + Vim end up working very similar to how <a href="https://code.visualstudio.com/">Visual Studio Code</a> or other IDEs “go to definition” and “find all symbols works.”</p>
-
-<p>From the <a href="http://ctags.sourceforge.net/whatis.html">ctags website</a>:</p>
-<blockquote>
-  <p>Ctags generates an index (or tag) file of language objects found in source files that allows these items to be quickly and easily located by a text editor or other utility. A tag signifies a language object for which an index entry is available (or, alternatively, the index entry created for that object).</p>
-</blockquote>
-
-<h2 id="ctags-with-vim">Ctags with Vim</h2>
-
-<p>Ctags can be annoying to use because you have to run the <code class="language-plaintext highlighter-rouge">ctags</code> program to generate a tag file, which then needs to be found by Vim to be used.
-If the code changes, then the tag file will need to be re-updated.
-One way to set up ctags is to map a Vim keypress to generate the ctags.
-In my <code class="language-plaintext highlighter-rouge">vimrc</code>, I set it up to regenerate ctags when I press &lt;F5&gt; while not in a <img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\text{\LaTeX}" title="\LaTeX" /> file.
-More on the ctags command later.</p>
-
-<div class="language-viml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">" Set f5 to generate tags for non-latex files</span>
-augroup TexTags
-autocmd<span class="p">!</span> TexTags
-autocmd <span class="nb">FileType</span> tex <span class="k">let</span> <span class="nv">b:latex</span><span class="p">=</span><span class="m">1</span>
-augroup end
-<span class="k">if</span> <span class="p">!</span><span class="nb">exists</span><span class="p">(</span><span class="s2">"b:latex"</span><span class="p">)</span>
-    nnoremap <span class="p">&lt;</span>f5<span class="p">&gt;</span> <span class="p">:!</span>ctags <span class="p">-</span>R<span class="p">&lt;</span>CR<span class="p">&gt;</span>
-<span class="k">endif</span>
-</code></pre></div></div>
-
-<p>In addition to generating the ctags, you also need to tell Vim where to find the generated tag files.</p>
-
-<div class="language-viml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">" Ctags search</span>
-<span class="k">set</span> <span class="k">tags</span><span class="p">=.</span>/<span class="p">.</span><span class="k">tags</span>;$HOME
-</code></pre></div></div>
-
-<p>This tags string says to search for the file <code class="language-plaintext highlighter-rouge">.tags</code> in the current file’s directory and recursively search upward until the user’s home directory is reached.</p>
-
-<h2 id="ctags-with-vim-and-git">Ctags with Vim and Git</h2>
-
-<p>However, I do not manually generate the ctags file with &lt;F5&gt;.
-I store all my source code in <a href="https://git-scm.com/">Git</a>, so instead of manually generating the ctags file, I use <a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks">githooks</a> to automatically generate the ctags files whenever I checkout, commit, merge, or rewrite.
-To setup githooks to be added automatically to newly cloned or created git repos, you make a git template with the correct files.
-The git template will be copied into the new repositories <code class="language-plaintext highlighter-rouge">.git</code> folder on creation.</p>
-
-<p>First, setup the <code class="language-plaintext highlighter-rouge">git_template</code> structure.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/.git_template/
-└── hooks
-    ├── ctags
-    ├── post-checkout
-    ├── post-commit
-    ├── post-merge
-    └── post-rewrite
-
-1 directory, 5 files
-</code></pre></div></div>
-
-<p>ctags:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/sh</span>
-<span class="nb">set</span> <span class="nt">-e</span>
-<span class="nb">dir</span><span class="o">=</span><span class="s2">"</span><span class="sb">`</span>git rev-parse <span class="nt">--show-toplevel</span><span class="sb">`</span><span class="s2">"</span>
-<span class="nb">trap</span> <span class="s1">'rm -f "$dir/.$$.tags"'</span> EXIT
-ctags <span class="nt">-R</span> <span class="nt">--tag-relative</span> <span class="nt">--extra</span><span class="o">=</span>+f <span class="nt">-f</span><span class="s2">"</span><span class="nv">$dir</span><span class="s2">/.</span><span class="nv">$$</span><span class="s2">.tags"</span> <span class="nt">--languages</span><span class="o">=</span><span class="nt">-javascript</span>,sql
-<span class="nb">mv</span> <span class="s2">"</span><span class="nv">$dir</span><span class="s2">/.</span><span class="nv">$$</span><span class="s2">.tags"</span> <span class="s2">"</span><span class="nv">$dir</span><span class="s2">/.tags"</span>
-</code></pre></div></div>
-
-<p>post-checkout:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/sh</span>
-<span class="nb">dir</span><span class="o">=</span><span class="si">$(</span>git rev-parse <span class="nt">--git-dir</span><span class="si">)</span>
-<span class="nv">$dir</span>/hooks/ctags <span class="o">&gt;</span>/dev/null 2&gt;&amp;1 &amp;
-</code></pre></div></div>
-
-<p>post-commit:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/sh</span>
-<span class="nb">dir</span><span class="o">=</span><span class="si">$(</span>git rev-parse <span class="nt">--git-dir</span><span class="si">)</span>
-<span class="nv">$dir</span>/hooks/ctags <span class="o">&gt;</span>/dev/null 2&gt;&amp;1 &amp;
-</code></pre></div></div>
-
-<p>post-merge:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/sh</span>
-<span class="nb">dir</span><span class="o">=</span><span class="si">$(</span>git rev-parse <span class="nt">--git-dir</span><span class="si">)</span>
-<span class="nv">$dir</span>/hooks/ctags <span class="o">&gt;</span>/dev/null 2&gt;&amp;1 &amp;
-</code></pre></div></div>
-
-<p>post-rewrite:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/sh</span>
-<span class="nb">dir</span><span class="o">=</span><span class="si">$(</span>git rev-parse <span class="nt">--git-dir</span><span class="si">)</span>
-<span class="k">case</span> <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> <span class="k">in
-  </span>rebase<span class="p">)</span> <span class="nb">exec</span> <span class="nv">$dir</span>/hooks/post-merge <span class="p">;;</span>
-<span class="k">esac</span>
-</code></pre></div></div>
-
-<p>You also have to add the template to your <code class="language-plaintext highlighter-rouge">.gitconfig</code>.</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[init]
-    templatedir = ~/.git_template
-</code></pre></div></div>
-
-<p>Now more about the ctags command.
-To use the command, you first have to install ctags.
-I use <a href="http://ctags.sourceforge.net/">exuberant-ctags</a> which can be installed with <code class="language-plaintext highlighter-rouge">sudo apt install exuberant-ctags</code> on Ubuntu or Debian based Linux.
-The ctags command I use is</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ctags -R --tag-relative --extra=+f -f"$dir/.$$.tags" --languages=-javascript,sql
-</code></pre></div></div>
-
-<p>The <code class="language-plaintext highlighter-rouge">-R</code> recurses into directories.
-The <code class="language-plaintext highlighter-rouge">--tag-relative</code> sets file paths relative to the tag file.
-The <code class="language-plaintext highlighter-rouge">--extra=+f</code> includes the entry for the base file name of every source file.
-The <code class="language-plaintext highlighter-rouge">-f</code> specifies that the tag file should be saved at the root of the git repository as <code class="language-plaintext highlighter-rouge">.tags</code>.
-Finally, the <code class="language-plaintext highlighter-rouge">--languages</code> removes javascript and SQL from the languages which get tagged.</p>
-
-<p>As mentioned before, this template will only apply to new git repositories; therefore, I also created two <a href="https://fishshell.com/">fish</a> functions to reload git hooks based on the git template.
-One file reloads hooks in a git repo without submodules, and the other one recursively updates the hooks of all submodules.</p>
-
-<p><code class="language-plaintext highlighter-rouge">git-reload-hooks.fish</code>:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function git-reload-hooks --description 'Reload git hooks'
-rm -f (git rev-parse --git-dir)/hooks/*
-git init
-end
-</code></pre></div></div>
-
-<p><code class="language-plaintext highlighter-rouge">git-reload-hooks-all.fish</code>:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function git-reload-hooks-all --description 'Reload all git hooks'
-    git submodule foreach --recursive 'rm -f $(git rev-parse --git-dir)/hooks/*;git init'
-end
-</code></pre></div></div>
-
-<p>If all of this seems like a lot to setup, I recommend storing all your linux dotfiles in a git repository with a script to symlink the files to the right location.
-I plan to create a future post with more detail on how this is done.</p>
-
-<h2 id="references">References</h2>
-<p>I followed <a href="https://tbaggery.com/2011/08/08/effortless-ctags-with-git.html">https://tbaggery.com/2011/08/08/effortless-ctags-with-git.html</a> when I was setting up ctags for the first time.
-I have since modified my setup to work better with git submodules and other edge cases.</p>]]></content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Tech" /><category term="Git" /><category term="Vim" /><category term="Ctags" /><summary type="html"><![CDATA[Ctags with Vim are incredibly useful for quickly navigating around code. With them, Vim can jump between symbols to quickly go to the definition of symbols or find keywords within the document. Ctags + Vim end up working very similar to how Visual Studio Code or other IDEs “go to definition” and “find all symbols works.”]]></summary></entry><entry><title type="html">Dr. Dean featured in PC Gamer</title><link href="https://geekdude.github.io/tech/dean-pc-gamer/" rel="alternate" type="text/html" title="Dr. Dean featured in PC Gamer" /><published>2021-02-26T00:00:00-05:00</published><updated>2021-02-26T00:00:00-05:00</updated><id>https://geekdude.github.io/tech/dean-pc-gamer</id><content type="html" xml:base="https://geekdude.github.io/tech/dean-pc-gamer/"><![CDATA[<p>My PhD advisor, Mark Dean, was recentally featured in PC Gamer for his work on the first IBM PC. Read the article at <a href="https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/">https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/</a>.</p>]]></content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Tech" /><category term="News" /><summary type="html"><![CDATA[My PhD advisor, Mark Dean, was recentally featured in PC Gamer for his work on the first IBM PC. Read the article at https://www.pcgamer.com/dr-mark-dean-interview-ibm-engineer/.]]></summary></entry></feed>
+<p>All the accepted whitepapers can be found <a href="https://web.cvent.com/event/f64a4f28-b473-4808-924c-c8c3d9a2af63/websitePage:38a39b7a-d1af-4643-82ac-8fcf1069773b">here</a>.</p>]]></content><author><name>Aaron Young</name><email>youngar@ornl.gov</email></author><category term="Research" /><category term="Heterogeneous Systems" /><summary type="html"><![CDATA[My whitepaper titled Emerging Heterogeneous Systems Provide Great Opportunities for Codesign for the ASCR Workshop on Reimagining Codesign was accepted.]]></summary></entry></feed>
