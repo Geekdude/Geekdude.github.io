@@ -8,7 +8,7 @@ toc_icon: "fas fa-car"
 toc_label: Day of the Trip
 header:
     image: /assets/images/one-lap-header.png
-    teaser: /assets/images/one-lap-day-1-left.jpg
+    teaser: /assets/images/oloa-23-car.JPG
 map:
     - url: /assets/images/oloa-23-map.png
       image_path: /assets/images/oloa-23-map.png
@@ -39,7 +39,7 @@ _posts/2019-06-12-one-lap-of-america.md %}).
 It took a full year until we went on our third One Lap of America (2024) before I got around to processing the videos and photos from 2023. 
 The transit provided ample time for me to work on editing last year's footage.
 Eventually, I caught up, so I edited the footage from the morning when I was taking a break from driving in the afternoon.
-We got a nice rhythm down. After driving in the morning, I would take the first shift of the transit. Then, when we ran out low on gas, we would stop at a gas station, and I would collect the SD cards to download and process the photos and video during the second transition before switching again and driving the rest of the transit for that day.
+We got a nice rhythm down. After the morning's event, I would take the first shift of the transit. Then, when we ran low on gas, we would stop at a gas station, and I would collect the SD cards to download and process the photos and video during the second transition before switching again and driving the rest of the transit for that day.
 
 The One Lap of America official website is [onelapofamerica.com](https://www.onelapofamerica.com). 
 Since the event was technically a competition, the events were time trials. Each team was scored and ranked based on how fast they completed each event.
