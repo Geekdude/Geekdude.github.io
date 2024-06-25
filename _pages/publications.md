@@ -12,6 +12,7 @@ permalink: /publications/
 ### Publications
 
 #### Journal, Conference, and Workshop Papers
+* [Event-Driven Sensing and Embedded Neuromorphic Platforms for Gamma Radiation Monitoring](https://doi.org/10.1145/3649476.3660363), Brett Witherspoon, Aaron Young, *Proceedings of the Great Lakes Symposium on VLSI 2024*, 2024.
 * [An FPGA-Based Neuromorphic Processor with All-to-All Connectivity](https://doi.org/10.1109/ICRC60800.2023.10386808), Disha Maheshwari, Aaron Young, Prasanna Date, Shruti Kulkarni, Brett Witherspoon, Narsinga Rao Miniskar, *2023 IEEE International Conference on Rebooting Computing (ICRC)*, 2023.
 * [Arithmetic Primitives for Efficient Neuromorphic Computing](https://doi.org/10.1109/ICRC60800.2023.10386397), Ahna Wurm, Rebecca Seay, Prasanna Date, Shruti Kulkarni, Aaron Young, Jeffrey Vetter, *2023 IEEE International Conference on Rebooting Computing (ICRC)*, 2023.
 * [Smart pixel sensors: towards on-sensor filtering of pixel clusters with deep learning (arXiv)](https://doi.org/10.48550/arXiv.2310.02474), Jieun Yoo, Jennet Dickinson, Morris Swartz, Giuseppe Di Guglielmo, Alice Bean, Douglas Berry, Manuel Blanco Valentin, Karri DiPetrillo, Farah Fahim, Lindsey Gray, James Hirschauer, Shruti R. Kulkarni, Ron Lipton, Petar Maksimovic, Corrinne Mills, Mark S. Neubauer, Benjamin Parpillon, Gauri Pradhan, Chinar Syal, Nhan Tran, Dahai Wen, Aaron Young, *arXiv*, 2023.
