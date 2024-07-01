@@ -12,6 +12,7 @@ permalink: /publications/
 ### Publications
 
 #### Journal, Conference, and Workshop Papers
+* [IRIS Reimagined: Advancements in Intelligent Runtime System for Task-Based Programming](https://doi.org/10.1007/978-3-031-61763-8_5), Narasinga Rao Miniskar, Seyong Lee, Johnston Beau, Aaron Young, Mohammad Alaul Haque Monil, Valero-Pedro Lara, and Jeffrey S Vetter, *WAMTA 2024*, 2024
 * [Event-Driven Sensing and Embedded Neuromorphic Platforms for Gamma Radiation Monitoring](https://doi.org/10.1145/3649476.3660363), Brett Witherspoon, Aaron Young, *Proceedings of the Great Lakes Symposium on VLSI 2024*, 2024.
 * [An FPGA-Based Neuromorphic Processor with All-to-All Connectivity](https://doi.org/10.1109/ICRC60800.2023.10386808), Disha Maheshwari, Aaron Young, Prasanna Date, Shruti Kulkarni, Brett Witherspoon, Narsinga Rao Miniskar, *2023 IEEE International Conference on Rebooting Computing (ICRC)*, 2023.
 * [Arithmetic Primitives for Efficient Neuromorphic Computing](https://doi.org/10.1109/ICRC60800.2023.10386397), Ahna Wurm, Rebecca Seay, Prasanna Date, Shruti Kulkarni, Aaron Young, Jeffrey Vetter, *2023 IEEE International Conference on Rebooting Computing (ICRC)*, 2023.
