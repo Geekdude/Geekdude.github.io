@@ -133,7 +133,7 @@ var store = [{
       },{
         "title": "Paper Writing---How to Take Smart Notes",
         "excerpt":"Paper Writing Presentation Slides   This is the slide deck to a presentation I gave on Paper Writing—How to Take Smart Notes to APG at ORNL.   It appears that you don't have a PDF plugin for this browser. You can click here to download the PDF file.  ","categories": ["Research"],
-        "tags": ["Productivity","PKB","Research","Writing","Presentations"],
+        "tags": ["Productivity","PKB","Writing","Presentations"],
         "url": "/research/smart-notes/",
         "teaser": "/assets/images/smart-notes-teaser.png"
       },{
