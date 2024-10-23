@@ -3,7 +3,7 @@ title: Personal Knowledge Base and Productivity Presentation
 toc: true
 toc_sticky: false
 categories: [Research]
-tags: [Productivity, BASB, PKB]
+tags: [Productivity, BASB, PKB, Presentations]
 excerpt: In October last year, I gave a presentation to the my group at ORNL on my productivity/notetaking/engineering-notebook system. Another word for this system is a Personal Knowledge Base (PKB) or a second brain.
 header:
     image: /assets/images/productivity-header.png
