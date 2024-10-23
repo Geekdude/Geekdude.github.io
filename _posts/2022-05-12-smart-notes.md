@@ -3,7 +3,7 @@ title: Paper Writing---How to Take Smart Notes
 toc: false
 toc_sticky: false
 categories: [Research]
-tags: [Productivity,PKB,Research,Writing,Presentations]
+tags: [Productivity,PKB,Writing,Presentations]
 excerpt: This is the slide deck to a presentation I gave on Paper Writing---How to Take Smart Notes to APG at ORNL.
 header:
     image: /assets/images/smart-notes-header.png
