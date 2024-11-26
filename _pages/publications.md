@@ -12,7 +12,9 @@ permalink: /publications/
 ### Publications
 
 #### Journal, Conference, and Workshop Papers
-* [Deep Co-design, with Cross-discipline Teams, Leveraging State of the Art Technology to Push Neuromorphic Computing Forward](https://drive.google.com/open?id=1yv5LQMg4-Cs_pytEzsG4kqIJdFPJbcfW), Aaron Young, *ASCR Neuromorphic Computing for Science Workshop*, 2024
+
+* [OR22-Neuromorphic Rad Detector-PD3Ra Final Report](https://info.ornl.gov/sites/publications/Files/Pub215574.pdf), James Ghawaly, Andrew Nicholson, Cathrine Schuman, Mathew Swinney, Brett Witherspoon, Aaron Young, *Final Report, ORNL/SPR-2024/3423*, 2024.
+* [Deep Co-design, with Cross-discipline Teams, Leveraging State of the Art Technology to Push Neuromorphic Computing Forward](https://drive.google.com/open?id=1yv5LQMg4-Cs_pytEzsG4kqIJdFPJbcfW), Aaron Young, *ASCR Neuromorphic Computing for Science Workshop*, 2024.
 * [Smart pixel sensors: towards on-sensor filtering of pixel clusters with deep learning](https://doi.org/10.1088/2632-2153/ad6a00), Jieun Yoo, Jennet Dickinson, Morris Swartz, Giuseppe Di Guglielmo, Alice Bean, Douglas Berry, Manuel Blanco Valentin, Karri DiPetrillo, Farah Fahim, Lindsey Gray, James Hirschauer, Shruti R Kulkarni, Ron Lipton, Petar Maksimovic, Corrinne Mills, Mark S Neubauer, Benjamin Parpillon, Gauri Pradhan, Chinar Syal, Nhan Tran, Dahai Wen, and Aaron Young, *Machine Learning: Science and Technology, Volume 5, Number 3*, 2024.
 * [IRIS Reimagined: Advancements in Intelligent Runtime System for Task-Based Programming](https://doi.org/10.1007/978-3-031-61763-8_5), Narasinga Rao Miniskar, Seyong Lee, Johnston Beau, Aaron Young, Mohammad Alaul Haque Monil, Valero-Pedro Lara, and Jeffrey S Vetter, *WAMTA 2024*, 2024.
 * [Event-Driven Sensing and Embedded Neuromorphic Platforms for Gamma Radiation Monitoring](https://doi.org/10.1145/3649476.3660363), Brett Witherspoon, Aaron Young, *Proceedings of the Great Lakes Symposium on VLSI 2024*, 2024.
