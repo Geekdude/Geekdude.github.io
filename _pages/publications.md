@@ -13,6 +13,7 @@ permalink: /publications/
 
 #### Journal, Conference, and Workshop Papers
 
+* [Neuro-Spark: A Submicrosecond Spiking Neural Networks Architecture for In-Sensor Filtering](https://doi.org/10.1109/ICONS62911.2024.00017), Narsinga Rao Miniskar, Aaron R. Young, Kazi Asifuzzaman, Shruti Kulkarni, Prasanna Date, Alice Bean, *2024 International Conference on Neuromorphic Systems (ICONS)*, 2024.
 * [OR22-Neuromorphic Rad Detector-PD3Ra Final Report](https://info.ornl.gov/sites/publications/Files/Pub215574.pdf), James Ghawaly, Andrew Nicholson, Cathrine Schuman, Mathew Swinney, Brett Witherspoon, Aaron Young, *Final Report, ORNL/SPR-2024/3423*, 2024.
 * [Deep Co-design, with Cross-discipline Teams, Leveraging State of the Art Technology to Push Neuromorphic Computing Forward](https://drive.google.com/open?id=1yv5LQMg4-Cs_pytEzsG4kqIJdFPJbcfW), Aaron Young, *ASCR Neuromorphic Computing for Science Workshop*, 2024.
 * [Smart pixel sensors: towards on-sensor filtering of pixel clusters with deep learning](https://doi.org/10.1088/2632-2153/ad6a00), Jieun Yoo, Jennet Dickinson, Morris Swartz, Giuseppe Di Guglielmo, Alice Bean, Douglas Berry, Manuel Blanco Valentin, Karri DiPetrillo, Farah Fahim, Lindsey Gray, James Hirschauer, Shruti R Kulkarni, Ron Lipton, Petar Maksimovic, Corrinne Mills, Mark S Neubauer, Benjamin Parpillon, Gauri Pradhan, Chinar Syal, Nhan Tran, Dahai Wen, and Aaron Young, *Machine Learning: Science and Technology, Volume 5, Number 3*, 2024.
