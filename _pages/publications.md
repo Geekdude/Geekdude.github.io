@@ -49,11 +49,18 @@ permalink: /publications/
 * [Second Creek Monitoring](https://trace.tennessee.edu/utk_chanhonoproj/1908/), Whitaker, Haley; Young, Aaron; Wagner, Ryan; Haque, Saajid; Parrott, Benjamin; and Fagan, Richard, (2016). Chancellor’s Honors Program Projects.
 
 #### Reports
+
 * [Hardware Evaluation Analytical Modeling and Node Simulation: Benefits of Tighter GPU Integration](https://escholarship.org/uc/item/8h57b16g), Brian Austin, Ray Bair, Kevin Barker, Anthony Cabrera, Andrew Chien, Nan Ding, Jesun Firoz, Khaled Ibrahim, Joseph Manzano, Vitali Morozov, Tan Nguyen, Leonid Oliker, Joshua Suetterlein, Li Tang, Jeffrey Vetter, Samuel Williams, Kazutomo Yoshii, Aaron Young, *Lawrence Berkeley National Laboratory*, ECP-HIHE01-35, 2021.
 
 #### Posters
+
 * [Poster: Neuromorphic Array Communications Controller]({% link /assets/JDRD-2019-Poster.pdf %}), Aaron R. Young and Mark E. Dean, *JDRD Symposium*, 2019.
 * [Poster: DANNA Neuromorphic Application Development Kit Demo](http://neuromorphic.eecs.utk.edu/posters/2017-03-07-danna-neuromorphic-development-kit-demo/), Mark Dean, Aaron Young, Parker Mitchell, Patricia Eckhart, John Reynolds, Grant Bruer, Adam Disney, James Plank, and Catherine Schuman. *5th Neuro Inspired Computational Elements Workshop (NICE 2017)*, 2017.
 
 #### Patents
+
 - [Hierarchical task scheduling for accelerators](https://patents.google.com/patent/US20220188155A1/en), Narasinga Rao Miniskar, Frank Y Liu, Aaron R Young, Jeffrey S Vetter, Dwaipayan Chakraborty, *US-17542022*, 2022.
+
+#### Awards
+
+- [R&D 100 Award Winner for IRIS-SDK: Intelligent Runtime System for Extremely Heterogeneous Computer Architectures, 2024](https://impact.ornl.gov/en/prizes/2024-rampd-100-award-for-iris-sdk-intelligent-runtime-system-for-)
