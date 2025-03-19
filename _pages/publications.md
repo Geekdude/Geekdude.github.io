@@ -13,6 +13,7 @@ permalink: /publications/
 
 #### Journal, Conference, and Workshop Papers
 
+* [Mapping Spiking Neural Networks to Heterogeneous Crossbar Architectures using Integer Linear Programming](https://arxiv.org/abs/2503.02033), Devin Pohl, Aaron Young, Kazi Asifuzzaman, Narasinga Rao Miniskar, Jeffrey S. Vetter, *To be published in DATE'25*, 2025.
 * [Neuromorphic Computing for Nuclear Safeguards](https://doi.org/10.1109/NSS/MIC/RTSD57108.2024.10657369), A. D. Nicholson, J. Ghawaly, C. Schuman, B. Witherspoon, A. Young, M. Swinney, *2024 IEEE Nuclear Science Symposium (NSS), Medical Imaging Conference (MIC) and Room Temperature Semiconductor Detector Conference (RTSD)*, 2024.
 * [Neuro-Spark: A Submicrosecond Spiking Neural Networks Architecture for In-Sensor Filtering](https://doi.org/10.1109/ICONS62911.2024.00017), Narsinga Rao Miniskar, Aaron R. Young, Kazi Asifuzzaman, Shruti Kulkarni, Prasanna Date, Alice Bean, *2024 International Conference on Neuromorphic Systems (ICONS)*, 2024.
 * [OR22-Neuromorphic Rad Detector-PD3Ra Final Report](https://info.ornl.gov/sites/publications/Files/Pub215574.pdf), James Ghawaly, Andrew Nicholson, Cathrine Schuman, Mathew Swinney, Brett Witherspoon, Aaron Young, *Final Report, ORNL/SPR-2024/3423*, 2024.
