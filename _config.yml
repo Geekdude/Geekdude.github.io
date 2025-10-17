@@ -186,6 +186,7 @@ exclude:
   - /tools # ignore /tools
   - deploy.sh
   - update_feed_gem.sh
+  - update_all_gems.sh
 keep_files:
   - .git
   - .svn
