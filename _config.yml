@@ -184,7 +184,9 @@ exclude:
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
   - /tools # ignore /tools
-  - deploy.sh
+  - 0_bundle_install.sh
+  - 1_serve.sh
+  - 2_deploy.sh
   - update_feed_gem.sh
   - update_all_gems.sh
 keep_files:
