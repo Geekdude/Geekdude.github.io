@@ -7,6 +7,7 @@ RUN apt-get update && \
       build-essential \
       zlib1g-dev libffi-dev libyaml-dev \
       git curl tzdata \
+      imagemagick \
     && rm -rf /var/lib/apt/lists/*
 
 # Install jekyll/bundler system-wide (puts bins on PATH for all users)
