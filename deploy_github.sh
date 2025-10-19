@@ -74,7 +74,7 @@ parse_args() {
 	deploy_branch=gh-pages
 
 	#if no user identity is already set in the current git environment, use this:
-	default_username=deploy.sh
+	default_username=
 	default_email=
 
 	#repository to deploy to. must be readable and writable.
@@ -151,7 +151,7 @@ incremental_deploy() {
 	git --work-tree "$deploy_directory" add --all
 
 	set +o errexit
-	diff=$(git --work-tree "$deploy_directory" diff --exit-code --quiet HEAD --)$?
+	git --work-tree="$deploy_directory" diff --quiet --exit-code HEAD --; diff=$?
 	set -o errexit
 	case $diff in
 		0) echo No changes to files in $deploy_directory. Skipping commit.;;
