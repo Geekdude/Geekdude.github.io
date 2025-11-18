@@ -8,3 +8,4 @@ vendor/
 gemset.nix
 @eaDir/
 .venv/
+.devcontainer/certs/rootcaCert.crt
