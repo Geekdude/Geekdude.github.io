@@ -13,6 +13,7 @@ permalink: /publications/
 
 #### Journal, Conference, and Workshop Papers
 
+* [A Neuromorphic Pipeline from Training to Hardware Deployment Using SLAYER](https://doi.org/10.1145/3822454.3822469), Karan Patel, Luke Whatley, Bryson Gullett, Jackson Mowry, Sree Nirmillo Biswash Tushar, Sk Hasibul Alam, Charles Rizzo, Garrett Rose, Aaron Young, James Plank, Catherine Schuman, *ICONS '26: Proceedings of the International Conference on Neuromorphic Systems*, 2026.
 * [PowerMappeR: Power-Optimized Mapping of SNNs onto ReRAM Crossbars coupled via Packet-Switched NoCs](https://doi.org/10.1109/IPDPS65963.2026.00096), Devin Pohl, Kazi Asifuzzaman, Aaron R. Young, Narasinga Rao Miniskar, Jeffrey S. Vetter, *2026 IEEE International Parallel and Distributed Processing Symposium (IPDPS)*, 2026.
 * [Accl++: A High-Productivity Programming Language for Performance and Code Portability on Heterogeneous Systems](https://doi.org/10.1016/j.future.2026.108479), Marc Gonzalez, Pedro Valero, M.A.H. Monil, Seyong Lee, Beau Johnston, Aaron Young, Narassinga Minanskar, Keita Teranishi, Jeff Vetter, *Future Generation Computer Systems*, 2026.
 * [ChatMPI: LLM-Driven MPI Code Generation for HPC Workloads](https://doi.org/10.1145/3773656.3773659), Pedro Valero-Lara, Aaron Young, Thomas Naughton III, Christian Engelmann, Al Geist, Jeffrey S. Vetter, Keita Teranishi, William F. Godoy, *SCA/HPCAsia '26: Proceedings of the Supercomputing Asia and International Conference on High Performance Computing in Asia Pacific Region*, 2026.
